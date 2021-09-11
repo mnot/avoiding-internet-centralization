@@ -34,6 +34,8 @@ informative:
 
 --- abstract
 
+This document discusses aspects of centralization with regard to Internet protocol design -- why it is necessary for Internet protocols to avoid centralization, how they can do so, and the design implications of centralisation on them.
+
 
 --- note_Note_to_Readers
 
