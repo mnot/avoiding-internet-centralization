@@ -56,7 +56,7 @@ One of the properties that distinguishes the Internet from other networking and 
 
 This means that it is counter to the Internet architecture for a single person, company, organization, or government to determine what is and is not appropriate communication on the Internet, to have access to others' Internet communication, or to extract rents on Internet communication. Such concentration of power is referred to in this document as 'centralization.'
 
-Not that this does not imply that it is inappropriate for a single autonomous network to control aspects of communication within that network. Likewise, it may be that a group of autonomous networks or their users might voluntarily decide to cede control to a central entity, or be legally compelled to do so. However, it does not follow that it is always appropriate to accommodate these use cases in Internet protocols.
+Note that this does not imply that it is inappropriate for a single autonomous network to control aspects of communication within that network. Likewise, it may be that a group of autonomous networks or their users might voluntarily decide to cede control to a central entity, or be legally compelled to do so. However, it does not follow that it is always appropriate to accommodate these use cases in Internet protocols.
 
 This document discusses aspects of centralization with regard to Internet protocol design. {{why}} explains why it is necessary for Internet protocols to avoid centralization. {{how}} surveys the techniques that can be used to do so, with varying effectiveness. {{design}} discusses interactions between centralization and various protocol design choices.
 
@@ -72,6 +72,8 @@ shown here.
 
 
 # Why Internet Protocols Avoid Centralization {#why}
+
+
 
 network of networks
 
