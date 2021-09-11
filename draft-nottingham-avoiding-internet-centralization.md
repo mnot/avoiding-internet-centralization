@@ -50,6 +50,17 @@ See also the draft's current status in the IETF datatracker, at
 
 # Introduction
 
+One of the properties that distinguishes the Internet from other networking and communication architectures is its purposeful avoidance of control over communication between autonomous networks by any single entity.
+
+This means that it is counter to the Internet architecture for a single person, company, organization, or government to determine what is and is not appropriate communication on the Internet, to have access to others' Internet communication, or to extract rents on Internet communication. Such concentration of power is referred to in this document as 'centralization.'
+
+Not that this does not imply that it is inappropriate for a single autonomous network to control aspects of communication within that network. Likewise, it may be that a group of autonomous networks or their users might voluntarily decide to cede control to a central entity, or be legally compelled to do so. However, it does not follow that it is always appropriate to accommodate these use cases in Internet protocols.
+
+This document discusses aspects of centralization with regard to Internet protocol design. {{why}} explains why it is necessary for Internet protocols to avoid centralization. {{how}} surveys the techniques that can be used to do so, with varying effectiveness. {{design}} discusses interactions between centralization and various protocol design choices.
+
+The primary audience for this document is those involved in designing and standardising Internet protocols. However, designers of proprietary protocols can benefit from considering aspects of centralisation, especially if they intend their protocol to be considered for standardisation. Likewise, policymakers can use this document to help distinguish between Internet protocols and proprietary ones, as they might attract different kinds of regulation.
+
+
 ## Notational Conventions
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT",
@@ -58,7 +69,61 @@ described in BCP 14 {{!RFC2119}} {{!RFC8174}} when, and only when, they appear i
 shown here.
 
 
+# Why Internet Protocols Avoid Centralization {#why}
+
+network of networks
+
+Permissionless innovation
+
+Availability
+
+Power / Legibility / controllability
+
+Capture
+
+
+
+# Techniques for Avoiding Internet Centralization {#how}
+
+
+## Endpoint Orientation
+
+Internet access
+Routing
+Atom
+
+## Multi-Stakeholder Administration
+
+DNS
+CAs
+
+## Federation
+
+XMPP
+e-mail
+identity
+
+## Interoperability
+
+HTTP
+DoH
+
+
+# Centralization and Protocol Design {#design}
+
+## Intermediaries {#intermediaries}
+
+
+## Opt-In and Required Centralisation {#purposeful}
+
+
+
 # Security Considerations
 
 
 --- back
+
+
+# Acknowledgements
+
+This document benefits from discussions with Brian Trammell during our shared time on the Internet Architecture Board.
