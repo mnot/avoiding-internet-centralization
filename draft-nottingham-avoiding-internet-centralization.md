@@ -140,13 +140,17 @@ The examples above show that federation can be a useful technique, but on its ow
 
 ## Intermediaries and Centralization
 
+By definition, the introduction of an intermediary role -- i.e., a party that is required for communication to take place between endpoints -- is a centralization risk in protocols.
 
-## Opt-In and Required Centralization
+
+## Optional Centralization
+
+Often, potentially centralized functions are optional in protocols -- either optional to implement, optional to use, or both.
 
 
 ## Platform Centralization
 
-Finally, some protocols might not directly define a central role, but they might facilitate centralization in the applications they support.
+Some protocols might not directly define a central role, but they might facilitate centralization in the applications they support.
 
 For example, HTTP {{HTTP}} in itself is not considered a centralized protocol; interoperable servers are relatively easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above.
 
@@ -155,12 +159,13 @@ However, applications built on top of HTTP (as well as the rest of the 'Web Plat
 As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it's possible to build centralized services and applications using it.
 
 
-## Centralization Through Deployment
+## External Centralization
+
+Similar to platform centralization, a protocol might become centralized if external factors influence its deployment, making it difficult or impossible to realize the value provided by the protocol unless a central facility is used.
 
 DoH {{?RFC8484}}
 
 Cloud/CDN
-
 
 
 ## Protocol Evolution and Centralization
@@ -169,6 +174,8 @@ Cloud/CDN
 
 
 # Security Considerations
+
+This document does not have direct security impact on Internet protocols. However, the failure to heed its advice might result in a myriad of security issues due to the unnecessary introduction of centralized function to Internet protocols.
 
 
 --- back
