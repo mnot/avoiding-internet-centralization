@@ -73,18 +73,17 @@ shown here.
 
 # Why Internet Protocols Avoid Centralization {#why}
 
+By definition, the Internet is a 'large, heterogeneous collection of interconnected systems' {{?BCP95}}; in other words, it is a network of networks. If a protocol is to have deployment and interoperation on an Internet scale, its operation needs to be suitable for use within and between any of those autonomous networks.
 
+A centralised protocol violates this requirement by conveying power over its operation to a third party. This power might be a form of direct control, or it might make the activities of those who use the protocol legible in a way where they can extract value or use the information obtained to exert control elsewhere.
 
-network of networks
+Centralized protocols also preclude the possibility of 'permissionless innovation' -- i.e., the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with. While this might be acceptable for specialized protocols with limited deployment, it becomes problematic when a broad set of users and other protocols become dependent upon a centralised protocol, thereby making it an essential facility.
 
-Permissionless innovation
+The Internet and its users also benefit from competition when interoperable applications and services are available from many different providers -- and especially when those users can build their own applications and services based upon interoperable standards.
 
-Availability
+Likewise, the availability of the Internet (as well as applications and services based upon it) improves when there are many ways to obtain access to it and them.
 
-Power / Legibility / controllability
-
-Capture
-
+To summarize, Internet protocols avoid centralization because allowing it would allow the Internet (or some part of it) to be captured by a single entity, effectively turning it into a 'walled garden' that fails to meet the architectural design goals of and user expectations for the Internet.
 
 
 # Techniques for Avoiding Internet Centralization {#how}
@@ -100,6 +99,7 @@ Atom
 
 DNS
 CAs
+Internet protocol standardisation
 
 ## Federation
 
@@ -120,6 +120,8 @@ DoH
 
 ## Opt-In and Required Centralisation {#purposeful}
 
+
+## Extensibility and Versioning {#evolution}
 
 
 # Security Considerations
