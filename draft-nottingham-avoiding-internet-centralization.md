@@ -88,8 +88,12 @@ To summarize, Internet protocols avoid centralization because allowing it would 
 
 # Techniques for Avoiding Internet Centralization {#how}
 
+When protocol designers are faced with the possibility of centralization, several techniques are available, depending on the nature of the protocol and its specific requirements. The following subsections discuss some of these options, as well as their advantages and disadvantages.
 
-## Endpoint Orientation
+
+## Natural Decentralization
+
+The preferred method for mitigating Internet Centralization is to avoid it completely -- in other words, to design protocols where no centralized coordination, rendezvous or communication is necessary.
 
 Internet access
 Routing
@@ -97,11 +101,17 @@ Atom
 
 ## Multi-Stakeholder Administration
 
+When a function is required to be centralized by its nature, one way to mitigate the resulting effects is to assure that the central function is as limited as possible, and to delegate the administraiton of that function to a multi-stakeholder body.
+
+A multi-stakeholder body is one that
+
 DNS
 CAs
 Internet protocol standardisation
 
 ## Federation
+
+Another technique for mitigating centralization in Internet protocols is federation - that is, designing protocols in such a way that new instances of the centralized function are relatively easy to create, without reducing value provided by the protocol. Typically, this means assuring that those instances can themselves interoperate, so that communication between two endpoints might traverse one or more intermediate servers.
 
 XMPP
 e-mail
@@ -109,11 +119,13 @@ identity
 
 ## Interoperability
 
+Finally, some protocols might not directly define a central role, but their deployment might result in centralization due to external factors.
+
 HTTP
 DoH
 
 
-# Centralization and Protocol Design {#design}
+# Centralization Considerations in Protocol Design {#design}
 
 ## Intermediaries {#intermediaries}
 
