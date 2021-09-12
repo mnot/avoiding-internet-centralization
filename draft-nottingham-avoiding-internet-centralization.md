@@ -147,6 +147,14 @@ The initial approach for designing Internet protocols is to minimise centralizat
 
 This means that communication SHOULD be directly between peers wherever possible. When not possible for technical or operational reasons, the centralized function SHOULD be as minimal as possible. This might be accomplished by separating centralized functions from others, or by use of techniques like encryption to assure that the centralized service does not have unnecessary access to content of communications.
 
+## The Network Can Centralize
+
+Because they is necessary for communication, the networks that endpoints use and the path between them have centralization risk. While users do often have flexibility in their choices for Internet access, that is typically only true on longer timescales; in the moment, most users' choices are limited. Likewise, while the Internet's topology is in theory decentralized, there are in practice various 'choke points' that represent possibilities for control, and therefore centralization.
+
+This centralization risk can be mitigated by limiting the amount of information available to the network, to deny the ability to identify and thereby control communication. Encryption is the RECOMMENDED method, e.g., as implemented by TLS {{?RFC8446}} and QUIC {{?I-D.ietf-quic-transport}}.
+
+Note that individual networks might have a legitimate need to control communication within their bounds. This requirement does not justify accommodation of centralization in Internet protocols, but might motivate accommodations for endpoints to opt into such mechanisms, provided that they are appropriately authenticated.
+
 
 ## Use Intermediation Carefully
 
@@ -159,11 +167,6 @@ In such cases, the centralized function SHOULD be as minimal as possible, and ex
 Intermediation can also be introduced to allow functions or access to information to be separated in a controlled way, thereby reducing the need to trust the other endpoint. For example, there are a number of so-called 'oblivious' protocols currently in development that allow end users to hide details that might identify them from services, while still accessing those services.
 
 The same guidance applies in these cases; the information and control potential SHOULD be as minimal as possible, while still meeting the design goals of the protocol.
-
-
-## Optional Centralization
-
-Often, potentially centralized functions are defined to be optional in protocols -- either optional to implement, optional to use, or both. For example, it might be optional to configure a particular type of intermediary to interpose a desired function.
 
 
 ## Understand Platform-Based Centralization
@@ -189,7 +192,18 @@ Social networking is another Internet application that suffers from this type of
 
 Some have been concerned that DoH {{?RFC8484}} also has this type of centralization risk, because initial deployments only offered a single, pre-selected service run by one commercial operator.
 
-In all of these cases, voluntary standards have limited means to address centralization risks. Deployment of interoperable, well-defined, widely-reviewed and openly available documents is preferable to proprietary protocols in these cases, so the standardization of such protocols SHOULD NOT be refused merely due to external centralization risk.
+In all of these cases, voluntary technical standards have limited means to address centralization risks. However, if a viable standards-based solution is defined for these functions, other regulation modalities (e.g., legal) might be in a position to better mitigate centralization risks by requiring their use. Therefore, definition of interoperable, widely-reviewed and openly available protocols is preferable to proprietary ones in these cases, so the standardization of such protocols SHOULD NOT be refused merely due to external centralization risk.
+
+
+## Optional Centralization is Still Centralization
+
+Often, potentially centralized functions are defined to be optional in protocols -- either optional to implement, optional to use, or both. For example, it might be optional to configure a particular type of intermediary to interpose a desired function.
+
+When the choice of whether and how to use such options is generally in the hands of the endpoints, there is little centralization risk. However, when they can be compelled -- economically, legally, or socially -- to make a specific choice, there may be centralization risk present.
+
+For example, when a protocol can operate in a decentralized fashion, but offers additional benefits when an intermediary is used, there might be centralization risk if those additional benefits accrue into few hands.
+
+As such, merely being optional is not a reason to allow centralization in Internet protocols.
 
 
 ## Protocol Evolution and Centralization
