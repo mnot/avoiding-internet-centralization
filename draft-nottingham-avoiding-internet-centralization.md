@@ -92,7 +92,7 @@ To summarize, Internet protocols avoid centralization because allowing it would 
 Several techniques are available when protocol designers are faced with the possibility of centralization when specifying a given function, depending on the nature of the protocol and its specific requirements. The following subsections discuss some of these options, as well as their advantages and disadvantages.
 
 
-## Natural Decentralization
+## Decentralization
 
 The preferred method for mitigating Internet Centralization is to avoid it completely -- in other words, to design protocols where no centralized coordination, rendezvous or communication is necessary.
 
