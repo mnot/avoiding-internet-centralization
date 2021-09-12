@@ -76,7 +76,7 @@ shown here.
 
 By definition, the Internet is a 'large, heterogeneous collection of interconnected systems' {{?BCP95}}; in other words, it is a network of networks. If a protocol is to have deployment and interoperation on an Internet scale, its operation needs to be suitable for use within and between any of those autonomous networks.
 
-A centralised protocol violates this requirement by conveying power over its operation to a third party. This power might be a form of direct control, or it might make the activities of those who use the protocol legible in a way where they can extract value or use the information obtained to exert control elsewhere.
+A centralised protocol violates this requirement by conveying power over its operation to a third party. This power might be a form of direct control, or it might make the activities of those who use the protocol legible in a way where they can extract value or use the information obtained to exert control elsewhere. When a protocol function is centralized, it becomes necessary to trust the central party to perform that function faithfully.
 
 Centralized protocols also preclude the possibility of 'permissionless innovation' -- i.e., the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with. While this might be acceptable for specialized protocols with limited deployment, it becomes problematic when a broad set of users and other protocols become dependent upon a centralised protocol, thereby making it an essential facility.
 
