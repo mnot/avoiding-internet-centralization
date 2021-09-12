@@ -140,12 +140,16 @@ The examples above show that federation can be a useful technique, but on its ow
 
 ## Intermediaries and Centralization
 
-By definition, the introduction of an intermediary role -- i.e., a party that is required for communication to take place between endpoints -- is a centralization risk in protocols.
+The introduction of an intermediary role -- i.e., a party that is required for communication to take place between endpoints -- is a centralization risk in Internet protocols, because it brings the opportunity for control.
+
+However, intermediation can sometimes be necessary. When a function cannot be performed in a fully decentralized fashion (for example, rendezvous), introducing an intermediary or server of some sort is necessary to realize the benefits of the protocol. As discussed above, this is the case for XMPP and SMTP.
+
+Furthermore, intermediation can be used by a protocol to allow functions or access to information to be separated in a controlled way, thereby reducing the need to trust the other endpoint. For example, there are a number of so-called 'oblivious' protocols currently in development that allow end users to hide details that might identify them from services, while still accessing those services.
 
 
 ## Optional Centralization
 
-Often, potentially centralized functions are optional in protocols -- either optional to implement, optional to use, or both.
+Often, potentially centralized functions are defined to be optional in protocols -- either optional to implement, optional to use, or both. For example, it might be optional to configure a particular type of intermediary to interpose a desired function.
 
 
 ## Platform Centralization
@@ -154,18 +158,19 @@ Some protocols might not directly define a central role, but they might facilita
 
 For example, HTTP {{HTTP}} in itself is not considered a centralized protocol; interoperable servers are relatively easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above.
 
-However, applications built on top of HTTP (as well as the rest of the 'Web Platform') often exhibit centralisation.
-
-As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it's possible to build centralized services and applications using it.
+However, applications built on top of HTTP (as well as the rest of the 'Web Platform') often exhibit centralisation. As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it's possible to build centralized services and applications using it.
 
 
 ## External Centralization
 
-Similar to platform centralization, a protocol might become centralized if external factors influence its deployment, making it difficult or impossible to realize the value provided by the protocol unless a central facility is used.
+Even when it is defined in a decentralized fashion, a protocol might also become centralized if external factors influence its deployment, making it difficult or impossible to realize the value provided unless a central facility is used. Such factors might be economic, social, or legal. Often, they are related to the network effects that are so often seen on the Internet.
 
-DoH {{?RFC8484}}
+For example, cloud computing is used to deploy many Internet protocols. Although the base concepts and control protocols for it are decentralized in the sense that there is no need for a single, central cloud provider, the economics of providing compute at scale as well as some social factors regarding developer familiarity and comfort encourage convergence on a small number of cloud providers.
 
-Cloud/CDN
+Social networking is another Internet application that suffers from this type of centralization, despite standardization efforts (see, e.g., {{?W3C.CR-activitystreams-core-20161215}}), due to the powerful network effects associated with it.
+
+Some have been concerned that DoH {{?RFC8484}} also has this type of centralization risk, because initial deployments only offered a single, pre-selected service run by one commercial operator.
+
 
 
 ## Protocol Evolution and Centralization
@@ -173,9 +178,10 @@ Cloud/CDN
 
 
 
+
 # Security Considerations
 
-This document does not have direct security impact on Internet protocols. However, the failure to heed its advice might result in a myriad of security issues due to the unnecessary introduction of centralized function to Internet protocols.
+This document does not have direct security impact on Internet protocols. However, failure to consider centralization risks might result in a myriad of security issues.
 
 
 --- back
