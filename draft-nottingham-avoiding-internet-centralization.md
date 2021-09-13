@@ -52,7 +52,7 @@ See also the draft's current status in the IETF datatracker, at
 
 # Introduction
 
-One of the properties that has made the Internet successful is its purposeful avoidance of any single controlling entity. While originally the primary purpose of this approach may have been a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby aligning with a spectrum of political and social requirements.
+One of the properties that has made the Internet successful is its purposeful avoidance of any single controlling entity. While originally the primary purpose of this approach may have been a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby accommodating a spectrum of political and social requirements.
 
 This means that protocols that are considered part of the Internet share a common design goal: avoiding centralization, which we define as the ability of a single person, company, or government to observe, control, or extract rent from the protocol's operation.
 
