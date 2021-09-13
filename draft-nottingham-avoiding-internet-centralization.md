@@ -52,13 +52,13 @@ See also the draft's current status in the IETF datatracker, at
 
 # Introduction
 
-One of the properties that has made the Internet the successful is its purposeful avoidance of any single controlling entity. While the primary purpose of this approach may have originally been a desire to prevent a single failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity.
+One of the properties that has made the Internet successful is its purposeful avoidance of any single controlling entity. While the primary purpose of this approach may have originally been a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby aligning with a spectrum of political and social requirements.
 
-This means that Internet protocols need to avoid centralization - the ability of a single person, company, or government to observe, control, or extract rent from the protocol's operation.
+This means that for a protocol to be considered part of the Internet, it needs to avoid centralization - the ability of a single person, company, or government to observe, control, or extract rent from the protocol's operation.
 
-Here, 'Internet protocols' means those protocols that are considered part of the public Internet, in that they follow its architectural principles. Private protocols and applications might be centralized, but they are not considered part of the Internet, even though they may be built upon it.
+Many successful, proprietary protocols and applications on the Internet are centralized. Some Web sites, video conferencing applications and other facilities have become so well-known that they are commonly mistaken for the Internet itself. However, it does not follow that they are suitable for standarization as part of the Internet in a centralized fashion.
 
-Note that this does not imply that it is inappropriate for a single autonomous network to control the use of Internet protocols within itself. Likewise, it may be that a group of users might voluntarily decide to cede control to a central entity, or be legally compelled to do so. However, it does not follow that it is always appropriate to accommodate these use cases in Internet protocols (as discussed further below).
+Likewise, some autonomous networks have requirements to control the operation of Internet protocols when used on or transiting their connections. Additionally, some users or groups of users might cede control of some aspect of how they use the Internet to a central authority, either voluntarily or under legal compulsion. However, it does not follow that it is always appropriate to accommodate these use cases in such a way as to allow or encourage centralization of the Internet overall.
 
 This document discusses aspects of centralization with regard to Internet protocol design. {{why}} explains why it is necessary for Internet protocols to avoid centralization. {{how}} surveys the techniques that can be used to do so, with varying effectiveness. {{considerations} discusses interactions between centralization and various protocol design choices.
 
