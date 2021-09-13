@@ -56,7 +56,7 @@ One of the properties that has made the Internet successful is its purposeful av
 
 This means that for a protocol to be considered part of the Internet, it needs to avoid centralization - the ability of a single person, company, or government to observe, control, or extract rent from the protocol's operation.
 
-Many successful, proprietary protocols and applications on the Internet are centralized. Some Web sites, video conferencing applications and other facilities have become so well-known that they are commonly mistaken for the Internet itself. However, it does not follow that they are suitable for standarization as part of the Internet in a centralized fashion.
+Many successful, proprietary protocols and applications on the Internet are centralized. Some Web sites, video conferencing applications and other facilities have become so well-known that they are commonly mistaken for the Internet itself. However, it does not follow that they are suitable for standarization as part of the Internet without removing or mitigating their centralized aspects.
 
 Likewise, some autonomous networks have requirements to control the operation of Internet protocols when used on or transiting their connections. Additionally, some users or groups of users might cede control of some aspect of how they use the Internet to a central authority, either voluntarily or under legal compulsion. However, it does not follow that it is always appropriate to accommodate these use cases in such a way as to allow or encourage centralization of the Internet overall.
 
