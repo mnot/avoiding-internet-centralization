@@ -81,7 +81,7 @@ A centralised protocol violates this requirement by conveying power over its ope
 
 Centralized protocols also preclude the possibility of 'permissionless innovation' -- i.e., the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with. While this might be acceptable for specialized protocols with limited deployment, it becomes problematic when a broad set of users become dependent upon a centralised protocol, thereby making it an essential facility.
 
-The Internet and its users also benefit from competition when interoperable applications and services are available from many different providers -- especially when those users can build their own applications and services based upon interoperable standards.
+The Internet and its users also benefit from competition when applications and services are available from many different providers -- especially when those users can build their own applications and services based upon interoperable standards.
 
 Likewise, the availability of the Internet (as well as applications and services based upon it) improves when there are many ways to obtain access to them. While centralized services typically benefit from the focused attention that their role requires, that does not offset the reliability problems introduced by a single point of failure. Even in cases where such services are provided by a small pool of operators, the availability risks of centralization needs to be carefully weighed.
 
