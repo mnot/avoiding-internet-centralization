@@ -128,32 +128,32 @@ In each of these examples, setup and ongoing operation of a multi-stakeholder or
 
 ## Federation
 
-Another technique for mitigating centralization in Internet protocols is federation - that is, designing protocols in such a way that new instances of the centralized function are relatively easy to create while maintaining interoperability and connectivity with other instances, so that communication between two endpoints might traverse one or more intermediate servers.
+Another technique for mitigating centralization in Internet protocols is federation - that is, designing them in such a way that new instances of the centralized function are relatively easy to create while maintaining interoperability and connectivity with other instances, so that communication between two endpoints might traverse one or more intermediate servers.
 
-The most prevalent (and successful) example of a federated Internet protocol is SMTP {{?RFC5321}}, as part of the e-mail suite of protocols. While e-mail uses DNS as the basis of naming, thereby leveraging existing mitigations in place for that protocol as described above, it still requires a way to route a message to a specific user based upon that address.
+The most prevalent (and successful) example of a federated Internet protocol is SMTP {{?RFC5321}}, as part of the e-mail suite of protocols. While e-mail uses DNS as the basis of naming, it still requires a way to route a message to a specific user based upon that name.
 
-E-mail resolves this issue by defining a role for routing users' messages, the Message Transfer Agent (MTA), based upon information in the message. By allowing anyone to deploy a MTA and rules for interconnecting them, users can receive messages from other systems using SMTP.
+E-mail resolves this issue by defining a role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy a MTA and rules for interconnecting them, users can receive messages from other systems using SMTP.
 
-Users can (and often do) choose to delegate that role to someone else, or they can run it themselves. However, running your own mail server has become difficult, due to the likelihood of a small MTA being classified as a spam source. Because large MTA operaters are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, thereby effectively centralizing the protocol's operation.
+Users can (and often do) choose to delegate that role to someone else. Running your own mail server has become difficult, due to the likelihood of a small MTA being classified as a spam source. Because large MTA operaters are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, thereby indirectly centralizing the protocol's operation (see {{indirect}}).
 
 Another example of a federated Internet protocol is XMPP {{?RFC6120}}, supporting 'instant messaging' and similar functionality. Again using DNS for naming, XMPP requires federation to facilitate rendezvous of users from different systems.
 
-While some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators made a decision to attempt to capture their users into a single service, rather than provide the benefits of global interoperability.
+While some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators made a decision to attempt to capture their users into a single service, rather than provide the benefits of global interoperability (see {{platform}}).
 
-The examples above show that federation can be a useful technique, but on its own is not sufficient to avoid centralization. If the value provided by a protocol can be captured by a single entity, they may consciously disable federation in order to attempt a 'winner take all' outcome -- a significant risk with many Internet protocols, since they often require rendezvous functions, and network effects seen on the Internet often promote such outcomes. Likewise, external factors (such as spam control) might naturally 'tilt the table' towards a few operators of these protocols.
+The examples above show that federation can be a useful technique, but on its own is not sufficient to avoid centralization. If the value provided by a protocol can be captured by a single entity, they may use the protocol as a platform to obtain a 'winner take all' outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally 'tilt the table' towards a few operators of these protocols.
 
 
 # Considerations for Protocol Design {#considerations}
 
 While the following recommendations are not a complete guide, they can be a starting point for judging and mitigating centralization in protocols.
 
-## Minimize Centralization
+## Minimize Centralization {#minimize}
 
 The initial approach for designing Internet protocols is to minimise centralization whenever possible; decentralized protocols are always preferable, for the reasons given above.
 
 This means that communication SHOULD be directly between peers wherever possible. When not possible for technical or operational reasons, the centralized function SHOULD be as minimal as possible. This might be accomplished by separating centralized functions from others, or by use of techniques like encryption to assure that the centralized service does not have unnecessary access to content of communications.
 
-## The Network Can Centralize
+## The Network Can Centralize {#network}
 
 Because they is necessary for communication, the networks that endpoints use and the path between them have centralization risk. While users do often have flexibility in their choices for Internet access, that is typically only true on longer timescales; in the moment, most users' choices are limited. Likewise, while the Internet's topology is in theory decentralized, there are in practice various 'choke points' that represent possibilities for control, and therefore centralization.
 
@@ -162,7 +162,7 @@ This centralization risk can be mitigated by limiting the amount of information 
 Note that individual networks might have a legitimate need to control communication within their bounds. This requirement does not justify accommodation of centralization in Internet protocols, but might motivate accommodations for endpoints to opt into such mechanisms, provided that they are appropriately authenticated.
 
 
-## Use Intermediation Carefully
+## Use Intermediation Carefully {#intermediation}
 
 The introduction of an intermediary role -- i.e., a party that is required for communication to take place between endpoints -- adds centralization risk to Internet protocols, because it brings the opportunity for control.
 
@@ -175,7 +175,7 @@ Intermediation can also be introduced to allow functions or access to informatio
 The same guidance applies in these cases; the information and control potential SHOULD be as minimal as possible, while still meeting the design goals of the protocol.
 
 
-## Understand Platform-Based Centralization
+## Understand Platform-Based Centralization {#platform}
 
 Some protocols might not directly define a central role, but they might facilitate centralization in the applications they support.
 
@@ -188,9 +188,9 @@ As such, this kind of centralization risk is not directly associated with the pr
 As a result, the platform itself is not typically a viable place to avoid centralization. Rather, our focus SHOULD be on decentralizing the functions built on top of it.
 
 
-## Consider External Centralization Risks
+## Consider Indirect Centralization Risks {#indirect}
 
-Even when defined in a decentralized fashion, a protocol might become centralized if external factors influence its deployment, making it difficult or impossible to realize the value provided unless a central facility is used. Such factors might be economic, social, or legal. Often, they are related to the network effects that are so often seen on the Internet.
+Even when defined in a decentralized fashion, a protocol might become centralized if indirect factors influence its deployment, making it difficult or impossible to realize the value provided unless a central facility is used. Such factors might be economic, social, or legal. Often, they are related to the network effects that are so often seen on the Internet.
 
 For example, cloud computing is used to deploy many Internet protocols. Although the base concepts and control protocols for it are decentralized in the sense that there is no need for a single, central cloud provider, the economics of providing compute at scale as well as some social factors regarding developer familiarity and comfort encourage convergence on a small number of cloud providers.
 
@@ -201,7 +201,7 @@ Some have been concerned that DoH {{?RFC8484}} also has this type of centralizat
 In all of these cases, voluntary technical standards have limited means to address centralization risks. However, if a viable standards-based solution is defined for these functions, other regulation modalities (e.g., legal) might be in a position to better mitigate centralization risks by requiring their use. Therefore, definition of interoperable, widely-reviewed and openly available protocols is preferable to proprietary ones in these cases, so the standardization of such protocols SHOULD NOT be refused merely due to external centralization risk.
 
 
-## Optional Centralization is Still Centralization
+## Optional Centralization is Still Centralization {#optional}
 
 Often, potentially centralized functions are defined to be optional in protocols -- either optional to implement, optional to use, or both. For example, it might be optional to configure a particular type of intermediary to interpose a desired function.
 
@@ -212,7 +212,7 @@ For example, when a protocol can operate in a decentralized fashion, but offers 
 As such, merely being optional is not a reason to allow centralization in Internet protocols.
 
 
-## Protocol Evolution Can Be a Centralization Risk
+## Protocol Evolution Can Be a Centralization Risk {#evolution}
 
 An important feature of Internet protocols is their ability to evolve over time, so that they can meet new requirements and adapt to new conditions without requiring a 'flag day' to convert users. Typically, protocol evolution is accommodated through extension mechanisms, where optional features can be added over time in an interoperable fashion.
 
