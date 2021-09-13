@@ -83,7 +83,7 @@ Centralized protocols also preclude the possibility of 'permissionless innovatio
 
 The Internet and its users also benefit from competition when applications and services are available from many different providers -- especially when those users can build their own applications and services based upon interoperable standards.
 
-Likewise, the availability of the Internet (as well as applications and services based upon it) improves when there are many ways to obtain access to them. While centralized services typically benefit from the focused attention that their role requires, that does not offset the reliability problems introduced by a single point of failure. Even in cases where such services are provided by a small pool of operators, the availability risks of centralization needs to be carefully weighed.
+Likewise, the availability of the Internet (as well as applications and services based upon it) improves when there are many ways to obtain access to them. While centralized services typically benefit from the focused attention that their role requires, that does not offset the reliability problems introduced by a single point of failure.
 
 To summarize, Internet protocols avoid centralization because allowing it would allow the Internet (or some part of it) to be captured by a single entity, effectively turning it into a 'walled garden' that fails to meet the architectural design goals of and user expectations for the Internet.
 
