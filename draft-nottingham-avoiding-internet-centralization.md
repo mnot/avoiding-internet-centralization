@@ -95,16 +95,20 @@ When a protocol designer is specifying a given function, several techniques to a
 
 ## Decentralization
 
-The preferred method for mitigating Internet Centralization is to avoid it completely -- in other words, to design protocols where no centralized coordination, rendezvous or communication is necessary.
+The preferred method for mitigating Internet Centralization is to avoid it completely -- in other words, to design protocols where no centralized coordination, rendezvous or communication is necessary, but instead communication happens directly between the endpoints that wish to communicate.
 
 This approach can be seen in many aspects of the Internet. Access to the Internet itself is decentralised; one does not need to gain permission from any authority to connect a network to the Internet, and there are several ways one can do so. Local conditions might change this (for example, when there are limited choices for access providers, due to legal or market circumstances), but that is not a limitation of the Internet itself.
 
 Likewise, Internet routing does not require central coordination; instead, protocols like BGP {{?RFC4271}} allow peers to coordinate routing information in a decentralized way.
 
-An example at the application layer is Atom {{?RFC4287}}, which allows an end user to obtain updates (often, news and simliar information) from publishers who they select, again without any central coordination or authority. While some Atom clients were built as services available over the Web, thereby intermediating that communication, Atom does not require (or even encourage) that
-style of deployment; although such services might be considered as centralised themselves, they are not part of the protocol itself.
+At the application layer, Atom {{?RFC4287}} allows an end user to obtain updates (often, news and simliar information) from publishers who they select, again without any central coordination or authority. While some Atom clients were built as services available over the Web, thereby intermediating that communication, the protocol does not require (or even encourage) that
+style of deployment.
 
-When possible, decentralization has obvious merit. However, it is not possible for a decentralized protocol to address some requirements -- in particular, when there is a requirement for a single, global 'source of truth' (e.g., for unambiguous naming), and when different endpoints need to solve the 'rendezvous problem' in order to communication without prior arrangement.
+When possible, decentralization has obvious merit. However, it is not always possible for a protocol to be decentralized -- in particular:
+
+* when there is a requirement for a single, global 'source of truth' (e.g., for unambiguous naming), or
+* when different endpoints need to solve the 'rendezvous problem' in order to communication without prior arrangement, or
+* when direct communication isn't possible (e.g., due to Network Address Translation).
 
 
 ## Multi-Stakeholder Administration
