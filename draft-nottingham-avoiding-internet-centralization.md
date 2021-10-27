@@ -30,7 +30,44 @@ normative:
 
 informative:
   HTTP: I-D.draft-ietf-httpbis-semantics
-
+  SCALE-FREE:
+    target: https://barabasi.com/f/67.pdf
+    title: Emergence of Scaling in Random Networks
+    date: October 1999
+    author:
+     -
+       ins: A. Barabási
+       name: Albert-László Barabási
+       organization: University of Notre Dame
+       email: alb@nd.edu
+    author:
+     -
+       ins: R. Albert
+       name: Réka Albert
+       organization: University of Notre Dame
+  INTERMEDIARY-INFLUENCE:
+    target: https://scholarship.law.columbia.edu/faculty_scholarship/1856
+    title: Intermediary Influence
+    date: 2014
+    author:
+     -
+        ins: K. Judge
+        name: Kathryn Judge
+        organization: Columbia Law School
+        email: kjudge@law.columbia.edu
+  WEAPONIZED-INTERDEPENDENCE:
+    target: https://doi.org/10.1162/ISEC_a_00351
+    title: "Weaponized Interdependence: How Global Economic Networks Shape State Coercion"
+    date: 2019
+    author:
+     -
+        ins: H. Farrell
+        name: Henry Farrell
+        organization: George Washington University
+     -
+        ins: A. L. Newman
+        name: Abraham L. Newman
+        organization: Georgetown University
 
 --- abstract
 
@@ -52,19 +89,19 @@ See also the draft's current status in the IETF datatracker, at
 
 # Introduction
 
-One of the properties that has made the Internet successful is its purposeful avoidance of any single controlling entity. While originally the primary purpose of this approach may have been a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby accommodating a spectrum of political and social requirements.
+One of the properties that has made the Internet successful is its purposeful avoidance of any single controlling entity. While originally this approach may have been driven by a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby accommodating a spectrum of political and social requirements.
 
-This means that protocols that are considered part of the Internet share a common design goal: avoiding centralization, which we define as the ability of a single person, company, or government to observe, control, or extract rent from the protocol's operation.
+This means that protocols that are considered part of the Internet share a common design goal: avoiding centralization, which we define as the ability of a single person, company, or government -- or a small group of them -- to observe, control, or extract rent from the protocol's operation or use.
 
-At the same time, the utility of many Internet protocols is enabled or significantly enhanced by ceding some aspect of communication to another party -- often, in a manner has centralization risk. For example, there might be a need for a 'single source of truth' or a rendezvous facility to allow endpoints to find each other. How should such protocols be designed?
+At the same time, the utility of many Internet protocols is enabled or significantly enhanced by ceding some aspect of communication to another party -- often, in a manner that has centralization risk. For example, there might be a need for a 'single source of truth' or a rendezvous facility to allow endpoints to find each other. How should such protocols be designed?
 
-Furthermore, many successful proprietary protocols and applications on the Internet are de facto centralized. Some Web sites and applications have become so well-known that they are commonly mistaken for the Internet itself. In other cases, Internet protocols seem to favour centralized deployments due to economic and social factors. Should standards efforts attempt to mitigate centralization in these cases, and if so, how?
+Furthermore, many successful proprietary protocols and applications on the Internet are de facto centralized. Some have become so well-known that they are commonly mistaken for the Internet itself. In other cases, Internet protocols seem to favour centralized deployments due to economic and social factors. Should standards efforts attempt to mitigate centralization in these cases, and if so, how?
 
 Finally, some autonomous networks have requirements to control the operation of Internet protocols internally, and some users or groups of users might cede control of some aspect of how they use the Internet to a central authority, either voluntarily or under legal compulsion. In both of these cases, should Internet protocols accommodate such requirements, and if so, how?
 
 This document discusses aspects of centralization with regard to Internet protocol design. {{why}} explains why it is necessary for Internet protocols to avoid centralization when possible. {{kinds}} surveys the different kinds of centralization that Internet protocols might be involved in, and make general recommendations about how they should be handled. {{how}} further explores specific techniques that can be used to do so. Finally, {{considerations} discusses cross-cutting interactions between centralization and protocol design.
 
-The primary audience for this document is those involved in designing and standardising Internet protocols. However, designers of proprietary protocols can benefit from considering aspects of centralisation, especially if they intend their protocol to be considered for standardisation. Likewise, policymakers can use this document to help distinguish between Internet protocols and proprietary ones, as they might attract different kinds of regulation.
+The primary audience for this document is those involved in designing and standardising Internet protocols. However, designers of proprietary protocols can benefit from considering aspects of centralisation, especially if they intend their protocol to be considered for standardisation. Likewise, policymakers can use this document to help identify centralised protocols and applications, as they might attract different kinds of regulation.
 
 
 ## Notational Conventions
@@ -77,18 +114,20 @@ shown here.
 
 # Why Avoid Centralization {#why}
 
-By definition, the Internet is a 'large, heterogeneous collection of interconnected systems' {{?BCP95}}; it is often characterised as a 'network of networks'. If a protocol is to considered a part of the Internet, it needs to be suitable for deployment in this model, where networks are  peers who agree to facilitate communication, rather than subservient to each others' requirements. A centralised protocol is in danger of violating this requirement by conveying power to a third party.
+While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks {{SCALE-FREE}}, these network effects award asymmetric power to nodes that act as intermediaries to communication, thereby obtaining 'informational and positional advantages' {{INTERMEDIARY-INFLUENCE}}. That power can be used to observe behavior (the 'panopticon effect') and shape or even deny behaviour (the 'chokepoint effect'). Both effects can be used by those actors or the states that they occupy for coercive ends {{WEAPONIZED-INTERDEPENDENCE}}.
+
+As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. Protocols that are to considered a part of the Internet need to be suitable for deployment in this model -- where networks are peers who agree to facilitate communication, rather than subservient to each others' requirements or subject to coercion by them.
+
+When applications and services are available from many different providers, the Internet and its users benefit from the resulting competition -- especially when those users can build their own applications and services based upon interoperable standards. When a broad set of users become dependent upon a centralised protocol, the central authority effective becomes an essential facility, which encourages abuse of that power.
 
 Centralized protocols can also preclude the possibility of 'permissionless innovation' -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
-The Internet and its users also benefit from competition when applications and services are available from many different providers -- especially when those users can build their own applications and services based upon interoperable standards. When a broad set of users become dependent upon a centralised protocol, the central authority effective becomes an essential facility, which encourages abuse of that power.
-
-Likewise, the availability of the Internet (as well as applications and services based upon it) improves when there are many ways to obtain access to them. While centralized services typically benefit from the focused attention that their role requires, that does not offset the reliability problems introduced by a single point of failure.
+Likewise, the availability of the Internet (as well as applications and services based upon it) improves when there are many ways to obtain access to them. While centralized services typically benefit from the focused attention that their elevated role requires, when they do fail, the resulting loss of availability can have disproportionate impact.
 
 To summarize, Internet protocols avoid centralization because allowing it would allow the Internet (or some part of it) to be captured by a single entity, effectively turning it into a 'walled garden' that fails to meet the architectural design goals of and user expectations for the Internet.
 
 
-# Kinds of Centralization {#kinds}
+# How Centralization Happens {#kinds}
 
 Not all centralization of Internet protocols is equal; there are several different types, each with its own properties. The subsections below list some and recommend how they should be handled.
 
