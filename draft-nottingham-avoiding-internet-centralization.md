@@ -80,7 +80,7 @@ informative:
 
 --- abstract
 
-Avoiding centralization is an important goal in the design of Internet protocols. This document discusses why it is necessary for Internet protocols to consider centralization risks, how they can do so, and the design implications of centralisation upon them.
+Avoiding centralization is an important goal for Internet protocols. This document discusses why it is necessary for Internet protocol designers to consider centralization risks, identifies different kinds of centralization, lists techniques used to manage centralization, and recommends practices to avoid it.
 
 
 --- note_Note_to_Readers
