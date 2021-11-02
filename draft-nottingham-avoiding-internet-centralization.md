@@ -98,7 +98,7 @@ See also the draft's current status in the IETF datatracker, at
 
 # Introduction
 
-One of the properties that has made the Internet successful is its purposeful avoidance of any single controlling entity. While originally this approach may have been driven by a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby accommodating a spectrum of political and social requirements.
+One reason the Internet is successful is its purposeful avoidance of any single controlling entity. While originally this approach may have been driven by a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby accommodating a spectrum of political and social requirements.
 
 This means that protocols that are considered part of the Internet share a common design goal: avoiding centralization, which we define as the ability of a single person, company, or government -- or a small group of them -- to observe, control, or extract rent from the protocol's operation or use.
 
@@ -123,7 +123,7 @@ shown here.
 
 # Why Avoid Centralization {#why}
 
-While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks {{SCALE-FREE}}, these network effects award asymmetric power to nodes that act as intermediaries to communication, thereby obtaining 'informational and positional advantages' {{INTERMEDIARY-INFLUENCE}}. That power can be used to observe behavior (the 'panopticon effect') and shape or even deny behaviour (the 'chokepoint effect'). Both effects can be used by those actors or the states that they occupy for coercive ends {{WEAPONIZED-INTERDEPENDENCE}}.
+While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks {{SCALE-FREE}}, these network effects award asymmetric power to nodes that act as intermediaries to communication, thereby obtaining 'informational and positional advantages' {{INTERMEDIARY-INFLUENCE}}. That power can be used to observe behavior (the 'panopticon effect') and shape or even deny behaviour (the 'chokepoint effect') -- which can be used those parties (or the states that have authority over them) for coercive ends {{WEAPONIZED-INTERDEPENDENCE}}.
 
 As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. Protocols that are to considered a part of the Internet need to be suitable for deployment in this model -- where networks are peers who agree to facilitate communication, rather than subservient to each others' requirements or subject to coercion by them.
 
