@@ -14,6 +14,9 @@ stand_alone: yes
 smart_quotes: no
 pi: [toc, tocindent, sortrefs, symrefs, strict, compact, comments, inline]
 
+venue:
+  github: mnot/avoiding-internet-centralization
+
 author:
  -
     ins: M. Nottingham
@@ -82,17 +85,6 @@ informative:
 
 Avoiding centralization is an important goal for Internet protocols. This document discusses why it is necessary for Internet protocol designers to consider centralization risks, identifies different kinds of centralization, lists techniques used to manage centralization, and recommends practices to avoid it.
 
-
---- note_Note_to_Readers
-
-*RFC EDITOR: please remove this section before publication*
-
-The issues list for this draft can be found at <https://github.com/mnot/avoiding-internet-centralization/issues>.
-
-The most recent (often, unpublished) draft is at <https://mnot.github.io/avoiding-internet-centralization/>.
-
-See also the draft's current status in the IETF datatracker, at
-<https://datatracker.ietf.org/doc/draft-nottingham-avoiding-internet-centralization/>.
 
 --- middle
 
