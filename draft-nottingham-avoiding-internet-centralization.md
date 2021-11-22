@@ -315,6 +315,9 @@ These risks can be partially mitigated by requiring such functions to be opted i
 Platform centralization can be mitigated by XXX
 
 
+## Separate Functions
+
+
 
 ## Acknowledge the Limits of Protocol Design
 
