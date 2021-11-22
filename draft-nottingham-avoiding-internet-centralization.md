@@ -108,7 +108,7 @@ Furthermore, many successful proprietary protocols and applications on the Inter
 
 Finally, some autonomous networks have requirements to control the operation of Internet protocols internally, and some users or groups of users might cede control of some aspect of how they use the Internet to a central authority, either voluntarily or under legal compulsion. In both of these cases, should Internet protocols accommodate such requirements, and if so, how?
 
-This document discusses aspects of centralization with regard to Internet protocol design. {{why}} explains why it is necessary for Internet protocols to avoid centralization when possible. {{kinds}} surveys the different kinds of centralization that Internet protocols might be involved in. {{limitations}} then catalogues current high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} discusses cross-cutting interactions between centralization and protocol design, recommending best practices where appropriate.
+This document discusses aspects of centralization with regard to Internet protocol design. {{why}} explains why it is necessary for Internet protocols to avoid centralization when possible. {{kinds}} surveys the different kinds of centralization that Internet protocols might be involved in. {{decentralization}} then catalogues current high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} discusses cross-cutting interactions between centralization and protocol design, recommending best practices where appropriate.
 
 Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralisation, especially if they intend their protocol to be considered for standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
 
@@ -156,7 +156,7 @@ Directly centralised protocols and applications are not considered to be part of
 
 ## Necessary Centralization {#necessary}
 
-Depending upon a protocol's requirements, it is not always possible to avoid introducing centralization risk -- in particular:
+Some protocol requirements require the introduction of centralization risk -- in particular:
 
 * When there is a requirement for a single, global 'source of truth' (e.g., for unambiguous naming), or
 * When endpoints need to solve the 'rendezvous problem' in order for two parties to communicate without prior arrangement, or
@@ -171,24 +171,24 @@ The third kind of necessary centralisation risk is faced by many applications, d
 
 ## Indirect Centralization {#indirect}
 
-Even when defined to allow direct endpoint-to-endpoint communication, a protocol might become centralized if external factors influence its deployment, making it difficult or impossible to realize the protocol's value unless a central facility is used.
+Even if a protocol disallows direct centralization (perhaps using one of the techniques discussed in {{decentralization}}) and does not exhibit any necessary centralization, it might become centralized in practice when external factors influence its deployment.
 
-Such factors might be economic, social, or legal. Often, they are related to the network effects that are so often seen on the Internet.
+Indirect centralization is caused by factors making it difficult or impossible to realize the protocol's value unless a central facility is used. Such factors might be economic, social, or legal.
 
-While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks {{SCALE-FREE}}, the resulting network effects award asymmetric power to nodes that act as intermediaries to communication.
+Often, they are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks {{SCALE-FREE}}, the resulting network effects award asymmetric power to nodes that act as intermediaries to communication.
 
 For example, cloud computing is used to deploy many Internet protocols. Although the base concepts and control protocols for it are decentralized in the sense that there is no need for a single, central cloud provider, the economics of providing compute at scale as well as some social factors regarding developer familiarity and comfort encourage convergence on a small number of cloud providers.
 
-Social networking is another Internet application that suffers from this type of centralization, despite standardization efforts (see, e.g., {{?W3C.CR-activitystreams-core-20161215}}), due to the powerful network effects associated.
+In some cases, these factors cause a directly centralized protocol or application to be favoured over a decentralized one. For example, social networking is an application that is currently supplied by a small number of directly centralized, proprietary platforms despite standardization efforts (see, e.g., {{?W3C.CR-activitystreams-core-20161215}}), due to the powerful network effects associated.
 
-Some have been concerned that DoH {{?RFC8484}} also has this type of centralization risk, because initial deployments defaulted to a pre-selected service run by one commercial operator.
+Some have expressed concern that DoH {{?RFC8484}} also has this type of centralization risk, because initial deployments defaulted to a pre-selected service run by one commercial operator.
 
 
 ## Inherited Centralization {#network}
 
-Most Internet protocols depend on other, 'lower-layer' protocols to function. The features, deployment, and operation of these dependencies can surface centralization risk into protocols operating 'on top' of them.
+Most Internet protocols depend on other, 'lower-layer' protocols. The features, deployment, and operation of these dependencies can surface centralization risk into protocols operating 'on top' of them.
 
-For example, the network between endpoints can introduce centralization risk to application-layer protocols, because it is necessary for communication and therefore has power over it. A given network might block access to, slow down, or modify the content of various application protocols or specific services for financial, political, operational, or criminal reasons, thereby creating pressure to use other services, which can in turnresult in centralization.
+For example, the network between endpoints can introduce centralization risk to application-layer protocols, because it is necessary for communication and therefore has power over it. A given network might block access to, slow down, or modify the content of various application protocols or specific services for financial, political, operational, or criminal reasons, thereby creating pressure to use other services, which can in turn result in centralization.
 
 Inherited centralization risk is only present when users cannot use an alternative means of accessing the desired service. For example, users often have flexibility in choice of Internet access, so they could just 'route around' a network that impacts their chosen service. However, such choices are often not available in the moment, and the Internet's topology means that a 'choke point' upstream could still affect their Internet access.
 
@@ -202,7 +202,7 @@ For example, HTTP {{HTTP}} in itself is not considered a centralized protocol; i
 However, applications built on top of HTTP (as well as the rest of the 'Web Platform') often exhibit centralisation. As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it does facilitate the creation of centralized services and applications.
 
 
-# The Limits of Decentralization {#limitations}
+# The Limits of Decentralization {#decentralization}
 
 ## Federation isn't Enough {#federation}
 
