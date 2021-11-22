@@ -91,14 +91,14 @@ informative:
 
 --- abstract
 
-Avoiding centralization is an important goal for Internet protocols. This document defines the term, discusses why it is necessary for Internet protocol designers to consider centralization risks, identifies different kinds of centralization, catalogues some limitations of current approaches to centralization, and recommends practices to avoid them.
+Avoiding centralization is an important goal for Internet protocols. This document defines the term, discusses why it is necessary for Internet protocol designers to consider centralization risks, identifies different kinds of centralization, catalogues some limitations of current approaches to controlling it, and recommends best practices for protocol designers.
 
 
 --- middle
 
 # Introduction
 
-One reason the Internet is successful is its purposeful avoidance of any single controlling entity. While originally this approach may have been driven by a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby accommodating a spectrum of political and social requirements.
+The Internet is successful in no small part because of its purposeful avoidance of any single controlling entity. While originally this may have been due to a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby accommodating a spectrum of political and social requirements.
 
 This means that protocols that are considered part of the Internet share a common design goal: avoiding centralization, which we define as the ability of a single person, company, or government -- or a small group of them -- to observe, control, or extract rent from the protocol's operation or use.
 
@@ -108,9 +108,9 @@ Furthermore, many successful proprietary protocols and applications on the Inter
 
 Finally, some autonomous networks have requirements to control the operation of Internet protocols internally, and some users or groups of users might cede control of some aspect of how they use the Internet to a central authority, either voluntarily or under legal compulsion. In both of these cases, should Internet protocols accommodate such requirements, and if so, how?
 
-This document discusses aspects of centralization with regard to Internet protocol design. {{why}} explains why it is necessary for Internet protocols to avoid centralization when possible. {{kinds}} surveys the different kinds of centralization that Internet protocols might be involved in. {{limitations}} then catalogues current high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} discusses cross-cutting interactions between centralization and protocol design.
+This document discusses aspects of centralization with regard to Internet protocol design. {{why}} explains why it is necessary for Internet protocols to avoid centralization when possible. {{kinds}} surveys the different kinds of centralization that Internet protocols might be involved in. {{limitations}} then catalogues current high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} discusses cross-cutting interactions between centralization and protocol design, recommending best practices where appropriate.
 
-The primary audience for this document is those involved in designing and standardising Internet protocols. However, designers of proprietary protocols can benefit from considering aspects of centralisation, especially if they intend their protocol to be considered for standardisation. Likewise, policymakers can use this document to help identify centralised protocols and applications, as they might attract different kinds of regulation.
+Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralisation, especially if they intend their protocol to be considered for standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
 
 
 ## Notational Conventions
