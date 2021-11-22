@@ -229,7 +229,7 @@ A multi-stakeholder body is an institution that includes representatives of the 
 
 The most relevant example of this technique is the administration of the Domain Name System {{?RFC1035}}, which as a 'single source of truth' requires centralization of the naming function. To mitigate centralization, this task is carried out by multiple root servers that are administered by separate operators -- themselves diverse in geography and a selection of corporate entities, non-profits and government bodies from many jurisdictions and affiliations. Furthermore, those operators are regulated by ICANN, which is defined as a globally multi-stakeholder body with representation from a end users, governments, operators, and others.
 
-Another example of multi-stakeholderism is the standardization of Internet protocols themselves. Because a specification effectively controls the behavior of implementations that are conformant with it, the standarization process can be seen as a single point of control. As a result, Internet standards bodies like the IETF allow open participation and contribution, make decisions in an open and accountable way, have a well-defined process for making (and when necessary, appealing) decisions, and take into account the views of different stakeholder groups {{?RFC8890}}.
+Another example of multi-stakeholderism is the standardization of Internet protocols themselves. Because a specification effectively controls the behavior of implementations that are conformant with it, the standardization process can be seen as a single point of control. As a result, Internet standards bodies like the IETF allow open participation and contribution, make decisions in an open and accountable way, have a well-defined process for making (and when necessary, appealing) decisions, and take into account the views of different stakeholder groups {{?RFC8890}}.
 
 Yet another example is the administration of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To assure that all parties meet the operational and security requirements necessary to provide the desired properties, the CA/Browser Forum was established as an oversight body that involves both of those parties as stakeholders.
 
@@ -238,14 +238,21 @@ In each of these examples, setup and ongoing operation of a multi-stakeholder or
 
 ## Blockchains Are Not Magical {#distributed}
 
-Increasingly, distributed consensus technologies such as the blockchain are touted as a solution to centralization issues.
+Increasingly, distributed consensus technologies such as the blockchain are touted as a solution to centralization issues. A complete survey of this rapidly-changing area is beyond the scope of this document, but at a high level, we can generalise about their properties.
 
-XXX
+These techniques avoid centralization risk by distributing intermediary functions to members of a large pool of protocol participants. Verification of proper performance is typically guaranteed through a combination of cryptographic techniques and duplication of effort to check results.
 
-Responsbility
-Privacy
-Performance
-Sustainability
+As such, they avoid direct centralization, and are robust against inherited centralization. Depending upon the application in question, indirect and platform centralization may still be possible, but in general these techniques do not lend themselves to these ends as readily as federated systems do.
+
+However, distributed consensus technologies have a number of potential shortcomings that may make them inappropriate -- or at least difficult to use for many Internet applications.
+
+### Privacy
+
+### Efficiency
+
+### Performance
+
+### Responsibility
 
 
 
