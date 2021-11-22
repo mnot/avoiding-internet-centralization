@@ -125,9 +125,11 @@ shown here.
 
 As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. As such, networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them.
 
-Of particular concern is intermediation in Internet protocols, because a third party in communication gains 'informational and positional advantages' {{INTERMEDIARY-INFLUENCE}}. That power can be used to observe behavior (the 'panopticon effect') and shape or even deny behaviour (the 'chokepoint effect') -- which can be used those parties (or the states that have authority over them) for coercive ends {{WEAPONIZED-INTERDEPENDENCE}}.
+Many Internet protocols allow a third party to be interposed into communication between two other parties -- by necessity, by happenstance, or at the option of one or both of the participants. This is often characterised as _intermediation_, and is often used to help provide a protocol's functions, and may be necessary for some of them. However, the 'informational and positional advantages' {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the 'panopticon effect') and shape or even deny behaviour (the 'chokepoint effect') -- which can be used those parties (or the states that have authority over them) for coercive ends {{WEAPONIZED-INTERDEPENDENCE}}.
 
-Additionally, centralisation's concentration of power into few hands has deleterious effects on the Internet itself, including:
+As Internet protocols' first duty is to the end user {{?RFC8890}}, allowing such power to be concentrated into few hands is counter to the goals of the Internet.
+
+Additionally, concentration of power has deleterious effects on the Internet itself, including:
 
 * _Innovation_: Centralized protocols can preclude the possibility of 'permissionless innovation' -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
@@ -135,7 +137,7 @@ Additionally, centralisation's concentration of power into few hands has deleter
 
 * _Availability_: The Internet's availability (as well as applications and services built upon it) improves when there are many ways to obtain access to it. While centralized services typically benefit from the focused attention that their elevated role requires, when they do fail, the resulting loss of availability can have disproportionate impact.
 
-To summarize, Internet protocols avoid centralization because allowing it would allow the Internet (or some part of it) to be captured by a single entity, effectively turning it into a 'walled garden' that fails to meet its architectural design goals and users' expectations.
+To summarize, Internet protocols avoid centralization because allowing it would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet its architectural design goals and users' expectations.
 
 
 # Kinds of Centralization {#kinds}
