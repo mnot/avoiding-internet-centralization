@@ -266,13 +266,13 @@ While the following recommendations are not a complete guide, they can be a star
 
 ## Allow Intermediation Sparingly {#intermediation}
 
-The introduction of an intermediary role -- i.e., a party that is required for communication to take place between endpoints -- adds centralization risk to Internet protocols, because it brings the opportunity for control.
+The introduction of an intermediary role -- i.e., a party that is required for communication to take place between endpoints -- adds centralization risk to Internet protocols, because it brings opportunities for control and observiation.
 
 However, intermediation can sometimes add significant value to a protocol, or enable what is considered a necessary function. In such cases, the centralized function SHOULD be as minimal as possible, and expose only the information and pontential for control necessary for that function to be performed. Protocol designers SHOULD consider the likely deployment patterns for those intermediaries and how network effects and other factors will influence them.
 
 Note that intermediation can also be used to control access to information or impose functional boundaries, so as to reduce the need to trust potentially malicious endpoints. For example, there are a number of so-called 'oblivious' protocols currently in development that allow end users to hide details that might identify them from services, while still accessing those services.
 
-The same guidance applies in these cases; the information and control potential SHOULD be as minimal as possible, while still meeting the design goals of the protocol.
+The same guidance applies in these cases; the observation and control potential SHOULD be as minimal as possible, while still meeting the design goals of the protocol.
 
 
 ## Encrypt, Always {#encrypt}
@@ -317,8 +317,6 @@ These risks can be partially mitigated by requiring such functions to be opted i
 
 Platform centralization can be mitigated by XXX
 
-
-## Separate Functions
 
 
 
