@@ -88,6 +88,12 @@ informative:
        name: Nicola Palladino
      -
        name: Nauro Santaniello
+  NEW-CHICAGO:
+    title: "The New Chicago School"
+    date: June 1998
+    author:
+     -
+       name: Laurence Lessig
 
 --- abstract
 
@@ -317,18 +323,19 @@ Furthermore, Internet protocols SHOULD NOT make every aspect of their operation 
 
 ## Build Higher Level Protocols
 
-Platform centralization also happens when standards do not attempt to define higher-level functions that proprietary platforms provide.
+Platform centralization also happens when standards do not attempt to define the higher-level functions that proprietary platforms provide. This often happens when those platforms are perceived to have captured the relevant functions.
 
+However, changes in user requirements and legal regulation can obviate such perceptions.
 
 
 
 ## Acknowledge the Limits of Protocol Design
 
-Centralization cannot be prevented through protocol design and standardization efforts alone.
+Centralization cannot be prevented through protocol design and standardization efforts alone. While the guidelines above may forestall some types of centralization, indirect and platform centralization are caused by factors outside the control of a protocol's architecture.
 
-XXX
-Indirect
-Platform
+Thankfully, architecture is not the only form of regulation; legal mechanisms combined with changing norms and the resulting market forces have their own regulatory effects. {{NEW-CHICAGO}}
+
+In this view, the job of a protocol designer is to avoid centralization with architecture where possible, but where it is not, to create affordances for these other regulating forces.
 
 
 # Security Considerations
