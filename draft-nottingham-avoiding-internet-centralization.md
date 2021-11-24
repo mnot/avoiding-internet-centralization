@@ -293,17 +293,6 @@ When a protocol function has necessary centralization risk and there exists an a
 For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is preferable to establishing a new system, because its centralization risk is known and understood (see {{multi}}).
 
 
-## Protocol Evolution Can Be a Centralization Risk {#evolution}
-
-An important feature of Internet protocols is their ability to evolve over time, so that they can meet new requirements and adapt to new conditions without requiring a 'flag day' to convert users. Typically, protocol evolution is accommodated through extension mechanisms, where optional features can be added over time in an interoperable fashion.
-
-Protocol extensions can become a centralization risk if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard protocol. This is especially true when the core standard does not itself provide sufficient utility to be appealing on its own.
-
-This kind of centralization risk can be mitigated in a few ways. First and foremost, Internet protocols SHOULD provide concrete utility to the majority of their users as published; 'framework' standards facilitate this kind of risk.
-
-Furthermore, Internet protocols SHOULD NOT make every aspect of their operation extensible; extension points SHOULD be reasoned, appropriate boundaries for flexibility and control. When extension points are defined, they SHOULD NOT allow an extension to declare itself to be mandatory-to-interoperate, as that pattern invites abuse.
-
-
 ## Accomodate Limited Domains Warily
 
 {{?RFC8799}} explores a class of protocols that operate in 'limited domains' -- that is, they are not intended to be 'full' Internet protocols with broad applicability, but instead operation within a particular network or other constrained environment.
@@ -315,14 +304,27 @@ Such network-centric requirements can introduce the risk of inherited centraliza
 These risks can be partially mitigated by requiring such functions to be opted into by one or both endpoints (once both the network and the endpoint are authenticated to each other), so that the network is acting on their behalf. However, this approach is still vulnerable to indirect centralization, because the endpoints may have few choices to avoid acquiescing to a network's demands.
 
 
+## Protocol Evolution Can Be a Centralization Risk {#evolution}
+
+An important feature of Internet protocols is their ability to evolve over time, so that they can meet new requirements and adapt to new conditions without requiring a 'flag day' to convert users. Typically, protocol evolution is accommodated through extension mechanisms, where optional features can be added over time in an interoperable fashion.
+
+Protocol extensions can bring risk of platform centralization if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard protocol. This is especially true when the core standard does not itself provide sufficient utility to be appealing on its own.
+
+This kind of centralization risk can be mitigated in a few ways. First and foremost, Internet protocols SHOULD provide concrete utility to the majority of their users as published; 'framework' standards facilitate this kind of risk.
+
+Furthermore, Internet protocols SHOULD NOT make every aspect of their operation extensible; extension points SHOULD be reasoned, appropriate boundaries for flexibility and control. When extension points are defined, they SHOULD NOT allow an extension to declare itself to be mandatory-to-interoperate, as that pattern invites abuse.
+
+
 ## Build Higher Level Protocols
 
-Platform centralization can be mitigated by XXX
+Platform centralization also happens when standards do not attempt to define higher-level functions that proprietary platforms provide.
 
 
 
 
 ## Acknowledge the Limits of Protocol Design
+
+Centralization cannot be prevented through protocol design and standardization efforts alone.
 
 XXX
 Indirect
