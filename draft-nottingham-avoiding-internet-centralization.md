@@ -97,16 +97,16 @@ informative:
 
 --- abstract
 
-Avoiding centralization is an important goal for Internet protocols. This document defines the term, discusses why it is necessary for Internet protocol designers to consider centralization risks, identifies different kinds of centralization, catalogues some limitations of current approaches to controlling it, and recommends best practices for protocol designers.
+Avoiding centralization is an important goal for Internet protocols. This document offers a definition of centralization, discusses why it is necessary for Internet protocol designers to consider its risks, identifies different kinds of centralization, catalogues some limitations of current approaches to controlling it, and recommends best practices for protocol designers.
 
 
 --- middle
 
 # Introduction
 
-The Internet is successful in no small part because of its purposeful avoidance of any single controlling entity. While originally this may have been due to a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby accommodating a spectrum of political and social requirements.
+The Internet is successful in no small part because of its purposeful avoidance of any single controlling entity. While originally this may have been due to a desire to prevent a single technical failure from having wide impact, it has also enabled the rapid adoption and broad spread of the Internet, because internetworking does not require obtaining permission from or ceding control to another entity -- thereby accommodating a spectrum of requirements and positioning the Internet as a public good.
 
-This means that protocols that are considered part of the Internet share a common design goal: avoiding centralization, which we define as the ability of a single person, company, or government -- or a small group of them -- to observe, control, or extract rent from the protocol's operation or use.
+As a result, Internet protocols share a common design goal: avoiding centralization, which we define as the ability of a single person, company, or government -- or a small group of them -- to observe, control, or extract rent from the protocol's operation or use.
 
 At the same time, the utility of many Internet protocols is enabled or significantly enhanced by ceding some aspect of communication between two parties to a third party -- often, in a manner that has centralization risk. For example, there might be a need for a 'single source of truth' or a rendezvous facility to allow endpoints to find each other. How should such protocols be designed?
 
@@ -325,7 +325,7 @@ Furthermore, Internet protocols SHOULD NOT make every aspect of their operation 
 
 Platform centralization also happens when standards do not attempt to define the higher-level functions that proprietary platforms provide. This often happens when those platforms are perceived to have captured the relevant functions.
 
-However, changes in user requirements and legal regulation can obviate such perceptions.
+However, changes in user requirements and legal regulation can obviate such perceptions. By creating open, standardised protocols as alternatives to proprietary platforms,
 
 
 
