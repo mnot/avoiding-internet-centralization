@@ -130,21 +130,21 @@ shown here.
 
 # Why Avoid Centralization {#why}
 
-As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. As such, these networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them.
+As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. As such, these networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. By its very nature, the Internet must avoid centralization.
 
-Many Internet protocols allow a third party to be interposed into communication between two other parties. In some cases, this is not intended by the protocol's designers; for example, intervening networks have taken advantage of unencrypted deployment of HTTP {{HTTP}} to interpose 'interception proxies' (also known as 'transparent proxies') to cache, filter, track, or change traffic. In cases where it is a designed feature of the protocol, it is often characterised as _intermediation_, and is typically used to help provide the protocol's functions -- sometimes including those that are necessary for it to operate.
+However, many Internet protocols allow a third party to be interposed into communication between two other parties. In some cases, this is not intended by the protocol's designers; for example, intervening networks have taken advantage of unencrypted deployment of HTTP {{HTTP}} to interpose 'interception proxies' (also known as 'transparent proxies') to cache, filter, track, or change traffic. In cases where interposition of a third party is a designed feature of the protocol, it is often characterised as _intermediation_, and is typically used to help provide the protocol's functions -- sometimes including those that are necessary for it to operate.
 
-Whether or not interposition of a third party into communication is intentional, the 'informational and positional advantages' {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the 'panopticon effect') and shape or even deny behaviour (the 'chokepoint effect') -- which can be used those parties (or the states that have authority over them) for coercive ends {{WEAPONIZED-INTERDEPENDENCE}}.
+Whether or not interposition of a third party into communication is intentional, the 'informational and positional advantages' {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the 'panopticon effect') and shape or even deny behaviour (the 'chokepoint effect') -- which can be used those parties (or the states that have authority over them) for coercive ends. {{WEAPONIZED-INTERDEPENDENCE}}
 
 As Internet protocols' first duty is to the end user {{?RFC8890}}, allowing such power to be concentrated into few hands is counter to the IETF's mission of creating an Internet that 'will help us to build a better human society.' {{?BCP95}}
 
 Additionally, concentration of power has deleterious effects on the Internet itself, including:
 
-* _Innovation_: Centralization can preclude the possibility of 'permissionless innovation' -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
+* _Limiting Innovation_: Centralization can preclude the possibility of 'permissionless innovation' -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
-* _Competition_: The Internet and its users benefit from robust competition when applications and services are available from many different providers -- especially when those users can build their own applications and services based upon interoperable standards. When dependencies are formed on a centralized service or platform, it effectively becomes an essential facility, which encourages abuse of power.
+* _Constraining Competition_: The Internet and its users benefit from robust competition when applications and services are available from many different providers -- especially when those users can build their own applications and services based upon interoperable standards. When dependencies are formed on a centralized service or platform, it effectively becomes an essential facility, which encourages abuse of power.
 
-* _Availability_: The Internet's availability (as well as applications and services built upon it) improves when there are many ways to obtain access to it. While centralized services typically benefit from the focused attention that their elevated role requires, when they do fail the resulting loss of availability can have disproportionate impact.
+* _Reducing Availability_: The Internet's availability (as well as applications and services built upon it) improves when there are many ways to obtain access to it. While centralized services typically benefit from the focused attention that their elevated role requires, when they do fail the resulting loss of availability can have disproportionate impact.
 
 To summarize, we avoid centralization because it would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations.
 
