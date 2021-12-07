@@ -174,7 +174,7 @@ For example, most proprietary messaging, videoconferencing, chat, and simliar pr
 
 While it has been argued that such protocols are simpler to design, more amenable to evolution, and more likely to meet user needs,{{MOXIE}} this approach most often reflects commercial goals -- in particular, a strong desire to capture the financial benefits of the protocol by 'locking in' users to a proprietary service.
 
-Directly centralised protocols and applications are not considered to be part of the Internet per se; instead, they are more properly characterized as proprietary protocols that are built on top of the Internet.
+Directly centralised protocols and applications are not considered to be part of the Internet per se; instead, they are more properly characterized as proprietary protocols that are built on top of the Internet. As such, they are not regulated by the Internet architecture or standards, beyond the constraints that the underlying protocols (e.g., TCP, IP, HTTP) impose.
 
 
 ## Necessary Centralization {#necessary}
@@ -183,30 +183,28 @@ Some protocols require the introduction of centralization risk that is unavoidab
 
 For example, when there is a need a single, globally coordinated 'source of truth', that facility is by nature centralized. The most obvious instance is seen in the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
 
-Allocation of IP addresses is another example of a necessarily coordinated facility being a centralization risk. Internet routing requires addresses to be allocated uniquely, but if the addressing function were captured by a single government or company, the entire Internet would be at risk of abuse by that entity.
+Allocation of IP addresses is another example of a necessary facility being a centralization risk. Internet routing requires addresses to be allocated uniquely, but if the addressing function were captured by a single government or company, the entire Internet would be at risk of abuse by that entity.
 
 Similarly, the need for coordination in the Web's trust model brings centralization risk, because a Certificate Authority (CA) can control communication between the Web sites that they sign certificates for and users whose browsers trust the CA's root certificates.
 
-More generally, protocols that need to solve the 'rendezvous problem' to coordinate communication between two parties that are not in direct contact suffer from this kind of centralization risk. For example, chat protocols need a way to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party.
+Protocols that need to solve the 'rendezvous problem' to coordinate communication between two parties that are not in direct contact also suffer from this kind of centralization risk. For example, chat protocols need a way to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party.
 
-In Internet protocols, necessary centralization is always mitigated by measures such as mandated federation {{federation}} and multi-stakeholder administration {{multi}}.
+Internet protocols currently tend to mitigate necessary centralization using measures such as mandated federation {{federation}} and multi-stakeholder administration {{multi}}.
 
 
 ## Indirect Centralization {#indirect}
 
-Even if a protocol disallows direct centralization (perhaps using one of the techniques discussed in {{decentralization}}) and does not exhibit any necessary centralization, it might become centralized in practice when external factors influence its deployment.
+Even when a protocol avoids direct centralization and does not exhibit any necessary centralization, it might become centralized in practice when external factors influence its deployment.
 
-Indirect centralization is caused by factors making it difficult or impossible to realize the protocol's value unless a central facility is used. Such factors might be economic, social, or legal.
+Indirect centralization can be caused by factors that encourage use of a central facility despite the absence of such a requirement in the protocol itself. Such factors might be economic, social, or legal.
 
-Often, they are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks {{SCALE-FREE}}, network effects award asymmetric power to nodes that act as intermediaries to communication.
+For example, cloud computing is used to deploy many Internet protocols. Although the base concepts and control protocols for it avoid centralization in the sense that there is no need for a single, central cloud provider, the economics of providing compute at scale as well as some social factors regarding developer familiarity and comfort encourage convergence on a small number of cloud providers.
 
-For example, cloud computing is used to deploy many Internet protocols. Although the base concepts and control protocols for it are decentralized in the sense that there is no need for a single, central cloud provider, the economics of providing compute at scale as well as some social factors regarding developer familiarity and comfort encourage convergence on a small number of cloud providers.
+Often, the factors driving indirect centralization are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks {{SCALE-FREE}}, network effects award asymmetric power to nodes that act as intermediaries to communication.
 
-In some cases, these factors cause a directly centralized protocol or application to be favoured over a decentralized one. For example, social networking is an application that is currently supplied by a small number of directly centralized, proprietary platforms despite standardization efforts (see, e.g., {{?W3C.CR-activitystreams-core-20161215}}), due to the powerful network effects associated.
+Left unchecked, these factors can cause a potentially decentralized application to become directly centralised, because the central facility has leverage to 'lock in' users. For example, social networking is an application that is currently supplied by a small number of directly centralized, proprietary platforms despite standardization efforts (see, e.g., {{?W3C.CR-activitystreams-core-20161215}}), due to the powerful network effects associated.
 
-Some have expressed concern that DoH {{?RFC8484}} also has this type of centralization risk, because initial deployments defaulted to a pre-selected service run by one commercial operator.
-
-By its nature, indirect centralization is difficult to completely avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
+By its nature, indirect centralization is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
 
 
 ## Inherited Centralization {#network}
