@@ -95,6 +95,14 @@ informative:
     author:
      -
        name: Laurence Lessig
+  POLYCENTRIC:
+    title: "Polycentricity: From Polanyi to Ostrom, and Beyond"
+    date: April 2012
+    author:
+     -
+       name: Paul D. Aligia
+     -
+       name: Vlad Tarko
 
 --- abstract
 
@@ -130,7 +138,9 @@ shown here.
 
 # Why Avoid Centralization {#why}
 
-As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. As such, these networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. By its very nature, the Internet must avoid centralization.
+Centralization is undesirable in the design of Internet protocols for many reasons -- in particular, because it is counter to the nature of the Internet, because it violates the purpose of the Internet from the perspective of its end users, and because of the many negative effects it can have on the networks operation and evolution.
+
+By its very nature, the Internet must avoid centralization. As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. As such, these networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them.
 
 However, many Internet protocols allow a third party to be interposed into communication between two other parties. In some cases, this is not intended by the protocol's designers; for example, intervening networks have taken advantage of unencrypted deployment of HTTP {{HTTP}} to interpose 'interception proxies' (also known as 'transparent proxies') to cache, filter, track, or change traffic. In cases where interposition of a third party is a designed feature of the protocol, it is often characterised as _intermediation_, and is typically used to help provide the protocol's functions -- sometimes including those that are necessary for it to operate.
 
@@ -146,7 +156,9 @@ Additionally, concentration of power has deleterious effects on the Internet its
 
 * _Reducing Availability_: The Internet's availability (as well as applications and services built upon it) improves when there are many ways to obtain access to it. While centralized services typically benefit from the focused attention that their elevated role requires, when they do fail the resulting loss of availability can have disproportionate impact.
 
-To summarize, we avoid centralization because it would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations.
+* _Creating Monoculture_: At the scale available to a centralized service or application, minor flaws in features such as recommendation algorithms can be magnified to a degree that can have broad (even societal) consequences. Diversity in these functions is significantly more robust, when viewed systemically. {{POLYCENTRIC}}
+
+To summarize, we avoid centralization because it would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations, while endangering the viability of the Internet at the same time.
 
 
 # Kinds of Centralization {#kinds}
