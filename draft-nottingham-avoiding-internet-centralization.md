@@ -103,6 +103,14 @@ informative:
        name: Paul D. Aligia
      -
        name: Vlad Tarko
+  PIR:
+    title: Revisiting the Computational Practicality of Private Information Retrieval
+    date: 2010
+    author:
+    -
+      name: Femi Olumofin
+    -
+      name: Ian Goldberg
 
 --- abstract
 
@@ -272,21 +280,19 @@ In each of these examples, setup and ongoing operation of a multi-stakeholder or
 
 Increasingly, distributed consensus technologies such as the blockchain are touted as a solution to centralization issues. A complete survey of this rapidly-changing area is beyond the scope of this document, but at a high level, we can generalise about their properties.
 
-These techniques avoid centralization risk by distributing intermediary functions to members of a large pool of protocol participants. Verification of proper performance of a function is typically guaranteed through a combination of cryptographic techniques and duplication of effort to check results. The assignment of a particular task to a node for handling usually cannot be predicted or controlled, thus avoiding capture.
+These techniques avoid centralization risk by distributing intermediary or otherwise potentially centralized functions to members of a large pool of protocol participants. Verification of proper performance of a function is typically guaranteed through a combination of cryptographic techniques and duplication of effort to check results. The assignment of a particular task to a node for handling usually cannot be predicted or controlled. To assure diversity in the pool of participants (thereby preventing Sybil attacks), techniques such as proof-of-work (where each participant has to demonstrate significant use of resources) or proof-of-stake (where each participant has some other incentive to execute correctly) are used.
 
 As such, these techniques purposefully disallow direct centralization and are robust against inherited centralization. Depending upon the application in question, indirect and platform centralization may still be possible, but in general these techniques do not lend themselves to these ends as readily as federated systems do.
 
 However, distributed consensus technologies have several potential shortcomings that may make them inappropriate -- or at least difficult to use -- for many Internet applications, because their use conflicts with other important goals:
 
-1. Distributed consensus protocols can have significant implications for privacy. Because activity (such as queries or transactions) are shared with many unknown parties, they have very different privacy properties than traditional client/server protocols. Mitigations (e.g., Private Information Retrieval) are still not suitable for broad deployment.
+1. Distributed consensus protocols can have significant implications for privacy. Because activity (such as queries or transactions) are shared with many unknown parties, they have very different privacy properties than traditional client/server protocols. Mitigations (e.g., Private Information Retrieval; see, eg, {{PIR}}) are still not suitable for broad deployment.
 
-2. Their complexity and 'chattiness' typically results in less efficient use of the network. Some distributed consensus protocols use 'proof of work', leading to significant energy consumption when used at scale.
+2. Their complexity and 'chattiness' typically results in significantly less efficient use of the network. When distributed consensus protocols use 'proof of work' at scale, energy consumption can become significant (to the point where some jurisdictions have banned its use).
 
 3. Distributed consensus protocols are still not proven to scale to the degree expected of successful Internet protocols. In particular, relying on unknown third parties to deliver functionality can introduce variability in latency, availability, and throughput. This is a marked change for applications with high expectations for these properties (e.g., commercial Web services).
 
 4. By design, distributed consensus protocols diffuse responsibility for a function among several, difficult-to-identify parties. While this may be an effective way to prevent many kinds of centralization, it also means that making someone accountable for how the function is performed is impossible, beyond the bounds of the protocol's design.
-
-Furthermore, safe operation of distributed consensus protocols relies on diversity of participants. If significant numbers of participants are in fact operated by the same entity, or participants collude, centralization can still occur -- a so-called 'Sybil attack.'
 
 These potential shortcomings do not rule out the use of distributed consensus technologies for every use case, and solutions or mitigations are maturing. They do, however, caution against applying these technologies uncritically.
 
