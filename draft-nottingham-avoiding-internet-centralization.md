@@ -107,10 +107,17 @@ informative:
     title: Revisiting the Computational Practicality of Private Information Retrieval
     date: 2010
     author:
-    -
+     -
       name: Femi Olumofin
-    -
+     -
       name: Ian Goldberg
+  ACCESS:
+    title: Defending Competition in a Digitised World, Address at the European Consumer and Competition Day
+    date: 4 April 2019
+    target: https://wayback.archive-it.org/12090/20191129202059/https://ec.europa.eu/commission/commissioners/2014-2019/vestager/announcements/defending-competition-digitised-world_en
+    author:
+     -
+      name: Margrethe Vestager
 
 --- abstract
 
@@ -165,6 +172,8 @@ Additionally, concentration of power has deleterious effects on the Internet its
 * _Reducing Availability_: The Internet's availability (as well as applications and services built upon it) improves when there are many ways to obtain access to it. While centralized services typically benefit from the focused attention that their elevated role requires, when they do fail the resulting loss of availability can have disproportionate impact.
 
 * _Creating Monoculture_: At the scale available to a centralized service or application, minor flaws in features such as recommendation algorithms can be magnified to a degree that can have broad (even societal) consequences. Diversity in these functions is significantly more robust, when viewed systemically. {{POLYCENTRIC}}
+
+* _Self-Reinforcement_: As widely noted (see, eg., {{ACCESS}}), a centralized service benefits from access to data which can be used to further improve its offerings, while denying such access to others.
 
 To summarize, we avoid centralization because it would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations, while endangering the viability of the Internet at the same time.
 
