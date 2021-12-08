@@ -140,7 +140,7 @@ Finally, some autonomous networks have requirements to control the operation of 
 
 This document discusses aspects of centralization with regard to Internet protocol design (note that 'protocol' is used somewhat loosely here, to also encompass what could be considered an application). {{why}} explains why it is necessary for Internet protocols to avoid centralization when possible. {{kinds}} surveys the different kinds of centralization that Internet protocols might be involved in. {{decentralization}} then catalogues current high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} discusses cross-cutting interactions between centralization and protocol design, recommending best practices where appropriate.
 
-Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralisation, especially if they intend their protocol to be considered for standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
+Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralization, especially if they intend their protocol to be considered for standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
 
 
 ## Notational Conventions
@@ -241,7 +241,7 @@ The complement to inherited centralization is platform centralization -- where a
 
 For example, HTTP {{HTTP}} in itself is not considered a centralized protocol; interoperable servers are relatively easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above.
 
-However, applications built on top of HTTP (as well as the rest of the 'Web Platform') often exhibit centralisation. As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it does facilitate the creation of centralized services and applications.
+However, applications built on top of HTTP (as well as the rest of the 'Web Platform') often exhibit centralization. As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it does facilitate the creation of centralized services and applications.
 
 Like indirect centralization, platform centralization is difficult to completely avoid in protocol design. Because of the layered nature of the Internet, most protocols are designed to allow considerable flexibility in how they are used, often in a way that it becomes attractive to form a dependency on one party's operation. Notably, this can happen even if the protocol does not accommodate intermediation explicitly.
 
