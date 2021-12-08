@@ -304,20 +304,23 @@ While the following recommendations are not a complete guide, they can be a star
 
 ## Allow Intermediation Sparingly {#intermediation}
 
-The introduction of an intermediary role -- i.e., one that performs a function but is not a first party to that communication -- adds centralization risk to Internet protocols, because it brings opportunities for control and observation. Even when the protocol is federated (see {{federation}}) to avoid direct centralization, significant indirect centralization risks exist.
+The introduction of an intermediary role -- i.e., one that performs a function but is not a first party to communication -- adds centralization risk to Internet protocols, because it brings opportunities for control and observation. Even when the protocol is federated (see {{federation}}) to avoid direct centralization, significant indirect centralization risks exist when intermediation is allowed.
 
 However, intermediation can sometimes add significant value to a protocol, or enable what is considered a necessary function. In such cases, the centralized function SHOULD be as minimal as possible, and expose only the information and pontential for control necessary for that function to be performed. Protocol designers SHOULD consider the likely deployment patterns for those intermediaries and how network effects and other factors will influence them.
 
-Note that intermediation can have a positive effect, when it is used to control access to information or impose functional boundaries, so as to reduce the need for users to trust potentially malicious endpoints. For example, there are a number of so-called 'oblivious' protocols currently in development that allow end users to hide details that might identify them from services, while still accessing those services.
+Such predictions can be difficult. For example, an intermediary interposed by the end user of a protocol might allow them to delegate functions to a party they trust, thereby empowering them. However, if an intervening network is able to force users to delegate to a particular intermediary, inherited centralization could result.
 
-The same guidance applies in these cases; the observation and control potential SHOULD be as minimal as possible, while still meeting the design goals of the protocol.
+When carefully considered, intermediation can be a powerful way to enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in
+the so-called 'oblivious' protocols currently in development (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
+
+The same advice applies in these cases; the observation and control potential SHOULD be as minimal as possible, while still meeting the design goals of the protocol.
 
 See {{?I-D.thomson-tmi}} for more guidance.
 
 
 ## Encrypt, Always {#encrypt}
 
-When deployed at scale, encryption can be an effective technique to reduce some inherited centralization risks. By reducing the number of parties who have access to content of communication, the ability of lower-layer protocols and intermediaries at those layers to interfere with or observe is precluded. Even when they can still prevent communication, the use of encryption makes it more difficult to discriminate the target from other traffic.
+When deployed at scale, encryption can be an effective technique to reduce many inherited centralization risks. By reducing the number of parties who have access to content of communication, the ability of lower-layer protocols and intermediaries at those layers to interfere with or observe is precluded. Even when they can still prevent communication, the use of encryption makes it more difficult to discriminate the target from other traffic.
 
 Note that the benefits are most pronounced when the majority (if not all) traffic is encrypted. As a result, protocols SHOULD be encrypted by default.
 
