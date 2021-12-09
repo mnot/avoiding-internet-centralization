@@ -289,7 +289,7 @@ In each of these examples, setup and ongoing operation of a multi-stakeholder or
 
 Increasingly, distributed consensus technologies such as the blockchain are touted as a solution to centralization issues. A complete survey of this rapidly-changing area is beyond the scope of this document, but at a high level, we can generalise about their properties.
 
-These techniques avoid centralization risk by distributing intermediary or otherwise potentially centralized functions to members of a large pool of protocol participants. Verification of proper performance of a function is typically guaranteed through a combination of cryptographic techniques and duplication of effort to check results. The assignment of a particular task to a node for handling usually cannot be predicted or controlled. To assure diversity in the pool of participants (thereby preventing Sybil attacks), techniques such as proof-of-work (where each participant has to demonstrate significant use of resources) or proof-of-stake (where each participant has some other incentive to execute correctly) are used.
+These techniques avoid centralization risk by distributing intermediary or otherwise potentially centralized functions to members of a large pool of protocol participants. Verification of proper performance of a function is typically guaranteed using cryptographic techniques (often, an append-only transaction ledger). The assignment of a particular task to a node for handling usually cannot be predicted or controlled. To assure diversity in the pool of participants (thereby preventing Sybil attacks), techniques such as proof-of-work (where each participant has to demonstrate significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly) are used.
 
 As such, these techniques purposefully disallow direct centralization and are robust against inherited centralization. Depending upon the application in question, indirect and platform centralization may still be possible, but in general these techniques do not lend themselves to these ends as readily as federated systems do.
 
@@ -297,13 +297,15 @@ However, distributed consensus technologies have several potential shortcomings 
 
 1. Distributed consensus protocols can have significant implications for privacy. Because activity (such as queries or transactions) are shared with many unknown parties, they have very different privacy properties than traditional client/server protocols. Mitigations (e.g., Private Information Retrieval; see, eg, {{PIR}}) are still not suitable for broad deployment.
 
-2. Their complexity and 'chattiness' typically results in significantly less efficient use of the network. When distributed consensus protocols use 'proof of work' at scale, energy consumption can become significant (to the point where some jurisdictions have banned its use).
+2. Their complexity and 'chattiness' typically results in significantly less efficient use of the network. When distributed consensus protocols use proof-of-work, energy consumption can become significant (to the point where some jurisdictions have banned its use).
 
 3. Distributed consensus protocols are still not proven to scale to the degree expected of successful Internet protocols. In particular, relying on unknown third parties to deliver functionality can introduce variability in latency, availability, and throughput. This is a marked change for applications with high expectations for these properties (e.g., commercial Web services).
 
 4. By design, distributed consensus protocols diffuse responsibility for a function among several, difficult-to-identify parties. While this may be an effective way to prevent many kinds of centralization, it also means that making someone accountable for how the function is performed is impossible, beyond the bounds of the protocol's design.
 
-These potential shortcomings do not rule out the use of distributed consensus technologies for every use case, and solutions or mitigations are maturing. They do, however, caution against applying these technologies uncritically.
+It is also important to recognise that a protocol can use distributed consensus for some functions, but still have centralization risk elsewhere. Even when distributed consensus is used exclusively (which is uncommon, due to the associated costs), some degree of coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization risk, just at a different layer (inherited or platform, depending on the circumstances).
+
+These potential shortcomings do not rule out the use of distributed consensus technologies for every use case. They do, however, caution against relying upon these technologies uncritically.
 
 
 # Guidelines for Protocol Designers {#considerations}
