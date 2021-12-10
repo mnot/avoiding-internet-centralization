@@ -121,8 +121,7 @@ informative:
 
 --- abstract
 
-Avoiding centralization is an important goal for Internet protocols. This document offers a definition of centralization, discusses why it is necessary for Internet protocol designers to consider its risks, identifies different kinds of centralization, catalogues some limitations of current approaches to controlling it, and recommends best practices for protocol designers.
-
+While the Internet was designed and founded as a decentralized network-of-networks, it is continuously subjected to forces that encourage centralization. This document offers a definition of centralization, discusses the risks involved therein, attempts to identify different types of centralization, catalogues some limitations to common approaches to controlling it, and recommends best practices for protocol designers.
 
 --- middle
 
@@ -247,6 +246,8 @@ Like indirect centralization, platform centralization is difficult to completely
 
 
 # The Limits of Decentralization {#decentralization}
+
+
 
 ## Federation isn't Enough {#federation}
 
