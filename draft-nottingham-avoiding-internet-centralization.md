@@ -187,7 +187,7 @@ Not all centralization of Internet protocols is equal; there are several differe
 
 The most straightforward kind of centralized protocol creates a fixed role for a specific party.
 
-For example, most proprietary messaging, videoconferencing, chat, and simliar protocols operate in this fashion.
+For example, most proprietary messaging, videoconferencing, chat, and similar protocols operate in this fashion.
 
 While it has been argued that such protocols are simpler to design, more amenable to evolution, and more likely to meet user needs,{{MOXIE}} this approach most often reflects commercial goals -- in particular, a strong desire to capture the financial benefits of the protocol by 'locking in' users to a proprietary service.
 
