@@ -152,7 +152,7 @@ shown here.
 
 Centralization is undesirable in the design of Internet protocols for many reasons -- in particular, because it is counter to the nature of the Internet, because it violates the purpose of the Internet from the perspective of its end users, and because of the many negative effects it can have on the networks operation and evolution.
 
-By its very nature, the Internet must avoid centralization. As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. As such, these networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them.
+Firstly, the Internet's very nature is incompatible with centralization of its functions. As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. As such, these networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them.
 
 However, many Internet protocols allow a third party to be interposed into communication between two other parties. In some cases, this is not intended by the protocol's designers; for example, intervening networks have taken advantage of unencrypted deployment of HTTP {{HTTP}} to interpose 'interception proxies' (also known as 'transparent proxies') to cache, filter, track, or change traffic. In cases where interposition of a third party is a designed feature of the protocol, it is often characterised as _intermediation_, and is typically used to help provide the protocol's functions -- sometimes including those that are necessary for it to operate.
 
@@ -160,7 +160,7 @@ Whether or not interposition of a third party into communication is intentional,
 
 As Internet protocols' first duty is to the end user {{?RFC8890}}, allowing such power to be concentrated into few hands is counter to the IETF's mission of creating an Internet that 'will help us to build a better human society.' {{?BCP95}}
 
-Additionally, concentration of power has deleterious effects on the Internet itself, including:
+Finally, concentration of power has deleterious effects on the Internet itself, including:
 
 * _Limiting Innovation_: Centralization can preclude the possibility of 'permissionless innovation' -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
@@ -172,7 +172,7 @@ Additionally, concentration of power has deleterious effects on the Internet its
 
 * _Self-Reinforcement_: As widely noted (see, eg., {{ACCESS}}), a centralized service benefits from access to data which can be used to further improve its offerings, while denying such access to others.
 
-To summarize, we avoid centralization because it would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations, while endangering the viability of the Internet at the same time.
+To summarize, centralization would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations, while endangering the viability of the Internet at the same time.
 
 
 # Kinds of Centralization {#kinds}
