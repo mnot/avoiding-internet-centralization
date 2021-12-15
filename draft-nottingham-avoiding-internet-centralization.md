@@ -245,18 +245,19 @@ Like indirect centralization, platform centralization is difficult to completely
 
 # The Limits of Decentralization {#decentralization}
 
+Over time, techniques have been developed to 'decentralize' protocols and applications. While these approaches can be used to create a system which is less centralized or less supportive of some kinds of centralization, they are not adequate to completely avoid centralization on their own. As such, while the use of these techniques is often appropriate and sometimes effective, they are not indicators of whether a protocol is centralized without further analysis.
 
 
 ## Federation isn't Enough {#federation}
 
-A widely known technique for avoiding centralization in Internet protocols is federation - that is, designing them in such a way that new instances of any intermediary or otherwise centralized function are relatively easy to create, and they are able to maintain interoperability and connectivity with other instances.
+A widely known technique for managing centralization in Internet protocols is federation - that is, designing them in such a way that new instances of any intermediary or otherwise centralized function are relatively easy to create, and they are able to maintain interoperability and connectivity with other instances.
 
 For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols, which has two functions that are necessarily centralized:
 
 1. Giving each user a globally unique address, and
 2. Routing messages to the user, even when they change network locations or are disconnected for long periods of time.
 
-E-mail reuses DNS to mitigating first risk (see {{reuse}}). To mitigate the second, it defines an intermediary role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy a MTA and defining rules for interconnecting them, the protocol's users avoid the need for a single, central router.
+E-mail reuses DNS to mitigating first risk (see {{reuse}}). To mitigate the second, it defines an intermediary role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy a MTA and defining rules for interconnecting them, the protocol's users avoid a requirement for a single, central router.
 
 Users can (and often do) choose to delegate that role to someone else, or run their own MTA. However, running your own mail server has become difficult, due to the likelihood of a small MTA being classified as a spam source. Because large MTA operaters are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, thereby indirectly centralizing the protocol's operation (see {{indirect}}).
 
@@ -271,7 +272,7 @@ The examples above show that federation can be a useful technique to avoid direc
 
 ## Multi-Stakeholder Administration is Hard {#multi}
 
-Delegating the administration of a necessarily centralized function (see {{necessary}}) to a multi-stakeholder body is an onerous but sometimes necessary way to mitigate the undesirable effects.
+Delegating the administration of a necessarily centralized function (see {{necessary}}) to a multi-stakeholder body is an onerous but sometimes necessary method to mitigate centralization.
 
 A multi-stakeholder body is an institution that includes representatives of the different kinds of parties that are affected by the system's operation ('stakeholders') in an attempt to make well-reasoned, broadly agreed-to, and authoritative decisions.
 
@@ -281,7 +282,7 @@ Another example of multi-stakeholderism is the standardization of Internet proto
 
 Yet another example is the administration of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To assure that all parties meet the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both of those parties as stakeholders.
 
-In each of these examples, setup and ongoing operation of a multi-stakeholder organization is not trivial. This is the major downside of such an approach. Additionally, the legitimacy of such an organization cannot be assumed, and may be difficult to establish and maintain (see, eg, {{LEGITIMACY-MULTI}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
+In each of these examples, setup and ongoing operation of a multi-stakeholder organization is not trivial. This is a major downside of such an approach. Additionally, the legitimacy of such an organization cannot be assumed, and may be difficult to establish and maintain (see, eg, {{LEGITIMACY-MULTI}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
 
 
 ## Blockchains Are Not Magical {#distributed}
