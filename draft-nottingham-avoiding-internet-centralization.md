@@ -135,7 +135,7 @@ Meeting that goal has proven difficult. Many successful protocols and applicatio
 
 These difficulties call into question what role architectural regulation -- in particular, open standards bodies such as at the IETF -- should be play in preventing, mitigating, and controlling centralization of the Internet.
 
-This document discusses aspects of centralization with regard to Internet protocol design (note that 'protocol' is used somewhat loosely here, to also encompass what could be considered an application). {{why}} explains why centralization of Internet functions is undesireable. {{kinds}} surveys the different kinds of centralization that Internet protocols might be involved in. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} discusses cross-cutting interactions between centralization and protocol design, recommending best practices where appropriate.
+This document discusses aspects of centralization with regard to Internet protocol design (note that 'protocol' is used somewhat loosely here, to also encompass what could be considered an application). {{why}} explains why centralization of Internet functions is undesireable. {{kinds}} surveys the different kinds of centralization that Internet protocols might be involved in. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
 Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralization, especially if they intend their protocol to be considered for standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
 
@@ -305,15 +305,17 @@ However, distributed consensus technologies have several potential shortcomings 
 
 It is also important to recognise that a protocol can use distributed consensus for some functions, but still have centralization risk elsewhere. Even when distributed consensus is used exclusively (which is uncommon, due to the associated costs), some degree of coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization risk, just at a different layer (inherited or platform, depending on the circumstances).
 
-These potential shortcomings do not rule out the use of distributed consensus technologies for every use case. They do, however, caution against relying upon these technologies uncritically.
+These potential shortcomings do not rule out the use of distributed consensus technologies for every use case. They do, however, caution against relying upon these technologies to avoid centralization uncritically.
 
 
-# Guidelines for Protocol Designers {#considerations}
+# What Should Internet Standards Do? {#considerations}
 
-While the following recommendations are not a complete guide, they can be a starting point for avoiding or mitigating centralization in Internet protocols.
+Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Moreover, because permissionless innovation is a core value for the Internet, and yet much of the centralization we see is by proprietary platforms that take advantage of this nature, the controls available to standards efforts on their own are very limited.
+
+Nevertheless, while standards bodies on their own cannot prevent centralization, there are meaningful steps that can be taken to prevent some functions from exhibiting some forms of centralization. There are also valuable contributions that standards efforts can make to other, more effective forms of regulation.
 
 
-## Allow Intermediation Sparingly {#intermediation}
+## Scrutinize Intermediation {#intermediation}
 
 The introduction of an intermediary role -- i.e., one that performs a function but is not a first party to communication -- adds centralization risk to Internet protocols, because it brings opportunities for control and observation. Even when the protocol is federated (see {{federation}}) to avoid direct centralization, significant indirect centralization risks exist when intermediation is allowed.
 
@@ -329,7 +331,7 @@ The same advice applies in these cases; the observation and control potential SH
 See {{?I-D.thomson-tmi}} for more guidance.
 
 
-## Encrypt, Always {#encrypt}
+## Encrypt at Layer Boundaries {#encrypt}
 
 When deployed at scale, encryption can be an effective technique to reduce many inherited centralization risks. By reducing the number of parties who have access to content of communication, the ability of lower-layer protocols and intermediaries at those layers to interfere with or observe is precluded. Even when they can still prevent communication, the use of encryption makes it more difficult to discriminate the target from other traffic.
 
