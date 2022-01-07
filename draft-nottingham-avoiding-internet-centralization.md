@@ -137,7 +137,7 @@ These difficulties call into question what role architectural regulation -- in p
 
 This document discusses aspects of centralization with regard to Internet protocol design (note that 'protocol' is used somewhat loosely here, to also encompass what could be considered an application). {{why}} explains why centralization of Internet functions is undesirable. {{kinds}} surveys the different kinds of centralization that Internet protocols might be involved in. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
-Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralization, especially if they intend their protocol to be considered for standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
+Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralization, especially if they intend their protocol to be considered for eventual standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
 
 
 ## Notational Conventions
