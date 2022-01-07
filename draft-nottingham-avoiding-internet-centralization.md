@@ -118,6 +118,19 @@ informative:
     author:
      -
       name: Margrethe Vestager
+  TECH-SUCCESS-FACTORS:
+    title: Study on the Internet's Technical Success Factors
+    date: December 2021
+    target: https://blog.apnic.net/wp-content/uploads/2021/12/MKGRA669-Report-for-APNIC-LACNIC-V3.pdf
+    author:
+     -
+       name: Michael Kende
+     -
+       name: Amund Kvalbein
+     -
+       name: Julia Allford
+     -
+       name: David Abecassis
 
 --- abstract
 
@@ -171,6 +184,8 @@ Finally, concentration of power has deleterious effects on the Internet itself, 
 * _Creating Monoculture_: At the scale available to a centralized service or application, minor flaws in features such as recommendation algorithms can be magnified to a degree that can have broad (even societal) consequences. Diversity in the implementation of these functions is significantly more robust, when viewed systemically. {{POLYCENTRIC}}
 
 * _Self-Reinforcement_: As widely noted (see, eg., {{ACCESS}}), a centralized service benefits from access to data which can be used to further improve its offerings, while denying such access to others.
+
+See also {{TECH-SUCCESS-FACTORS}}.
 
 To summarize, centralization would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations, and endangering its ongoing viability at the same time.
 
