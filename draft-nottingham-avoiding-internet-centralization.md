@@ -168,11 +168,13 @@ Finally, concentration of power has deleterious effects on the Internet itself, 
 
 * _Reducing Availability_: The Internet's availability (as well as applications and services built upon it) improves when there are many ways to obtain access to it. While centralized services typically benefit from the focused attention that their elevated role requires, when they do fail the resulting loss of availability can have disproportionate impact.
 
-* _Creating Monoculture_: At the scale available to a centralized service or application, minor flaws in features such as recommendation algorithms can be magnified to a degree that can have broad (even societal) consequences. Diversity in these functions is significantly more robust, when viewed systemically. {{POLYCENTRIC}}
+* _Creating Monoculture_: At the scale available to a centralized service or application, minor flaws in features such as recommendation algorithms can be magnified to a degree that can have broad (even societal) consequences. Diversity in the implementation of these functions is significantly more robust, when viewed systemically. {{POLYCENTRIC}}
 
 * _Self-Reinforcement_: As widely noted (see, eg., {{ACCESS}}), a centralized service benefits from access to data which can be used to further improve its offerings, while denying such access to others.
 
 To summarize, centralization would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations, and endangering its ongoing viability at the same time.
+
+Note that it is important to distinguish efforts to combat centralization from anti-competitive concerns (also known as "anti-trust"). While (as per above) making the Internet more competitive is a motivation for avoiding centralization, determining what is and is not anti-competitive in a given market is a job for regulators and courts, not standards bodies.
 
 
 # Kinds of Centralization {#kinds}
