@@ -198,6 +198,8 @@ To summarize, centralization would allow the Internet (or some part of it) to be
 
 Note that it is important to distinguish efforts to combat centralization from anti-competitive concerns (also known as "anti-trust"). While (as per above) making the Internet more competitive is a motivation for avoiding centralization, determining what is and is not anti-competitive in a given market is a job for regulators and courts, not standards bodies.
 
+Likewise, a goal of avoiding centralization does not imply that a given function need be so widely distributed that other important factors, such as efficiency, resiliency, latency, or availability are affected. Just as in other areas (for example, the optimal number of automakers), many factors need to be balanced. In some cases, a modest number of instances can effectively decentralize a function, given the appropriate circumstances (see, for example, the DNS).
+
 
 # Kinds of Centralization {#kinds}
 
