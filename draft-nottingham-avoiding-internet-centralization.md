@@ -357,6 +357,8 @@ However, precluding indirect and platform centralization are much more difficult
 
 Therefore, committing resources to scrutinizing protocols for potential centralization risk -- especially for indirect and platform risks -- is unlikely to actually prevent Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- suffer some form of indirect or platform centralization. Refusing to standardize a newer protocol because it faces similar risks would not be equitable, proportionate, or effective.
 
+Additionally, centralization risk is sometimes perceived to be in tension with other goals, such as privacy. While there is rarely a pure tradeoff between two abstract goals such as these, if it were to occur attention should be paid to how effective architectural regulation (such as a standards effort) is in achieving each goal. In this example, a technical mechanism might be much more effective at improving privacy, whereas centralization might be better controlled using other methods.
+
 
 ## Create Standards to Decentralize Proprietary Functions {#up}
 
