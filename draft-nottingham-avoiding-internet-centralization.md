@@ -150,7 +150,7 @@ shown here.
 
 # Why Avoid Centralization {#why}
 
-Centralization is undesirable in the design of Internet protocols for many reasons -- in particular, because it is counter to the nature of the Internet, because it violates the purpose of the Internet from the perspective of its end users, and because of the many negative effects it can have on the networks operation and evolution.
+Centralization is undesirable in the design of Internet protocols because it is counter to the nature of the Internet, because it violates the purpose of the Internet from the perspective of its end users, and because of the many negative effects it can have on the networks operation and evolution.
 
 Firstly, the Internet's very nature is incompatible with centralization of its functions. As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. As such, these networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them.
 
@@ -172,7 +172,7 @@ Finally, concentration of power has deleterious effects on the Internet itself, 
 
 * _Self-Reinforcement_: As widely noted (see, eg., {{ACCESS}}), a centralized service benefits from access to data which can be used to further improve its offerings, while denying such access to others.
 
-To summarize, centralization would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations, while endangering the viability of the Internet at the same time.
+To summarize, centralization would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations, and endangering its ongoing viability at the same time.
 
 
 # Kinds of Centralization {#kinds}
