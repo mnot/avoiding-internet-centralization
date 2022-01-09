@@ -159,11 +159,11 @@ This document offers a definition of centralization, explains why it is undesira
 
 The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While this approach may reflect a desire to prevent a single technical failure from having wide impact,{{RAND}} it has also enabled the Internet's rapid adoption and broad spread, because internetworking did not require obtaining permission from or ceding control to another entity -- thereby accommodating a spectrum of requirements and positioning the Internet as a public good.
 
-While avoiding centralization is a widely shared goal for Internet protocols, meeting that goal has proven difficult. Many successful protocols and applications on the Internet today are designed or operated in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
+While avoiding centralization is a widely shared goal for the Internet, meeting that goal has proven difficult. Many successful protocols and applications on the Internet today are designed or operated in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
 
 These difficulties call into question what role architectural regulation -- in particular, open standards bodies such as at the IETF -- should be play in preventing, mitigating, and controlling centralization of the Internet.
 
-This document discusses aspects of centralization that relate to Internet standards efforts. {{what}} provides a definition of centralization. {{why}} explains why centralization of Internet's functions is undesirable. {{kinds}} surveys the different kinds of centralization that Internet protocols might be involved in. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
+This document discusses aspects of centralization that relate to Internet standards efforts. {{what}} provides a definition of centralization. {{why}} explains why centralization of Internet's functions is undesirable. {{kinds}} surveys the different kinds of centralization that might surface on the Internet. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
 Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralization, especially if they intend their protocol to be considered for eventual standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
 
@@ -222,16 +222,14 @@ To summarize, centralization would allow the Internet (or some part of it) to be
 
 # Kinds of Centralization {#kinds}
 
-Not all centralization of Internet protocols is equal; there are several different types, each with its own properties. The subsections below list some.
+Centralization of the Internet is not uniform; it presents in a variety of ways, depending on its relationship to the function in question and underlying causes. The subsections below offer the start of a classification system for Internet centralization.
 
 
 ## Direct Centralization {#direct}
 
-The most straightforward kind of centralized protocol creates a fixed role for a specific party.
+The most straightforward kind of centralization creates a fixed role for a specific party. For example, most proprietary messaging, videoconferencing, chat, and similar protocols operate in this fashion.
 
-For example, most proprietary messaging, videoconferencing, chat, and similar protocols operate in this fashion.
-
-While it has been argued that such protocols are simpler to design, more amenable to evolution, and more likely to meet user needs,{{MOXIE}} this approach most often reflects commercial goals -- in particular, a strong desire to capture the financial benefits of the protocol by 'locking in' users to a proprietary service.
+While it has been argued that such protocols are simpler to design, more amenable to evolution, and more likely to meet user needs {{MOXIE}}, this approach most often reflects commercial goals -- in particular, a strong desire to capture the financial benefits of the protocol by 'locking in' users to a proprietary service.
 
 Directly centralised protocols and applications are not considered to be part of the Internet per se; instead, they are more properly characterized as proprietary protocols that are built on top of the Internet. As such, they are not regulated by the Internet architecture or standards, beyond the constraints that the underlying protocols (e.g., TCP, IP, HTTP) impose.
 
@@ -240,52 +238,46 @@ Directly centralised protocols and applications are not considered to be part of
 
 Some protocols require the introduction of centralization risk that is unavoidable by nature.
 
-For example, when there is a need a single, globally coordinated 'source of truth', that facility is by nature centralized. The most obvious instance is seen in the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
+For example, when there is a need a single, globally coordinated 'source of truth', that function is by nature centralized. The most obvious instance is seen in the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
 
-Allocation of IP addresses is another example of a necessary facility being a centralization risk. Internet routing requires addresses to be allocated uniquely, but if the addressing function were captured by a single government or company, the entire Internet would be at risk of abuse by that entity.
+Allocation of IP addresses is another example of a necessary function being a centralization risk. Internet routing requires addresses to be allocated uniquely, but if the addressing function were captured by a single government or company, the entire Internet would be at risk of abuse by that entity.
 
 Similarly, the need for coordination in the Web's trust model brings centralization risk, because a Certificate Authority (CA) can control communication between the Web sites that they sign certificates for and users whose browsers trust the CA's root certificates.
 
-Protocols that need to solve the 'rendezvous problem' to coordinate communication between two parties that are not in direct contact also suffer from this kind of centralization risk. For example, chat protocols need a way to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party.
+Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties that are not in direct contact also suffer from this kind of centralization risk. For example, chat protocols need a way to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party.
 
 Internet protocols often attempt to mitigate necessary centralization risk using measures such as mandated federation {{federation}} and multi-stakeholder administration {{multi}}.
 
-Because of the inherent risks and costs of these approaches, when a protocol function has necessary centralization risk and there exists an already-deployed solution with appropriate mitigations, that solution SHOULD be reused in favour of inventing a new one.
-
-For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is preferable to establishing a new system, because its centralization risk is known and understood (see {{multi}}).
+Because of the inherent risks and costs of these approaches, functions that successfully use these techniques are often reused by others with similar requirements. For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is usually preferable to establishing a new system, because its centralization risk is known and understood, and the risks inherent in establishing new mitigations are avoided.
 
 
 ## Indirect Centralization {#indirect}
 
-Even when a protocol avoids direct centralization and does not exhibit any necessary centralization, it might become centralized in practice when external factors influence its deployment.
-
-Indirect centralization can be caused by factors that encourage use of a central facility despite the absence of such a requirement in the protocol itself. Such factors might be economic, social, or legal.
-
-For example, cloud computing is used to deploy many Internet protocols. Although the base concepts and control protocols for it avoid centralization in the sense that there is no need for a single, central cloud provider, the economics of providing compute at scale, as well as some social factors regarding developer familiarity and comfort encourage convergence on a small number of cloud providers.
+Even when a protocol avoids direct centralization and does not exhibit any necessary centralization, it might become centralized in practice when external factors influence its deployment. Indirect centralization can be caused by factors that encourage use of a central function despite the absence of such a requirement in the protocol itself. Such factors might be economic, social, or legal.
 
 Often, the factors driving indirect centralization are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks {{SCALE-FREE}}, network effects award asymmetric power to nodes that act as intermediaries to communication.
 
-Left unchecked, these factors can cause a potentially decentralized application to become directly centralised, because the central facility has leverage to 'lock in' users. For example, social networking is an application that is currently supplied by a small number of directly centralized, proprietary platforms despite standardization efforts (see, e.g., {{?W3C.CR-activitystreams-core-20161215}}), due to the powerful network effects associated.
+Left unchecked, these factors can cause a potentially decentralized application to become directly centralised, because the central function has leverage to "lock in" users. For example, social networking is an application that is currently supplied by a small number of directly centralized, proprietary platforms despite standardization efforts (see, e.g., {{?W3C.CR-activitystreams-core-20161215}}), due to the powerful network effects associated.
 
 By its nature, indirect centralization is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
 
 
 ## Inherited Centralization {#network}
 
-Most Internet protocols depend on other, 'lower-layer' protocols. The features, deployment, and operation of these dependencies can surface centralization risk into protocols operating 'on top' of them.
+Most Internet protocols depend on other, "lower-layer" protocols. The features, deployment, and operation of these dependencies can surface centralization risk into functions and applications build "on top" of them.
 
-For example, the network between endpoints can introduce centralization risk to application-layer protocols, because it is necessary for communication and therefore has power over it. A given network might block access to, slow down, or modify the content of various application protocols or specific services for financial, political, operational, or criminal reasons, thereby creating pressure to use other services, which can in turn result in centralization.
+For example, the network between endpoints can introduce centralization risk to application-layer protocols, because it is necessary for communication and therefore has power over it. A given network might block access to, slow down, or modify the content of various application protocols or specific services for financial, political, operational, or criminal reasons, thereby creating pressure to use other services, which can in turn result in centralization of them.
 
-Inherited centralization risk is only present when users cannot use an alternative means of accessing the desired service. For example, users often have flexibility in choice of Internet access, so they could just 'route around' a network that impacts their chosen service. However, such choices are often not available in the moment, and the Internet's topology means that a 'choke point' upstream could still affect their Internet access.
+Inherited centralization risk is only present when users cannot use an alternative means of accessing the desired service. For example, users often have flexibility in choice of Internet access, so they could just "route around" a network that impacts their chosen service. However, such choices are often not available in the moment, and the Internet's topology means that a choke point upstream could still affect their Internet access.
 
 When deployed at scale, encryption can be an effective technique to control many inherited centralization risks. By reducing the number of parties who have access to content of communication, the ability of lower-layer protocols and intermediaries at those layers to interfere with or observe is precluded. Even when they can still prevent communication, the use of encryption makes it more difficult to discriminate the target from other traffic.
 
-Note that the benefits are most pronounced when the majority (if not all) traffic is encrypted. As a result, protocols SHOULD be encrypted by default.
+Note that the prohibitive effect on inherited centralization is most pronounced when most (if not all) traffic is encrypted -- providing yet more motivation for that goal (see also {{?RFC7258}}).
 
 
 ## Platform Centralization {#platform}
 
-The complement to inherited centralization is platform centralization -- where a protocol does not directly define a central role, but could facilitate centralization in the applications it supports.
+The complement to inherited centralization is platform centralization -- where a function does not directly define a central role, but could facilitate centralization in the applications it supports.
 
 For example, HTTP {{HTTP}} in itself is not considered a centralized protocol; interoperable servers are relatively easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above.
 
