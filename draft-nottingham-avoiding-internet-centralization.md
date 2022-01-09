@@ -353,7 +353,7 @@ These potential shortcomings do not rule out the use of distributed consensus te
 
 # What Should Internet Standards Do? {#considerations}
 
-Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Moreover, because permissionless innovation is a core value for the Internet, and yet much of the centralization we see is by proprietary platforms that take advantage of this nature, the controls available to standards efforts on their own are very limited.
+Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Moreover, because permissionless innovation is a core value for the Internet, and yet much of the centralization seen on the Internet is performed by proprietary platforms that take advantage of this nature, the controls available to standards efforts on their own are very limited.
 
 Nevertheless, while standards bodies on their own cannot prevent centralization, there are meaningful steps that can be taken to prevent some functions from exhibiting some forms of centralization. There are also valuable contributions that standards efforts can make to other, more effective forms of regulation.
 
@@ -362,33 +362,31 @@ Nevertheless, while standards bodies on their own cannot prevent centralization,
 
 Some types of centralization risk are relatively easy to manage in standards efforts. A directly centralized protocol, were it to be proposed, would be rejected out of hand by the IETF. There is a growning body of knowledge and experience with necessary centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization. All of these responses are appropriate ways for Internet standards to manage centralization risk.
 
-However, precluding indirect and platform centralization are much more difficult in standards efforts. Because we have no "protocol police", it's not possible to demand that someone stop building a proprietary service using a purportedly federated protocol. We cannot stop someone from using our protocols to build centralized services "on top" without violating architectural goals like permissionless innovation.
+However, precluding indirect and platform centralization are much more difficult in standards efforts. Because we have no "protocol police", it's not possible to demand that someone stop building a proprietary service using a purportedly federated protocol. We also cannot stop someone from building centralized services "on top" of standard protocols without violating architectural goals like permissionless innovation.
 
-Therefore, committing resources to scrutinizing protocols for potential centralization risk -- especially for indirect and platform risks -- is unlikely to actually prevent Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- suffer some form of indirect or platform centralization. Refusing to standardize a newer protocol because it faces similar risks would not be equitable, proportionate, or effective.
+Therefore, committing significant resources to scrutinizing protocols for hidden or latent centralization risk -- especially for indirect and platform risks -- is unlikely to actually prevent Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- suffer some form of indirect or platform centralization. Refusing to standardize a newer protocol because it faces similar risks would not be equitable, proportionate, or effective.
 
-Additionally, centralization risk is sometimes perceived to be in tension with other goals, such as privacy. While there is rarely a pure tradeoff between two abstract goals such as these, if it were to occur attention should be paid to how effective architectural regulation (such as a standards effort) is in achieving each goal. In this example, a technical mechanism might be much more effective at improving privacy, whereas centralization might be better controlled using other methods.
+Centralization risk is sometimes perceived to be in tension with other goals, such as privacy. While there is rarely a pure tradeoff between two abstract goals such as these, when it does occur attention should be paid to how effective architectural regulation (such as a standards effort) is in achieving each goal. In this example, a technical mechanism might be much more effective at improving privacy, whereas centralization might be better controlled by other regulators -- leading to the conclusion that the standards effort should focus on privacy.
 
 
 ## Create Standards to Decentralize Proprietary Functions {#up}
 
-Instead, efforts should focus on creating new standards for functions that are currently only satisfied by proprietary, centralized protocols. For example, if social networking is thought to be a centralized function, this might mean creating specifications that enable decentralized social networking, perhaps using some or all of the techniques described in {{decentralization}}.
+Standards efforts should focus on creating new specifications for functions that are currently only satisfied by proprietary, centralized protocols. For example, if social networking is thought to be a centralized function, this might mean creating specifications that enable decentralized social networking, perhaps using some or all of the techniques described in {{decentralization}}.
 
 Keen readers will point out that social networking is effectively centralized despite the existence of such standards (see, e.g., {{W3C.CR-activitystreams-core-20161215}}), because the IETF and W3C create voluntary standards, not mandatory regulations.
 
-However, architecture is not the only form of regulation; legal mechanisms combined with changing norms and the resulting market forces have their own regulatory effects.{{NEW-CHICAGO}} While for much of its lifetime the Internet has only been subject to limited legal regulation, that period appears to be ending.
+However, architecture is not the only form of regulation; legal mechanisms combined with changing norms and the resulting market forces have their own regulatory effects {{NEW-CHICAGO}}. While for much of its lifetime the Internet has only been subject to limited legal regulation, that period appears to be ending.
 
 It is far from certain that a legal mandate for interoperability based upon Internet standards will eventuate, but it is increasingly discussed as a remedy for competition issues (see, e.g., {{OECD}}). It is also not certain that legally-mandated standards will fully address centralization risks. However, if such specifications are not available from the Internet community, they may be created elsewhere without reference to the Internet's architectural goals.
 
-Even absent a legal mandate, changes in norms -- due to increasing knowledge and distrust of centralized functions -- can create demand for such specifications and the corresponding implementations.
+Even absent a legal mandate, changes in norms and the market -- due to increasing knowledge and distrust of centralized functions -- can create demand for such specifications and the corresponding implementations.
 
 
 ## Limit Intermediary Power {#intermediation}
 
 The introduction of an intermediary role -- i.e., one that performs a function but is not a first party to communication -- adds indirect and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. At the same time, intermediation often adds significant value to a protocol, or enables what is considered a necessary function.
 
-While (as discussed above) standards efforts have a very limited capability to prevent or control indirect and platform centralization, constraints on intermediary functions -- when designed explicitly into a protocol -- and prevent at least the most egregious outcomes.
-
-In general, this can be achieved by limiting the nature of the intermediary role to the most minimal function possible. In doing so, the opportunity for observation and control is minimized.
+While (as discussed above) standards efforts have a very limited capability to prevent or control indirect and platform centralization, constraints on intermediary functions -- when designed explicitly into a protocol -- and prevent at least the most egregious outcomes. In general, this can be achieved by limiting the nature of the intermediary role to the most minimal function possible.
 
 For example, HTTP allows intermediaries to see the full content of traffic by default, even when they are only performing basic functions such as routing. However, with the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with market forces to adopt HTTPS, those intermediaries now only have access to the appropriate routing information.
 
@@ -399,20 +397,18 @@ The same advice applies in these cases; the observation and control potential SH
 
 See {{?I-D.thomson-tmi}} for more guidance.
 
-Another kind of intermediation is created when a new feature or service is built using a standard as a substrate. For example, many Web sites offer new functions like social networking and aggregated news updates that can be viewed as a form of proprietary protocol. These intermediaries may not be a format part of the underlying protocol (in the case of Web sites, HTTP), but they can still interpose a third party into communication. This kind of intermediation is more effectively dealt with by standardising the function; see {{up}}.
+Another kind of intermediation is created when a new feature or service is built using a standard as a substrate. For example, many Web sites offer new functions like social networking and aggregated news updates that can be viewed as a proprietary intermediary function on the Internet. These intermediaries may not be a format part of the underlying protocol (in the case of Web sites, HTTP), but they can still interpose a third party into communication. This kind of intermediation is more effectively dealt with by standardising the function, rather than restricting the capability of the protocol; see {{up}}.
 
 
 ## Avoid Over-Extensibility {#evolution}
 
-An important feature of Internet protocols is their ability to evolve over time, so that they can meet new requirements and adapt to new conditions without requiring a 'flag day' to convert users. Typically, protocol evolution is accommodated through extension mechanisms, where optional features can be added over time in an interoperable fashion.
+An important feature of Internet protocols is their ability to evolve over time, so that they can meet new requirements and adapt to new conditions without requiring a "flag day" to upgrade implementations. Typically, protocol evolution is accommodated through extension mechanisms, where optional features can be added over time in an interoperable fashion.
 
-However, protocol extensions can also bring risk of platform centralization if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard protocol. This is especially true when the core standard does not itself provide sufficient utility on its own.
+However, protocol extensions can also increase the risk of platform centralization if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard protocol. This is especially true when the core standard does not itself provide sufficient utility on its own.
 
 For example, the SOAP protocol {{SOAP}} was an extremely flexible framework, allowing vendors to attempt to capture the market by requiring use of their preferred extensions to interoperate.
 
-This kind of centralization risk can be mitigated in a few ways. First and foremost, Internet protocols SHOULD provide concrete utility to the majority of their users as published; 'framework' standards facilitate this kind of risk.
-
-Furthermore, Internet protocols SHOULD NOT make every aspect of their operation extensible; extension points SHOULD be reasoned, appropriate boundaries for flexibility and control. When extension points are defined, they SHOULD NOT allow an extension to declare itself to be mandatory-to-interoperate, as that pattern invites abuse.
+Therefore, standards efforts should be focused on providing concrete utility to the majority of their users as published, rather than being a "framework" where interoperability is not immediately available.  Furthermore, Internet protocols should not make every aspect of their operation extensible; extension points should be reasoned, appropriate boundaries for flexibility and control. When extension points are defined, they should not allow an extension to declare itself to be mandatory-to-interoperate, as that pattern invites abuse.
 
 
 # Security Considerations
