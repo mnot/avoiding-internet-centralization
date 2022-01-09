@@ -346,7 +346,7 @@ These potential shortcomings do not rule out the use of distributed consensus te
 
 Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Moreover, because permissionless innovation is a core value for the Internet, and yet much of the centralization seen on the Internet is performed by proprietary platforms that take advantage of this nature, the controls available to standards efforts on their own are very limited.
 
-Nevertheless, while standards bodies on their own cannot prevent centralization, there are meaningful steps that can be taken to prevent some functions from exhibiting some forms of centralization. There are also valuable contributions that standards efforts can make to other, more effective forms of regulation.
+Nevertheless, while standards bodies on their own cannot prevent centralization, there are meaningful steps that can be taken to prevent some functions from exhibiting some forms of centralization. There are also valuable contributions that standards efforts can make to other relevant forms of regulation.
 
 
 ## Manage Centralization Risk Where Effective {#target}
