@@ -288,44 +288,42 @@ Like indirect centralization, platform centralization is difficult to completely
 
 # The Limits of Decentralization {#decentralization}
 
-Over time, techniques have been developed to 'decentralize' protocols and applications. While these approaches can be used to create a system which is less centralized or less supportive of some kinds of centralization, they are not adequate to completely avoid centralization on their own. As such, while the use of these techniques is often appropriate and sometimes effective, they are not indicators of whether a protocol is centralized without further analysis.
+Over time, various techniques have been developed to decentralize protocols and applications. While these approaches can be used to create a function which is less centralized or less amenable to some kinds of centralization, they are not adequate to completely avoid centralization on their own. As such, while the use of these techniques is often appropriate and sometimes effective, they are not indicators of whether a protocol is centralized without further analysis.
 
 
 ## Federation isn't Enough {#federation}
 
-A widely known technique for managing centralization in Internet protocols is federation - that is, designing them in such a way that new instances of any intermediary or otherwise centralized function are relatively easy to create, and they are able to maintain interoperability and connectivity with other instances.
+A widely known technique for managing centralization in Internet protocols is federation -- that is, designing them in such a way that new instances of any intermediary or otherwise centralized function are relatively easy to create, and they are able to maintain interoperability and connectivity with other instances.
 
 For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols, which has two functions that are necessarily centralized:
 
 1. Giving each user a globally unique address, and
 2. Routing messages to the user, even when they change network locations or are disconnected for long periods of time.
 
-E-mail reuses DNS to mitigating first risk. To mitigate the second, it defines an intermediary role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy a MTA and defining rules for interconnecting them, the protocol's users avoid a requirement for a single, central router.
+E-mail reuses DNS to help mitigate the first risk. To mitigate the second, it defines an intermediary role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy a MTA and defining rules for interconnecting them, the protocol's users avoid a requirement for a single, central router.
 
 Users can (and often do) choose to delegate that role to someone else, or run their own MTA. However, running your own mail server has become difficult, due to the likelihood of a small MTA being classified as a spam source. Because large MTA operaters are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, thereby indirectly centralizing the protocol's operation (see {{indirect}}).
 
-This illustrates that while federation can be effective at avoiding direct centralization and managing necessary centralization, federated protocols are still vulnerable to indirect centralization, and may exhibit platform centralization.
-
-Another example of a federated Internet protocol is XMPP {{?RFC6120}}, supporting 'instant messaging' and similar functionality. Like e-mail, it reuses DNS for naming and requires federation to facilitate rendezvous of users from different systems.
+Another example of a federated Internet protocol is XMPP {{?RFC6120}}, supporting "instant messaging" and similar functionality. Like e-mail, it reuses DNS for naming and requires federation to facilitate rendezvous of users from different systems.
 
 While some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators made a decision to capture their users into a single service, rather than provide the benefits of global interoperability.
 
-The examples above show that federation can be a useful technique to avoid direct centralization, but on its own is not sufficient to avoid indirect centralization. If the value provided by a protocol can be captured by a single entity, they may use the protocol as a platform to obtain a 'winner take all' outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally 'tilt the table' towards a few operators of these protocols.
+The examples above illustrate that federation can be a useful technique to avoid direct centralization and manage necessary centralization, but on its own is not sufficient to avoid indirect and platform centralization. If the value provided by a protocol can be captured by a single entity, they may use the protocol as a platform to obtain a 'winner take all' outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally 'tilt the table' towards a few operators of these protocols.
 
 
 ## Multi-Stakeholder Administration is Hard {#multi}
 
-Delegating the administration of a necessarily centralized function (see {{necessary}}) to a multi-stakeholder body is an onerous but sometimes necessary method to mitigate centralization.
+Delegating the administration of a necessarily centralized function (see {{necessary}}) to a multi-stakeholder body is occasionally used to mitigate its effects.
 
-A multi-stakeholder body is an institution that includes representatives of the different kinds of parties that are affected by the system's operation ('stakeholders') in an attempt to make well-reasoned, broadly agreed-to, and authoritative decisions.
+A multi-stakeholder body is an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, broadly agreed-to, and authoritative decisions.
 
-The most relevant example of this technique is the administration of the Domain Name System {{?RFC1035}}, which as a 'single source of truth' requires centralization of the naming function. To mitigate centralization, this task is carried out by multiple root servers that are administered by separate operators -- themselves diverse in geography and a selection of corporate entities, non-profits and government bodies from many jurisdictions and affiliations. Furthermore, those operators are [regulated by ICANN](https://www.icann.org/resources/pages/governance/governance-en), which is defined as a globally multi-stakeholder body with representation from end users, governments, operators, and others.
+The most relevant example of this technique is the administration of the Domain Name System {{?RFC1035}}, which as a "single source of truth" exhibits necessary centralization of the naming function, as well as the operation of the system. To mitigate operational centralization, this task is carried out by multiple root servers that are administered by separate operators -- themselves diverse in geography and a selection of corporate entities, non-profits and government bodies from many jurisdictions and affiliations. Furthermore, the name space itself is [regulated by ICANN](https://www.icann.org/resources/pages/governance/governance-en), which is defined as a globally multi-stakeholder body with representation from end users, governments, operators, and others.
 
-Another example of multi-stakeholderism is the standardization of Internet protocols themselves. Because a specification effectively controls the behavior of implementations that are conformant with it, the standardization process can be seen as a single point of control. As a result, Internet standards bodies like the IETF allow open participation and contribution, make decisions in an open and accountable way, have a well-defined process for making (and when necessary, appealing) decisions, and take into account the views of different stakeholder groups {{?RFC8890}}.
+Another example of multi-stakeholderism is the standardization of Internet protocols themselves. Because a specification effectively controls the behavior of implementations that are conformant with it, the standardization process can be seen as a single point of control. As a result, Internet standards bodies like the IETF allow open participation and contribution, make decisions in an open and accountable way, have a well-defined process for making (and when necessary, appealing) decisions, taking into account the views of different stakeholder groups {{?RFC8890}}.
 
 Yet another example is the administration of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To assure that all parties meet the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both of those parties as stakeholders.
 
-In each of these examples, setup and ongoing operation of a multi-stakeholder organization is not trivial. This is a major downside of such an approach. Additionally, the legitimacy of such an organization cannot be assumed, and may be difficult to establish and maintain (see, eg, {{LEGITIMACY-MULTI}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
+In each of these examples, setup and ongoing operation of a multi-stakeholder organization is not trivial. This is a major downside of this approach. Additionally, the legitimacy of such an organization cannot be assumed, and may be difficult to establish and maintain (see, eg, {{LEGITIMACY-MULTI}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
 
 
 ## Blockchains Are Not Magical {#distributed}
@@ -336,19 +334,19 @@ These techniques attempt to avoid centralization risk by distributing intermedia
 
 Sybil attacks (where enough participants coordinate their activity to affect the protocol's operation) are a major concern for these protocols. Diversity in the pool of participants is encouraged using indirect techniques such as proof-of-work (where each participant has to demonstrate significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
 
-Appropriate use of these techniques creates barriers to direct and inherited centralization. Depending upon the application in question, indirect and platform centralization may still be possible, but in general these techniques do not lend themselves to these ends as readily as federated systems do.
+Appropriate use of these techniques can create barriers to direct and inherited centralization. However, depending upon the application in question, indirect and platform centralization can still be possible.
 
-However, distributed consensus technologies have several potential shortcomings that may make them inappropriate -- or at least difficult to use -- for many Internet applications, because their use conflicts with other important goals:
+Furthermore, distributed consensus technologies have several potential shortcomings that may make them inappropriate -- or at least difficult to use -- for many Internet applications, because their use conflicts with other important goals:
 
 1. Distributed consensus protocols can have significant implications for privacy. Because activity (such as queries or transactions) are shared with many unknown parties, they have very different privacy properties than traditional client/server protocols. Mitigations (e.g., Private Information Retrieval; see, eg, {{PIR}}) are still not suitable for broad deployment.
 
-2. Their complexity and 'chattiness' typically results in significantly less efficient use of the network (often, to several orders of magnitude). When distributed consensus protocols use proof-of-work, energy consumption can become significant (to the point where some jurisdictions have banned its use).
+2. Their complexity and "chattiness" typically result in significantly less efficient use of the network (often, to several orders of magnitude). When distributed consensus protocols use proof-of-work, energy consumption can become significant (to the point where some jurisdictions have banned its use).
 
 3. Distributed consensus protocols are still not proven to scale to the degree expected of successful Internet protocols. In particular, relying on unknown third parties to deliver functionality can introduce variability in latency, availability, and throughput. This is a marked change for applications with high expectations for these properties (e.g., commercial Web services).
 
-4. By design, distributed consensus protocols diffuse responsibility for a function among several, difficult-to-identify parties. While this may be an effective way to prevent many kinds of centralization, it also means that making someone accountable for how the function is performed is impossible, beyond the bounds of the protocol's design.
+4. By design, distributed consensus protocols diffuse responsibility for a function among several, difficult-to-identify parties. While this may be an effective way to prevent some kinds of centralization, it also means that making someone accountable for how the function is performed is impossible, beyond the bounds of the protocol's design.
 
-It is also important to recognise that a protocol can use distributed consensus for some functions, but still have centralization risk elsewhere. Even when distributed consensus is used exclusively (which is uncommon, due to the associated costs), some degree of coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization risk, just at a different layer (inherited or platform, depending on the circumstances).
+It is also important to recognise that a protocol or an application can use distributed consensus for some functions, but still have centralization risk elsewhere. Even when distributed consensus is used exclusively (which is uncommon, due to the associated costs), some degree of coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization risk, just at a different layer (inherited or platform, depending on the circumstances).
 
 These potential shortcomings do not rule out the use of distributed consensus technologies for every use case. They do, however, caution against relying upon these technologies to avoid centralization uncritically.
 
