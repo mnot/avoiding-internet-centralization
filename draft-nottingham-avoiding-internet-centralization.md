@@ -29,7 +29,6 @@ author:
     uri: https://www.mnot.net/
 
 normative:
-  RFC2119:
 
 informative:
   RAND:
@@ -166,14 +165,6 @@ These difficulties call into question what role architectural regulation -- in p
 This document discusses aspects of centralization that relate to Internet standards efforts. {{what}} provides a definition of centralization. {{why}} explains why centralization of Internet's functions is undesirable. {{kinds}} surveys the different kinds of centralization that might surface on the Internet. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
 Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralization, especially if they intend their protocol to be considered for eventual standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
-
-
-## Notational Conventions
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT",
-"RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as
-described in BCP 14 {{!RFC2119}} {{!RFC8174}} when, and only when, they appear in all capitals, as
-shown here.
 
 
 # What is Centralization {#what}
