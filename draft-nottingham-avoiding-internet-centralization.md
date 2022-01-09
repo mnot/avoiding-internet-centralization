@@ -197,15 +197,11 @@ Note that it is important to distinguish centralization from anti-competitive co
 
 # Why Avoid Centralization {#why}
 
-Centralization is undesirable in the design of Internet protocols because it is counter to the nature of the Internet, because it violates the purpose of the Internet from the perspective of its end users, and because of the many negative effects it can have on the networks operation and evolution.
+Centralization is undesirable because it is counter to the nature of the Internet, because it violates the end users' expectations, and because of the many negative effects it can have on the networks operation and evolution.
 
 Firstly, the Internet's very nature is incompatible with centralization of its functions. As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. As such, these networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them.
 
-However, many Internet protocols allow a third party to be interposed into communication between two other parties. In some cases, this is not intended by the protocol's designers; for example, intervening networks have taken advantage of unencrypted deployment of HTTP {{HTTP}} to interpose 'interception proxies' (also known as 'transparent proxies') to cache, filter, track, or change traffic. In cases where interposition of a third party is a designed feature of the protocol, it is often characterised as _intermediation_, and is typically used to help provide the protocol's functions -- sometimes including those that are necessary for it to operate.
-
-Whether or not interposition of a third party into communication is intentional, the 'informational and positional advantages' {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the 'panopticon effect') and shape or even deny behaviour (the 'chokepoint effect') -- which can be used by those parties (or the states that have authority over them) for coercive ends. {{WEAPONIZED-INTERDEPENDENCE}}
-
-As Internet protocols' first duty is to the end user {{?RFC8890}}, allowing such power to be concentrated into few hands is counter to the IETF's mission of creating an Internet that 'will help us to build a better human society.' {{?BCP95}}
+Secondly, as the Internet's first duty is to the end user {{?RFC8890}}, allowing such power to be concentrated into few hands is counter to the IETF's mission of creating an Internet that 'will help us to build a better human society.' {{?BCP95}} When a third party has unavoidable access to communications, the 'informational and positional advantages' {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the 'panopticon effect') and shape or even deny behaviour (the 'chokepoint effect') -- which can be used by those parties (or the states that have authority over them) for coercive ends. {{WEAPONIZED-INTERDEPENDENCE}}
 
 Finally, concentration of power has deleterious effects on the Internet itself, including:
 
