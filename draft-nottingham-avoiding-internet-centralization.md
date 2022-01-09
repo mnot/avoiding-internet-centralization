@@ -33,7 +33,7 @@ normative:
 informative:
   RAND:
     target: https://www.rand.org/pubs/research_memoranda/RM3420.html
-    title: "On Distributed Communications: Introdution to Distributed Communications Networks"
+    title: "On Distributed Communications: Introduction to Distributed Communications Networks"
     date: 1964
     author:
      -
