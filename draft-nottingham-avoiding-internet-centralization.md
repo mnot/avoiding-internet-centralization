@@ -141,7 +141,9 @@ informative:
 
 --- abstract
 
-The Internet was designed and is operated as a decentralized network-of-networks, but it is continuously subjected to forces that encourage its centralization. This document offers a definition of centralization, discusses the risks involved therein, attempts to identify different types of centralization, catalogues some limitations to common approaches to controlling it, and recommends best practices for Internet standards efforts.
+Despite being designed and operated as a decentralized network-of-networks, the Internet is continuously subjected to forces that encourage centralization.
+
+This document offers a definition of centralization, explains why it is undesirable, identifies different types of it, catalogues limitations of common approaches to controlling it, and explores what Internet standards efforts can do to address it.
 
 --- middle
 
