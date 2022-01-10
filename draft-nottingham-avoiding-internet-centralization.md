@@ -169,7 +169,7 @@ Engineers who design and standardize Internet protocols are the primary audience
 
 # What is Centralization {#what}
 
-This document defines "centralization" as the ability of a single entity (e.g., a person, company, or government) -- or a small group of them -- to observe, control, or extract rent from the operation or use of a given function on the Internet.
+This document defines "centralization" as the ability of a single entity (e.g., a person, company, or government) -- or a small group of them -- to exclusively observe, control, or extract rent from the operation or use of a given function on the Internet.
 
 Here, "function" is defined broadly. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
@@ -179,7 +179,7 @@ Centralization risk is strongest when it necessarily affects the entire Internet
 
 "Decentralization" is the process of identifying centralization risk in the functions of a protocol or application, followed by application of appropriate techniques to prevent or mitigate centralization.
 
-Decentralization does not require that a given function need be so widely distributed that other important factors, such as efficiency, resiliency, latency, or availability are sacrificed. In some cases, a function that is only available through a relatively small number of providers can be  effectively decentralized, given the appropriate circumstances (see, for example, the Domain Name System {{?RFC1035}}).
+Decentralization does not require that a given function need be so widely distributed that other important factors are sacrificed. Because the same network effects that cause centralization can also deliver benefits (such as improvements in efficiency, resiliency, latency, and availability), the appropriate amount of decentralization for a given function might vary, with the optimal balance being determined by any number of factors. A function that is only available through a relatively small number of providers can still be effectively decentralized, given the appropriate circumstances (see, for example, the Domain Name System {{?RFC1035}}).
 
 Therefore, discussions of centralization and architectural efforts at decentralization need to be made on a case-by-base basis, depending on the function in question, surrounding circumstances, and other regulatory mechanisms.
 
@@ -190,13 +190,13 @@ Note that it is important to distinguish centralization from anti-competitive co
 
 Centralization is undesirable because it is counter to the nature of the Internet, because it violates the end users' expectations, and because of the many negative effects it can have on the networks operation and evolution.
 
-Firstly, the Internet's very nature is incompatible with centralization of its functions. As a 'large, heterogeneous collection of interconnected systems' {{?BCP95}} the Internet is often characterised as a 'network of networks'. As such, these networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them.
+Firstly, the Internet's very nature is incompatible with centralization of its functions. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". As such, these networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
-Secondly, as the Internet's first duty is to the end user {{?RFC8890}}, allowing such power to be concentrated into few hands is counter to the IETF's mission of creating an Internet that 'will help us to build a better human society.' {{?BCP95}} When a third party has unavoidable access to communications, the 'informational and positional advantages' {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the 'panopticon effect') and shape or even deny behaviour (the 'chokepoint effect') -- which can be used by those parties (or the states that have authority over them) for coercive ends. {{WEAPONIZED-INTERDEPENDENCE}}
+Secondly, as the Internet's first duty is to the end user {{?RFC8890}}, allowing such power to be concentrated into few hands is counter to the IETF's mission of creating an Internet that "will help us to build a better human society." {{?BCP95}} When a third party has unavoidable access to communications, the "informational and positional advantages" {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the "panopticon effect") and shape or even deny behaviour (the "chokepoint effect") -- which can be used by those parties (or the states that have authority over them) for coercive ends. {{WEAPONIZED-INTERDEPENDENCE}}
 
 Finally, concentration of power has deleterious effects on the Internet itself, including:
 
-* _Limiting Innovation_: Centralization can preclude the possibility of 'permissionless innovation' -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
+* _Limiting Innovation_: Centralization can preclude the possibility of "permissionless innovation" -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
 * _Constraining Competition_: The Internet and its users benefit from robust competition when applications and services are available from many different providers -- especially when those users can build their own applications and services based upon interoperable standards. When dependencies are formed on a centralized service or platform, it effectively becomes an essential facility, which encourages abuse of power.
 
@@ -206,9 +206,9 @@ Finally, concentration of power has deleterious effects on the Internet itself, 
 
 * _Self-Reinforcement_: As widely noted (see, eg., {{ACCESS}}), a centralized service benefits from access to data which can be used to further improve its offerings, while denying such access to others.
 
-See also {{TECH-SUCCESS-FACTORS}}.
+See also {{TECH-SUCCESS-FACTORS}} for further exploration of how centralization can affect the Internet.
 
-To summarize, centralization would allow the Internet (or some part of it) to be captured, effectively turning it into a 'walled garden' that fails to meet both architectural design goals and users' expectations, and endangering its ongoing viability at the same time.
+To summarize, centralization would allow the Internet (or some part of it) to be captured, effectively turning it into a "walled garden" that fails to meet both architectural design goals and users' expectations, and endangering its ongoing viability at the same time.
 
 
 # Kinds of Centralization {#kinds}
@@ -220,7 +220,7 @@ Centralization of the Internet is not uniform; it presents in a variety of ways,
 
 The most straightforward kind of centralization creates a fixed role for a specific party. For example, most proprietary messaging, videoconferencing, chat, and similar protocols operate in this fashion.
 
-While it has been argued that such protocols are simpler to design, more amenable to evolution, and more likely to meet user needs {{MOXIE}}, this approach most often reflects commercial goals -- in particular, a strong desire to capture the financial benefits of the protocol by 'locking in' users to a proprietary service.
+While it has been argued that such protocols are simpler to design, more amenable to evolution, and more likely to meet user needs {{MOXIE}}, this approach most often reflects commercial goals -- in particular, a strong desire to capture the financial benefits of the protocol by "locking in" users to a proprietary service.
 
 Directly centralised protocols and applications are not considered to be part of the Internet per se; instead, they are more properly characterized as proprietary protocols that are built on top of the Internet. As such, they are not regulated by the Internet architecture or standards, beyond the constraints that the underlying protocols (e.g., TCP, IP, HTTP) impose.
 
@@ -229,7 +229,7 @@ Directly centralised protocols and applications are not considered to be part of
 
 Some protocols require the introduction of centralization risk that is unavoidable by nature.
 
-For example, when there is a need a single, globally coordinated 'source of truth', that function is by nature centralized. The most obvious instance is seen in the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
+For example, when there is a need a single, globally coordinated "source of truth", that function is by nature centralized. The most obvious instance is seen in the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
 
 Allocation of IP addresses is another example of a necessary function being a centralization risk. Internet routing requires addresses to be allocated uniquely, but if the addressing function were captured by a single government or company, the entire Internet would be at risk of abuse by that entity.
 
@@ -272,7 +272,7 @@ The complement to inherited centralization is platform centralization -- where a
 
 For example, HTTP {{HTTP}} in itself is not considered a centralized protocol; interoperable servers are relatively easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above.
 
-However, applications built on top of HTTP (as well as the rest of the 'Web Platform') often exhibit centralization. As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it does facilitate the creation of centralized services and applications.
+However, applications built on top of HTTP (as well as the rest of the "Web Platform") often exhibit centralization. As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it does facilitate the creation of centralized services and applications.
 
 Like indirect centralization, platform centralization is difficult to completely avoid in protocol design. Because of the layered nature of the Internet, most protocols are designed to allow considerable flexibility in how they are used, often in a way that it becomes attractive to form a dependency on one party's operation. Notably, this can happen even if the protocol does not accommodate intermediation explicitly.
 
@@ -299,7 +299,7 @@ Another example of a federated Internet protocol is XMPP {{?RFC6120}}, supportin
 
 While some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators made a decision to capture their users into a single service, rather than provide the benefits of global interoperability.
 
-The examples above illustrate that federation can be a useful technique to avoid direct centralization and manage necessary centralization, but on its own is not sufficient to avoid indirect and platform centralization. If the value provided by a protocol can be captured by a single entity, they may use the protocol as a platform to obtain a 'winner take all' outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally 'tilt the table' towards a few operators of these protocols.
+The examples above illustrate that federation can be a useful technique to avoid direct centralization and manage necessary centralization, but on its own is not sufficient to avoid indirect and platform centralization. If the value provided by a protocol can be captured by a single entity, they may use the protocol as a platform to obtain a "winner take all" outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally "tilt the table" towards a few operators of these protocols.
 
 
 ## Multi-Stakeholder Administration is Hard {#multi}
@@ -382,7 +382,7 @@ While (as discussed above) standards efforts have a very limited capability to p
 For example, HTTP allows intermediaries to see the full content of traffic by default, even when they are only performing basic functions such as routing. However, with the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with market forces to adopt HTTPS, those intermediaries now only have access to the appropriate routing information.
 
 When carefully considered, intermediation can be a powerful way to enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in
-the so-called 'oblivious' protocols currently in development (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
+the so-called "oblivious" protocols currently in development (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
 
 The same advice applies in these cases; the observation and control potential SHOULD be as minimal as possible, while still meeting the design goals of the protocol.
 
