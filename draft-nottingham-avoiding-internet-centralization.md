@@ -179,7 +179,7 @@ Centralization risk is strongest when it necessarily affects the entire Internet
 
 "Decentralization" is the process of identifying centralization risk in the functions of a protocol or application, followed by application of appropriate techniques to prevent or mitigate centralization.
 
-Decentralization does not require that a given function need be so widely distributed that other important factors, such as efficiency, resiliency, latency, or availability are sacrificed. In some cases, a function that is only available through a relatively small number of providers can be  effectively decentralized, given the appropriate circumstances (see, for example, the DNS).
+Decentralization does not require that a given function need be so widely distributed that other important factors are sacrificed. Because the same network effects that cause centralization can also deliver benefits (such as improvements in efficiency, resiliency, latency, and availability), the appropriate amount of decentralization for a given function might vary, with the optimal balance being determined by any number of factors. A function that is only available through a relatively small number of providers can still be effectively decentralized, given the appropriate circumstances (see, for example, the DNS).
 
 Therefore, discussions of centralization and architectural efforts at decentralization need to be made on a case-by-base basis, depending on the function in question, surrounding circumstances, and other regulatory mechanisms.
 
