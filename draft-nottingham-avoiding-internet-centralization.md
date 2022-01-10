@@ -206,7 +206,7 @@ Finally, concentration of power has deleterious effects on the Internet itself, 
 
 * _Self-Reinforcement_: As widely noted (see, eg., {{ACCESS}}), a centralized service benefits from access to data which can be used to further improve its offerings, while denying such access to others.
 
-See also {{TECH-SUCCESS-FACTORS}}.
+See also {{TECH-SUCCESS-FACTORS}} for further exploration of how centralization can affect the Internet.
 
 To summarize, centralization would allow the Internet (or some part of it) to be captured, effectively turning it into a "walled garden" that fails to meet both architectural design goals and users' expectations, and endangering its ongoing viability at the same time.
 
