@@ -397,7 +397,7 @@ An important feature of Internet protocols is their ability to evolve over time,
 
 However, protocol extensions can also increase the risk of platform centralization if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard protocol. This is especially true when the core standard does not itself provide sufficient utility on its own.
 
-For example, extreme flexibility of the SOAP protocol {{SOAP}} allowed vendors to distort the market by requiring use of their preferred extensions to interoperate.
+For example, the SOAP protocol's {{SOAP}} extreme flexibility and failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favouring those who had more market power.
 
 Therefore, standards efforts should be focused on providing concrete utility to the majority of their users as published, rather than being a "framework" where interoperability is not immediately available.  Furthermore, Internet protocols should not make every aspect of their operation extensible; extension points should be reasoned, appropriate boundaries for flexibility and control. When extension points are defined, they should not allow an extension to declare itself to be mandatory-to-interoperate, as that pattern invites abuse.
 
