@@ -160,7 +160,7 @@ The Internet has succeeded in no small part because of its purposeful avoidance 
 
 While avoiding centralization is a widely shared goal for the Internet, meeting that goal has proven difficult. Many successful protocols and applications on the Internet today are designed or operated in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
 
-These difficulties call into question what role architectural regulation -- in particular, open standards bodies such as the IETF -- should be play in preventing, mitigating, and controlling centralization of the Internet.
+These difficulties call into question what role architectural regulation -- in particular, open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling centralization of the Internet.
 
 This document discusses aspects of centralization that relate to Internet standards efforts. {{what}} provides a definition of centralization. {{why}} explains why centralization of Internet's functions is undesirable. {{kinds}} surveys the different kinds of centralization that might surface on the Internet. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
