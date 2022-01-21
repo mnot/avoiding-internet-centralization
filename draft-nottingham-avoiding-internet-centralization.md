@@ -198,7 +198,7 @@ Finally, concentration of power has deleterious effects on the Internet itself, 
 
 * _Limiting Innovation_: Centralization can preclude the possibility of "permissionless innovation" -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
-* _Constraining Competition_: The Internet and its users benefit from robust competition when applications and services are available from many different providers -- especially when those users can build their own applications and services based upon interoperable standards. When dependencies are formed on a centralized service or platform, it effectively becomes an essential facility, which encourages abuse of power.
+* _Constraining Competition_: The Internet and its users benefit from robust competition when applications and services are available from many different providers -- especially when those users can build their own applications and services based upon interoperable standards. When dependencies are formed on a centralized service or platform because no substitutes are suitable, it effectively becomes an essential facility, which encourages abuse of power.
 
 * _Reducing Availability_: The Internet's availability (as well as applications and services built upon it) improves when there are many ways to obtain access to it. While centralized services typically benefit from the focused attention that their elevated role requires, when they do fail the resulting loss of availability can have disproportionate impact.
 
