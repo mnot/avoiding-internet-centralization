@@ -291,7 +291,7 @@ For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols, wh
 1. Giving each user a globally unique address, and
 2. Routing messages to the user, even when they change network locations or are disconnected for long periods of time.
 
-E-mail reuses DNS to help mitigate the first risk. To mitigate the second, it defines an intermediary role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy a MTA and defining rules for interconnecting them, the protocol's users avoid a requirement for a single, central router.
+E-mail reuses DNS to help mitigate the first risk. To mitigate the second, it defines an intermediary role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol's users avoid a requirement for a single, central router.
 
 Users can (and often do) choose to delegate that role to someone else, or run their own MTA. However, running your own mail server has become difficult, due to the likelihood of a small MTA being classified as a spam source. Because large MTA operaters are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, thereby indirectly centralizing the protocol's operation (see {{indirect}}).
 
