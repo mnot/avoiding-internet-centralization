@@ -373,6 +373,18 @@ It is far from certain that a legal mandate for interoperability based upon Inte
 Even absent a legal mandate, changes in norms and the market -- due to increasing knowledge and distrust of centralized functions -- can create demand for such specifications and the corresponding implementations.
 
 
+## Build Well-Balanced Standards {#balance}
+
+Standards-defined functions should have an explicit goal of broad, diverse implementation and deployment, so that users are able to choose those which best meets their needs. Furthermore, the cost of switching to a different implementation or deployment should be as low as possible, to facilitate subsequent substitution.
+
+These goals are sometimes in tension. For example, if a standard defines a function in a way that is extremely complex, it may discourage diversity of implementation because the cost of a complete implementation is too high (consider: Web browsers). On the other hand, if the specification is too simple it may not offer enough functionality to be considered complete, and the resulting proprietary extensions may make switching difficult (see {{evolution}}).
+
+Furthermore, if a new protocol is perceived as completely commoditized (so that no implementation can differentiate itself, and there is no barrier to switching), it may have difficulty achieving broad implementation -- at least by commercial entities.
+
+Balancing these factors is difficult, but is often helped by community building and good design -- in particular, appropriate use of layering.
+
+
+
 ## Limit Intermediary Power {#intermediation}
 
 The introduction of an intermediary role -- i.e., one that performs a function but is not a first party to communication -- adds indirect and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. At the same time, intermediation often adds significant value to a protocol, or enables what is considered a necessary function.
