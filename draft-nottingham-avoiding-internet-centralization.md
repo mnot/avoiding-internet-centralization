@@ -351,24 +351,24 @@ Nevertheless, while standards bodies on their own cannot prevent centralization,
 
 ## Manage Centralization Risk Where Effective {#target}
 
-Some types of centralization risk are relatively easy to manage in standards efforts. A directly centralized protocol, were it to be proposed, would be rejected out of hand by the IETF. There is a growning body of knowledge and experience with necessary centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization. All of these responses are appropriate ways for Internet standards to manage centralization risk.
+Some types of centralization risk are relatively easy to manage in standards efforts. For example, a directly centralized protocol, were it to be proposed, would be rejected out of hand by the IETF. There is a growning body of knowledge and experience with necessary centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization. All of these responses are appropriate ways for Internet standards to manage centralization risk.
 
-However, precluding indirect and platform centralization are much more difficult in standards efforts. Because we have no "protocol police", it's not possible to demand that someone stop building a proprietary service using a purportedly federated protocol. We also cannot stop someone from building centralized services "on top" of standard protocols without violating architectural goals like permissionless innovation.
+However, precluding indirect and platform centralization are much more difficult in standards efforts. Because we have no "protocol police", it's not possible to demand that someone stop building a proprietary service using a purportedly federated protocol. We also cannot stop someone from building centralized services "on top" of standard protocols without abandoning architectural goals like permissionless innovation.
 
 Therefore, committing significant resources to scrutinizing protocols for hidden or latent centralization risk -- especially for indirect and platform risks -- is unlikely to actually prevent Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- suffer some form of indirect or platform centralization. Refusing to standardize a newer protocol because it faces similar risks would not be equitable, proportionate, or effective.
 
-Centralization risk is sometimes perceived to be in tension with other goals, such as privacy. While there is rarely a pure tradeoff between two abstract goals such as these, when it does occur attention should be paid to how effective architectural regulation (such as a standards effort) is in achieving each goal. In this example, a technical mechanism might be much more effective at improving privacy, whereas centralization might be better controlled by other regulators -- leading to the conclusion that the standards effort should focus on privacy.
+In cases where we do evaluate centralization risk, we should consider its relationship with other goals, such as privacy. While there is rarely a pure tradeoff between two abstract goals such as these, when it does occur attention should be paid to how effective architectural regulation (such as a standards effort) is in achieving each goal. In this example, a technical mechanism might be much more effective at improving privacy, whereas centralization might be better controlled by other regulators -- leading to the conclusion that the standards effort should focus on privacy.
 
 
 ## Create Standards to Decentralize Proprietary Functions {#up}
 
-Standards efforts should focus on creating new specifications for functions that are currently only satisfied by proprietary, centralized protocols. For example, if social networking is thought to be a centralized function, this might mean creating specifications that enable decentralized social networking, perhaps using some or all of the techniques described in {{decentralization}}.
+Standards efforts should focus on creating new specifications for functions that are currently only satisfied by proprietary, centralized applications and protocols. For example, if social networking is thought to be a centralized function, this might mean creating specifications that enable decentralized social networking, perhaps using some or all of the techniques described in {{decentralization}}.
 
 Keen readers will point out that social networking is effectively centralized despite the existence of such standards (see, e.g., {{W3C.CR-activitystreams-core-20161215}}), because the IETF and W3C create voluntary standards, not mandatory regulations.
 
 However, architecture is not the only form of regulation; legal mechanisms combined with changing norms and the resulting market forces have their own regulatory effects {{NEW-CHICAGO}}. While for much of its lifetime the Internet has only been subject to limited legal regulation, that period appears to be ending.
 
-It is far from certain that a legal mandate for interoperability based upon Internet standards will eventuate, but it is increasingly discussed as a remedy for competition issues (see, e.g., {{OECD}}). It is also not certain that legally-mandated standards will fully address centralization risks. However, if such specifications are not available from the Internet community, they may be created elsewhere without reference to the Internet's architectural goals.
+It is far from certain that a legal mandate for interoperability based upon Internet standards will eventuate, but it is increasingly discussed as a remedy for competition issues (see, e.g., {{OECD}}). It is also not certain that legally-mandated interoperability will fully address centralization risks. However, if such specifications are not available from the Internet community, they may be created elsewhere without reference to the Internet's architectural goals.
 
 Even absent a legal mandate, changes in norms and the market -- due to increasing knowledge and distrust of centralized functions -- can create demand for such specifications and the corresponding implementations.
 
@@ -377,18 +377,15 @@ Even absent a legal mandate, changes in norms and the market -- due to increasin
 
 The introduction of an intermediary role -- i.e., one that performs a function but is not a first party to communication -- adds indirect and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. At the same time, intermediation often adds significant value to a protocol, or enables what is considered a necessary function.
 
-While (as discussed above) standards efforts have a very limited capability to prevent or control indirect and platform centralization, constraints on intermediary functions -- when designed explicitly into a protocol -- and prevent at least the most egregious outcomes. In general, this can be achieved by limiting the nature of the intermediary role to the most minimal function possible.
+While (as discussed above) standards efforts have a very limited capability to prevent or control indirect and platform centralization, constraints on intermediary functions can prevent at least the most egregious outcomes. In general, this can be achieved by limiting the nature of the intermediary role to the most minimal function possible.
 
 For example, HTTP allows intermediaries to see the full content of traffic by default, even when they are only performing basic functions such as routing. However, with the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with market forces to adopt HTTPS, those intermediaries now only have access to the appropriate routing information.
 
-When carefully considered, intermediation can be a powerful way to enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in
-the so-called "oblivious" protocols currently in development (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
+When carefully considered, intermediation can also be a powerful way to enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called "oblivious" protocols currently in development (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
 
-The same advice applies in these cases; the observation and control potential SHOULD be as minimal as possible, while still meeting the design goals of the protocol.
+See {{?I-D.thomson-tmi}} for more guidance on protocol intermediation.
 
-See {{?I-D.thomson-tmi}} for more guidance.
-
-Another kind of intermediation is created when a new feature or service is built using a standard as a substrate. For example, many Web sites offer new functions like social networking and aggregated news updates that can be viewed as a proprietary intermediary function on the Internet. These intermediaries may not be a format part of the underlying protocol (in the case of Web sites, HTTP), but they can still interpose a third party into communication. This kind of intermediation is more effectively dealt with by standardising the function, rather than restricting the capability of the protocol; see {{up}}.
+The term "intermediary" is also used (often in legal and regulatory contexts) more broadly than it has been in protocol design; for example, an auction Web site intermediates between buyers and sellers is considered an intermediary, even though it is not formally an intermediary in HTTP (see {{Section 3.7 of HTTP}}). Protocol designers can address the centralization risk associated with this kind of intermediation by standardising the function, rather than restricting the capabilities of the underlying protocols; see {{up}}.
 
 
 ## Avoid Over-Extensibility {#evolution}
