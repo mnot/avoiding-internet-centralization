@@ -304,7 +304,7 @@ The examples above illustrate that federation can be a useful technique to avoid
 
 ## Multi-Stakeholder Administration is Hard {#multi}
 
-Delegating the administration of a necessarily centralized function (see {{necessary}}) to a multi-stakeholder body is occasionally used to mitigate its effects.
+The risks associated with a necessarily centralized function (see {{necessary}}) are sometimes mitigated by delegating administration of the function to a multi-stakeholder body.
 
 A multi-stakeholder body is an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, broadly agreed-to, and authoritative decisions.
 
@@ -314,7 +314,7 @@ Another example of multi-stakeholderism is the standardization of Internet proto
 
 Yet another example is the administration of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To assure that all parties meet the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both of those parties as stakeholders.
 
-Setup and ongoing operation of these multi-stakeholder bodies is not trivial, which is a major downside of the approach. Additionally, the legitimacy of such an organization cannot be assumed, and may be difficult to establish and maintain (see, eg, {{LEGITIMACY-MULTI}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
+A major downside of this approach is that setup and ongoing operation of multi-stakeholder bodies is not trivial. Additionally, their legitimacy cannot be assumed, and may be difficult to establish and maintain (see, eg, {{LEGITIMACY-MULTI}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
 
 
 ## Blockchains Are Not Magical {#distributed}
