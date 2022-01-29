@@ -349,7 +349,7 @@ Centralization is driven by powerful forces -- both economic and social -- as we
 Nevertheless, while standards bodies on their own cannot prevent centralization, there are meaningful steps that can be taken to prevent some functions from exhibiting some forms of centralization. There are also valuable contributions that standards efforts can make to other relevant forms of regulation.
 
 
-## Manage Centralization Risk Where Effective {#target}
+## Be Realistic {#target}
 
 Some types of centralization risk are relatively easy to manage in standards efforts. For example, a directly centralized protocol, were it to be proposed, would be rejected out of hand by the IETF. There is a growning body of knowledge and experience with necessary centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization. All of these responses are appropriate ways for Internet standards to manage centralization risk.
 
@@ -360,9 +360,9 @@ Therefore, committing significant resources to scrutinizing protocols for hidden
 In cases where we do evaluate centralization risk, we should consider its relationship with other goals, such as privacy. While there is rarely a pure tradeoff between two abstract goals such as these, when it does occur attention should be paid to how effective architectural regulation (such as a standards effort) is in achieving each goal. In this example, a technical mechanism might be much more effective at improving privacy, whereas centralization might be better controlled by other regulators -- leading to the conclusion that the standards effort should focus on privacy.
 
 
-## Create Standards to Decentralize Proprietary Functions {#up}
+## Decentralize Proprietary Functions {#up}
 
-Standards efforts should focus on creating new specifications for functions that are currently only satisfied by proprietary, centralized applications and protocols. For example, if social networking is thought to be a centralized function, this might mean creating specifications that enable decentralized social networking, perhaps using some or all of the techniques described in {{decentralization}}.
+Standards efforts should particularly focus on creating specifications for functions that are currently only satisfied by proprietary, centralized applications and protocols. For example, if social networking is thought to be a centralized function, this might mean creating specifications that enable decentralized social networking, perhaps using some or all of the techniques described in {{decentralization}}.
 
 Keen readers will point out that social networking is effectively centralized despite the existence of such standards (see, e.g., {{W3C.CR-activitystreams-core-20161215}}), because the IETF and W3C create voluntary standards, not mandatory regulations.
 
