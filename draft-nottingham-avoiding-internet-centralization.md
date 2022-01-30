@@ -231,9 +231,9 @@ Some protocols require the introduction of centralization risk that is unavoidab
 
 For example, when there is a need a single, globally coordinated "source of truth", that function is by nature centralized. The most obvious instance is seen in the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
 
-Allocation of IP addresses is another example of a necessary function being a centralization risk. Internet routing requires addresses to be allocated uniquely, but if the addressing function were captured by a single government or company, the entire Internet would be at risk of abuse by that entity.
+Allocation of IP addresses is another example of a necessary function having centralization risk. Internet routing requires addresses to be allocated uniquely, but if the addressing function were captured by a single government or company, the entire Internet would be at risk of abuse by that entity.
 
-Similarly, the need for coordination in the Web's trust model brings centralization risk, because a Certificate Authority (CA) can control communication between the Web sites that they sign certificates for and users whose browsers trust the CA's root certificates.
+Similarly, the need for coordination in the Web's trust model brings centralization risk, due to the Certificate Authority's role in communication between clients and servers.
 
 Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties that are not in direct contact also suffer from this kind of centralization risk. For example, chat protocols need a way to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party.
 
@@ -382,7 +382,6 @@ These goals are sometimes in tension. For example, if a standard defines a funct
 Furthermore, if a new protocol is perceived as completely commoditized (so that no implementation can differentiate itself, and there is no barrier to switching), it may have difficulty achieving broad implementation -- at least by commercial entities.
 
 Balancing these factors is difficult, but is often helped by community building and good design -- in particular, appropriate use of layering.
-
 
 
 ## Limit Intermediary Power {#intermediation}
