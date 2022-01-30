@@ -394,6 +394,8 @@ While (as discussed above) standards efforts have a very limited capability to p
 
 For example, HTTP allows intermediaries to see the full content of traffic by default, even when they are only performing basic functions such as routing. However, with the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with market forces to adopt HTTPS, those intermediaries now only have access to the appropriate routing information.
 
+The nature of the relationship between an intermediary and the endpoints of communication also requires careful consideration. In particular, inherited centralization risk is increased when intermediaries can be imposed without the knowledge or explicit action of one (or both) of the endpoints.
+
 When carefully considered, intermediation can also be a powerful way to enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called "oblivious" protocols currently in development (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
 
 See {{?I-D.thomson-tmi}} for more guidance on protocol intermediation.
