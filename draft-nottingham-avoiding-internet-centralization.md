@@ -173,7 +173,7 @@ This document defines "centralization" as the ability of a single entity (e.g., 
 
 Here, "function" is defined broadly. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
-However, centralization is not limited to standards-defined protocols. User-visible applications built on top of the functions provided by standards are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the supply of underlying networking equipment, hardware, operating systems, and software can exhibit centralization.
+However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the supply of underlying networking equipment, hardware, operating systems, and software can exhibit centralization that impacts the Internet.
 
 Centralization risk is strongest when it necessarily affects the entire Internet. However, it can also be present when a substantial portion of the Internet's users lack options for a given function. For example, if there is only one provider a function in a given region or legal jurisdiction, that function is effectively centralized for those users.
 
