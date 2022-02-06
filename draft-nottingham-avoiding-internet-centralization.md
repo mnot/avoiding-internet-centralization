@@ -375,9 +375,11 @@ Even absent a legal mandate, changes in norms and the market -- due to increasin
 
 ## Build Well-Balanced Standards {#balance}
 
-To minimize centralization risk, standards-defined functions should have an explicit goal of broad, diverse implementation and deployment, so that users have as many choices as possible. {{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage this outcome.
+To minimize centralization risk, standards-defined functions should have an explicit goal of broad, diverse implementation and deployment, so that users have as many choices as possible. 
 
-Furthermore, the cost of switching to a different implementation or deployment should be as low as possible, to facilitate subsequent substitution. Generally, this implies that the standard is functionally complete and specified precisely enough to result in genuine interoperability.
+{{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage this outcome.
+
+This goal can also be furthered by ensuring that the cost of switching to a different implementation or deployment is as low as possible, to facilitate subsequent substitution. Generally, this implies that the standard is functionally complete and specified precisely enough to result in meaningful interoperability.
 
 These goals are sometimes in tension. For example, if a standard is extremely complex, it may discourage diversity of implementation because the cost of a complete implementation is too high (consider: Web browsers). On the other hand, if the specification is too simple it may not offer enough functionality to be considered complete, and the resulting proprietary extensions may make switching difficult (see {{evolution}}).
 
