@@ -169,7 +169,7 @@ Engineers who design and standardize Internet protocols are the primary audience
 
 # What is Centralization {#what}
 
-This document defines "centralization" as the ability of a single entity (e.g., a person, company, or government) -- or a small group of them -- to exclusively observe, control, or extract rent from the operation or use of a given function on the Internet.
+This document defines "centralization" as the ability of a single entity (e.g., a person, company, or government) -- or a small group of them -- to exclusively observe, capture, control, or extract rent from the operation or use of a given function on the Internet.
 
 Here, "function" is defined broadly. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
