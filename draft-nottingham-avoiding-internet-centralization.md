@@ -145,6 +145,14 @@ informative:
     author:
      -
       organization: OECD
+  MIX:
+    title: Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms
+    date: 1 February 1981
+    target: https://dl.acm.org/doi/10.1145/358549.358563
+    author:
+     -
+      name: David L. Chaum
+
 
 --- abstract
 
@@ -179,7 +187,7 @@ Centralization risk is strongest when it necessarily affects the entire Internet
 
 "Decentralization" is the process of identifying centralization risk in the functions of a protocol or application, followed by the application of appropriate techniques to prevent or mitigate centralization.
 
-Decentralization does not require that a given function need be so widely distributed that other important factors are sacrificed. Because the same network effects that cause centralization can also deliver benefits (such as improvements in efficiency, resiliency, latency, and availability), the appropriate amount of decentralization for a given function might vary, with the optimal balance being determined by any number of factors. A function that is only available through a relatively small number of providers can still be effectively decentralized, given the appropriate circumstances (see, for example, the Domain Name System {{?RFC1035}}).
+Decentralization does not require that a given function need be so widely distributed that other important factors are sacrificed. Because the same network effects that cause centralization can also deliver benefits (such as improvements in efficiency, resiliency, latency, and availability; see {{intermediation}} for further discussion), the appropriate amount of decentralization for a given function might vary, with the optimal balance being determined by any number of factors. A function that is only available through a relatively small number of providers can still be effectively decentralized, given the appropriate circumstances (see, for example, the Domain Name System {{?RFC1035}}).
 
 Therefore, discussions of centralization and architectural efforts at decentralization need to be made on a case-by-base basis, depending on the function in question, surrounding circumstances, and other regulatory mechanisms.
 
@@ -390,15 +398,21 @@ Balancing these factors is difficult, but is often helped by community building 
 
 ## Limit Intermediary Power {#intermediation}
 
-The introduction of an intermediary role -- i.e., one that performs a function but is not a first party to communication -- adds indirect and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. At the same time, intermediation often adds significant value to a protocol, or enables what is considered a necessary function.
+Some functions might see substantial benefits if intermediation -- i.e., adding a new party to communication to perform a function -- is introduced. When used well, intermediation can help improve:
 
-While (as discussed above) standards efforts have a very limited capability to prevent or control indirect and platform centralization, constraints on intermediary functions can prevent at least the most egregious outcomes. In general, this can be achieved by limiting the nature of the intermediary role to the most minimal function possible.
+* _Efficiency_: Many functions on the Internet are significantly more efficient when performed at higher scale. For example, a Content Delivery Network is able to offer services at a fraction of the financial and environmental cost that would otherwise be paid by someone serving content themselves, due to the scale they operate at.
 
-For example, HTTP allows intermediaries to see the full content of traffic by default, even when they are only performing basic functions such as routing. However, with the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with market forces to adopt HTTPS, those intermediaries now only have access to the appropriate routing information.
+* _Complexity_: Completely disintermediating communication can shift the burden of functions onto endpoints. This can result in increased cognitive load for users; for example, compare commercial social networking platforms with self-hosted efforts.
 
-The nature of the relationship between an intermediary and the endpoints of communication also requires careful consideration. In particular, inherited centralization risk is increased when intermediaries can be imposed without the knowledge or explicit action of one (or both) of the endpoints.
+* _Specialization_: Having a function concentrated into relatively few hands can improve outcomes due to the resulting specialization. For example, services overseen by professional administrators are often seen to have a better security posture and improved availability.
 
-When carefully considered, intermediation can also be a powerful way to enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called "oblivious" protocols currently in development (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
+* _Privacy_: For some functions, user privacy can be improved by concentrating their activity to prevent individual behaviors from being discriminated from each other.{{MIX}} Intermediation can also be used to enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called "oblivious" protocols (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
+
+However, the introduction of an intermediary role adds indirect and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. While (as discussed above) standards efforts have a very limited capability to prevent or control these types of centralization, constraints on intermediary functions can prevent at least the most egregious outcomes.
+
+As a result, intermediaries should only be interposed as a result of the positive action of at least one endpoint, and should have their ability to observe or control communication limited to what is necessary to perform their intended function.
+
+For example, early deployments of HTTP allowed intermediaries to be interposed by the network without knowledge of the endpoints, and those intermediaries could see and modify the full content of traffic by default -- even when they are only intended to perform basic functions such as caching. Due to the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with efforts to encourage its adoption, those intermediaries are now required to be explicitly interposed by one of the endpoints.
 
 See {{?I-D.thomson-tmi}} for more guidance on protocol intermediation.
 
