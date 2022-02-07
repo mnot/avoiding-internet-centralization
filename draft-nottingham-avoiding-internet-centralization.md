@@ -337,7 +337,7 @@ Use of these techniques can create barriers to direct and inherited centralizati
 
 Furthermore, distributed consensus technologies have several potential shortcomings that may make them inappropriate -- or at least difficult to use -- for many Internet applications, because their use conflicts with other important goals:
 
-1. Distributed consensus protocols can have significant implications for privacy. Because activity (such as queries or transactions) are shared with many unknown parties (and often publicly visible due to the nature of the blockchain) they have very different privacy properties than traditional client/server protocols. Potential mitigations (e.g., Private Information Retrieval; see, e.g., {{PIR}}) are still not suitable for broad deployment.
+1. Distributed consensus has significant implications for privacy. Because activity (such as queries or transactions) are shared with many unknown parties (and often publicly visible due to the nature of the blockchain) they have very different privacy properties than traditional client/server protocols. Potential mitigations (e.g., Private Information Retrieval; see, e.g., {{PIR}}) are still not suitable for broad deployment.
 
 2. Their complexity and "chattiness" typically result in significantly less efficient use of the network (often, to several orders of magnitude). When distributed consensus protocols use proof-of-work, energy consumption can become significant (to the point where some jurisdictions have banned its use).
 
