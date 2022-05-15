@@ -263,13 +263,15 @@ By its nature, indirect centralization is difficult to avoid in protocol design,
 
 ## Inherited Centralization {#network}
 
-Most Internet protocols and applications depend on other, "lower-layer" protocols. The features, deployment, and operation of these dependencies can surface centralization risk into functions and applications build "on top" of them.
+Most Internet protocols and applications depend on other, "lower-layer" protocols and their implementations. The features, deployment, and operation of these dependencies can surface centralization risk into functions and applications build "on top" of them.
 
 For example, the network between endpoints can introduce centralization risk to application-layer protocols, because it is necessary for communication and therefore has power over it. A network might block access to, slow down, or change the content of various application protocols or specific services for financial, political, operational, or criminal reasons, thereby creating pressure to use other services, which can result in centralization of them.
 
-Inherited centralization risk is often present when users cannot find an alternative means of accessing the desired service, due to market forces. This kind of centralization can also be created by legal mandates and incentives that restrict the options for Internet access or the provision of a given kind of Internet service.
+Likewise, having only a single implementation of a protocol is an inherited centralization risk, because applications that use it are vulnerable to the control it has over their operation. Even if it is Open Source, there might be inherited centralization risk if there are factors that make forking difficult (for example, the cost of maintaining that fork).
 
-When deployed at scale, encryption can be an effective technique to enforce layer boundaries and thus help prevent inherited centralization risks. By reducing the number of parties who have access, lower-layer protocols and intermediaries can be prevented from interfering with and observing the content of communication. Although parties at lower layers might still be able to prevent communication, encryption also makes it more difficult to discriminate a target from other traffic.
+Inherited centralization risk is often present when users cannot find an alternative means of accessing the desired service, due to market forces. This kind of centralization can also be created by legal mandates and incentives that restrict the options for Internet access, the provision of a given kind of Internet service, or the range of implementations available.
+
+Some kinds of inherited centralization can be prevented by enforcing layer boundaries through use of techniques like encryption. When the number of parties who have access to content of communication are limited, lower-layer implementations, protocols and intermediaries can be prevented from interfering with and observing it. Although parties at lower layers might still be able to prevent communication, encryption also makes it more difficult to discriminate a target from other traffic.
 
 Note that the prohibitive effect of encryption on inherited centralization is most pronounced when most (if not all) traffic is encrypted. See also {{?RFC7258}}.
 
@@ -387,7 +389,7 @@ If the Internet community does not produce specifications for these mandates to 
 
 ## Build Robust Ecosystems {#balance}
 
-To minimize centralization risk, standards-defined functions should have an explicit goal of broad, diverse implementation and deployment, so that users have as many choices as possible.
+To minimize inherited centralization risk, standards-defined functions should have an explicit goal of broad, diverse implementation and deployment, so that users have as many choices as possible.
 
 {{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage this outcome.
 
