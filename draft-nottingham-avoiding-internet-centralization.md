@@ -374,15 +374,15 @@ When we find centralization risk, we should consider its relationship with other
 
 ## Decentralize Proprietary Functions {#up}
 
-Standards efforts should particularly focus on creating specifications for functions that are currently only satisfied by proprietary, centralized applications and protocols. For an example like social networking, this might mean creating specifications that enable decentralized social networking, perhaps using some or all of the techniques described in {{decentralization}}.
+It is worthwhile to create specifications for functions that are currently only satisfied by proprietary, directly centralized providers.
 
-Availability of relevant open specifications is not sufficient to prevent centralization; in the case of social networking, specifications like {{W3C.CR-activitystreams-core-20161215}}) have been available for some time without broad adoption by these providers. The IETF and W3C create voluntary standards, not mandatory regulations.
+A common objection to such efforts is that adoption is voluntary, not mandatory; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{W3C.CR-activitystreams-core-20161215}}) have been available for some time without broad adoption by social networking providers.
 
-However, legal instruments are mandatory, and combined with changing norms and the resulting market forces have their own regulatory effects that can compliment architectural regulation {{NEW-CHICAGO}}.
+However, legal regulatory mechanisms are often mandatory, and regulators around the globe are now focusing their efforts on the Internet. In particular, legal mandates for interoperability are increasingly discussed as a remedy for competition issues (see, e.g., {{OECD}}).
 
-In particular, legal mandates for interoperability are increasingly discussed as a remedy for competition issues (see, e.g., {{OECD}}). If the Internet community does not produce specifications for these mandates to reference, it is likely that the need will be filled by other means -- most likely, with less transparency, more narrow input, and limited experience.
+As such, emerging regulation presents an opportunity to create new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}.
 
-It is also uncertain that legally mandated interoperability will fully address centralization risks. However, if such specifications are not available from the Internet community, they may be created elsewhere without reference to the Internet’s architectural goals.
+If the Internet community does not produce specifications for these mandates to reference, it is likely that the need will be filled by other means -- most likely, with less transparency, more narrow input, limited experience, and without reference to the Internet’s architectural goals.
 
 
 ## Build Robust Ecosystems {#balance}
