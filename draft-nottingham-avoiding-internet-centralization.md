@@ -243,7 +243,7 @@ IP addresses allocation is another example of a necessary function having centra
 
 Similarly, the need for coordination in the Web's trust model brings centralization risk, because of the Certificate Authority's role in communication between clients and servers.
 
-Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties that are not in direct contact also suffer from this kind of centralization risk. For example, chat protocols need to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party.
+Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties who are not in direct contact also suffer from this kind of centralization risk. For example, chat protocols need to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party.
 
 Internet protocols often attempt to mitigate necessary centralization risk using measures such as federation (see {{federation}}) and multi-stakeholder administration (see {{multi}}).
 
@@ -383,7 +383,7 @@ Even absent a legal mandate, changes in norms and the market -- because of incre
 
 ## Build Well-Balanced Standards {#balance}
 
-To minimize centralization risk, standards-defined functions should have an explicit goal of broad, diverse implementation and deployment, so that users have as many choices as possible. 
+To minimize centralization risk, standards-defined functions should have an explicit goal of broad, diverse implementation and deployment, so that users have as many choices as possible.
 
 {{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage this outcome.
 
