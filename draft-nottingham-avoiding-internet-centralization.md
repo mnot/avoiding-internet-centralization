@@ -345,9 +345,13 @@ Furthermore, distributed consensus technologies have several potential shortcomi
 
 4. By design, distributed consensus protocols diffuse responsibility for a function among several difficult-to-identify parties. While this may be an effective way to prevent some kinds of centralization, it also means that making someone accountable for how the function is performed is impossible, beyond the bounds of the protocol's design.
 
-It is also important to recognise that a protocol or an application can use distributed consensus for some functions, but still have centralization risk elsewhere. Even when distributed consensus is used exclusively for all functions (which is uncommon, because of the associated costs), some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization risk, just at a different layer (inherited or platform).
+5. Distributed consensus protocols typically rely on cryptography for identity, rather than trusting a third party's assertions about identity. When a user loses their keys, recovering their identity is not possible in this model, which is an unacceptable usability impact for many applications.
 
-These potential shortcomings do not rule out the use of distributed consensus technologies for every use case. They do, however, caution against relying upon these technologies to avoid centralization uncritically.
+It is also important to recognise that a protocol or an application can use distributed consensus for some functions, but still have centralization risk elsewhere -- either because those functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the service provider has chosen not to because of the associated costs and lost opportunities.
+
+Even when distributed consensus is used exclusively for all technical functions of a service, some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization risk, just at a different layer (inherited or platform).
+
+These potential shortcomings do not rule out the use of distributed consensus technologies in every instance. They do, however, caution against relying upon these technologies to avoid centralization uncritically.
 
 
 # What Should Internet Standards Do? {#considerations}
