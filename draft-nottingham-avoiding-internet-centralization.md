@@ -381,7 +381,7 @@ It is far from certain that a legal mandate for interoperability based upon Inte
 Even absent a legal mandate, changes in norms and the market -- because of increasing knowledge and distrust of centralized functions -- can create demand for such specifications and the corresponding implementations.
 
 
-## Build Well-Balanced Standards {#balance}
+## Build Robust Ecosystems {#balance}
 
 To minimize centralization risk, standards-defined functions should have an explicit goal of broad, diverse implementation and deployment, so that users have as many choices as possible.
 
@@ -389,7 +389,7 @@ To minimize centralization risk, standards-defined functions should have an expl
 
 This goal can also be furthered by ensuring that the cost of switching to a different implementation or deployment is as low as possible to facilitate subsequent substitution. This implies that the standard is functionally complete and specified precisely enough to result in meaningful interoperability.
 
-These goals are sometimes in tension. For example, if a standard is extremely complex, it may discourage implementation diversity because the cost of a complete implementation is too high (consider: Web browsers). On the other hand, if the specification is too simple, it may not offer enough functionality to be complete, and the resulting proprietary extensions may make switching difficult (see {{evolution}}).
+The goals of completeness and diversity are sometimes in tension. If a standard is extremely complex, it may discourage implementation diversity because the cost of a complete implementation is too high (consider: Web browsers). On the other hand, if the specification is too simple, it may not offer enough functionality to be complete, and the resulting proprietary extensions may make switching difficult (see {{evolution}}).
 
 Furthermore, if a new protocol is perceived as completely commoditized (so that no implementation can differentiate itself, and there is no barrier to switching), it may have difficulty achieving broad implementation -- at least by commercial entities.
 
