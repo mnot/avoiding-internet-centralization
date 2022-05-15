@@ -441,3 +441,5 @@ This document does not have direct security impact on Internet protocols. Howeve
 # Acknowledgements
 
 This document benefits from discussions with Brian Trammell during our shared time on the Internet Architecture Board.
+
+Thanks to Jari Arkko and Eliot Lear for their comments and suggestions.
