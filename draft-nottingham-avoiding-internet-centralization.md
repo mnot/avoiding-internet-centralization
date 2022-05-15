@@ -267,11 +267,11 @@ Most Internet protocols and applications depend on other, "lower-layer" protocol
 
 For example, the network between endpoints can introduce centralization risk to application-layer protocols, because it is necessary for communication and therefore has power over it. A network might block access to, slow down, or change the content of various application protocols or specific services for financial, political, operational, or criminal reasons, thereby creating pressure to use other services, which can result in centralization of them.
 
-Inherited centralization risk is only present when users cannot use an alternative means of accessing the desired service. For example, users often have flexibility in choice of Internet access, so they could just “route around” a network that affects their chosen service. However, such choices are often not available at the moment, and the Internet’s topology means that a choke point upstream could still affect their Internet access.
+Inherited centralization risk is often present when users cannot find an alternative means of accessing the desired service. For example, many users have flexibility in choice of Internet access, so they could just “route around” a network that affects their chosen service. However, such choices are often not available at the moment, and the Internet’s topology means that a choke point upstream could still affect their Internet access.
 
-When deployed at scale, encryption can be an effective technique to control many inherited centralization risks. By reducing the number of parties who have access to content of communication, the ability of lower-layer protocols and intermediaries at those layers to interfere with or observe is prevented. Even while they may still prevent communication, encryption makes it more difficult to discriminate the target from other traffic.
+When deployed at scale, encryption can be an effective technique to enforce layer boundaries and thus prevent inherited centralization risks. By reducing the number of parties who have access, lower-layer protocols and intermediaries can be prevented from interfering with and observing the content of communication. Although parties at lower layers might still be able to prevent communication, encryption also makes it more difficult to discriminate a target from other traffic.
 
-Note that the prohibitive effect on inherited centralization is most pronounced when most (if not all) traffic is encrypted -- providing yet more motivation for that goal (see also {{?RFC7258}}).
+Note that the prohibitive effect of encryption on inherited centralization is most pronounced when most (if not all) traffic is encrypted. See also {{?RFC7258}}.
 
 
 ## Platform Centralization {#platform}
