@@ -233,26 +233,26 @@ While some argue that such protocols are simpler to design, more amenable to evo
 Directly centralised protocols and applications are not considered to be part of the Internet per se; instead, they are more properly characterized as proprietary protocols that are built on top of the Internet. As such, the Internet architecture and associated standards do not regulate them, beyond the constraints that the underlying protocols (e.g., TCP, IP, HTTP) impose.
 
 
-## Necessary Centralization {#necessary}
+## Beneficial Centralization {#necessary}
 
-Some protocols introduce centralization risk that is unavoidable by nature.
+Some protocols introduce centralization risk that is unavoidable, because the protocol's goals requires a centralized function.
 
 For example, when there is a need for a single, globally coordinated “source of truth”, that function is by nature centralized -- such as in the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
 
-IP addresses allocation is another example of a necessary function having centralization risk. Internet routing requires addresses to be allocated uniquely, but if a single government or company captured the addressing function, the entire Internet would be at risk of abuse by that entity.
+IP addresses allocation is another example of a function having this kind of centralization risk. Internet routing requires addresses to be allocated uniquely, but if a single government or company captured the addressing function, the entire Internet would be at risk of abuse by that entity.
 
 Similarly, the need for coordination in the Web's trust model brings centralization risk, because of the Certificate Authority's role in communication between clients and servers.
 
 Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties who are not in direct contact also suffer from this kind of centralization risk. For example, chat protocols need to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party.
 
-Internet protocols often attempt to mitigate necessary centralization risk using measures such as federation (see {{federation}}) and multi-stakeholder administration (see {{multi}}).
+Internet protocols often attempt to mitigate beneficial centralization risk using measures such as federation (see {{federation}}) and multi-stakeholder administration (see {{multi}}).
 
-Protocols that successfully mitigate necessary centralization are often reused, to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is usually preferable to establishing a new system.
+Protocols that successfully mitigate beneficial centralization are often reused, to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is usually preferable to establishing a new system.
 
 
 ## Indirect Centralization {#indirect}
 
-Even when a protocol avoids direct centralization and does not exhibit any necessary centralization, it might become centralized in practice when external factors influence its deployment. Factors that encourage use of a central function, despite the absence of such a requirement in the protocol itself, can cause indirect centralization. Such factors might be economic, social, or legal.
+Even when a protocol avoids direct centralization and does not require any beneficial centralization, it might become centralized in practice when external factors influence its deployment. Factors that encourage use of a central function, despite the absence of such a requirement in the protocol itself, can cause indirect centralization. Such factors might be economic, social, or legal.
 
 Often, the factors driving indirect centralization are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks,{{SCALE-FREE}} network effects award asymmetric power to nodes that act as intermediaries to communication.
 
@@ -309,16 +309,16 @@ Another example of a federated Internet protocol is XMPP {{?RFC6120}}, supportin
 
 While some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, rather than provide the benefits of global interoperability.
 
-The examples above illustrate that federation can be a useful technique to avoid direct centralization and manage necessary centralization, but on its own does not avoid indirect and platform centralization. If a single entity can capture the value provided by a protocol, they may use the protocol as a platform to get a “winner take all” outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally “tilt the table” towards a few operators.
+The examples above illustrate that federation can be a useful technique to avoid direct centralization and manage beneficial centralization, but on its own does not avoid indirect and platform centralization. If a single entity can capture the value provided by a protocol, they may use the protocol as a platform to get a “winner take all” outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally “tilt the table” towards a few operators.
 
 
 ## Multi-Stakeholder Administration is Hard {#multi}
 
-The risks associated with a necessarily centralized function (see {{necessary}}) are sometimes mitigated by delegating that function's administration to a multi-stakeholder body.
+The risks associated with a beneficial centralized function (see {{necessary}}) are sometimes mitigated by delegating that function's administration to a multi-stakeholder body.
 
 A multi-stakeholder body is an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, broadly agreed-to, and authoritative decisions.
 
-The most widely-studied example of this technique is the administration of the DNS, which as a “single source of truth” exhibits necessary centralization in its naming function, as well as the operation of the system overall. To mitigate operational centralization, multiple root servers that are administered by separate operators (themselves diverse in geography) and a selection of corporate entities, non-profits, and government bodies from many jurisdictions and affiliations carry this task out. The name space itself is [regulated by the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), which is defined as a globally multi-stakeholder body with representation from end users, governments, operators, and others.
+The most widely-studied example of this technique is the administration of the DNS, which as a “single source of truth” exhibits beneficial centralization in its naming function, as well as the operation of the system overall. To mitigate operational centralization, multiple root servers that are administered by separate operators (themselves diverse in geography) and a selection of corporate entities, non-profits, and government bodies from many jurisdictions and affiliations carry this task out. The name space itself is [regulated by the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), which is defined as a globally multi-stakeholder body with representation from end users, governments, operators, and others.
 
 Another example is the administration of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To assure that all parties meet the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both of those parties as stakeholders.
 
@@ -365,7 +365,7 @@ While standards bodies on their own cannot prevent centralization, there are mea
 
 ## Be Realistic {#target}
 
-Some types of centralization risk are relatively easy to manage in standards efforts. For example, a directly centralized protocol, were it to be proposed, would be rejected out of hand by the IETF. There is a growing body of knowledge and experience with necessary centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization. These responses are appropriate ways for Internet standards to manage centralization risk.
+Some types of centralization risk are relatively easy to manage in standards efforts. For example, a directly centralized protocol, were it to be proposed, would be rejected out of hand by the IETF. There is a growing body of knowledge and experience with beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization. These responses are appropriate ways for Internet standards to manage centralization risk.
 
 However, preventing indirect and platform centralization is much more difficult in standards efforts. Because we have no “protocol police”, it’s not possible to demand that someone stop building a proprietary service using a purportedly federated protocol. We also cannot stop someone from building centralized services “on top” of standard protocols without abandoning architectural goals like permissionless innovation.
 
