@@ -271,7 +271,7 @@ Likewise, having only a single implementation of a protocol is an inherited cent
 
 Inherited centralization risk is often present when users cannot find an alternative means of accessing the desired service, due to market forces. This kind of centralization can also be created by legal mandates and incentives that restrict the options for Internet access, the provision of a given kind of Internet service, or the range of implementations available.
 
-Some kinds of inherited centralization can be prevented by enforcing layer boundaries through use of techniques like encryption. When the number of parties who have access to content of communication are limited, lower-layer implementations, protocols and intermediaries can be prevented from interfering with and observing it. Although parties at lower layers might still be able to prevent communication, encryption also makes it more difficult to discriminate a target from other traffic.
+Some kinds of inherited centralization can be prevented by enforcing layer boundaries through use of techniques like encryption. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still be able to prevent communication, encryption also makes it more difficult to discriminate a target from other traffic.
 
 Note that the prohibitive effect of encryption on inherited centralization is most pronounced when most (if not all) traffic is encrypted. See also {{?RFC7258}}.
 
@@ -284,7 +284,7 @@ For example, HTTP {{HTTP}} is not considered a centralized protocol; interoperab
 
 However, applications built on top of HTTP (as well as the rest of the “Web Platform”) often exhibit centralization. As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications.
 
-Like indirect centralization, platform centralization is difficult to prevent with protocol design. Because of the layered nature of the Internet, most protocols allow considerable flexibility in how they are used, often in a way that it becomes attractive to form a dependency on one party’s operation. Notably, this can happen even if the protocol does not accommodate intermediation explicitly.
+Like indirect centralization, platform centralization is difficult to prevent with protocol design. Because of the layered nature of the Internet, most protocols allow considerable flexibility in how they are used, often in a way that it becomes attractive to form a dependency on one party’s operation.
 
 
 # The Limits of Decentralization {#decentralization}
@@ -294,14 +294,14 @@ Over time, various techniques have been developed to decentralize protocols and 
 
 ## Federation isn't Enough {#federation}
 
-A widely known technique for managing centralization in Internet protocols is federation -- designing them in such a way that new instances of any intermediary or otherwise centralized function are relatively easy to create, and they can maintain interoperability and connectivity with other instances.
+A widely known technique for managing centralization in Internet protocols is federation -- designing them in such a way that new instances of any centralized function are relatively easy to create, and they can maintain interoperability and connectivity with other instances.
 
 For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols, which has two functions that are necessarily centralized:
 
 1. Giving each user a globally unique address, and
 2. Routing messages to the user, even when they change network locations or are disconnected for long periods of time.
 
-E-mail reuses DNS to help mitigate the first risk. To mitigate the second, it defines an intermediary role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol's users avoid a requirement for a single central router.
+E-mail reuses DNS to help mitigate the first risk. To mitigate the second, it defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol's users avoid a requirement for a single central router.
 
 Users can (and often do) choose to delegate that role to someone else, or run their own MTA. However, running your own mail server has become difficult, because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, indirectly centralizing the protocol’s operation (see {{indirect}}).
 
@@ -331,7 +331,7 @@ A major downside of this approach is that setup and ongoing operation of multi-s
 
 Increasingly, distributed consensus technologies, such as the blockchain, are touted as a solution to centralization issues. A complete survey of this rapidly changing area is beyond the scope of this document, but at a high level, we can generalise about their properties.
 
-These techniques attempt to avoid centralization risk by distributing intermediary or otherwise potentially centralized functions to members of a large pool of protocol participants. Proper performance of a function is typically guaranteed using cryptographic techniques (often, an append-only transaction ledger). A particular task's assignment to a node for handling usually cannot be predicted or controlled.
+These techniques attempt to avoid centralization risk by distributing potentially centralized functions to members of a large pool of protocol participants. Proper performance of a function is typically guaranteed using cryptographic techniques (often, an append-only transaction ledger). A particular task's assignment to a node for handling usually cannot be predicted or controlled.
 
 Sybil attacks (where enough participants coordinate their activity to affect the protocol's operation) are a major concern for these protocols. Diversity in the pool of participants is encouraged using indirect techniques such as proof-of-work (where each participant has to demonstrate significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
 
