@@ -296,9 +296,9 @@ Various techniques have been developed to decentralize protocols and application
 
 ## Federation isn't Enough {#federation}
 
-A widely known technique for managing centralization in Internet protocols is federation -- designing them in such a way that new instances of any centralized function are relatively easy to create, and they can maintain interoperability and connectivity with other instances.
+A widely known technique for managing centralization in Internet protocols is federation -- designing them in such a way that new instances of any centralized function are relatively easy to create and can maintain interoperability and connectivity with other instances.
 
-For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols, which has two functions that are necessarily centralized:
+For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols, which has two functions that have centralization risk:
 
 1. Giving each user a globally unique address, and
 2. Routing messages to the user, even when they change network locations or are disconnected for long periods of time.
@@ -318,9 +318,9 @@ The examples above illustrate that federation can be a useful technique to avoid
 
 The risks associated with a beneficial centralized function (see {{necessary}}) are sometimes mitigated by delegating that function's administration to a multi-stakeholder body.
 
-A multi-stakeholder body is an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, broadly agreed-to, and authoritative decisions.
+A multi-stakeholder body is an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
 
-The most widely-studied example of this technique is the administration of the DNS, which as a “single source of truth” exhibits beneficial centralization in its naming function, as well as the operation of the system overall. To mitigate operational centralization, multiple root servers that are administered by separate operators (themselves diverse in geography) and a selection of corporate entities, non-profits, and government bodies from many jurisdictions and affiliations carry this task out. The name space itself is [regulated by the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), which is defined as a globally multi-stakeholder body with representation from end users, governments, operators, and others.
+The most widely-studied example of this technique is the administration of the DNS, which as a “single source of truth” exhibits beneficial centralization in its naming function, as well as the operation of the system overall. To mitigate operational centralization, multiple root servers that are administered by separate operators (themselves diverse in geography) and a selection of corporate entities, non-profits, and government bodies from many jurisdictions and affiliations carry this task out. Administration of the name space itself is overseen by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
 
 Another example is the administration of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To assure that all parties meet the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both of those parties as stakeholders.
 
