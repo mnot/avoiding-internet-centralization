@@ -316,9 +316,7 @@ The examples above illustrate that federation can be a useful technique to avoid
 
 ## Multi-Stakeholder Administration is Hard {#multi}
 
-The risks associated with a beneficial centralized function (see {{necessary}}) are sometimes mitigated by delegating that function's administration to a multi-stakeholder body.
-
-A multi-stakeholder body is an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
+The risks associated with a beneficial centralized function (see {{necessary}}) are sometimes mitigated by delegating that function's administration to a multi-stakeholder body -- an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
 
 The most widely-studied example of this technique is the administration of the DNS, which as a “single source of truth” exhibits beneficial centralization in its naming function, as well as the operation of the system overall. To mitigate operational centralization, multiple root servers that are administered by separate operators (themselves diverse in geography) and a selection of corporate entities, non-profits, and government bodies from many jurisdictions and affiliations carry this task out. Administration of the name space itself is overseen by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
 
