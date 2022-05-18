@@ -170,12 +170,12 @@ While avoiding centralization of control over the Internet remains a widely shar
 
 These difficulties call into question what role architectural regulation -- in particular, open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling Internet centralization.
 
-This document discusses aspects of centralization that relate to Internet standards efforts. {{what}} provides a definition of centralization. {{why}} explains why centralization of the Internet's core functions is undesirable. {{kinds}} surveys the different kinds of centralization that might surface on the Internet. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
+This document discusses aspects of centralization that relate to Internet standards efforts. {{what}} provides a definition of centralization. {{why}} explains when and why centralization of the Internet's core functions is undesirable. {{kinds}} surveys the different kinds of centralization that might surface on the Internet. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
 Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralization, especially if they intend their protocol to be considered for eventual standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
 
 
-# What is Centralization {#what}
+# What is Centralization? {#what}
 
 This document defines "centralization" as the ability of a single entity (e.g., a person, company, or government) -- or a small group of them -- to exclusively observe, capture, control, or extract rent from the operation or use of a Internet function.
 
@@ -194,21 +194,23 @@ Therefore, discussions of centralization and architectural efforts at decentrali
 Note that it is important to distinguish centralization from anti-competitive concerns (also known as "anti-trust"). While there are many interactions between these concepts and making provision of the Internet's functions more competitive may be a motivation for avoiding centralization, only courts are authoritative in determining what is and is not anti-competitive in a market, not standards bodies and other technical fora.
 
 
-# Why Avoid Centralization {#why}
+# When Centralization is Undesirable {#why}
 
-Centralization is undesirable because it is counter to the Internet's nature, because it violates the end users' expectations, and because of the many negative effects it can have on the network's operation and evolution.
+Centralization is not always problematic, and is sometimes even desirable. If a function is specific to a given entity -- for example, a person's web site, or a government service -- it is expected that it be controlled by them alone. Emerging applications and other functions can often gain significant benefits from being centralized, especially considering the potential costs of decentralization (see {{necessary}} for more discussion of the benefits of centralization).
+
+However, when a function becomes widespread enough in use or when it becomes a platform for other functions to be built upon, it deserves more scrutiny for centralization risk. Centralization of such functions is undesirable because it is counter to the Internet's nature, because it violates the end users' expectations, and because of the many negative effects it can have on the network's operation and evolution.
 
 First, the Internet's very nature is incompatible with centralization of its functions. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
 Second, when a third party has unavoidable access to communications, the "informational and positional advantages" {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the "panopticon effect") and shape or even deny behaviour (the "chokepoint effect") -- which can be used by those parties (or the states that have authority over them) for coercive ends {{WEAPONIZED-INTERDEPENDENCE}} or to disrupt society itself.
 
-Finally, concentration of power has deleterious effects on the Internet itself, including:
+Finally, centralization has deleterious effects on the Internet itself, including:
 
 * _Limiting Innovation_: Centralization can preclude the possibility of "permissionless innovation" -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
 * _Constraining Competition_: The Internet and its users benefit from robust competition when applications and services are available from many providers -- especially when those users can build their own applications and services based upon interoperable standards. When functions form dependencies on a centralized service or platform because no substitutes are suitable, it effectively becomes an essential facility, which encourages abuse of power.
 
-* _Reducing Availability_: The Internet's availability (as well as applications and services built upon it) improves when there are many ways to obtain access to it. While centralized services typically benefit from the focused attention that their elevated role requires, when they fail, the resulting loss of availability can have a disproportionate impact.
+* _Reducing Availability_: The Internet's availability (as well as applications and services built upon it) improves when there are many ways to obtain access. While centralized services typically benefit from the focused attention that their elevated role requires, when they fail, the resulting loss of availability can have a disproportionate impact.
 
 * _Creating Monoculture_: The scale available to a centralized service or application can magnify minor flaws in features such as recommendation algorithms to a degree that can have broad (even societal) consequences. Diversity in these functions’ implementation is significantly more robust when viewed systemically. {{POLYCENTRIC}}
 
