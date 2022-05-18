@@ -329,9 +329,9 @@ A major downside of this approach is that setup and ongoing operation of multi-s
 
 ## Blockchains Are Not Magical {#distributed}
 
-Increasingly, distributed consensus technologies, such as the blockchain, are touted as a solution to centralization issues. A complete survey of this rapidly changing area is beyond the scope of this document, but at a high level, we can generalise about their properties.
+Increasingly, distributed consensus technologies (such as blockchain) are touted as a solution to centralization issues. A complete survey of this rapidly changing area is beyond the scope of this document, but we can generalise about their properties.
 
-These techniques attempt to avoid centralization risk by distributing potentially centralized functions to members of a large pool of protocol participants. Proper performance of a function is typically guaranteed using cryptographic techniques (often, an append-only transaction ledger). A particular task's assignment to a node for handling usually cannot be predicted or controlled.
+These techniques attempt to avoid centralization risk by distributing potentially centralized functions to members of a sometimes large pool of protocol participants. Proper performance of a function is typically guaranteed using cryptographic techniques (often, an append-only transaction ledger). A particular task's assignment to a node for handling usually cannot be predicted or controlled.
 
 Sybil attacks (where enough participants coordinate their activity to affect the protocol's operation) are a major concern for these protocols. Diversity in the pool of participants is encouraged using indirect techniques such as proof-of-work (where each participant has to demonstrate significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
 
@@ -343,11 +343,11 @@ Furthermore, distributed consensus technologies have several potential shortcomi
 
 2. Their complexity and "chattiness" typically result in significantly less efficient use of the network (often, to several orders of magnitude). When distributed consensus protocols use proof-of-work, energy consumption can become significant (to the point where some jurisdictions have banned its use).
 
-3. Distributed consensus protocols are still not proven to scale to the degree expected of successful Internet protocols. In particular, relying on unknown third parties to deliver functionality can introduce variability in latency, availability, and throughput. This is a marked change for applications with high expectations for these properties (e.g., commercial Web services).
+3. Distributed consensus protocols are still not proven to scale to the degree expected of successful Internet protocols. In particular, relying on unknown third parties to deliver functionality can introduce significant variability in latency, availability, and throughput. This is a marked change for applications with high expectations for these properties (e.g., consumer-oriented Web sites).
 
-4. By design, distributed consensus protocols diffuse responsibility for a function among several difficult-to-identify parties. While this may be an effective way to prevent some kinds of centralization, it also means that making someone accountable for how the function is performed is impossible, beyond the bounds of the protocol's design.
+4. By design, distributed consensus protocols diffuse responsibility for a function among several difficult-to-identify parties. While this may be an effective way to prevent some kinds of centralization, it also means that making someone accountable for how the function is performed difficult, and often impossible. While the protocol might use cryptographic techniques to assure correct operation, they may not capture all requirements, and may not be correctly used by the protocol designers.
 
-5. Distributed consensus protocols typically rely on cryptography for identity, rather than trusting a third party's assertions about identity. When a user loses their keys, recovering their identity is not possible in this model, which is an unacceptable usability impact for many applications.
+5. Distributed consensus protocols typically rely on cryptography for identity, rather than trusting a third party's assertions about identity. When a participant loses their keys, recovering their identity is not possible -- an unacceptable usability impact for many applications.
 
 It is also important to recognise that a protocol or an application can use distributed consensus for some functions, but still have centralization risk elsewhere -- either because those functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the service provider has chosen not to because of the associated costs and lost opportunities.
 
