@@ -164,13 +164,13 @@ This document offers a definition of centralization, explains why it is undesira
 
 # Introduction
 
-The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While this approach may reflect a desire to prevent a single technical failure from having wide impact {{RAND}}. it has also enabled the Internet’s rapid adoption and broad spread, because internetworking did not require networks to get permission from or cede control to another entity -- thereby accommodating a spectrum of requirements and positioning the Internet as a public good.
+The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While this approach may reflect a desire to prevent a single technical failure from having wide impact {{RAND}}, it has also enabled the Internet’s rapid adoption and broad spread. Internetworking does not require networks to get permission from or cede control to another entity -- thereby accommodating a spectrum of requirements and positioning the Internet as a public good.
 
-While avoiding centralization is a widely shared goal for the Internet, achieving it has proven difficult. Many successful protocols and applications on the Internet today work in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
+While avoiding centralization of control is a widely shared goal for the Internet, achieving it has proven difficult. Many successful protocols and applications on the Internet today work in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
 
 These difficulties call into question what role architectural regulation -- in particular, open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling Internet centralization.
 
-This document discusses aspects of centralization that relate to Internet standards efforts. {{what}} provides a definition of centralization. {{why}} explains why centralization of the Internet's functions is undesirable. {{kinds}} surveys the different kinds of centralization that might surface on the Internet. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
+This document discusses aspects of centralization that relate to Internet standards efforts. {{what}} provides a definition of centralization. {{why}} explains why centralization of the Internet's core functions is undesirable. {{kinds}} surveys the different kinds of centralization that might surface on the Internet. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
 Engineers who design and standardize Internet protocols are the primary audience for this document. However, designers of proprietary protocols can benefit from considering aspects of centralization, especially if they intend their protocol to be considered for eventual standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
 
@@ -181,17 +181,17 @@ This document defines "centralization" as the ability of a single entity (e.g., 
 
 Here, "Internet function" is defined broadly. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
-However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the supply of underlying networking equipment, hardware, operating systems, and software can exhibit centralization that affects the Internet.
+However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the supply of underlying Internet connectivity, networking equipment, hardware, operating systems, and software can exhibit centralization risk.
 
 Centralization risk is strongest when it affects the entire Internet. However, it can also be present when a substantial portion of the Internet's users lack options for a function. For example, if there is only one provider for a function in a region or legal jurisdiction, that function is effectively centralized for those users.
 
-"Decentralization" is the process of identifying centralization risk in the functions of a protocol or application, followed by the application of techniques used to prevent or mitigate centralization.
+"Decentralization" is the process of identifying centralization risk related to a function, followed by the application of techniques used to prevent or mitigate that risk.
 
-Decentralization does not require that a function need be so widely distributed that other important factors are sacrificed. Because the same network effects that cause centralization can also deliver benefits (such as improvements in efficiency, resiliency, latency, and availability; see {{intermediation}} for further discussion), the appropriate amount of decentralization for a function might vary, with the optimal balance being determined by many factors. A function that is only available through a relatively small number of providers can still be effectively decentralized (see, for example, the Domain Name System {{?RFC1035}}).
+Decentralization does not require that provision of a function need be so widely distributed that other important factors are sacrificed. Because centralization can have beneficial effects (see {{direct}}), the techniques used to decentralize a given function might vary, with the optimal balance being determined by many factors. Notably, a function that is only available through a relatively small number of providers can still be effectively decentralized (see, for example, the Domain Name System {{?RFC1035}}).
 
 Therefore, discussions of centralization and architectural efforts at decentralization need to be made on a case-by-base basis, depending on the function in question, surrounding circumstances, and other regulatory mechanisms.
 
-Note that it is important to distinguish centralization from anti-competitive concerns (also known as "anti-trust"). While there are many interactions between them and making the Internet more competitive may be a motivation for avoiding centralization, only courts are authoritative in determining what is and is not anti-competitive in a defined market, not standards bodies and other technical fora.
+Note that it is important to distinguish centralization from anti-competitive concerns (also known as "anti-trust"). While there are many interactions between these concepts and making provision of the Internet's functions more competitive may be a motivation for avoiding centralization, only courts are authoritative in determining what is and is not anti-competitive in a market, not standards bodies and other technical fora.
 
 
 # Why Avoid Centralization {#why}
@@ -221,14 +221,14 @@ To summarize, centralization would allow the Internet (or some part of it) to be
 
 # Kinds of Centralization {#kinds}
 
-Centralization of the Internet is not uniform; it presents in a variety of ways, depending on its relationship to the function in question and underlying causes. The subsections below suggest a classification system for Internet centralization.
+Centralization on the Internet is not uniform; it presents in a variety of ways, depending on its relationship to the function in question and underlying causes. The subsections below suggest a classification system for Internet centralization.
 
 
 ## Proprietary Centralization {#direct}
 
 Creating of a protocol or application with a fixed role for a specific party is the most straightforward kind of centralization. Currently, many widely used messaging, videoconferencing, chat, and similar protocols operate in this fashion.
 
-While some argue that such protocols are simpler to design, more amenable to evolution, and more likely to meet user needs {{MOXIE}}, this approach most often reflects commercial goals -- in particular, a strong desire to capture the protocols' financial benefits by "locking in" users to a proprietary service.
+While some argue that such protocols are simpler to design, more amenable to evolution, and more likely to meet user needs {{MOXIE}}, proprietary centralization most often reflects commercial goals -- in particular, a strong desire to capture the protocols' financial benefits by "locking in" users to a proprietary service.
 
 Proprietary protocols and applications are not considered to be part of the Internet per se; instead, they are more properly characterized as being built on top of the Internet. As such, the Internet architecture and associated standards do not regulate them, beyond the constraints that the underlying protocols (e.g., TCP, IP, HTTP) impose.
 
