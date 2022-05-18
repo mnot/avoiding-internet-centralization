@@ -223,7 +223,7 @@ To summarize, centralization would allow the Internet (or some part of it) to be
 
 # Kinds of Centralization {#kinds}
 
-Centralization on the Internet is not uniform; it presents in a variety of ways, depending on its relationship to the function in question and underlying causes. The subsections below suggest a classification system for Internet centralization.
+Centralization on the Internet is not uniform; it presents in a variety of ways, depending on its relationship to the function in question and underlying causes. The subsections below describe different aspects of Internet centralization.
 
 
 ## Proprietary Centralization {#direct}
