@@ -164,9 +164,9 @@ This document offers a definition of centralization, explains why it is undesira
 
 # Introduction
 
-The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While this approach may reflect a desire to prevent a single technical failure from having wide impact {{RAND}}, it has also enabled the Internet’s rapid adoption and broad spread. Internetworking does not require networks to get permission from or cede control to another entity -- thereby accommodating a spectrum of requirements and positioning the Internet as a public good.
+The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While this approach may reflect a desire to prevent a single technical failure from having wide impact {{RAND}}, it has also enabled the Internet’s rapid adoption and broad spread. Because internetworking does not require networks to get permission from or cede control to another entity, it accommodates a spectrum of requirements and is positioned as a public good.
 
-While avoiding centralization of control is a widely shared goal for the Internet, achieving it has proven difficult. Many successful protocols and applications on the Internet today work in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
+While avoiding centralization of control over the Internet remains a widely shared goal, achieving it consistently has proven difficult. Many successful protocols and applications on the Internet today work in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
 
 These difficulties call into question what role architectural regulation -- in particular, open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling Internet centralization.
 
@@ -181,7 +181,7 @@ This document defines "centralization" as the ability of a single entity (e.g., 
 
 Here, "Internet function" is defined broadly. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
-However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the supply of underlying Internet connectivity, networking equipment, hardware, operating systems, and software can exhibit centralization risk.
+However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit centralization risk. The supply of Internet connectivity itself can also be subject to the forces of centralization.
 
 Centralization risk is strongest when it affects the entire Internet. However, it can also be present when a substantial portion of the Internet's users lack options for a function. For example, if there is only one provider for a function in a region or legal jurisdiction, that function is effectively centralized for those users.
 
