@@ -291,7 +291,7 @@ Like indirect centralization, platform centralization is difficult to prevent wi
 
 # The Limits of Decentralization {#decentralization}
 
-Over time, various techniques have been developed to decentralize protocols and applications. While use of these approaches can result in a function which is less centralized or less amenable to some kinds of centralization, they are not adequate to avoid centralization completely. They are also not indicators of whether a protocol is centralized without further analysis.
+Various techniques have been developed to decentralize protocols and applications. While use of these approaches can result in a function which is less centralized or less amenable to some kinds of centralization, they are not adequate to avoid centralization completely. They are also not indicators of whether a protocol is centralized without further analysis.
 
 
 ## Federation isn't Enough {#federation}
