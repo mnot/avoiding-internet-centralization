@@ -358,20 +358,20 @@ These potential shortcomings do not rule out the use of distributed consensus te
 
 # What Should Internet Standards Do? {#considerations}
 
-Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Because permissionless innovation is a core value for the Internet, and yet much of the centralization seen on the Internet is performed by proprietary platforms that take advantage of this nature, the controls available to standards efforts on their own are very limited.
+Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Because permissionless innovation is a core value for the Internet, and yet much of the centralization seen on the Internet is performed by proprietary platforms that take advantage of this nature, the controls available to standards efforts are very limited.
 
-While standards bodies on their own cannot prevent centralization, there are meaningful steps that can be taken to prevent some functions from exhibiting some forms of centralization. There are also valuable contributions that standards efforts can make to other relevant forms of regulation.
+While standards bodies on their own cannot prevent centralization, there are meaningful steps that can be taken to prevent some functions from exhibiting centralization. There are also valuable contributions that standards efforts can make to other relevant forms of regulation.
 
 
 ## Be Realistic {#target}
 
-Some types of centralization risk are relatively easy to manage in standards efforts. For example, a proprietary protocol, were it to be proposed, would be rejected out of hand by the IETF. There is a growing body of knowledge and experience with beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization. These responses are appropriate ways for Internet standards to manage centralization risk.
+Some kinds of centralization risk are relatively easy to manage in standards efforts. For example, if a proprietary protocol were to be proposed to the IETF, it would be rejected out of hand. There is a growing body of knowledge and experience with beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization, and has become the norm in standard protocols. These responses are appropriate ways for Internet standards to manage centralization risk.
 
 However, preventing indirect and platform centralization is much more difficult in standards efforts. Because we have no “protocol police”, it’s not possible to demand that someone stop building a proprietary service using a purportedly federated protocol. We also cannot stop someone from building centralized services “on top” of standard protocols without abandoning architectural goals like permissionless innovation.
 
 Therefore, committing significant resources to scrutinizing protocols for latent centralization risk -- especially for indirect and platform risks -- is unlikely to be effective in preventing Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- suffer some form of indirect or platform centralization. Refusing to standardize a newer protocol because it faces similar risks would not be equitable, proportionate, or effective.
 
-When we find centralization risk, we should consider its relationship with other goals, such as privacy. While there is rarely a pure tradeoff between two abstract goals such as these, when it surfaces attention should be paid to how effective architectural regulation (such as a standards effort) is in achieving each goal. In this example, a technical mechanism might be much more effective at improving privacy, whereas centralization might be better controlled by other regulators -- leading to the conclusion that the standards effort should focus on privacy.
+When we do find centralization risk, we should consider its relationship with other goals, such as privacy. While there is rarely a pure tradeoff between two abstract goals such as these, when it surfaces attention should be paid to how effective architectural regulation (such as a standards effort) is in achieving each goal. In this example, a technical mechanism might be much more effective at improving privacy, whereas centralization might be better controlled by other regulators -- leading to the conclusion that the standards effort should focus on privacy.
 
 
 ## Decentralize Proprietary Functions {#up}
@@ -389,7 +389,7 @@ If the Internet community does not produce specifications for these mandates to 
 
 ## Build Robust Ecosystems {#balance}
 
-To minimize inherited centralization risk, standards-defined functions should have an explicit goal of broad, diverse implementation and deployment, so that users have as many choices as possible.
+To minimize inherited centralization risk, standards-defined functions should have an explicit goal of broad, diverse implementation and deployment so that users have as many choices as possible.
 
 {{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage this outcome.
 
