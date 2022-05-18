@@ -376,11 +376,11 @@ When we do find centralization risk, we should consider its relationship with ot
 
 ## Decentralize Proprietary Functions {#up}
 
-It is worthwhile to create specifications for functions that are currently only satisfied by proprietary providers.
+It is worthwhile to create specifications for functions that are currently only satisfied by proprietary providers. By building open specifications on top of already established standards, centralization of emerging Internet functions can be avoided.
 
 A common objection to such efforts is that adoption is voluntary, not mandatory; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{W3C.CR-activitystreams-core-20161215}}) have been available for some time without broad adoption by social networking providers.
 
-However, legal regulatory mechanisms are often mandatory, and regulators around the globe are now focusing their efforts on the Internet. In particular, legal mandates for interoperability are increasingly discussed as a remedy for competition issues (see, e.g., {{OECD}}).
+However, while standards aren't mandatory, legal regulation is, and regulators around the globe are now focusing their efforts on the Internet. In particular, legal mandates for interoperability are increasingly discussed as a remedy for competition issues (see, e.g., {{OECD}}).
 
 As such, emerging regulation presents an opportunity to create new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}.
 
