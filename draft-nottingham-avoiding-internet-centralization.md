@@ -252,15 +252,15 @@ Internet protocols often attempt to mitigate beneficial centralization risk usin
 Protocols that successfully mitigate beneficial centralization are often reused, to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is usually preferable to establishing a new system.
 
 
-## Indirect Centralization {#indirect}
+## Concentrated Centralization {#indirect}
 
-Even when a protocol avoids proprietary centralization and does not require any beneficial centralization, it might become centralized in practice when external factors influence its deployment. Factors that encourage use of a central function, despite the absence of such a requirement in the protocol itself, can cause indirect centralization. Such factors might be economic, social, or legal.
+Even when a protocol avoids proprietary centralization and does not require any beneficial centralization, it might become centralized in practice when external factors influence its deployment, so that relatively few or even just one entity provides the function. This is often referred to as "concentration." Economic, legal, and social factors that encourage use of a central function despite the absence of such a requirement in the protocol itself can cause concentration.
 
-Often, the factors driving indirect centralization are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks,{{SCALE-FREE}} network effects award asymmetric power to nodes that act as intermediaries to communication.
+Often, the factors driving concentration are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks,{{SCALE-FREE}} network effects award asymmetric power to nodes that act as intermediaries to communication.
 
 Left unchecked, these factors can cause a potentially decentralized application to become effectively controlled by one party, because the central function has leverage to "lock in" users. For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{?W3C.CR-activitystreams-core-20161215}}), because of the powerful network effects associated.
 
-By its nature, indirect centralization is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
+By its nature, concentration is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
 
 
 ## Inherited Centralization {#network}
@@ -286,7 +286,7 @@ For example, HTTP {{HTTP}} is not considered a centralized protocol; interoperab
 
 However, applications built on top of HTTP (as well as the rest of the “Web Platform”) often exhibit centralization. As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications.
 
-Like indirect centralization, platform centralization is difficult to prevent with protocol design. Because of the layered nature of the Internet, most protocols allow considerable flexibility in how they are used, often in a way that it becomes attractive to form a dependency on one party’s operation.
+Like concentration, platform centralization is difficult to prevent with protocol design. Because of the layered nature of the Internet, most protocols allow considerable flexibility in how they are used, often in a way that it becomes attractive to form a dependency on one party’s operation.
 
 
 # The Limits of Decentralization {#decentralization}
@@ -305,13 +305,13 @@ For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols, wh
 
 E-mail reuses DNS to help mitigate the first risk. To mitigate the second, it defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol's users avoid a requirement for a single central router.
 
-Users can (and often do) choose to delegate that role to someone else, or run their own MTA. However, running your own mail server has become difficult, because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, indirectly centralizing the protocol’s operation (see {{indirect}}).
+Users can (and often do) choose to delegate that role to someone else, or run their own MTA. However, running your own mail server has become difficult, because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, concentrating the protocol’s operation (see {{indirect}}).
 
 Another example of a federated Internet protocol is XMPP {{?RFC6120}}, supporting "instant messaging" and similar functionality. Like e-mail, it reuses DNS for naming and requires federation to facilitate rendezvous of users from different systems.
 
 While some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, rather than provide the benefits of global interoperability.
 
-The examples above illustrate that federation can be a useful technique to avoid proprietary centralization and manage beneficial centralization, but on its own does not avoid indirect and platform centralization. If a single entity can capture the value provided by a protocol, they may use the protocol as a platform to get a “winner take all” outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally “tilt the table” towards a few operators.
+The examples above illustrate that federation can be a useful technique to avoid proprietary centralization and manage beneficial centralization, but on its own does not avoid concentration and platform centralization. If a single entity can capture the value provided by a protocol, they may use the protocol as a platform to get a “winner take all” outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally “tilt the table” towards a few operators.
 
 
 ## Multi-Stakeholder Administration is Hard {#multi}
@@ -335,7 +335,7 @@ These techniques attempt to avoid centralization risk by distributing potentiall
 
 Sybil attacks (where enough participants coordinate their activity to affect the protocol's operation) are a major concern for these protocols. Diversity in the pool of participants is encouraged using indirect techniques such as proof-of-work (where each participant has to demonstrate significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
 
-Use of these techniques can create barriers to proprietary and inherited centralization. However, depending upon the application in question, indirect and platform centralization can still be possible.
+Use of these techniques can create barriers to proprietary and inherited centralization. However, depending upon the application in question, concentration and platform centralization can still be possible.
 
 Furthermore, distributed consensus technologies have several potential shortcomings that may make them inappropriate -- or at least difficult to use -- for many Internet applications, because their use conflicts with other important goals:
 
@@ -367,9 +367,9 @@ While standards bodies on their own cannot prevent centralization, there are mea
 
 Some kinds of centralization risk are relatively easy to manage in standards efforts. For example, if a proprietary protocol were to be proposed to the IETF, it would be rejected out of hand. There is a growing body of knowledge and experience with beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization, and has become the norm in standard protocols. These responses are appropriate ways for Internet standards to manage centralization risk.
 
-However, preventing indirect and platform centralization is much more difficult in standards efforts. Because we have no “protocol police”, it’s not possible to demand that someone stop building a proprietary service using a purportedly federated protocol. We also cannot stop someone from building centralized services “on top” of standard protocols without abandoning architectural goals like permissionless innovation.
+However, preventing concentration and platform centralization is much more difficult in standards efforts. Because we have no “protocol police”, it’s not possible to demand that someone stop building a proprietary service using a purportedly federated protocol. We also cannot stop someone from building centralized services “on top” of standard protocols without abandoning architectural goals like permissionless innovation.
 
-Therefore, committing significant resources to scrutinizing protocols for latent centralization risk -- especially for indirect and platform risks -- is unlikely to be effective in preventing Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- suffer some form of indirect or platform centralization. Refusing to standardize a newer protocol because it faces similar risks would not be equitable, proportionate, or effective.
+Therefore, committing significant resources to scrutinizing protocols for latent centralization risk -- especially for concentration and platform risks -- is unlikely to be effective in preventing Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- suffer some form of concentration or platform centralization. Refusing to standardize a newer protocol because it faces similar risks would not be equitable, proportionate, or effective.
 
 When we do find centralization risk, we should consider its relationship with other goals, such as privacy. While there is rarely a pure tradeoff between two abstract goals such as these, when it surfaces attention should be paid to how effective architectural regulation (such as a standards effort) is in achieving each goal. In this example, a technical mechanism might be much more effective at improving privacy, whereas centralization might be better controlled by other regulators -- leading to the conclusion that the standards effort should focus on privacy.
 
@@ -414,7 +414,7 @@ Some functions might see substantial benefits if intermediation -- i.e., adding 
 
 * _Privacy_: For some functions, user privacy can be improved by concentrating their activity to prevent individual behaviors from being discriminated from each other.{{MIX}} Intermediation can also enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called “oblivious” protocols (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
 
-However, introducing an intermediary role adds indirect and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. While (as discussed above) standards efforts have a very limited capability to prevent or control these types of centralization, constraints on intermediary functions can prevent at least the most egregious outcomes.
+However, introducing an intermediary role adds concentration and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. While (as discussed above) standards efforts have a very limited capability to prevent or control these types of centralization, constraints on intermediary functions can prevent at least the most egregious outcomes.
 
 As a result, intermediaries should only be interposed as a result of the positive action of at least one endpoint, and should have their ability to observe or control communication limited to what is necessary to perform their intended function.
 
