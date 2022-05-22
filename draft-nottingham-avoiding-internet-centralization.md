@@ -154,7 +154,13 @@ informative:
     author:
      -
       name: David L. Chaum
-
+  FEDERALIST-51:
+    title: The Structure of the Government Must Furnish the Proper Checks and Balances Between the Different Departments
+    date: 8 February 1788
+    author:
+     -
+       name: James Madison
+    refcontent: The Federalist Papers, No. 51
 
 --- abstract
 
@@ -204,7 +210,7 @@ However, when a function becomes widespread enough in use and especially when it
 
 First, the Internet's very nature is incompatible with centralization of its functions. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
-Second, when a third party has unavoidable access to communications, the "informational and positional advantages" {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the "panopticon effect") and shape or even deny behaviour (the "chokepoint effect") -- which can be used by those parties (or the states that have authority over them) for coercive ends {{WEAPONIZED-INTERDEPENDENCE}} or to disrupt society itself.
+Second, when a third party has unavoidable access to communications, the "informational and positional advantages" {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the "panopticon effect") and shape or even deny behaviour (the "chokepoint effect") -- which can be used by those parties (or the states that have authority over them) for coercive ends {{WEAPONIZED-INTERDEPENDENCE}} or to disrupt society itself. Just as good governance of states requires separation of powers {{FEDERALIST-51}}, so too does good governance of the Internet require that power not be concentrated in one place.
 
 Finally, centralization has deleterious effects on the Internet itself, including:
 
