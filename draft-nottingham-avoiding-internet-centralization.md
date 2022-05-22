@@ -249,9 +249,9 @@ Similarly, the need for coordination in the Web's trust model brings centralizat
 
 Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties who are not in direct contact also suffer from this kind of centralization risk. For example, chat protocols need to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party.
 
-Internet protocols often attempt to mitigate beneficial centralization risk using measures such as federation (see {{federation}}) and multi-stakeholder administration (see {{multi}}).
+By nature, what is or is not "beneficial" is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient. Such judgments should be made in light of established architectural principles and how benefits accrue to end users.
 
-Protocols that successfully mitigate beneficial centralization are often reused, to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is usually preferable to establishing a new system.
+When beneficial centralization is present, internet protocols often attempt to mitigate the associated risks using measures such as federation (see {{federation}}) and multi-stakeholder administration (see {{multi}}). Protocols that successfully mitigate beneficial centralization are often reused, to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is usually preferable to establishing a new system.
 
 
 ## Concentrated Centralization {#indirect}
