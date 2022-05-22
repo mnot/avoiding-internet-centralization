@@ -406,21 +406,21 @@ Furthermore, if a new protocol is perceived as completely commoditized (so that 
 Balancing these factors is difficult, but is often helped by community building and good design -- in particular, appropriate use of layering.
 
 
-## Limit Intermediary Power {#intermediation}
+## Limit Delegation of Power {#intermediation}
 
-Some functions might see substantial benefits if intermediation -- i.e., adding a new party to communication to perform a function -- is introduced. When used well, intermediation can help improve:
+Some functions might see substantial benefits if they are performed by a third party in communication. When used well, adding a new party to communication can improve:
 
 * _Efficiency_: Many functions on the Internet are significantly more efficient when performed at a higher scale. For example, a Content Delivery Network can offer services at a fraction of the financial and environmental cost that would otherwise be paid by someone serving content themselves, because of the scale they operate at.
 
-* _Complexity_: Completely disintermediating communication can shift the burden of functions onto endpoints. This can cause increased cognitive load for users; for example, compare commercial social networking platforms with self-hosted efforts.
+* _Simplicity_: Completely disintermediating communication can shift the burden of functions onto endpoints. This can cause increased cognitive load for users; for example, compare commercial social networking platforms with self-hosted efforts.
 
 * _Specialization_: Having a function concentrated into relatively few hands can improve outcomes because of the resulting specialization. For example, services overseen by professional administrators are often seen to have a better security posture and improved availability.
 
-* _Privacy_: For some functions, user privacy can be improved by concentrating their activity to prevent individual behaviors from being discriminated from each other.{{MIX}} Intermediation can also enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called “oblivious” protocols (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
+* _Privacy_: For some functions, user privacy can be improved by concentrating their activity to prevent individual behaviors from being discriminated from each other.{{MIX}} Introduction of a third party can also enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called “oblivious” protocols (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
 
-However, introducing an intermediary role adds concentration and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. While (as discussed above) standards efforts have a very limited capability to prevent or control these types of centralization, constraints on intermediary functions can prevent at least the most egregious outcomes.
+However, introducing an new party to communication adds concentration and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. While (as discussed above) standards efforts have a very limited capability to prevent or control these types of centralization, designing protocols with constraints on third party functions can prevent at least the most egregious outcomes.
 
-As a result, intermediaries should only be interposed as a result of the positive action of at least one endpoint, and should have their ability to observe or control communication limited to what is necessary to perform their intended function.
+Most often, third parties are added to protocols as "intermediaries" or in designated "agent" roles. In general, they should only be interposed as a result of the positive action of at least one endpoint, and should have their ability to observe or control communication limited to what is necessary to perform their intended function.
 
 For example, early deployments of HTTP allowed intermediaries to be interposed by the network without knowledge of the endpoints, and those intermediaries could see and change the full content of traffic by default -- even when they are only intended to perform basic functions such as caching. Because of the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with efforts to encourage its adoption, those intermediaries are now required to be explicitly interposed by one endpoint.
 
