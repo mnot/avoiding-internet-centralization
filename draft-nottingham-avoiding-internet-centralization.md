@@ -236,7 +236,7 @@ Finally, centralization can have deleterious effects on the Internet itself, inc
 
 See also {{TECH-SUCCESS-FACTORS}} for further exploration of how centralization can affect the Internet.
 
-To summarize, centralization would allow the Internet (or some part of it) to be captured, effectively turning it into a "walled garden" that cannot meet both architectural design goals and users' expectations, and endangering its ongoing viability at the same time.
+To summarize, centralization of a function allows it to be captured, effectively becoming a "walled garden" that cannot be a full part of the Internet because it does not meet the Internet's architectural design goals or users' expectations.
 
 
 # Kinds of Centralization {#kinds}
