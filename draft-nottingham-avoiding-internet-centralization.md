@@ -470,4 +470,4 @@ This document does not have direct security impact on Internet protocols. Howeve
 
 This document benefits from discussions with Brian Trammell during our shared time on the Internet Architecture Board.
 
-Thanks to Jari Arkko and Eliot Lear for their comments and suggestions.
+Thanks to Jari Arkko, Christian Huitema, and Eliot Lear for their comments and suggestions.
