@@ -222,7 +222,7 @@ First, the Internet's very nature is incompatible with centralization of its fun
 
 Second, when a third party has unavoidable access to communications, the "informational and positional advantages" {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the "panopticon effect") and shape or even deny behaviour (the "chokepoint effect") -- which can be used by those parties (or the states that have authority over them) for coercive ends {{WEAPONIZED-INTERDEPENDENCE}} or to disrupt society itself. Just as good governance of states requires separation of powers {{FEDERALIST-51}}, so too does good governance of the Internet require that power not be concentrated in one place.
 
-Finally, centralization can have deleterious effects on the Internet itself, including:
+Finally, centralization of an important function can have deleterious effects on the Internet itself, including:
 
 * _Limiting Innovation_: Centralization can preclude the possibility of "permissionless innovation" -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
