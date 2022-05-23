@@ -168,6 +168,7 @@ informative:
      -
        name: Clayton Christensen
     refcontent: Harvard Business Review, "Breakthrough Ideas for 2004"
+  ACTIVITYSTREAMS: W3C.CR-activitystreams-core-20161215
 
 --- abstract
 
@@ -275,7 +276,7 @@ Even when a protocol avoids proprietary centralization and does not require any 
 
 Often, the factors driving concentration are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks,{{SCALE-FREE}} network effects award asymmetric power to nodes that act as intermediaries to communication.
 
-Left unchecked, these factors can cause a potentially decentralized application to become effectively controlled by one party, because the central function has leverage to "lock in" users. For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{?W3C.CR-activitystreams-core-20161215}}), because of the powerful network effects associated.
+Left unchecked, these factors can cause a potentially decentralized application to become effectively controlled by one party, because the central function has leverage to "lock in" users. For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{ACTIVITYSTREAMS}}), because of the powerful network effects associated.
 
 By its nature, concentration is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
 
@@ -395,15 +396,15 @@ For example, privacy is often more effectively ensured by ex ante technical cons
 
 ## Decentralize Proprietary Functions {#up}
 
-It is worthwhile to create specifications for functions that are currently only satisfied by proprietary providers. By building open specifications on top of already established standards, centralization of emerging Internet functions can be avoided.
+It is worthwhile to create specifications for functions that are currently only satisfied by proprietary providers. By building open specifications on top of already established standards, an alternative to a centralized function can be created.
 
-A common objection to such efforts is that adoption is voluntary, not mandatory; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{W3C.CR-activitystreams-core-20161215}}) have been available for some time without broad adoption by social networking providers.
+A common objection to such efforts is that adoption is voluntary, not mandatory; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{ACTIVITYSTREAMS}}) have been available for some time without broad adoption by social networking providers.
 
 However, while standards aren't mandatory, legal regulation is, and regulators around the globe are now focusing their efforts on the Internet. In particular, legal mandates for interoperability are increasingly discussed as a remedy for competition issues (see, e.g., {{OECD}}).
 
 As such, emerging regulation presents an opportunity to create new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}.
 
-If the Internet community does not produce specifications for these mandates to reference, it is likely that the need will be filled by other means -- most likely, with less transparency, more narrow input, limited experience, and without reference to the Internet’s architectural goals.
+Successfully creating standards that work in concert with legal regulation is new ground for the IETF, presents many potential pitfalls, and will require new capabilities (especially liaison, likely originating in the IAB) and considerable effort. If the Internet community does not make that effort, it is likely that regulators' needs will be filled by other means -- most likely, with less transparency, more narrow input, limited experience, and without reference to the Internet’s architectural goals.
 
 
 ## Build Robust Ecosystems {#balance}
