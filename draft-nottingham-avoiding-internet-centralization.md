@@ -439,7 +439,7 @@ The term "intermediary" is also used (often in legal and regulatory contexts) mo
 
 An important feature of Internet protocols is their ability to evolve, so that they can meet new requirements and adapt to new conditions without requiring a “flag day” to upgrade implementations. Typically, protocols accommodate evolution through extension mechanisms, which allow optional features to be added over time in an interoperable fashion.
 
-However, protocol extensions can also increase the risk of platform centralization if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard protocol. This is especially true when the core standard does not itself provide sufficient utility on its own.
+Extensibility can be viewed as a mechanism for decentralization as well -- by allowing uncoordinated evolution, it promotes autonomy and adaption of a function for local needs. However, protocol extensions can also increase the risk of platform centralization if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard protocol. This is especially true when the core standard does not itself provide sufficient utility on its own.
 
 For example, the SOAP protocol's {{SOAP}} extreme flexibility and failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favouring those who had more market power.
 
