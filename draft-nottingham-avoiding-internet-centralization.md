@@ -409,7 +409,7 @@ The goals of completeness and diversity are sometimes in tension. If a standard 
 
 Furthermore, if a new protocol is perceived as completely commoditized (so that no implementation can differentiate itself, and there is no barrier to switching), it may have difficulty achieving broad implementation -- at least by commercial entities.
 
-Balancing these factors is difficult, but is often helped by community building and good design -- in particular, appropriate use of layering.
+Balancing these factors to build robust ecosystems is difficult, but is often helped by community building and good design -- in particular, appropriate use of layering. It also requires continuing maintenance and evolution of protocols, to assure that they are still relevant and appropriate to their use.
 
 
 ## Limit Delegation of Power {#intermediation}
@@ -444,6 +444,8 @@ Extensibility can be viewed as a mechanism for decentralization as well -- by al
 For example, the SOAP protocol's {{SOAP}} extreme flexibility and failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favouring those who had more market power.
 
 Therefore, standards efforts should focus on providing concrete utility to the majority of their users as published, rather than being a “framework” where interoperability is not immediately available.  Internet protocols should not make every aspect of their operation extensible; extension points should be reasoned, appropriate boundaries for flexibility and control. When a protocol defines extension points, they should not allow an extension to declare itself to be mandatory-to-interoperate, as that pattern invites abuse.
+
+Where extensions are allowed, attention should be paid to those that emerge; where appropriate, widely adopted extensions should be put through a standards process to assure that the result adheres to architectural principles and shared goals (see also {{up}}).
 
 
 # Security Considerations
