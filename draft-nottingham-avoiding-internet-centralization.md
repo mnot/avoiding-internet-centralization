@@ -161,6 +161,13 @@ informative:
      -
        name: James Madison
     refcontent: The Federalist Papers, No. 51
+  ATTRACTIVE-PROFITS:
+    title: The Law of Conservation of Attractive Profits
+    date: February 2004
+    author:
+     -
+       name: Clayton Christensen
+    refcontent: Harvard Business Review, "Breakthrough Ideas for 2004"
 
 --- abstract
 
@@ -409,7 +416,7 @@ This goal can also be furthered by ensuring that the cost of switching to a diff
 
 The goals of completeness and diversity are sometimes in tension. If a standard is extremely complex, it may discourage implementation diversity because the cost of a complete implementation is too high (consider: Web browsers). On the other hand, if the specification is too simple, it may not offer enough functionality to be complete, and the resulting proprietary extensions may make switching difficult (see {{evolution}}).
 
-Furthermore, if a new protocol is perceived as completely commoditized (so that no implementation can differentiate itself, and there is no barrier to switching), it may have difficulty achieving broad implementation -- at least by commercial entities.
+Also worthy of attention are the underlying incentives for implementation. While a completely commoditized protocol might not allow implementations to differentiate themselves, they do provide opportunties for specialization and improvement elsewhere in the value chain {{ATTRACTIVE-PROFITS}}. Well-timed standards efforts leverage these forces to focus proprietary interests on top of open technology, rather than as a replacement for it.
 
 Balancing these factors to build robust ecosystems is difficult, but is often helped by community building and good design -- in particular, appropriate use of layering. It also requires continuing maintenance and evolution of protocols, to assure that they are still relevant and appropriate to their use.
 
