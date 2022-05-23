@@ -172,7 +172,7 @@ This document offers a definition of centralization, explains why it is undesira
 
 # Introduction
 
-The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While this approach may reflect a desire to prevent a single technical failure from having wide impact {{RAND}}, it has also enabled the Internet’s rapid adoption and broad spread. Because internetworking does not require networks to get permission from or cede control to another entity, it accommodates a spectrum of requirements and is positioned as a public good.
+The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While this approach may reflect a desire to prevent a single technical failure from having wide impact {{RAND}}, it has also enabled the Internet’s rapid adoption and broad spread. Because internetworking does not require a network to get permission from or cede control to another entity, it accommodates a spectrum of requirements and is positioned as a public good.
 
 While avoiding centralization of control over the Internet remains a widely shared goal, achieving it consistently has proven difficult. Many successful protocols and applications on the Internet today work in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
 
@@ -185,9 +185,11 @@ Engineers who design and standardize Internet protocols are the primary audience
 
 # What is Centralization? {#what}
 
-This document defines "centralization" as the ability of a single entity (e.g., a person, company, or government) -- or a small group of them -- to exclusively observe, capture, control, or extract rent from the operation or use of a Internet function.
+This document defines "centralization" as the ability of a single entity or a small group of them to exclusively observe, capture, control, or extract rent from the operation or use of a Internet function.
 
-Here, "Internet function" is defined broadly. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
+Here, "entity" could be a single person, a corporation, or a government. It does not include an organisation that operates in a manner that effectively mitigates centralisation (see {{multi}}).
+
+"Internet function" is defined broadly. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
 However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit centralization risk. The supply of Internet connectivity itself can also be subject to the forces of centralization.
 
@@ -204,15 +206,15 @@ Note that it is important to distinguish centralization from anti-competitive co
 
 # When Centralization is Undesirable {#why}
 
-Centralization is not always problematic, and is sometimes even desirable. If a function is specific to a given entity -- for example, a person's web site, or a government service -- it is expected that it be controlled by them alone. Furthermore, emerging applications and other functions can often gain significant benefits from being centralized, especially considering the potential costs of decentralization (see {{necessary}} for more discussion of the benefits of centralization).
+Centralization is not always problematic, and is sometimes even desirable. If a function is specific to a given entity -- for example, a person's web site, or a government service -- it is expected that it be controlled by them alone. Emerging applications are often significantly less complex and more efficient to deploy as proprietary rather than decentralized functions. Some functions (such as the Internet standards process itself) require central control to assure interoperability and application of shared goals and architectural principles.
 
-However, when a function becomes widespread enough in use and especially when it becomes a platform for other functions to be built upon, it deserves more scrutiny for centralization risk. Centralization of such functions is undesirable because it is counter to the Internet's nature, because it violates the end users' expectations, and because of the many negative effects it can have on the network's operation and evolution.
+However, when any function becomes widespread enough in use and especially when it becomes a platform for other functions to be built upon, it deserves more scrutiny for centralization risk. Centralization of these functions is problematic when there are not effective mitigations in place (see {{decentralization}}), for a variety of reasons.
 
 First, the Internet's very nature is incompatible with centralization of its functions. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
 Second, when a third party has unavoidable access to communications, the "informational and positional advantages" {{INTERMEDIARY-INFLUENCE}} gained can be used to observe behavior (the "panopticon effect") and shape or even deny behaviour (the "chokepoint effect") -- which can be used by those parties (or the states that have authority over them) for coercive ends {{WEAPONIZED-INTERDEPENDENCE}} or to disrupt society itself. Just as good governance of states requires separation of powers {{FEDERALIST-51}}, so too does good governance of the Internet require that power not be concentrated in one place.
 
-Finally, centralization has deleterious effects on the Internet itself, including:
+Finally, centralization can have deleterious effects on the Internet itself, including:
 
 * _Limiting Innovation_: Centralization can preclude the possibility of "permissionless innovation" -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
