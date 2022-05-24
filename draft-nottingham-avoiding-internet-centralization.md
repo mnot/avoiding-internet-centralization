@@ -309,7 +309,9 @@ Like concentration, platform centralization is difficult to prevent with protoco
 
 # The Limits of Decentralization {#decentralization}
 
-Various techniques have been developed to decentralize protocols and applications. While use of these approaches can result in a function which is less centralized or less amenable to some kinds of centralization, they are not adequate to avoid centralization completely. They are also not indicators of whether a protocol is centralized without further analysis.
+Centralization's relationship to Internet standardization is undeniably about power -- a protocol is am agreed-to set of rules and conventions, and those rules can impact how power accrues. Over time, various techniques have been developed that attempt to avoid concentration of power as a result of protocol design, or to bring accountability when it is unavoidable.
+
+While use of these techniques can result in a function which is less centralized or less amenable to some kinds of centralization, they are not adequate to avoid centralization completely. They are also not indicators of whether a protocol is centralized without further analysis.
 
 
 ## Federation isn't Enough {#federation}
