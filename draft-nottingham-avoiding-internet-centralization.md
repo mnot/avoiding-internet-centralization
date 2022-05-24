@@ -351,7 +351,7 @@ Increasingly, distributed consensus technologies (such as blockchain) are touted
 
 These techniques attempt to avoid centralization risk by distributing potentially centralized functions to members of a sometimes large pool of protocol participants. Proper performance of a function is typically guaranteed using cryptographic techniques (often, an append-only transaction ledger). A particular task's assignment to a node for handling usually cannot be predicted or controlled.
 
-Sybil attacks (where a party or coordinated parties create enough protocol participants to affect how consensus is judged) are a major concern for these protocols. Diversity in the pool of participants is encouraged using indirect techniques such as proof-of-work (where each participant has to demonstrate significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
+Sybil attacks (where a party or coordinated parties cheaply create enough protocol participants to affect how consensus is judged) are a major concern for these protocols. Diversity in the pool of participants is encouraged using indirect techniques such as proof-of-work (where each participant has to demonstrate significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
 
 Use of these techniques can create barriers to proprietary and inherited centralization. However, depending upon the application in question, concentration and platform centralization can still be possible.
 
