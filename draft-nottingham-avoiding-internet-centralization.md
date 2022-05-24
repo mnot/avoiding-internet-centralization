@@ -184,7 +184,7 @@ The Internet has succeeded in no small part because of its purposeful avoidance 
 
 While avoiding centralization of control over the Internet remains a widely shared goal, achieving it consistently has proven difficult. Many successful protocols and applications on the Internet today work in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
 
-These difficulties call into question what role architectural regulation -- in particular, open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling Internet centralization.
+These difficulties call into question what role architectural regulation -- in particular, that in open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling Internet centralization.
 
 This document discusses aspects of centralization that relate to Internet standards efforts. {{what}} provides a definition of centralization. {{why}} explains when and why centralization of the Internet's core functions is undesirable. {{kinds}} surveys the different kinds of centralization that might surface on the Internet. {{decentralization}} then catalogues high-level approaches to mitigating centralization and discusses their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
@@ -309,7 +309,7 @@ Like concentration, platform centralization is difficult to prevent with protoco
 
 # The Limits of Decentralization {#decentralization}
 
-Centralization's relationship to Internet standardization is undeniably about power -- a protocol is am agreed-to set of rules and conventions, and those rules can impact how power accrues. Over time, various techniques have been developed that attempt to avoid concentration of power as a result of protocol design, or to bring accountability when it is unavoidable.
+Centralization's relationship to Internet standardization is undeniably about power -- a protocol is an agreed-to set of rules and conventions, and those rules can impact how power accrues. Over time, various techniques have been developed that attempt to avoid concentration of power as a result of protocol design, or to bring accountability when it is unavoidable.
 
 While use of these techniques can result in a function which is less centralized or less amenable to some kinds of centralization, they are not adequate to avoid centralization completely. They are also not indicators of whether a protocol is centralized without further analysis.
 
