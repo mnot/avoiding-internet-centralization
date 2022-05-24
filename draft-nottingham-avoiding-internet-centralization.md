@@ -203,6 +203,8 @@ However, the Internet's functions are not limited to standards-defined protocols
 
 Centralization risk is strongest when it affects the entire Internet. However, it can also be present when a substantial portion of the Internet's users lack options for a function. For example, if there is only one provider for a function in a region or legal jurisdiction, that function is effectively centralized for those users.
 
+Likewise, if there is a single entity providing a function, it is obviously centralized. However, centralization risk can also be present when there is friction against switching to a substitute, because external factors can more easily promote concentration (see {{indirect}}). For example, if switching requires a significant amount of time, resources, expertise, coordination, or effort, centralization risk is indicated.
+
 "Decentralization" is the process of identifying centralization risk related to a function, followed by the application of techniques used to prevent or mitigate that risk.
 
 Decentralization does not require that provision of a function need be so widely distributed that other important factors are sacrificed. Because centralization can have beneficial effects (see {{direct}}), the techniques used to decentralize a given function might vary, with the optimal balance being determined by many factors. Notably, a function that is only available through a relatively small number of providers can still be effectively decentralized (see, for example, the Domain Name System {{?RFC1035}}).
