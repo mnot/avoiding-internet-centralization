@@ -215,7 +215,7 @@ Decentralization does not require that provision of a function need be so widely
 
 Therefore, discussions of centralization and architectural efforts at decentralization need to be made on a case-by-base basis, depending on the function in question, surrounding circumstances, and the availability and effectiveness of other regulatory mechanisms.
 
-Note that it is important to distinguish centralization from anti-competitive concerns (also known as "anti-trust"). While there are many interactions between these concepts and making provision of the Internet's functions more competitive may be a motivation for avoiding centralization, only courts are authoritative in determining what is and is not anti-competitive in a market, not standards bodies and other technical fora.
+Note that it is important to distinguish centralization from anti-competitive concerns (also known as "anti-trust"). While there are many interactions between these concepts and making provision of the Internet's functions more competitive may be a motivation for avoiding centralization, only courts are authoritative in defining a relevant market and determining whether behaviour is anti-competitive.
 
 
 # When Centralization is Undesirable {#why}
