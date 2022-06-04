@@ -278,7 +278,7 @@ When beneficial centralization is present, internet protocols often attempt to m
 
 ## Concentrated Centralization {#indirect}
 
-Even when a protocol avoids proprietary centralization and does not require any beneficial centralization, it might become centralized in practice when external factors influence its deployment, so that relatively few or even just one entity provides the function. This is often referred to as "concentration." Economic, legal, and social factors that encourage use of a central function despite the absence of such a requirement in the protocol itself can cause concentration.
+Even when a protocol avoids proprietary centralization and any beneficial centralization risk has been mitigated, it might become centralized in practice when external factors influence its deployment, so that relatively few or even just one entity provides the function. This is often referred to as "concentration." Economic, legal, and social factors that encourage use of a central function despite the absence of such a requirement in the protocol itself can cause concentration.
 
 Often, the factors driving concentration are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks,{{SCALE-FREE}} network effects award asymmetric power to nodes that act as intermediaries to communication.
 
