@@ -375,7 +375,7 @@ Furthermore, distributed consensus technologies have several potential shortcomi
 
 5. Distributed consensus protocols typically rely on cryptography for identity, rather than trusting a third party's assertions about identity. When a participant loses their keys, the process of recovering their identity exposes additional centralization risk.
 
-It is also important to recognise that a protocol or an application can use distributed consensus for some functions, but still have centralization risk elsewhere -- either because those functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the service provider has chosen not to because of the associated costs and lost opportunities.
+It is also important to recognise that a protocol or an application can use distributed consensus for some functions, but still have centralization risk elsewhere -- either because those functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the designer has chosen not to because of the associated costs and lost opportunities.
 
 Even when distributed consensus is used exclusively for all technical functions of a service, some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization risk, just at a different layer (inherited or platform).
 
