@@ -197,7 +197,7 @@ The primary audience for this document is the engineers who design and standardi
 
 This document defines "centralization" as the ability of a single entity or a small group of them to exclusively observe, capture, control, or extract rent from the operation or use of a Internet function.
 
-Here, "entity" could be a single person, a corporation, or a government. It does not include an organisation that operates in a manner that effectively mitigates centralisation (see {{multi}}).
+Here, "entity" could be a single person, a corporation, or a government. It does not include an organisation that operates in a manner that effectively mitigates centralisation (see, e.g., {{multi}}).
 
 "Internet function" is defined broadly. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
