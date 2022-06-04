@@ -213,7 +213,7 @@ Note that availability is related to but distinct from centralization. For examp
 
 Decentralization does not require that provision of a function need be so widely distributed that other important factors are sacrificed. Because centralization can have beneficial effects (see {{direct}}), the techniques used to decentralize a given function might vary, with the optimal balance being determined by many factors. Notably, a function that is only available through a relatively small number of providers can still be effectively decentralized (see, for example, the Domain Name System {{?RFC1035}}).
 
-Therefore, discussions of centralization and architectural efforts at decentralization need to be made on a case-by-base basis, depending on the function in question, surrounding circumstances, and other regulatory mechanisms.
+Therefore, discussions of centralization and architectural efforts at decentralization need to be made on a case-by-base basis, depending on the function in question, surrounding circumstances, and the availability and effectiveness of other regulatory mechanisms.
 
 Note that it is important to distinguish centralization from anti-competitive concerns (also known as "anti-trust"). While there are many interactions between these concepts and making provision of the Internet's functions more competitive may be a motivation for avoiding centralization, only courts are authoritative in determining what is and is not anti-competitive in a market, not standards bodies and other technical fora.
 
