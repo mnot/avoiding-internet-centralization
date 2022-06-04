@@ -58,6 +58,7 @@ informative:
        ins: R. Albert
        name: Réka Albert
        organization: University of Notre Dame
+    refcontent: SCIENCE, Vol. 286, No. 15, p. 509
   INTERMEDIARY-INFLUENCE:
     target: https://scholarship.law.columbia.edu/faculty_scholarship/1856
     title: Intermediary Influence
@@ -68,6 +69,7 @@ informative:
         name: Kathryn Judge
         organization: Columbia Law School
         email: kjudge@law.columbia.edu
+    refcontent: University of Chicago Law Review, Vol. 82, p. 573
   WEAPONIZED-INTERDEPENDENCE:
     target: https://doi.org/10.1162/ISEC_a_00351
     title: "Weaponized Interdependence: How Global Economic Networks Shape State Coercion"
@@ -81,6 +83,7 @@ informative:
         ins: A. L. Newman
         name: Abraham L. Newman
         organization: Georgetown University
+     refcontent: International Security, Vol. 44, No. 1, p. 42
   MOXIE:
     target: https://signal.org/blog/the-ecosystem-is-moving/
     title: "Reflections: The ecosystem is moving"
@@ -98,12 +101,15 @@ informative:
        name: Nicola Palladino
      -
        name: Nauro Santaniello
+     target: https://link.springer.com/book/10.1007/978-3-030-56131-4
   NEW-CHICAGO:
     title: "The New Chicago School"
     date: June 1998
     author:
      -
        name: Laurence Lessig
+    refcontent: "Journal of Legal Studies, Vol. 27"
+    target: https://www.journals.uchicago.edu/doi/10.1086/468039
   POLYCENTRIC:
     title: "Polycentricity: From Polanyi to Ostrom, and Beyond"
     date: April 2012
@@ -112,6 +118,8 @@ informative:
        name: Paul D. Aligia
      -
        name: Vlad Tarko
+     target: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2149165
+     refcontent: "Governance: An International Journal of Policy, Administration, and Institutions, Vol. 25, No. 2, p. 237"
   PIR:
     title: Revisiting the Computational Practicality of Private Information Retrieval
     date: 2010
@@ -120,6 +128,7 @@ informative:
       name: Femi Olumofin
      -
       name: Ian Goldberg
+    target: https://link.springer.com/chapter/10.1007/978-3-642-27576-0_13
   ACCESS:
     title: Defending Competition in a Digitised World, Address at the European Consumer and Competition Day
     date: 4 April 2019
@@ -154,6 +163,7 @@ informative:
     author:
      -
       name: David L. Chaum
+    refcontent: Communications of the ACM, Vol. 24, No. 2
   FEDERALIST-51:
     title: The Structure of the Government Must Furnish the Proper Checks and Balances Between the Different Departments
     date: 8 February 1788
@@ -180,13 +190,15 @@ informative:
      -
       name: Benny Pinkas
     refcontent: "CCS'08"
+    target: https://dl.acm.org/doi/10.1145/1455770.1455804
   CIRCULAR-CONUNDRUM:
     title: "Solving The Circular Conundrum: Communication And Coordination In Internet Markets"
     date: 2010
     author:
      -
       name: Daniel F. Spulber
-    refcontent: "Northwestern University Law Review 104, no. 2"
+    refcontent: "Northwestern University Law Review, Vol. 104, No. 2"
+    target: https://wwws.law.northwestern.edu/research-faculty/clbe/workingpapers/documents/spulber_circularconundrum.pdf
 
 --- abstract
 
