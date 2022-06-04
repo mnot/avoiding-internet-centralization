@@ -289,7 +289,7 @@ By its nature, concentration is difficult to avoid in protocol design, and feder
 
 ## Inherited Centralization {#network}
 
-Most Internet protocols and applications depend on other, "lower-layer" protocols and their implementations. The features, deployment, and operation of these dependencies can surface centralization risk into functions and applications build "on top" of them.
+Most Internet protocols and applications depend on other, "lower-layer" protocols and their implementations. The features, deployment, and operation of these dependencies can surface centralization risk into functions and applications built "on top" of them.
 
 For example, the network between endpoints can introduce centralization risk to application-layer protocols, because it is necessary for communication and therefore has power over it. A network might block access to, slow down, or change the content of various application protocols or specific services for financial, political, operational, or criminal reasons, thereby creating pressure to use other services, which can result in centralization of them.
 
