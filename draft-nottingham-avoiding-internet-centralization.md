@@ -169,6 +169,17 @@ informative:
        name: Clayton Christensen
     refcontent: Harvard Business Review, "Breakthrough Ideas for 2004"
   ACTIVITYSTREAMS: W3C.CR-activitystreams-core-20161215
+  FAIRPLAYMP:
+    title: FairplayMP - "A System for Secure Multi-Party Computation"
+    date: October 2008
+    author:
+     -
+      name: Assaf Ben-David
+     -
+      name: Noam Nisan
+     -
+      name: Benny Pinkas
+    refcontent: "CCS'08"
 
 --- abstract
 
@@ -413,6 +424,15 @@ However, while standards aren't mandatory, legal regulation is, and regulators a
 As such, emerging regulation presents an opportunity to create new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}.
 
 Successfully creating standards that work in concert with legal regulation is new ground for the IETF, presents many potential pitfalls, and will require new capabilities (especially liaison, likely originating in the IAB) and considerable effort. If the Internet community does not make that effort, it is likely that regulators' needs will be filled by other means -- most likely, with less transparency, more narrow input, limited experience, and without reference to the Internet’s architectural goals.
+
+
+## Evaluate New Decentralization Techniques {#new}
+
+The decentralization techniques listed in {{decentralization}} are not a closed set; wide interest has spurred development of new approaches, both in general and as solutions to specific problems.
+
+For example, Secure multi-party computation techniques like {{FAIRPLAYMP}} can enable "a set of untrusting parties to compute any function of their private inputs while revealing nothing but the result of the function."
+
+Standards bodies (including the IETF) can serve an important function by evaluating how suitable such proposals are for deployment on the Internet, in reference to privacy, security, operational, and other shared goals. When appropriate, publication on the standards track or as experimental can be used to send signals to implementers, users, and regulators about their fitness.
 
 
 ## Build Robust Ecosystems {#balance}
