@@ -83,7 +83,7 @@ informative:
         ins: A. L. Newman
         name: Abraham L. Newman
         organization: Georgetown University
-     refcontent: International Security, Vol. 44, No. 1, p. 42
+    refcontent: International Security, Vol. 44, No. 1, p. 42
   MOXIE:
     target: https://signal.org/blog/the-ecosystem-is-moving/
     title: "Reflections: The ecosystem is moving"
@@ -101,7 +101,7 @@ informative:
        name: Nicola Palladino
      -
        name: Nauro Santaniello
-     target: https://link.springer.com/book/10.1007/978-3-030-56131-4
+    target: https://link.springer.com/book/10.1007/978-3-030-56131-4
   NEW-CHICAGO:
     title: "The New Chicago School"
     date: June 1998
@@ -118,8 +118,8 @@ informative:
        name: Paul D. Aligia
      -
        name: Vlad Tarko
-     target: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2149165
-     refcontent: "Governance: An International Journal of Policy, Administration, and Institutions, Vol. 25, No. 2, p. 237"
+    target: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2149165
+    refcontent: "Governance: An International Journal of Policy, Administration, and Institutions, Vol. 25, No. 2, p. 237"
   PIR:
     title: Revisiting the Computational Practicality of Private Information Retrieval
     date: 2010
