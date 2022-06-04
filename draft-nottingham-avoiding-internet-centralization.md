@@ -450,7 +450,7 @@ Also worthy of attention are the underlying incentives for implementation. While
 Balancing these factors to build robust ecosystems is difficult, but is often helped by community building and good design -- in particular, appropriate use of layering. It also requires continuing maintenance and evolution of protocols, to assure that they are still relevant and appropriate to their use.
 
 
-## Limit Delegation of Power {#intermediation}
+## Control Delegation of Power {#intermediation}
 
 Some functions might see substantial benefits if they are performed by a third party in communication. When used well, adding a new party to communication can improve:
 
@@ -462,7 +462,7 @@ Some functions might see substantial benefits if they are performed by a third p
 
 * _Privacy_: For some functions, user privacy can be improved by concentrating their activity to prevent individual behaviors from being discriminated from each other.{{MIX}} Introduction of a third party can also enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called “oblivious” protocols (e.g., {{?I-D.pauly-dprive-oblivious-doh}}) that allow end users to hide their identity from services, while still accessing them.
 
-However, introducing an new party to communication adds concentration and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. While (as discussed above) standards efforts have a very limited capability to prevent or control these types of centralization, designing protocols with constraints on third party functions can prevent at least the most egregious outcomes.
+However, introducing an new party to communication adds concentration and platform centralization risk to Internet protocols, because it brings opportunities for control and observation. While (as discussed above) standards efforts have a very limited capability to prevent or control these types of centralization, designing protocols with thoughtful constraints on third party functions can prevent at least the most egregious outcomes.
 
 Most often, third parties are added to protocols as "intermediaries" or in designated "agent" roles. In general, they should only be interposed as a result of the positive action of at least one endpoint, and should have their ability to observe or control communication limited to what is necessary to perform their intended function.
 
