@@ -232,9 +232,9 @@ Finally, centralization of a function can have deleterious effects on the Intern
 
 * _Limiting Innovation_: Centralization can preclude the possibility of "permissionless innovation" -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
-* _Constraining Competition_: The Internet and its users benefit from robust competition when applications and services are available from many providers -- especially when those users can build their own applications and services based upon interoperable standards. When functions form dependencies on a centralized service or platform because no substitutes are suitable, it effectively becomes an essential facility, which encourages abuse of power.
+* _Constraining Competition_: The Internet and its users benefit from robust competition when applications and services are available from many providers -- especially when those users can build their own applications and services based upon interoperable standards. When a centralized service or platform must be used because no substitutes are suitable, it effectively becomes an essential facility, which encourages abuse of power.
 
-* _Reducing Availability_: The Internet's availability (as well as applications and services built upon it) improves when there are many ways to obtain access. While centralized services typically benefit from the focused attention that their elevated role requires, when they fail, the resulting loss of availability can have a disproportionate impact.
+* _Reducing Availability_: Availability of the Internet (and applications and services built upon it) improves when there are many ways to obtain access. While centralized services typically benefit from the focused attention that their elevated role requires, centralization means that failure of a single large provider can have a disproportionate impact on availability.
 
 * _Creating Monoculture_: The scale available to a centralized service or application can magnify minor flaws in features such as recommendation algorithms to a degree that can have broad (even societal) consequences. Diversity in these functions’ implementation is significantly more robust when viewed systemically. {{POLYCENTRIC}}
 
