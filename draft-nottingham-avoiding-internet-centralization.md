@@ -180,6 +180,13 @@ informative:
      -
       name: Benny Pinkas
     refcontent: "CCS'08"
+  CIRCULAR-CONUNDRUM:
+    title: "Solving The Circular Conundrum: Communication And Coordination In Internet Markets"
+    date: 2010
+    author:
+     -
+      name: Daniel F. Spulber
+    refcontent: "Northwestern University Law Review 104, no. 2"
 
 --- abstract
 
@@ -454,7 +461,7 @@ Balancing these factors to build robust ecosystems is difficult, but is often he
 
 Some functions might see substantial benefits if they are performed by a third party in communication. When used well, adding a new party to communication can improve:
 
-* _Efficiency_: Many functions on the Internet are more efficient when performed at a higher scale. For example, a Content Delivery Network can offer services at a fraction of the financial and environmental cost that would otherwise be paid by someone serving content themselves, because of the scale they operate at.
+* _Efficiency_: Many functions on the Internet are more efficient when performed at a higher scale. For example, a Content Delivery Network can offer services at a fraction of the financial and environmental cost that would otherwise be paid by someone serving content themselves, because of the scale they operate at. Likewise, a two-sided market platform can introduce sizeable efficiencies over pairwise buyer/seller trading {{CIRCULAR-CONUNDRUM}}.
 
 * _Simplicity_: Completely disintermediating communication can shift the burden of functions onto endpoints. This can cause increased cognitive load for users; for example, compare commercial social networking platforms with self-hosted efforts.
 
