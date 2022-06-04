@@ -180,7 +180,7 @@ This document offers a definition of centralization, explains why it is undesira
 
 # Introduction
 
-The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While this approach may reflect a desire to prevent a single technical failure from having wide impact {{RAND}}, it has also enabled the Internet’s rapid adoption and broad spread. Because internetworking does not require a network to get permission from or cede control to another entity, it accommodates a spectrum of requirements and is positioned as a public good.
+The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While this approach may reflect an initial desire to prevent a single technical failure from having wide impact {{RAND}}, it has also enabled the Internet’s rapid adoption and broad spread. Because internetworking does not require a network to get permission from or cede control to another entity, it accommodates a spectrum of requirements and is positioned as a public good.
 
 While avoiding centralization of control over the Internet remains a widely shared goal, achieving it consistently has proven difficult. Many successful protocols and applications on the Internet today work in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
 
