@@ -250,11 +250,11 @@ Note that it is important to distinguish centralization from anti-competitive co
 
 # When Centralization is Undesirable {#why}
 
-Centralization is not always problematic. If a function is specific to a given entity -- for example, a person's web site, or a government service -- it is expected that it be controlled by them alone. Experimental and emerging applications are often less complex to implement and more efficient to deploy when they are centralized.
+Centralization is not always problematic, and can be beneficial. For example, when a function involves governance to realize common goals and protect minority interests a "choke point" that can be seen as centralization is often necessary. The Internet standards process itself is a form of centralization-as-governance; the authority of the IETF is used to enhance interoperability and further shared goals for the Internet. While not exclusive, it is a concentration of power into one entity.
 
-In some cases, centralization is a prominent and beneficial aspect of a function. For example, the Internet standard process itself is effectively centralized, to assure both interoperability and application of shared architectural principles. By its nature, governance requires a degree of centralization to realize common goals and protect minority interests.
+Likewise, experimental and emerging applications are often less complex to implement and more efficient to deploy when they are centralized. If their audience is small and not meaningfully dependent upon the provider, centralization might be a worthwhile tradeoff.
 
-However, when any function becomes widespread enough in use and especially when it becomes a platform for other functions to be built upon, its potential for centralization deserves more scrutiny. Centralization of these functions is problematic when there are not effective mitigations in place (see {{decentralization}}), for a variety of reasons.
+However, when any function becomes widespread enough in use and especially when it becomes a platform for other functions to be built upon, its potential for centralization deserves more scrutiny. Centralization in these functions is problematic when there are not effective mitigations in place (see {{decentralization}}), for a variety of reasons.
 
 First, the Internet's very nature is incompatible with centralization of its functions. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
