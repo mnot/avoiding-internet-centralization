@@ -250,7 +250,9 @@ Note that it is important to distinguish centralization from anti-competitive co
 
 # When Centralization is Undesirable {#why}
 
-Centralization is not always problematic, and is sometimes even desirable. If a function is specific to a given entity -- for example, a person's web site, or a government service -- it is expected that it be controlled by them alone. Emerging applications are often less complex and more efficient to deploy as proprietary rather than decentralized functions. Some functions (such as the Internet standards process itself) even require central control to assure interoperability and application of shared goals and architectural principles.
+Centralization is not always problematic. If a function is specific to a given entity -- for example, a person's web site, or a government service -- it is expected that it be controlled by them alone. Experimental and emerging applications are often less complex to implement and more efficient to deploy when they are centralized.
+
+In some cases, centralization is a prominent and beneficial aspect of a function. For example, the Internet standard process itself is effectively centralized, to assure both interoperability and application of shared architectural principles. By its nature, governance requires a degree of centralization to realize common goals and protect minority interests.
 
 However, when any function becomes widespread enough in use and especially when it becomes a platform for other functions to be built upon, its potential for centralization deserves more scrutiny. Centralization of these functions is problematic when there are not effective mitigations in place (see {{decentralization}}), for a variety of reasons.
 
