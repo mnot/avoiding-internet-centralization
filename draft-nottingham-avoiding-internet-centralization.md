@@ -179,18 +179,6 @@ informative:
        name: Clayton Christensen
     refcontent: Harvard Business Review, "Breakthrough Ideas for 2004"
   ACTIVITYSTREAMS: W3C.CR-activitystreams-core-20161215
-  FAIRPLAYMP:
-    title: FairplayMP - "A System for Secure Multi-Party Computation"
-    date: October 2008
-    author:
-     -
-      name: Assaf Ben-David
-     -
-      name: Noam Nisan
-     -
-      name: Benny Pinkas
-    refcontent: "CCS'08"
-    target: https://dl.acm.org/doi/10.1145/1455770.1455804
   CIRCULAR-CONUNDRUM:
     title: "Solving The Circular Conundrum: Communication And Coordination In Internet Markets"
     date: 2010
@@ -199,6 +187,32 @@ informative:
       name: Daniel F. Spulber
     refcontent: "Northwestern University Law Review, Vol. 104, No. 2"
     target: https://wwws.law.northwestern.edu/research-faculty/clbe/workingpapers/documents/spulber_circularconundrum.pdf
+  YAO:
+    title: Protocols for secure computations
+    date: November 1982
+    author:
+     -
+      name: Andrew C. Yao
+    target: https://dl.acm.org/doi/10.5555/1382436.1382751
+    refcontent: SFCS '82
+  ENPA:
+    title: Exposure Notification Privacy-preserving Analytics (ENPA) White Paper
+    date: April 2021
+    author:
+     -
+      organization: Apple
+     -
+      organization: Google
+    target: https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf
+  PRIO:
+    title: "Prio: Private, Robust, and Scalable Computation of Aggregate Statistics"
+    date: March 2017
+    author:
+     -
+      name: Henry Corrigan-Gibbs
+     -
+      name: Dan Boneh
+    target: https://crypto.stanford.edu/prio/paper.pdf
 
 --- abstract
 
@@ -451,9 +465,9 @@ Successfully creating standards that work in concert with legal regulation is ne
 
 The decentralization techniques listed in {{decentralization}} are not a closed set; wide interest has spurred development of new approaches, both in general and as solutions to specific problems.
 
-For example, Secure multi-party computation techniques like {{FAIRPLAYMP}} can enable "a set of untrusting parties to compute any function of their private inputs while revealing nothing but the result of the function."
+For example, secure multi-party computation techniques (see, e.g., {{YAO}}) can be composed to allow untrusting parties to compute over private inputs without revealing them. Protocols like {{ENPA}} and {{PRIO}} use them to limit the information available to participants in protocols to realise privacy goals; as discussed in {{intermediation}} doing so might also counteract some kinds of centralization.
 
-Standards bodies (including the IETF) can serve an important function by evaluating how suitable such proposals are for deployment on the Internet, in reference to privacy, security, operational, and other shared goals. When appropriate, publication on the standards track or as experimental can be used to send signals to implementers, users, and regulators about their fitness.
+Whether use of these techniques (or others) can meaningfully counteract centralization is still uncertain. Standards bodies (including the IETF) can serve an important function by incubating them, applying (and where necessary, developing) architectural guidelines for privacy, security, operability, and other goals, and assuring interoperability. When appropriate, publication on the standards track or as experimental can be used to send signals to implementers, users, and regulators about their fitness.
 
 
 ## Build Robust Ecosystems {#balance}
@@ -519,4 +533,4 @@ This document does not have direct security impact on Internet protocols. Howeve
 
 This document benefits from discussions with Brian Trammell during our shared time on the Internet Architecture Board.
 
-Thanks to Jari Arkko, Christian Huitema, and Eliot Lear for their comments and suggestions.
+Thanks to Jari Arkko, Christian Huitema, Eliot Lear, and Martin Thomson for their comments and suggestions.
