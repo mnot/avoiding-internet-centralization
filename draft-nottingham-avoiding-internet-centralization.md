@@ -232,7 +232,7 @@ These difficulties call into question what role architectural regulation -- in p
 
 This document discusses aspects of centralization that relate to Internet standards efforts, and argues that while the IETF may not be able to prevent centralization, there are still meaningful steps we can take to counteract it.
 
-{{centralization}} defines centralization, explains why it is undesirable, and surveys some kinds of centralization seen on the Internet. {{decentralization}} explores ways of addressing centralization on the Internet. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
+{{centralization}} defines centralization, explains why it is undesirable, and surveys some kinds of centralization seen on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
 The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols can benefit from considering aspects of centralization, especially if they intend their protocol to be considered for eventual standardisation. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
 
