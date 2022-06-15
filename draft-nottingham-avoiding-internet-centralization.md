@@ -249,7 +249,7 @@ However, the Internet's functions are not limited to standards-defined protocols
 
 Note that availability is related to but distinct from centralization. For example, if my e-mail provider uses only one server, that server might go down and thus block my access to that function. However, this alone is not a cause of centralization.
 
-Also, it is important to distinguish centralization from anti-competitive concerns (also known as "anti-trust"). While there are many interactions between these concepts and making provision of the Internet's functions more competitive may be a motivation for avoiding centralization, only courts are authoritative in defining a relevant market and determining whether behaviour is anti-competitive.
+Also, it is important to distinguish centralization from anti-competitive concerns (also known as "anti-trust"). While there are many interactions between these concepts and making provision of the Internet's functions more competitive may be a motivation for avoiding centralization, only courts have the authority to define a relevant market and determine that behaviour is anti-competitive.
 
 
 ## Why Centralization is Undesirable {#why}
