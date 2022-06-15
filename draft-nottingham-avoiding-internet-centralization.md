@@ -291,19 +291,19 @@ Proprietary protocols and applications are not considered to be part of the Inte
 
 ### Beneficial Centralization {#necessary}
 
-Some protocols introduce centralization that is unavoidable, because the protocol's goals require a centralized function.
+Some protocols and applications have goals that require the introduction of a centralized function. In doing so, they are explicitly relying on centralization to deliver a particular benefit.
 
-For example, when there is a need for a single, globally coordinated “source of truth”, that function is by nature centralized -- such as in the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
+For example, a function that needs a single, globally coordinated “source of truth” is by nature centralized -- such as in the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
 
-IP addresses allocation is another example of a function having this kind of centralization. Internet routing requires addresses to be allocated uniquely, but if a single government or company captured the addressing function, the entire Internet would be at risk of abuse by that entity.
+Another function exhibiting beneficial centralization is IP addresses allocation. Internet routing requires addresses to be allocated uniquely, but if a single government or company captured the addressing function, the entire Internet would be at risk of abuse by that entity. Similarly, the need for coordination in the Web's trust model brings centralization risk, because of the Certificate Authority's role in communication between clients and servers.
 
-Similarly, the need for coordination in the Web's trust model brings centralization risk, because of the Certificate Authority's role in communication between clients and servers.
+Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties who are not in direct contact also suffer from this kind of centralization. For example, chat protocols need to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party at some point.
 
-Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties who are not in direct contact also suffer from this kind of centralization. For example, chat protocols need to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party.
+Likewise, when a function requires governance to realize common goals and protect minority interests, a "choke point" is naturally formed by the chosen governance mechanism, thereby increasing centralization risk.
 
-By nature, what is or is not "beneficial" is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient. Such judgments should be made in light of established architectural principles and how benefits accrue to end users.
+Deciding what is beneficial is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient. Such judgments should be made in light of established architectural principles and how benefits accrue to end users.
 
-When beneficial centralization is present, internet protocols often attempt to mitigate the associated risks using measures such as federation (see {{federation}}) and multi-stakeholder administration (see {{multi}}). Protocols that successfully mitigate beneficial centralization are often reused, to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is usually preferable to establishing a new system.
+When beneficial centralization is present, Internet protocols often attempt to mitigate the associated risks using measures such as federation (see {{federation}}) and multi-stakeholder administration (see {{multi}}). Protocols that successfully mitigate beneficial centralization are often reused, to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is usually preferable to establishing a new system.
 
 
 ### Concentrated Centralization {#indirect}
@@ -345,11 +345,9 @@ Like concentration, platform centralization is difficult to prevent with protoco
 
 # Decentralization {#decentralization}
 
-"Decentralization" is the process of identifying the centralization risk associated with a function, followed by the application of techniques to prevent or mitigate centralization, where appropriate.
+"Decentralization" is the process of identifying the centralization risk associated with a function, followed by the application of techniques to prevent or mitigate it, as appropriate.
 
-Assessing centralization risk is a case-by-base exercise that depends on the specifics of the function, its surrounding circumstances, and the nature of the centralization risk.
-
-In particular, some forms of centralization can be seen as beneficial, rather than problematic. For example, when a function involves governance to realize common goals and protect minority interests, a "choke point" is often necessary, even when it introduces centralization risk. The Internet standards process itself is a form of centralization-as-governance; the authority of the IETF is used to enhance interoperability and further shared goals for the Internet. While not exclusive, it is a concentration of power into one entity (whose risk is mitigated by a multi-stakeholder administration model; see {{multi}}).
+Assessing centralization risk is a case-by-base exercise that depends on the specifics of the function, surrounding circumstances, and the nature of the centralization risk.
 
 Centralization risk is strongest when it affects the entire Internet. However, it can also be present when a substantial portion of the Internet's users lack options for a function. For example, if there is only one provider for a function in a region or legal jurisdiction, that function is effectively centralized for those users.
 
@@ -359,7 +357,7 @@ Choosing the appropriate techniques for decentralization requires balancing the 
 
 Notably, decentralization does not require that provision of a function need be distributed in a particular fashion, or to a particular degree. For example, the Domain Name System {{?RFC1035}} is widely agreed to have acceptable centralization risk, despite it being provided by a limited set of entities.
 
-Performed properly, decentralization might produce an outcome that still has centralization risk, but that risk should be understood, acceptable, and where possible and appropriate, mitigated.
+When performed properly, decentralization might produce an outcome that still has centralization risk, but that risk should be understood, acceptable, and where possible and appropriate, mitigated.
 
 
 ## Decentralization Techniques {#techniques}
