@@ -509,7 +509,7 @@ See {{?I-D.thomson-tmi}} for more guidance on protocol intermediation.
 The term "intermediary" is also used (often in legal and regulatory contexts) more broadly than it has been in protocol design; for example, an auction Web site intermediates between buyers and sellers is considered an intermediary, even though it is not formally an intermediary in HTTP (see {{Section 3.7 of HTTP}}). Protocol designers can address the centralization risk associated with this kind of intermediation by standardising the function, rather than restricting the capabilities of the underlying protocols; see {{up}}.
 
 
-## Avoid Over-Extensibility {#evolution}
+## Target Extensibility {#evolution}
 
 An important feature of Internet protocols is their ability to evolve, so that they can meet new requirements and adapt to new conditions without requiring a “flag day” to upgrade implementations. Typically, protocols accommodate evolution through extension mechanisms, which allow optional features to be added over time in an interoperable fashion.
 
