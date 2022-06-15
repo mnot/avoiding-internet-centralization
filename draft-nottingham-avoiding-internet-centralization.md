@@ -224,13 +224,11 @@ This document offers a definition of centralization, explains why it is undesira
 
 # Introduction
 
-The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity; what began as a desire to prevent a single technical failure from having a wide impact {{RAND}} has also enabled the Internet’s rapid adoption and broad spread. Because internetworking does not require a network to get permission from or cede control to another entity, it accommodates a spectrum of requirements and allows the Internet to be positioned as a public good.
+The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. Originating in a desire to prevent a single technical failure from having a wide impact {{RAND}}, this stance has also enabled the Internet’s rapid adoption and broad spread. The Internet is able to accommodate a spectrum of requirements and is now positioned as a public good because joining, deploying an application on, or using the Internet does not require permission from or ceding control to another entity.
 
 While avoiding centralization of the Internet remains a widely shared goal, achieving it consistently has proven difficult. Today, many successful protocols and applications on the Internet operate in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
 
-These difficulties call into question what role architectural regulation -- in particular, that performed by open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling Internet centralization.
-
-This document discusses aspects of centralization that relate to Internet standards efforts, and argues that while the IETF may not be able to prevent centralization, there are still meaningful steps we can take to counteract it.
+These difficulties call into question what role architectural regulation -- in particular, that performed by open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling Internet centralization. This document discusses aspects of centralization that relate to Internet standards efforts, and argues that while the IETF may not be able to prevent centralization, there are still meaningful steps we can take to counteract it.
 
 {{centralization}} defines centralization, explains why it is undesirable, and surveys some kinds of centralization seen on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
@@ -266,9 +264,9 @@ Finally, centralization of a function can have deleterious effects on the Intern
 
 * _Constraining Competition_: The Internet and its users benefit from robust competition when applications and services are available from many providers -- especially when those users can build their own applications and services based upon interoperable standards. When a centralized service or platform must be used because no substitutes are suitable, it effectively becomes an essential facility, which encourages abuse of power.
 
-* _Reducing Availability_: Availability of the Internet (and applications and services built upon it) improves when there are many ways to obtain access. While centralized services' availability can benefit from the focused attention that their elevated role requires, centralization means that failure of a single large provider can have a disproportionate impact on availability.
+* _Reducing Availability_: Availability of the Internet (and applications and services built upon it) improves when there are many ways to obtain access. While centralized services' availability can benefit from the focused attention that their elevated role requires, failure of a large, centralized provider can have a disproportionate impact on availability.
 
-* _Creating Monoculture_: The scale available to a centralized service or application can magnify minor flaws in features such as recommendation algorithms to a degree that can have broad (even societal) consequences. Diversity in these functions’ implementation leads to a more robust outcome when viewed systemically. {{POLYCENTRIC}}
+* _Creating Monoculture_: The scale available to a centralized service or application can magnify minor flaws in features to a degree that can have broad consequences. For example, a single codebase for routers elevates the impact of a bug or vulnerability; a single recommendation algorithm for content can have severe social impact. Diversity in these functions’ implementation leads to a more robust outcome when viewed systemically. {{POLYCENTRIC}}
 
 * _Self-Reinforcement_: As widely noted (see, e.g., {{ACCESS}}), a centralized service’s access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.
 
