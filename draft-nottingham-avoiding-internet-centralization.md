@@ -255,7 +255,9 @@ Note that availability is related to but distinct from centralization. For examp
 
 "Decentralization" is the process of identifying centralization risk related to a function, followed by the application of techniques used to prevent or mitigate that risk.
 
-Decentralization does not require that provision of a function need be so widely distributed that other important factors are sacrificed. Because centralization can have beneficial effects (see {{direct}}), the techniques used to decentralize a given function might vary, with the optimal balance being determined by many factors. Notably, a function that is only available through a  small number of providers can still be decentralized (see, for example, the Domain Name System {{?RFC1035}}).
+Decentralization does not require that provision of a function need be distributed in a particular fashion, or to a particular degree. Rather, it is a balancing exercise to meet the agreed-to goals of the function -- some of which might require taking on necessary or even desirable centralization risk (see {{direct}}) -- while assuring that any risk present is understood, acceptable, and where possible, mitigated.
+
+Notably, a function that is only available through a  small number of providers can still be decentralized (see, for example, the Domain Name System {{?RFC1035}}).
 
 Therefore, discussions of centralization and architectural efforts at decentralization need to be made on a case-by-base basis, depending on the function in question, surrounding circumstances, and the availability and effectiveness of other regulatory mechanisms.
 
