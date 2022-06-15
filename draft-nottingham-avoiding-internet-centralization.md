@@ -224,7 +224,7 @@ This document offers a definition of centralization, explains why it is undesira
 
 # Introduction
 
-The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While this approach may reflect an initial desire to prevent a single technical failure from having a wide impact {{RAND}}, it has also enabled the Internet’s rapid adoption and broad spread. Because internetworking does not require a network to get permission from or cede control to another entity, it accommodates a spectrum of requirements and is positioned as a public good.
+The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While that might reflect an initial desire to prevent a single technical failure from having a wide impact {{RAND}}, it has also enabled the Internet’s rapid adoption and broad spread. Because internetworking does not require a network to get permission from or cede control to another entity, it accommodates a spectrum of requirements and is positioned as a public good.
 
 While avoiding centralization of control over the Internet remains a widely shared goal, achieving it consistently has proven difficult. Many successful protocols and applications on the Internet today operate in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer centralized solutions built with or on top of supposedly decentralized technology.
 
@@ -465,7 +465,7 @@ Successfully creating standards that work in concert with legal regulation is ne
 
 The decentralization techniques listed in {{decentralization}} are not a closed set; wide interest has spurred development of new approaches, both in general and as solutions to specific problems.
 
-For example, secure multi-party computation techniques (see, e.g., {{YAO}}) can be composed to allow untrusting parties to compute over private inputs without revealing them. Protocols like {{ENPA}} and {{PRIO}} use them to limit the information available to participants in protocols to realise privacy goals; as discussed in {{intermediation}} doing so might also counteract some kinds of centralization.
+For example, secure multi-party computation techniques (see, e.g., {{YAO}}) can be composed to allow parties to compute over private inputs without revealing them. Protocols like {{ENPA}} and {{PRIO}} use them to limit the information available to participants in protocols to realise privacy goals; as discussed in {{intermediation}} doing so might also counteract some kinds of centralization. At the same time, such systems often still require some degree of trust, even if limited. That might result in other forms of centralization.
 
 Whether use of these techniques (or others) can meaningfully counteract centralization is still uncertain. Standards bodies (including the IETF) can serve an important function by incubating them, applying (and where necessary, developing) architectural guidelines for privacy, security, operability, and other goals, and assuring interoperability. When appropriate, publication on the standards track or as experimental can be used to send signals to implementers, users, and regulators about their fitness.
 
