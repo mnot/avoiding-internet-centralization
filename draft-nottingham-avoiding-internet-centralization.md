@@ -280,9 +280,9 @@ Centralization on the Internet is not uniform; it presents in a variety of ways,
 
 ### Proprietary Centralization {#direct}
 
-Creating of a protocol or application with a fixed role for a specific party is the most straightforward kind of centralization. Currently, many messaging, videoconferencing, chat, and similar protocols operate in this fashion.
+Creating of a protocol or application with a fixed role for a specific party is the most straightforward kind of centralization. Currently, many messaging, videoconferencing, chat, social networking, and similar applications operate in this fashion.
 
-While some argue that such protocols are simpler to design, more amenable to evolution, and more likely to meet user needs {{MOXIE}}, proprietary centralization most often reflects commercial goals -- in particular, a strong desire to capture the protocols' financial benefits by "locking in" users to a proprietary service.
+Because they allow control by a single entity, proprietary protocols are often considered simpler to design, more amenable to evolution, and more likely to meet user needs {{MOXIE}}, compared to decentralized alternatives. However, they have corresponding centralization risk -- if the function has no alternative providers, or switching to those providers is too difficult, its users are "locked in."
 
 Proprietary protocols and applications are not considered to be part of the Internet per se; instead, they are more properly characterized as being built on top of the Internet. As such, the Internet architecture and associated standards do not regulate them, beyond the constraints that the underlying protocols (e.g., TCP, IP, HTTP) impose.
 
