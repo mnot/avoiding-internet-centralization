@@ -310,7 +310,7 @@ Even when a function avoids proprietary centralization and any beneficial centra
 
 Often, the factors driving concentration are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks,{{SCALE-FREE}} network effects award asymmetric power to nodes that act as intermediaries to communication.
 
-Left unchecked, these factors can cause a potentially decentralized application to become effectively controlled by one party, because the central function has leverage to "lock in" users. For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{ACTIVITYSTREAMS}}), because of the powerful network effects associated.
+For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{ACTIVITYSTREAMS}}), because of the powerful network effects associated. While there has been some competition in social networking, a group of people who wish to communicate are often locked in by the choices that their peers make, because of the degree of coordination required to move to a new service.
 
 By its nature, concentration is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
 
