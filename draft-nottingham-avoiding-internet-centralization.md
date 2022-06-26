@@ -323,7 +323,7 @@ For example, the network between endpoints can introduce centralization risk to 
 
 Likewise, having only a single implementation of a protocol is an inherited centralization risk, because applications that use it are vulnerable to the control it has over their operation. Even if it is Open Source, there might be inherited centralization if there are factors that make forking difficult (for example, the cost of maintaining that fork).
 
-Inherited centralization is often present when users cannot find a substitute because network effects reduce the choices available to them. This kind of centralization can also be created by legal mandates and incentives that restrict the options for Internet access, the provision of a given function, or the range of implementations available.
+Inherited centralization is often present when network effects restrict the available choices, but can also be created by legal mandates and incentives that restrict the options for a given function (such as Internet access), its provision, or the range of implementations available.
 
 Some kinds of inherited centralization can be prevented by enforcing layer boundaries through use of techniques like encryption. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still be able to prevent communication, encryption also makes it more difficult to discriminate a target from other traffic.
 
