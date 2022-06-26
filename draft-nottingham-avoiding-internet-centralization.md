@@ -11,6 +11,7 @@ workgroup:
 keyword: decentralization
 keyword: concentration
 keyword: regulation
+keyword: governance
 
 stand_alone: yes
 smart_quotes: no
