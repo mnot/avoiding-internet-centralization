@@ -350,7 +350,7 @@ Like concentration, platform centralization is difficult to prevent with protoco
 
 # Decentralization {#decentralization}
 
-"Decentralization" is the process of identifying the centralization risk associated with a function, followed by the application of techniques to prevent or mitigate it.
+"Decentralization" is the process of identifying the centralization risk associated with a function, followed by the application of techniques to reduce or mitigate it.
 
 Assessing centralization risk is a case-by-base exercise that depends on the specifics of the function, surrounding circumstances, and the nature of the centralization risk.
 
