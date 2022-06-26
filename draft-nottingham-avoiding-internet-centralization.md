@@ -68,7 +68,6 @@ informative:
         ins: K. Judge
         name: Kathryn Judge
         organization: Columbia Law School
-        email: kjudge@law.columbia.edu
     refcontent: University of Chicago Law Review, Vol. 82, p. 573
   WEAPONIZED-INTERDEPENDENCE:
     target: https://doi.org/10.1162/ISEC_a_00351
