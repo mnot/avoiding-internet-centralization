@@ -244,7 +244,9 @@ Here, "entity" could be a single person, a corporation, or a government. It does
 
 However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit centralization. The supply of Internet connectivity itself can also be subject to the forces of centralization.
 
-Centralization is not a binary condition. Although there are some instances where complete control over a function is held by a single party (see {{direct}}), a function's design, its operation, or external forces might lend undue influence (but not completely control) over it to a single entity. Therefore, it is often useful to consider the _centralization risk_ associated with a function, depending on the scale, scope, and nature of the influences on it.
+Centralization is not a binary condition; it is a continuum. At one extreme, a function completely controlled by a single entity (see {{direct}}) represents complete centralization; at the other extreme, a hypothetical Internet where any two parties can realize that function's value without the possibility of any external interference or influence represents completely decentralization.
+
+While both ends of this spectrum might already be occupied by selected functions, most reside somewhere between the extremes. Therefore, it is often useful to consider the _centralization risk_ associated with a function, depending on the scale, scope, and nature of the influences on it. Note that a function might have more than one source of centralization risk.
 
 Centralization risk is strongest when it affects the entire Internet. However, it can also be present when a substantial portion of the Internet's users lack options for a function. For example, if there is only one provider for a function in a region or legal jurisdiction, that function is effectively centralized for those users.
 
