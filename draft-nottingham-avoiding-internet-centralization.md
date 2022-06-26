@@ -336,7 +336,7 @@ The complement to inherited centralization is platform centralization -- where a
 
 For example, HTTP {{HTTP}} is not considered a centralized protocol; interoperable servers are  easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above.
 
-However, applications built on top of HTTP (as well as the rest of the “Web Platform”) often exhibit centralization. As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications.
+However, applications built on top of HTTP (as well as the rest of the “Web Platform”) often exhibit centralization (for example, social networking). As such, HTTP is an example of a platform for centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications.
 
 Like concentration, platform centralization is difficult to prevent with protocol design. Because of the layered nature of the Internet, most protocols allow considerable flexibility in how they are used, often in a way that it becomes attractive to form a dependency on one party’s operation.
 
