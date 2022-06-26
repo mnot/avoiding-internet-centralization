@@ -40,7 +40,7 @@ informative:
     author:
      -
        name: Paul Baran
-       orgnaization: RAND Corporation
+       organization: RAND Corporation
   HTTP: I-D.draft-ietf-httpbis-semantics
   SOAP: W3C.REC-soap12-part0-20070427
   SCALE-FREE:
