@@ -245,7 +245,7 @@ Here, "entity" could be a single person, a corporation, or a government. It does
 
 However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit centralization. The supply of Internet connectivity itself can also be subject to the forces of centralization.
 
-Centralization is not a binary condition; it is a continuum. At one extreme, a function completely controlled by a single entity (see {{direct}}) represents complete centralization; at the other extreme, a hypothetical Internet where any two parties can realize that function's value without the possibility of any external interference or influence represents completely decentralization.
+Centralization is not a binary condition; it is a continuum. At one extreme, a function completely controlled by a single entity (see {{direct}}) represents complete centralization; at the other extreme, a hypothetical Internet where any two parties can realize that function's value without the possibility of any external interference or influence represents complete decentralization.
 
 While both ends of this spectrum might already be occupied by selected functions, most reside somewhere between the extremes. Therefore, it is often useful to consider the _centralization risk_ associated with a function, depending on the scale, scope, and nature of the influences on it. Note that a function might have more than one source of centralization risk.
 
