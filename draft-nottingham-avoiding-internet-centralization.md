@@ -361,7 +361,7 @@ Like concentration, platform centralization is difficult to prevent with protoco
 
 While the term "decentralization" has a long history of use in economics, politics, religion, and international development, {{RAND}} gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required."
 
-This seemingly straightforward technical definition hides a number of issues.
+This seemingly straightforward technical definition hides several issues.
 
 First, identifying what aspects of a protocol or application to decentralize and how to achieve it can be difficult, both because there are often many paths that can lead to a function's centralization, and because centralization sometimes only becomes evident after the function is deployed at scale.
 
