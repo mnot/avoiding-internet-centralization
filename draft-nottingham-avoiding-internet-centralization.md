@@ -35,6 +35,7 @@ normative:
 
 informative:
   RAND:
+    display: BARAN
     target: https://www.rand.org/pubs/research_memoranda/RM3420.html
     title: "On Distributed Communications: Introduction to Distributed Communications Networks"
     date: 1964
@@ -45,6 +46,7 @@ informative:
   HTTP: I-D.draft-ietf-httpbis-semantics
   SOAP: W3C.REC-soap12-part0-20070427
   SCALE-FREE:
+    display: BARABASI
     target: https://barabasi.com/f/67.pdf
     title: Emergence of Scaling in Random Networks
     date: October 1999
@@ -61,6 +63,7 @@ informative:
        organization: University of Notre Dame
     refcontent: SCIENCE, Vol. 286, No. 15, p. 509
   INTERMEDIARY-INFLUENCE:
+    display: JUDGE
     target: https://scholarship.law.columbia.edu/faculty_scholarship/1856
     title: Intermediary Influence
     date: 2014
@@ -70,7 +73,8 @@ informative:
         name: Kathryn Judge
         organization: Columbia Law School
     refcontent: University of Chicago Law Review, Vol. 82, p. 573
-  WEAPONIZED-INTERDEPENDENCE:
+  INTERDEPENDENCE:
+    display: FARRELL
     target: https://doi.org/10.1162/ISEC_a_00351
     title: "Weaponized Interdependence: How Global Economic Networks Shape State Coercion"
     date: 2019
@@ -93,7 +97,8 @@ informative:
        ins: M. Marlinspike
        name: Moxie Marlinspike
        organization: Signal
-  LEGITIMACY-MULTI:
+  MULTISTAKEHOLDER:
+    display: PALLADINO
     title: "Legitimacy, Power, and Inequalities in the Multistakeholder Internet Governance"
     date: 2020
     author:
@@ -103,6 +108,7 @@ informative:
        name: Nauro Santaniello
     target: https://link.springer.com/book/10.1007/978-3-030-56131-4
   NEW-CHICAGO:
+    display: LESSIG
     title: "The New Chicago School"
     date: June 1998
     author:
@@ -111,6 +117,7 @@ informative:
     refcontent: "Journal of Legal Studies, Vol. 27"
     target: https://www.journals.uchicago.edu/doi/10.1086/468039
   POLYCENTRIC:
+    display: ALIGIA
     title: "Polycentricity: From Polanyi to Ostrom, and Beyond"
     date: April 2012
     author:
@@ -121,6 +128,7 @@ informative:
     target: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2149165
     refcontent: "Governance: An International Journal of Policy, Administration, and Institutions, Vol. 25, No. 2, p. 237"
   PIR:
+    display: OLUMOFIN
     title: Revisiting the Computational Practicality of Private Information Retrieval
     date: 2010
     author:
@@ -130,13 +138,15 @@ informative:
       name: Ian Goldberg
     target: https://link.springer.com/chapter/10.1007/978-3-642-27576-0_13
   ACCESS:
+    display: VESTAGER
     title: Defending Competition in a Digitised World, Address at the European Consumer and Competition Day
     date: 4 April 2019
     target: https://wayback.archive-it.org/12090/20191129202059/https://ec.europa.eu/commission/commissioners/2014-2019/vestager/announcements/defending-competition-digitised-world_en
     author:
      -
       name: Margrethe Vestager
-  TECH-SUCCESS-FACTORS:
+  SUCCESS:
+    display: KENDE
     title: Study on the Internet's Technical Success Factors
     date: December 2021
     target: https://blog.apnic.net/wp-content/uploads/2021/12/MKGRA669-Report-for-APNIC-LACNIC-V3.pdf
@@ -157,6 +167,7 @@ informative:
      -
       organization: OECD
   MIX:
+    display: CHAUM
     title: Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms
     date: 1 February 1981
     target: https://dl.acm.org/doi/10.1145/358549.358563
@@ -165,6 +176,7 @@ informative:
       name: David L. Chaum
     refcontent: Communications of the ACM, Vol. 24, No. 2
   FEDERALIST-51:
+    display: MADISON
     title: The Structure of the Government Must Furnish the Proper Checks and Balances Between the Different Departments
     date: 8 February 1788
     author:
@@ -172,6 +184,7 @@ informative:
        name: James Madison
     refcontent: The Federalist Papers, No. 51
   ATTRACTIVE-PROFITS:
+    display: CHRISTENSEN
     title: The Law of Conservation of Attractive Profits
     date: February 2004
     author:
@@ -180,6 +193,7 @@ informative:
     refcontent: Harvard Business Review, "Breakthrough Ideas for 2004"
   ACTIVITYSTREAMS: W3C.CR-activitystreams-core-20161215
   CIRCULAR-CONUNDRUM:
+    display: SPULBER
     title: "Solving The Circular Conundrum: Communication And Coordination In Internet Markets"
     date: 2010
     author:
@@ -214,6 +228,7 @@ informative:
       name: Dan Boneh
     target: https://crypto.stanford.edu/prio/paper.pdf
   AMBITION:
+    display: SCHNEIDER
     title: "Decentralization: an incomplete ambition"
     date: 2019
     author:
@@ -229,6 +244,7 @@ informative:
        organization: bitcoinera
     target: https://bitcoinera.app/arewedecentralizedyet/
   PERSPECTIVE:
+    display: BODO
     title: "Decentralisation: a multidisciplinary
 perspective"
     date: 16 June 2021
@@ -298,7 +314,7 @@ At a high level, there are three major reasons why centralization of Internet fu
 
 First, the Internet's very nature is incompatible with centralization. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
-Second, when a third party has unavoidable access to communications, the informational and positional advantages gained allow observation of behaviour (the "panopticon effect") and shaping or even denial of behaviour (the "chokepoint effect") {{INTERMEDIARY-INFLUENCE}} -- capabilities that those parties (or the states that have authority over them) can use for coercive ends {{WEAPONIZED-INTERDEPENDENCE}} or even to disrupt society itself. Just as good governance of states requires separation of powers {{FEDERALIST-51}}, so too does good governance of the Internet require that power not be concentrated in one place.
+Second, when a third party has unavoidable access to communications, the informational and positional advantages gained allow observation of behaviour (the "panopticon effect") and shaping or even denial of behaviour (the "chokepoint effect") {{INTERMEDIARY-INFLUENCE}} -- capabilities that those parties (or the states that have authority over them) can use for coercive ends {{INTERDEPENDENCE}} or even to disrupt society itself. Just as good governance of states requires separation of powers {{FEDERALIST-51}}, so too does good governance of the Internet require that power not be concentrated in one place.
 
 Finally, centralization of a function can have deleterious effects on the Internet itself, including:
 
@@ -312,7 +328,7 @@ Finally, centralization of a function can have deleterious effects on the Intern
 
 * _Self-Reinforcement_: As widely noted (see, e.g., {{ACCESS}}), a centralized service’s access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.
 
-See also {{TECH-SUCCESS-FACTORS}} for further exploration of how centralization can affect the Internet.
+See also {{SUCCESS}} for further exploration of how centralization can affect the Internet.
 
 
 ## Kinds of Centralization {#kinds}
@@ -446,7 +462,7 @@ Another example is the governance of the Web's trust model, implemented by Web b
 
 Yet another example of multi-stakeholderism is the standardization of Internet protocols themselves. Because a specification controls implementation behavior, the standardization process can be seen as a single point of control. As a result, Internet standards bodies like the IETF allow open participation and contribution, make decisions in an open and accountable way, have a well-defined process for making (and when necessary, appealing) decisions, considering the views of different stakeholder groups {{?RFC8890}}.
 
-A major downside of this approach is that setup and ongoing operation of multi-stakeholder bodies is not trivial. Additionally, their legitimacy cannot be assumed, and may be difficult to establish and maintain (see, e.g., {{LEGITIMACY-MULTI}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
+A major downside of this approach is that setup and ongoing operation of multi-stakeholder bodies is not trivial. Additionally, their legitimacy cannot be assumed, and may be difficult to establish and maintain (see, e.g., {{MULTISTAKEHOLDER}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
 
 
 ### Distributed Consensus {#distributed}
