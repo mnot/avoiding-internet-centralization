@@ -221,6 +221,13 @@ informative:
       name: Nathan Schneider
     target: https://osf.io/m7wyj/
     refcontent: "Journal of Cultural Economy, Vol. 12, No. 4"
+  AREWEDECENTRALIZEDYET:
+    title: "Are We Decentralized Yet?"
+    date: 2022
+    author:
+      -
+       organization: bitcoinera
+    target: https://bitcoinera.app/arewedecentralizedyet/
 
 --- abstract
 
@@ -368,6 +375,8 @@ First, identifying what aspects of a protocol or application to decentralize and
 Second, different parties might have good-faith differences on what "sufficiently decentralized" means based upon their beliefs, perceptions and goals. Just as centralization is a continuum, so is decentralization, and not everyone agrees one what the "right" level or type is, how to weigh different forms of centralization against each other, or how to weigh centralization against other architectural goals (such as security or privacy).
 
 Third, discussion around decentralization is inherently focused on the power relationships between protocol participants, especially when decentralizing a function opens up the possibility of centralization elsewhere. As Schneider notes in {{AMBITION}}, decentralization "appears to operate as a rhetorical strategy that directs attention toward some aspects of a proposed social order and away from others."
+
+For example, while blockchain-based cryptocurrencies might address the centralization inherent in traditional currencies through technical means, the concentration of power that many exhibit in terms of voting/mining power, distribution of funds, and diversity of codebase causes some to question how decentralized they are. {{AREWEDECENTRALIZEDYET}}
 
 In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. In particular, if one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. Again from {{AMBITION}}: "Again and again, decentralized technologies do not guarantee decentralized social outcomes."
 
