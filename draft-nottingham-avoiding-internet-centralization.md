@@ -1,6 +1,6 @@
 ---
 title: Centralization, Decentralization, and Internet Standards
-abbrev:
+abbrev: Centralization
 docname: draft-nottingham-avoiding-internet-centralization-latest
 date: {DATE}
 category: info
