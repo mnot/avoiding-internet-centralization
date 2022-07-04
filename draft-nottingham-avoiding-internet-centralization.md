@@ -228,6 +228,23 @@ informative:
       -
        organization: bitcoinera
     target: https://bitcoinera.app/arewedecentralizedyet/
+  PERSPECTIVE:
+    title: "Decentralisation: a multidisciplinary
+perspective"
+    date: 16 June 2021
+    author:
+     -
+      name: Balázs Bodó
+      organization: University of Amsterdam
+     -
+      name: Jaya Klara Brekke
+      organization: Durham University
+     -
+      name: Jaap-Henk Hoepman
+      organization: Radboud University
+    target: https://doi.org/10.14763/2021.2.1563
+    refcontent: "Internet Policy Review, Vol. 10, No. 2"
+
 
 --- abstract
 
@@ -380,7 +397,7 @@ Third, discussion around decentralization is inherently focused on the power rel
 
 For example, while blockchain-based cryptocurrencies might address the centralization inherent in traditional currencies through technical means, the concentration of power that many exhibit in terms of voting/mining power, distribution of funds, and diversity of codebase causes some to question how decentralized they are. {{AREWEDECENTRALIZEDYET}}
 
-In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. In particular, if one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. Again from {{AMBITION}}: "Again and again, decentralized technologies do not guarantee decentralized social outcomes."
+In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. In particular, if one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
 
 In the context of Internet standardization, decentralization is implemented as a two-step process: identifying the nature of centralization risk, followed by the application of techniques to reduce or mitigate it.
 
