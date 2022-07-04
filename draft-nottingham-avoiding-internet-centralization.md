@@ -213,6 +213,14 @@ informative:
      -
       name: Dan Boneh
     target: https://crypto.stanford.edu/prio/paper.pdf
+  AMBITION:
+    title: "Decentralization: an incomplete ambition"
+    date: 2019
+    author:
+     -
+      name: Nathan Schneider
+    target: https://osf.io/m7wyj/
+    refcontent: "Journal of Cultural Economy, Vol. 12, No. 4"
 
 --- abstract
 
@@ -351,7 +359,21 @@ Like concentration, platform centralization is difficult to prevent with protoco
 
 # Decentralization {#decentralization}
 
-"Decentralization" is the process of identifying the centralization risk associated with a function, followed by the application of techniques to reduce or mitigate it.
+While the term "decentralization" has a long history of use in economics, politics, religion, and international development, {{RAND}} gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required."
+
+This seemingly straightforward technical definition hides a number of issues.
+
+First, identifying what aspects of a protocol or application to decentralize and how to achieve it can be difficult, both because there are often many paths that can lead to a function's centralization, and because centralization sometimes only becomes evident after the function is deployed at scale.
+
+Second, different parties might have good-faith differences on what "sufficiently decentralized" means based upon their beliefs, perceptions and goals. Just as centralization is a continuum, so is decentralization, and not everyone agrees one what the "right" level or type is, how to weigh different forms of centralization against each other, or how to weigh centralization against other architectural goals (such as security or privacy).
+
+Third, discussion around decentralization is inherently focused on the power relationships between protocol participants, especially when decentralizing a function opens up the possibility of centralization elsewhere. As Schneider notes in {{AMBITION}}, decentralization "appears to operate as a rhetorical strategy that directs attention toward some aspects of a proposed social order and away from others."
+
+In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. In particular, if one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. Again from {{AMBITION}}: "Again and again, decentralized technologies do not guarantee decentralized social outcomes."
+
+In the context of these challenges and limitations, this document uses "decentralization" to indicate a process that promotes a measured response to centralization of Internet functions, both existing and potential.
+
+That process has two steps: identifying the nature of centralization risk associated with a function, followed by the application of techniques to reduce or mitigate it.
 
 Assessing centralization risk is a case-by-base exercise that depends on the specifics of the function, surrounding circumstances, and the nature of the centralization risk.
 
