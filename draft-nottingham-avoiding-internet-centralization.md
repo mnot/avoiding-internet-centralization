@@ -371,9 +371,7 @@ Third, discussion around decentralization is inherently focused on the power rel
 
 In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. In particular, if one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. Again from {{AMBITION}}: "Again and again, decentralized technologies do not guarantee decentralized social outcomes."
 
-In the context of these challenges and limitations, this document uses "decentralization" to indicate a process that promotes a measured response to centralization of Internet functions, both existing and potential.
-
-That process has two steps: identifying the nature of centralization risk associated with a function, followed by the application of techniques to reduce or mitigate it.
+In the context of Internet standardization, decentralization is implemented as a two-step process: identifying the nature of centralization risk, followed by the application of techniques to reduce or mitigate it.
 
 Assessing centralization risk is a case-by-base exercise that depends on the specifics of the function, surrounding circumstances, and the nature of the centralization risk.
 
