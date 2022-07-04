@@ -43,7 +43,7 @@ informative:
      -
        name: Paul Baran
        organization: RAND Corporation
-  HTTP: I-D.draft-ietf-httpbis-semantics
+  HTTP: RFC9110
   SOAP: W3C.REC-soap12-part0-20070427
   SCALE-FREE:
     display: BARABASI
