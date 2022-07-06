@@ -260,13 +260,13 @@ perspective"
       organization: Radboud University
     target: https://doi.org/10.14763/2021.2.1563
     refcontent: "Internet Policy Review, Vol. 10, No. 2"
-  PCWORLD:
-    title: P2P-based Alternative to DNS Hopes to Challenge ICANN
-    date: 30 November 2010
+  MUSIANI:
+    title: "Alternative Technologies as Alternative Institutions: The Case of the Domain Name System"
+    date: 2016
     author:
-      - name: Mikael Ricknäs
-      - organization: PCWorld
-    target: https://www.pcworld.com/article/499060/p2pbased_alternative_to_dns_hopes_to_challenge_icann.html
+      - name: Francesca Musiani
+    target: https://link.springer.com/chapter/10.1057/9781137483591_4
+    refcontent: "The Turn to Infrastructure in Internet Governance"
 
 --- abstract
 
@@ -415,7 +415,7 @@ First, identifying what aspects of a protocol or application to decentralize and
 
 Second, different parties might have good-faith differences on what "sufficiently decentralized" means based upon their beliefs, perceptions and goals. Just as centralization is a continuum, so is decentralization, and not everyone agrees one what the "right" level or type is, how to weigh different forms of centralization against each other, or how to weigh centralization against other architectural goals (such as security or privacy).
 
-For example, the name space of the DNS is a single, global "source of truth" with inherent (if beneficial) centralization. The associated risk is mitigated through its administration by ICANN, a multistakeholder organization (see {{multi}}). While many believe that this arrangement is sufficient and might even have desirable qualities (such as the ability to impose community standards over the operation of the name space), others reject ICANN's oversight of the DNS as illegitimate, favouring decentralization based upon distributed consensus protocols rather than multistakeholderism. {{PCWORLD}}
+For example, the name space of the DNS is a single, global "source of truth" with inherent (if beneficial) centralization. The associated risk is mitigated through its administration by ICANN, a multistakeholder organization (see {{multi}}). While many believe that this arrangement is sufficient and might even have desirable qualities (such as the ability to impose community standards over the operation of the name space), others reject ICANN's oversight of the DNS as illegitimate, favouring decentralization based upon distributed consensus protocols rather than multistakeholderism. {{MUSIANI}}
 
 Third, discussion around decentralization is inherently focused on the power relationships between protocol participants, especially when decentralizing a function opens up the possibility of centralization elsewhere. As Schneider notes in {{AMBITION}}, decentralization "appears to operate as a rhetorical strategy that directs attention toward some aspects of a proposed social order and away from others."
 
