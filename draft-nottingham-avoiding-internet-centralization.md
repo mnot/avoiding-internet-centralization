@@ -267,6 +267,13 @@ perspective"
       - name: Francesca Musiani
     target: https://link.springer.com/chapter/10.1057/9781137483591_4
     refcontent: "The Turn to Infrastructure in Internet Governance"
+  STRUCTURELESS:
+    title: The Tyranny of Structurelessness
+    date: 1972
+    author:
+     - name: Jo Freeman
+    target: https://www.jstor.org/stable/41035187
+    refcontent: Berkeley Journal of Sociology, Vol. 17
 
 --- abstract
 
@@ -421,7 +428,7 @@ This is seen in the DNS, as a single, global "source of truth" with inherent (if
 
 Third, discussion around decentralization is inherently focused on the power relationships between protocol participants, especially when decentralizing a function opens up the possibility of centralization elsewhere. As Schneider notes in {{AMBITION}}, decentralization "appears to operate as a rhetorical strategy that directs attention toward some aspects of a proposed social order and away from others."
 
-For example, while blockchain-based cryptocurrencies might address the centralization inherent in traditional currencies through technical means, the concentration of power that many exhibit in terms of voting/mining power, distribution of funds, and diversity of codebase causes some to question how decentralized they are. {{AREWEDECENTRALIZEDYET}}
+For example, while blockchain-based cryptocurrencies might address the centralization inherent in traditional currencies through technical means, the concentration of power that many exhibit in terms of voting/mining power, distribution of funds, and diversity of codebase causes some to question how decentralized they actually are. {{AREWEDECENTRALIZEDYET}} The lack of formal structures brings an opportunity for latent, informal power structures that have their own risks -- including centralization. {{STRUCTURELESS}}
 
 In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. In particular, if one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
 
