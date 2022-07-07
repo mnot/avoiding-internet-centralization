@@ -432,21 +432,16 @@ For example, while blockchain-based cryptocurrencies might address the centraliz
 
 In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. In particular, if one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
 
-In the context of Internet standardization, decentralization is implemented as a two-step process: identifying the nature of centralization risk, followed by the application of techniques to reduce or mitigate it.
 
-Assessing centralization risk is a case-by-base exercise that depends on the specifics of the function, surrounding circumstances, and the nature of the centralization risk.
+## Decentralization Techniques {#techniques}
+
+In the context of Internet standardization, decentralization is implemented as a two-step process: assessing the nature of centralization risk, followed by the application of techniques to reduce or mitigate it. The subsections below examine some of these techniques.
 
 Choosing the appropriate techniques for decentralization requires balancing the goals of the function against centralization risk, because completely precluding all forms of centralization through technical means is rarely achievable. When performed properly, decentralization might produce an outcome that still has centralization risk, but that risk should be understood, acceptable, and, where possible and appropriate, mitigated.
 
 Notably, decentralization does not require that provision of a function need be distributed in a particular fashion, or to a particular degree. For example, the Domain Name System {{?RFC1035}} is widely agreed to have acceptable centralization risk, despite it being provided by a limited set of entities.
 
-
-
-## Decentralization Techniques {#techniques}
-
-Over time, the Internet community has developed various techniques to avoid concentration of power in protocols, or to bring accountability when it is unavoidable.
-
-While using these techniques can reduce centralization risk or make a function less amenable to some kinds of centralization, they are not adequate to avoid centralization completely. They are also not indicators of whether a protocol is centralized without further analysis.
+While using these techniques can reduce centralization risk or make a function less amenable to some kinds of centralization, none are adequate to avoid centralization completely. They are also not indicators of whether a protocol is centralized without further analysis.
 
 
 ### Federation {#federation}
