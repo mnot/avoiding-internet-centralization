@@ -414,7 +414,7 @@ Like concentration, platform centralization is difficult to prevent with protoco
 
 # Decentralization {#decentralization}
 
-While the term "decentralization" has a long history of use in economics, politics, religion, and international development, {{RAND}} gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required."
+While the term "decentralization" has a long history of use in economics, politics, religion, and international development, In {{RAND}}, Barans gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required."
 
 This seemingly straightforward technical definition hides several issues.
 
@@ -424,7 +424,7 @@ For example, the Web was envisioned and widely held to be a decentralizing force
 
 Second, different parties might have good-faith differences on what "sufficiently decentralized" means based upon their beliefs, perceptions and goals. Just as centralization is a continuum, so is decentralization, and not everyone agrees one what the "right" level or type is, how to weigh different forms of centralization against each other, or how to weigh centralization against other architectural goals (such as security or privacy).
 
-This is seen in the DNS, as a single, global "source of truth" with inherent (if beneficial) centralization. The associated risk is mitigated through its administration by ICANN, a multistakeholder organization (see {{multi}}). While many believe that this arrangement is sufficient and might even have desirable qualities (such as the ability to impose community standards over the operation of the name space), others reject ICANN's oversight of the DNS as illegitimate, favouring decentralization based upon distributed consensus protocols rather than multistakeholderism. {{MUSIANI}}
+This is seen in the DNS as a single, global "source of truth" with inherent (if beneficial) centralization. The associated risk is mitigated through its administration by ICANN, a multistakeholder organization (see {{multi}}). While many believe that this arrangement is sufficient and might even have desirable qualities (such as the ability to impose community standards over the operation of the name space), others reject ICANN's oversight of the DNS as illegitimate, favouring decentralization based upon distributed consensus protocols rather than multistakeholderism. {{MUSIANI}}
 
 Third, discussion around decentralization is inherently focused on the power relationships between protocol participants, especially when decentralizing a function opens up the possibility of centralization elsewhere. As Schneider notes in {{AMBITION}}, decentralization "appears to operate as a rhetorical strategy that directs attention toward some aspects of a proposed social order and away from others."
 
