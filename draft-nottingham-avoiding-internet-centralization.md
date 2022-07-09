@@ -268,6 +268,7 @@ perspective"
     target: https://link.springer.com/chapter/10.1057/9781137483591_4
     refcontent: "The Turn to Infrastructure in Internet Governance"
   STRUCTURELESS:
+    display: FREEMAN
     title: The Tyranny of Structurelessness
     date: 1972
     author:
