@@ -306,9 +306,9 @@ Here, "entity" could be a single person, a corporation, or a government. It does
 
 However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit centralization. The supply of Internet connectivity to end users in a particular area or situation can also be subject to the forces of centralization, as can supply of transit between networks (so called "Tier 1" networks).
 
-Centralization is not a binary condition; it is a continuum. At one extreme, a function completely controlled by a single entity (see {{direct}}) represents complete centralization; at the other extreme, a hypothetical Internet where any two parties can realize that function's value without the possibility of any external interference or influence represents complete decentralization.
+Centralization is not a binary condition; it is a continuum. At one extreme, a function completely controlled by a single entity (see {{direct}}) represents complete centralization; at the other extreme, a hypothetical Internet where any two parties can realize that function's value without the possibility of any external interference or influence represents complete decentralization (sometimes referred to as "distributed" or "peer-to-peer").
 
-While both ends of this spectrum might already be occupied by a few functions, most reside somewhere between the extremes. Therefore, it is often useful to consider the _centralization risk_ associated with a function, depending on the scale, scope, and nature of the influences on it. Note that a function might have more than one source of centralization risk.
+While both ends of this spectrum might already be occupied by a few functions, most reside somewhere between the extremes. Therefore, it is often useful to consider the amount of _centralization risk_ associated with a function, depending on the scale, scope, and nature of the influences on it. Note that a function might have more than one source of centralization risk.
 
 Centralization risk is strongest when it affects the entire Internet. However, it can also be present when a substantial portion of the Internet's users lack options for a function. For example, if there is only one provider for a function in a region or legal jurisdiction, that function is effectively centralized for those users.
 
@@ -321,9 +321,9 @@ For example, a large variety of Web sites might depend upon a cloud hosting prov
 Also, it is important to distinguish centralization from anti-competitive concerns (also known as "anti-trust"). While there are many interactions between these concepts and making the Internet more competitive may be a motivation for avoiding centralization, only courts have the authority to define a relevant market and determine that behaviour is anti-competitive. Furthermore, what might be considered undesirable consolidation by the technical community might not attract competition regulation, and conversely what might attract competition regulation might not be of great concern to the technical community if other mitigations are felt to be adequate.
 
 
-## Why Centralization is Undesirable {#why}
+## When Centralization is Undesirable {#why}
 
-At a high level, there are three major reasons why centralization of Internet functions is concerning.
+At a high level, there are three major reasons why centralization of Internet functions can be concerning.
 
 First, the Internet's very nature is incompatible with centralization. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
@@ -342,6 +342,10 @@ Finally, centralization of a function can have deleterious effects on the Intern
 * _Self-Reinforcement_: As widely noted (see, e.g., {{ACCESS}}), a centralized service’s access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.
 
 See also {{SUCCESS}} for further exploration of how centralization can affect the Internet.
+
+As discussed below in {{necessary}}, not all centralization is undesirable or avoidable. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."
+
+With that in mind, centralization risk on the Internet is most concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, and when it has the damaging effects outlines above, or the potential for them.
 
 
 ## Kinds of Centralization {#kinds}
@@ -420,7 +424,9 @@ This seemingly straightforward technical definition hides several issues.
 
 First, identifying what aspects of a protocol or application to decentralize and how to achieve it can be difficult, both because there are often many paths that can lead to a function's centralization, and because centralization sometimes only becomes evident after the function is deployed at scale.
 
-For example, the Web was envisioned and widely held to be a decentralizing force in its early life. Its inherent platform centralization only became apparent when large sites successfully leveraged network effects for dominance of social networking, marketplaces, and similar functions.
+For example, a cloud storage function might be implemented using a distributed consensus protocol, assuring that the failure of any single node will not affect the system's operation or availability. However, if it is operated by a single legal entity, that brings a very different kind of centralization risk, especially if there are few other options available, or if there is friction against choosing other options.
+
+Another example is the Web, which was envisioned and widely held to be a decentralizing force in its early life. Its inherent platform centralization only became apparent when large sites successfully leveraged network effects for dominance of social networking, marketplaces, and similar functions.
 
 Second, different parties might have good-faith differences on what "sufficiently decentralized" means based upon their beliefs, perceptions and goals. Just as centralization is a continuum, so is decentralization, and not everyone agrees one what the "right" level or type is, how to weigh different forms of centralization against each other, or how to weigh centralization against other architectural goals (such as security or privacy).
 
@@ -510,14 +516,14 @@ These potential shortcomings do not rule out the use of distributed consensus te
 
 Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Because permissionless innovation is a core value for the Internet, and yet much of the centralization seen on the Internet is performed by proprietary platforms that take advantage of this nature, the controls available to standards efforts are very limited.
 
-While standards bodies on their own cannot prevent centralization, there are meaningful steps that can be taken to prevent some functions from exhibiting centralization. There are also valuable contributions that standards efforts can make to other relevant forms of regulation.
+While standards bodies on their own cannot prevent centralization, the subsections below suggest meaningful steps that can be taken. There are also valuable contributions that standards efforts can make to other relevant forms of regulation.
 
 
 ## Be Realistic {#target}
 
-Some kinds of centralization risk are easy to manage in standards efforts. For example, if a proprietary protocol were to be proposed to the IETF, it would be rejected out of hand. There is a growing body of knowledge and experience with beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization, and has become the norm in standard protocols. These responses are appropriate ways for Internet standards to manage centralization risk.
+Some kinds of centralization risk are easy to manage in standards efforts. For example, if a proprietary protocol were to be proposed to the IETF, it would be rejected out of hand. There is a growing body of knowledge and experience in managing the risk of beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization, and has become the norm in standard protocols. These responses are appropriate ways for Internet standards to manage centralization risk.
 
-However, mitigating concentration and platform centralization is much more difficult in standards efforts. Because we have no “protocol police”, it’s not possible to demand that someone stop building a proprietary service using a purportedly federated protocol. We also cannot stop someone from building centralized services “on top” of standard protocols without abandoning architectural goals like permissionless innovation.
+However, mitigating concentration and platform centralization is much more difficult in standards efforts. Because we have no “protocol police”, it’s not possible to demand that someone stop building a proprietary service using a purportedly federated protocol. We also cannot stop someone from building centralized services “on top” of standard protocols without abandoning architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these kinds of centralization.
 
 Therefore, committing significant resources to scrutinizing protocols for latent centralization risk -- especially for concentration and platform risks -- is unlikely to be effective in preventing Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- exhibit concentration or platform centralization. Refusing to standardize a newer protocol because it faces similar risks would not be equitable, proportionate, or effective.
 
