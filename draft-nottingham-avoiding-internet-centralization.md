@@ -272,9 +272,18 @@ perspective"
     title: The Tyranny of Structurelessness
     date: 1972
     author:
-     - name: Jo Freeman
+     -
+      name: Jo Freeman
     target: https://www.jstor.org/stable/41035187
     refcontent: Berkeley Journal of Sociology, Vol. 17
+  ISOC:
+    title: Consolidation in the Internet Economy
+    date: 2019
+    author:
+      -
+       organization: Internet Society
+    target: https://future.internetsociety.org/2019/
+    refcontent: Internet Society Global Internet Report
 
 --- abstract
 
@@ -389,6 +398,8 @@ Even when a function avoids proprietary centralization and mitigates any benefic
 Often, the factors driving concentration are related to the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks, network effects award asymmetric power to nodes that act as intermediaries to communication. {{SCALE-FREE}}
 
 For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{ACTIVITYSTREAMS}}), because of the powerful network effects associated. While there has been some competition in social networking, a group of people who wish to communicate are often locked in by the choices that their peers make, because of the coordination required to move to a new service.
+
+See {{ISOC}} for a deeper exploration of concentration.
 
 Concentration is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
 
