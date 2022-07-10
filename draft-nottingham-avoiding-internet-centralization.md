@@ -436,9 +436,9 @@ While the term "decentralization" has a long history of use in economics, politi
 
 This seemingly straightforward technical definition hides several issues.
 
-First, identifying what aspects of a protocol or application to decentralize and how to achieve it can be difficult, both because there are often many paths that can lead to a function's centralization, and because centralization sometimes only becomes evident after the function is deployed at scale.
+First, identifying which aspects of a function to decentralize and how to do so can be difficult, both because there are often many ways a function might be centralized, and because centralization sometimes only becomes evident after the function is deployed at scale.
 
-For example, a cloud storage function might be implemented using a distributed consensus protocol, assuring that the failure of any single node will not affect the system's operation or availability. However, if it is operated by a single legal entity, that brings a very different kind of centralization risk, especially if there are few other options available, or if there is friction against choosing other options.
+For example, a cloud storage function might be implemented using a distributed consensus protocol, assuring that the failure of any single node will not affect the system's operation or availability. In that sense, it is decentralized. However, if it is operated by a single legal entity, that brings a very different kind of centralization risk, especially if there are few other options available, or if there is friction against choosing other options.
 
 Another example is the Web, which was envisioned and widely held to be a decentralizing force in its early life. Its inherent platform centralization only became apparent when large sites successfully leveraged network effects for dominance of social networking, marketplaces, and similar functions.
 
