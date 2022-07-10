@@ -309,7 +309,7 @@ However, the Internet's functions are not limited to standards-defined protocols
 
 Centralization is not a binary condition; it is a continuum. At one extreme, a function absolutely controlled by a single entity (see {{direct}}) represents complete centralization; at the other extreme, a function whose value can be realised by any two parties without the possibility of any external interference or influence represents complete decentralization (sometimes referred to as "distributed" or "peer-to-peer").
 
-While a few functions might occupy the ends of this spectrum, most reside somewhere between the extremes. Therefore, it is often useful to consider the amount of _centralization risk_ associated with a function, depending on the scale, scope, and nature of the influences on it. Note that a function might have more than one source of centralization risk.
+While a few functions might occupy the ends of this spectrum, most reside somewhere between the extremes. Therefore, it is often useful to consider the amount of _centralization risk_ associated with a function, depending on the scale, scope, and nature of the influences on it. Note that a function might have more than one source of centralization risk, each with its own characteristics.
 
 Centralization risk is strongest when it affects the entire Internet. However, it can also be present when a substantial portion of the Internet's users lack options for a function. For example, if there is only one provider for a function in a region or legal jurisdiction, that function is effectively centralized for those users.
 
