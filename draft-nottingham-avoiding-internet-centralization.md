@@ -326,7 +326,7 @@ Also, it is important to distinguish centralization from anti-competitive concer
 
 ## When Centralization is Undesirable {#why}
 
-At a high level, there are three major reasons why centralization of Internet functions can be concerning.
+There are three overarching reasons why centralization of Internet functions can be concerning.
 
 First, the Internet's very nature is incompatible with centralization. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
