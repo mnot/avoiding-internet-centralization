@@ -348,7 +348,7 @@ See also {{SUCCESS}} for further exploration of how centralization can affect th
 
 As discussed below in {{necessary}}, not all centralization is undesirable or avoidable. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."
 
-With that in mind, centralization risk on the Internet is most concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, and when it has the damaging effects outlines above, or the potential for them.
+With that in mind, centralization risk on the Internet is most concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects "favourites" which are difficult (or impossible) to displace, and when it has the damaging effects outlines above, or the potential for them.
 
 
 ## Kinds of Centralization {#kinds}
