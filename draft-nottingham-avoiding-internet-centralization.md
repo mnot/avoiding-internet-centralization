@@ -457,11 +457,9 @@ In practice, this means that decentralizing a function requires considerable wor
 
 In the context of Internet standardization, decentralization is implemented as a two-step process: assessing the nature of centralization risk, followed by the application of techniques to reduce or mitigate it. The subsections below examine some of these techniques.
 
-Choosing the appropriate techniques for decentralization requires balancing the goals of the function against centralization risk, because completely precluding all forms of centralization through technical means is rarely achievable. When performed properly, decentralization might produce an outcome that still has centralization risk, but that risk should be understood, acceptable, and, where possible and appropriate, mitigated.
+Choosing the appropriate techniques for decentralization requires balancing the specific goals of the function against centralization risk, because completely precluding all forms of centralization through technical means is rarely achievable. When performed properly, decentralization might produce an outcome that still has centralization risk, but that risk should be understood, acceptable, and, where possible and appropriate, mitigated.
 
 Notably, decentralization does not require that provision of a function need be distributed in a particular fashion, or to a particular degree. For example, the Domain Name System {{?RFC1035}} is widely agreed to have acceptable centralization risk, despite it being provided by a limited set of entities.
-
-While using these techniques can reduce centralization risk or make a function less amenable to some kinds of centralization, none are adequate to avoid centralization completely. They are also not indicators of whether a protocol is centralized without further analysis.
 
 
 ### Federation {#federation}
