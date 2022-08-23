@@ -432,7 +432,7 @@ Like concentration, platform centralization is difficult to prevent with protoco
 
 # Decentralization {#decentralization}
 
-While the term "decentralization" has a long history of use in economics, politics, religion, and international development, In {{RAND}}, Barans gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required."
+While the term "decentralization" has a long history of use in economics, politics, religion, and international development, In {{RAND}}, Baran gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required."
 
 This seemingly straightforward technical definition hides several issues.
 
@@ -479,16 +479,16 @@ Another example of a federated Internet protocol is XMPP {{?RFC6120}}, supportin
 
 While some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, denying them the benefits of global interoperability.
 
-The examples above illustrate that, while federation can be a useful technique to avoid proprietary centralization and manage beneficial centralization, it does not prevent concentration or platform centralization. If a single entity can capture the value provided by a protocol, they may use the protocol as a platform to get a “winner take all” outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally “tilt the table” towards a few operators.
+The examples above illustrate that, while federation can be a useful technique to avoid proprietary centralization and manage beneficial centralization, it does not prevent concentration or platform centralization. If a single entity can capture the value provided by a protocol, it may use the protocol as a platform to get a “winner take all” outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally “tilt the table” towards a few operators.
 
 
 ### Multi-Stakeholder Governance {#multi}
 
 Protocol designers sometime mitigate the risks associated with a beneficial centralized function (see {{necessary}}) by delegating that function's governance to a multi-stakeholder body -- an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
 
-The most widely studied example of this technique is the governance of the DNS, which as a “single source of truth” exhibits beneficial centralization in its naming function, as well as the operation of the system overall. To mitigate operational centralization, multiple root servers that are administered by separate operators (themselves diverse in geography) and a selection of corporate entities, non-profits, and government bodies from many jurisdictions and affiliations carry this task out.The name space itself is administered by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
+The most widely studied example of this technique is the governance of the DNS, which as a “single source of truth” exhibits beneficial centralization in its naming function, as well as the operation of the system overall. To mitigate operational centralization, multiple root servers that are administered by separate operators (themselves diverse in geography) and a selection of corporate entities, non-profits, and government bodies from many jurisdictions and affiliations carry this task out. The name space itself is administered by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
 
-Another example is the governance of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To assure that all parties meet the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both parties as stakeholders.
+Another example is the governance of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To ensure that all parties meet the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both parties as stakeholders.
 
 Yet another example of multi-stakeholderism is the standardization of Internet protocols themselves. Because a specification controls implementation behavior, the standardization process can be seen as a single point of control. As a result, Internet standards bodies like the IETF allow open participation and contribution, make decisions in an open and accountable way, have a well-defined process for making (and when necessary, appealing) decisions, considering the views of different stakeholder groups {{?RFC8890}}.
 
@@ -497,7 +497,8 @@ A major downside of this approach is that setup and ongoing operation of multi-s
 
 ### Distributed Consensus {#distributed}
 
-Increasingly, distributed consensus technologies (such as the blockchain) are touted as a solution to centralization issues. A complete survey of this rapidly changing area is beyond the scope of this document, but we can generalize about their properties.
+
+Increasingly, distributed consensus technologies (such as the blockchain) are touted as a solution to centralization issues. A complete survey of this rapidly changing area is beyond the scope of this document, but we can generalize about its properties.
 
 These techniques attempt to avoid centralization risk by distributing functions to members of a sometimes large pool of protocol participants. They typically guarantee proper performance of a function using cryptographic techniques (often, an append-only transaction ledger). A particular task's assignment to a node for handling usually cannot be predicted or controlled.
 
