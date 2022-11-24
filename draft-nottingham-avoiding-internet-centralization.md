@@ -287,7 +287,7 @@ perspective"
 
 --- abstract
 
-Despite being designed and operated as a decentralized network-of-networks, the Internet is continuously subjected to forces that encourage centralization.
+Despite the Internet being designed and operated as a decentralized network-of-networks, forces continuously emerge to encourage and sometimes enforce its centralization.
 
 This document offers a definition of centralization, explains why it is undesirable, identifies different types of it, catalogues limitations of common approaches to decentralization, and explores what Internet standards efforts can do to address it.
 
