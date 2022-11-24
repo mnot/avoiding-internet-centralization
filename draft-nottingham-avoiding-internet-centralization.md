@@ -408,7 +408,7 @@ Concentration is difficult to avoid in protocol design, and federated protocols 
 
 Most Internet protocols and applications depend on other, "lower-layer" protocols and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
 
-For example, the network between endpoints can introduce centralization risk to application-layer protocols, because it is necessary for communication and therefore has power over it. A network might block access to, slow down, or change the content of various application protocols or specific services for financial, political, operational, or criminal reasons, creating pressure to use other services, which can cause their centralization.
+For example, the network between endpoints can introduce centralization risk to application-layer protocols, because it is necessary for communication and therefore has power over it. A network might block access to, slow down, or change the content of various application protocols or specific services for financial, political, operational, or criminal reasons, thereby creating a disincentive (or even inability) to use them. By selectively hindering the use of some services but not others, network interventions can be composed to aid centralization of the latter -- intentionally or not.
 
 Likewise, having only a single implementation of a protocol is an inherited centralization risk, because applications that use it are vulnerable to the control it has over their operation. Even if it is Open Source, there might be inherited centralization if there are factors that make forking difficult (for example, the cost of maintaining that fork).
 
