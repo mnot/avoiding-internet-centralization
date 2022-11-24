@@ -618,4 +618,4 @@ This document does not have a direct security impact on Internet protocols. Howe
 
 This document benefits from discussions with Brian Trammell during our shared time on the Internet Architecture Board.
 
-Thanks to Jari Arkko, Christian Huitema, Eliot Lear, Tommy Pauly, and Martin Thomson for their comments and suggestions.
+Thanks to Jari Arkko, Kristin Berdan, Christian Huitema, Eliot Lear, Tommy Pauly, and Martin Thomson for their comments and suggestions.
