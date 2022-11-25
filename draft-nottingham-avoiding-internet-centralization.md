@@ -1,6 +1,6 @@
 ---
-title: Centralization, Decentralization, and Internet Standards
-abbrev: Centralization
+title: "Internet Consolidation: What can Standards Efforts Do?"
+abbrev: Internet Consolidation and Standards
 docname: draft-nottingham-avoiding-internet-centralization-latest
 date: {DATE}
 category: info
@@ -8,6 +8,7 @@ category: info
 ipr: trust200902
 area: General
 workgroup:
+keyword: centralization
 keyword: decentralization
 keyword: concentration
 keyword: consolidation
@@ -288,9 +289,9 @@ perspective"
 
 --- abstract
 
-Despite the Internet being designed and operated as a decentralized network-of-networks, forces continuously emerge to encourage and sometimes enforce its centralization.
+Despite the Internet being designed and operated as a decentralized network-of-networks, forces continuously emerge to encourage and sometimes enforce consolidation of power into few hands.
 
-This document offers a definition of centralization, explains why it is undesirable, identifies different types of it, catalogues limitations of common approaches to decentralization, and explores what Internet standards efforts can do to address it.
+This document offers a definition of consolidation, explains why it is undesirable, identifies forces that lead towards it, catalogues limitations of common approaches to decentralization, and explores what Internet standards efforts can do.
 
 --- middle
 
@@ -298,13 +299,13 @@ This document offers a definition of centralization, explains why it is undesira
 
 The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. Originating in a desire to prevent a single technical failure from having a wide impact {{RAND}}, this stance has also enabled the Internet’s rapid adoption and broad spread. The Internet can accommodate a spectrum of requirements and is now positioned as a global public good because joining, deploying an application on, or using the Internet does not require permission from or ceding control to a single entity.
 
-While avoiding consolidation of power on the Internet remains a widely shared goal, achieving it consistently has proven difficult. Today, many successful protocols and applications on the Internet operate in a centralized fashion -- to the point where some proprietary, centralized services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent centralization, economic and social factors can drive users to prefer solutions built with or on top of supposedly decentralized technology, thereby resulting in consolidation.
+While avoiding consolidation of power on the Internet remains a widely shared goal, achieving it consistently has proven difficult. Today, many successful protocols and applications on the Internet operate in a centralized fashion -- to the point where some proprietary services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent consolidation, economic and social factors can drive users to prefer solutions built with or on top of supposedly decentralized technology.
 
-These difficulties call into question what role architectural design -- in particular, that performed by open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling consolidation of power. This document discusses aspects that relate to Internet standards efforts, and argues that while the IETF may not be able to prevent consolidation of power, there are still meaningful steps we can take to counteract it.
+These difficulties call into question what role architectural design -- in particular, that performed by open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling consolidation of power on the Internet. This document discusses aspects that relate to Internet standards efforts, and argues that while the IETF may not be able to prevent consolidation, there are still meaningful steps we can take to counteract it.
 
-{{centralization}} defines centralization and consolidation, explains why and when they are undesirable, and surveys contributors to consolidation seen on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding consolidation and mitigating its effects.
+{{centralization}} defines consolidation and centralization and, explains why and when they are undesirable, and surveys contributors to consolidation seen on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding consolidation and mitigating its effects.
 
-The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols can benefit from considering aspects of centralization, especially if they intend their protocol to be considered for eventual standardization. Likewise, policymakers can use this document to help identify and remedy inappropriately centralized protocols and applications.
+The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols can benefit from considering these issues, especially if they intend their protocol to be considered for eventual standardization. Likewise, policymakers can use this document to help identify and remedy inappropriately consolidated protocols and applications.
 
 
 # Consolidation and Centralization {#centralization}
