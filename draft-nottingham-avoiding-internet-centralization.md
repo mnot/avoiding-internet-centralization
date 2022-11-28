@@ -286,12 +286,18 @@ perspective"
        organization: Internet Society
     target: https://future.internetsociety.org/2019/
     refcontent: Internet Society Global Internet Report
+  FUTURE:
+    title: "The future of the Internet and how to stop it"
+    date: 2008-04-14
+    author:
+      - name: Jonathan L. Zittrain
+    target: https://lccn.loc.gov/2008942463
 
 --- abstract
 
-Despite the Internet being designed and operated as a decentralized network-of-networks, forces continuously emerge to encourage and sometimes enforce consolidation of power into few hands.
+Despite the Internet being designed and operated as a distributed network-of-networks, forces continuously emerge to encourage and sometimes enforce architectural centralization and consolidation of power into few hands.
 
-This document offers a definition of consolidation, explains why it is undesirable, identifies forces that lead towards it, catalogues limitations of common approaches to decentralization, and explores what Internet standards efforts can do.
+This document offers definitions of centralization and consolidation, explains why they are undesirable, identifies forces that lead towards them, catalogues limitations of common approaches to decentralization, and explores what Internet standards efforts can do.
 
 --- middle
 
@@ -320,7 +326,7 @@ However, the Internet's functions are not limited to standards-defined protocols
 
 "Centralization" measures the contribution of a function's technical design to consolidation. As such, it is a primarily architectural phenomenon.
 
-Centralization is not a binary condition; it is a continuum. At one extreme, a function designed to be absolutely controlled by a single entity (see {{direct}}) represents complete centralization; at the other extreme, a function whose value can be realized by any two parties without the possibility of any external interference or influence represents complete decentralization (sometimes referred to as "distributed" or "peer-to-peer").
+Centralization is not a binary condition; it is a continuum. At one extreme, a function designed to be absolutely controlled by a single entity (see {{direct}}) represents complete centralization; at the other extreme, a function whose value can be realized by any two parties without the possibility of any external interference or influence represents complete decentralization (referred to as "distributed" in {{RAND}} or sometimes called "peer-to-peer").
 
 While a few functions might occupy the ends of this spectrum, most reside somewhere between the extremes. Therefore, it is often useful to consider the amount of "consolidation risk" associated with a function's design, depending on the scale, scope, and nature of the influences on it. Note that a function might have more than one source of consolidation risk, each with its own characteristics.
 
@@ -347,7 +353,7 @@ Most often, consolidation risk is indicated when a proposal has one or more of t
 
 * _Power Imbalance_: When a third party has unavoidable access to communications, the informational and positional advantages gained allow observation of behavior (the "panopticon effect") and shaping or even denial of behavior (the "chokepoint effect") {{INTERMEDIARY-INFLUENCE}} -- capabilities that those parties (or the states that have authority over them) can use for coercive ends {{INTERDEPENDENCE}} or even to disrupt society itself. Just as good governance of states requires separation of powers {{FEDERALIST-51}}, so too does good governance of the Internet require that power not be concentrated in one place without appropriate checks and balances.
 
-* _Limits on Innovation_: Consolidation can preclude the possibility of "permissionless innovation" -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
+* _Limits on Innovation_: Consolidation can preclude the possibility of "permissionless innovation" -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with. Zittrain argues in {{FUTURE}} that "generative systems" such as the PC and Internet succeed precisely because they are built around a premise of permissionless participation and innovation.
 
 * _Constraints on Competition_: The Internet and its users benefit from robust competition when applications and services are available from many providers -- especially when those users can build their own applications and services based upon interoperable standards. When a consolidated service or platform must be used because no substitutes are suitable, it effectively becomes an essential facility, which encourages abuse of power.
 
@@ -462,7 +468,7 @@ Notably, decentralization does not require that provision of a function need be 
 
 ### Federation {#federation}
 
-A widely known technique for managing consolidation in Internet protocols is federation -- designing them in such a way that new instances of a function are easy to create and can maintain interoperability and connectivity with other instances.
+A widely known technique for mitigating against unwanted centralization in Internet protocols is federation -- designing them in such a way that new instances of a function are easy to create and can maintain interoperability and connectivity with other instances.
 
 For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols, which has two functions that have consolidation risk:
 
