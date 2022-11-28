@@ -284,6 +284,25 @@ perspective"
        organization: Internet Society
     target: https://future.internetsociety.org/2019/
     refcontent: Internet Society Global Internet Report
+  OpenAPI:
+    title: OpenAPI Specification
+    date: 2021
+    author:
+      - name: Darrel Miller
+      - name: Jeremy Whitlock
+      - name: Marsh Gardiner
+      - name: Mike Ralphson
+      - name: Ron Ratovsky
+      - name: Uri Sarid
+      - organization: The Linux Foundation
+    target: https://spec.openapis.org/oas/latest.html
+  REST:
+    title: Architectural Styles and the Design of Network-based Software Architectures
+    date: 2000
+    author:
+      - name: Roy Thomas Fielding
+    target: https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
+
 
 --- abstract
 
@@ -423,7 +442,7 @@ The complement to inherited centralization is platform centralization -- where a
 
 For example, HTTP {{HTTP}} is not considered a centralized protocol; interoperable servers are  easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above.
 
-However, applications built on top of HTTP (as well as the rest of the “Web Platform”) often exhibit centralization (for example, social networking). HTTP is therefore an example of a platform for centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications.
+However, applications built on top of HTTP (as well as the rest of the “Web Platform”) often exhibit centralization (for example, social networking). HTTP is therefore an example of a platform for centralization -- while the protocol itself is not centralized, its specific design facilitates the creation of centralized services and applications.
 
 Like concentration, platform centralization is difficult to prevent with protocol design. Because of the layered nature of the Internet, most protocols allow considerable flexibility in how they are used, often in a way that it becomes attractive to form a dependency on one party’s operation.
 
@@ -509,6 +528,17 @@ It is also important to recognize that a protocol or an application can use dist
 Even when distributed consensus is used for all technical functions of a service, some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization risk, just at a different layer (inherited or platform).
 
 These potential shortcomings do not rule out the use of distributed consensus technologies in every instance. They do, however, caution against uncritically relying upon these technologies to avoid centralization.
+
+
+### Local Decision Making {#local}
+
+In {{RAND}}, the spectrum of presented systems ranges from fully centralized to fully distributed. The document was commissioned to find means to mitigate against failures in communications systems, which Baran concludes are best met in a fully distributed system.
+
+The key property of such systems is that a) each node is connected to multiple others, and b) can make the local decision to route messages to alternative nodes if a transit node is detected to be unreachable. This is the conceptual basis on which routing on the internet also works today.
+
+Another, less obvious example of local decision making is the widely used Network Time Protocol (NTP) defined in {{?RFC5905}}. The local time is derived from an average of samples derived from, ideally, multiple remote servers. In addition, the algorithm filters out outliers, and thus provides some measure of protection from malicious parties.
+
+Local decision making is often difficult, and may not exist in isolation. However, it stands in contrast to distributed consensus ({{distributed}}) in that here the consensus is not precise. While in NTP, all machines agree on the same time within some margin of error, the margin of error is also acknowledged in the protocol design by the measures introduced to keep it minimal.
 
 
 # What Should Internet Standards Do? {#considerations}
@@ -599,10 +629,15 @@ Extensibility can be viewed as a mechanism for decentralization as well -- by al
 
 For example, the SOAP protocol's {{SOAP}} extreme flexibility and failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favoring those who had more market power.
 
+It's also worthwhile to consider the example of {{HTTP}} again. The protocol is very much designed to provide a decentralized experience. However, it introduced two extensibility points that in combination provide the prerequisites for platform centralization. The representational nature of payloads of requests that modify resources (e.g. POST, PATCH) makes it impossible to provide a generic client implementation for this kind of operation. HTTP - or, to be more specific, the {{REST}} architecture - introduces optional extensibility via downloadable code to address this.
+
+But this optionality effectively becomes mandatory, because the standards for such modification payloads that do exist, such as multipart/form-data {{?RFC7578}} focus on presentation rather than intent. Later standards that address intent better, such as {{OpenAPI}}, do so as an optional layer on top of HTTP.
+
+Note, however, that it still requires extrinsic (e.g. economic) motivation to exploit these gaps. Interoperability concerns, on the other hand, motivate such solutions as OpenAPI.
+
 Therefore, standards efforts should focus on providing concrete utility to the majority of their users as published, rather than being a “framework” where interoperability is not immediately available.  Internet protocols should not make every aspect of their operation extensible; extension points should be reasoned, appropriate boundaries for flexibility and control. When a protocol defines extension points, they should not allow an extension to declare itself to be mandatory-to-interoperate, as that pattern invites abuse.
 
 Where extensions are allowed, attention should be paid to those that emerge; where appropriate, widely adopted extensions should be put through a standards process to assure that the result adheres to architectural principles and shared goals (see also {{up}}).
-
 
 # Security Considerations
 
