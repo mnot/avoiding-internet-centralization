@@ -286,6 +286,7 @@ perspective"
        organization: Internet Society
     target: https://future.internetsociety.org/2019/
     refcontent: Internet Society Global Internet Report
+  ECH: I-D.ietf-tls-esni
 
 --- abstract
 
@@ -381,6 +382,8 @@ For example, a function that needs a single, globally coordinated “source of t
 Another function exhibiting beneficial centralization is IP addresses allocation. Internet routing requires addresses to be allocated uniquely, but if a single government or company captured the addressing function, the entire Internet would be at risk of abuse by that entity. Similarly, the need for coordination in the Web's trust model brings consolidation risk, because of the Certificate Authority's role in communication between clients and servers.
 
 Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties who are not in direct contact also exhibit beneficial centralization. For example, chat protocols need to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party at some point. From the perspective of those two users, the rendezvous function has consolidation risk.
+
+A centralized function's inherent power can also be used to beneficial ends. For example, when traffic from many users is mixed together in a way that can't be distinguished, censorship becomes more difficult. This "too big to block" phenomenon drives the design of many recent protocols (such as {{ECH}}), but they require a degree of consolidation to meet their goals.
 
 Likewise, when a function requires governance to realize common goals and protect minority interests, a "choke point" is naturally formed by the chosen governance mechanism, increasing consolidation risk. One commonly seen application of this kind of beneficial centralization is in content moderation functions.
 
