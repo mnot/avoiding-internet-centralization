@@ -291,7 +291,7 @@ perspective"
 
 Despite the Internet being designed and operated as a decentralized network-of-networks, forces continuously emerge to encourage and sometimes enforce consolidation of power into few hands.
 
-This document offers a definition of consolidation, explains why it is undesirable, identifies forces that lead towards it, catalogues limitations of common approaches to decentralization, and explores what Internet standards efforts can do.
+This document offers a definition of consolidation, explains why it is undesirable, identifies forces that contribute to it, catalogues limitations of common approaches to decentralization, and explores what Internet standards efforts can do.
 
 --- middle
 
