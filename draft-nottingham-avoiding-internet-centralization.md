@@ -392,7 +392,7 @@ When beneficial centralization is present, Internet protocols often attempt to m
 Ultimately, deciding what is beneficial is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient. Such judgments should be made in light of established architectural principles and how benefits accrue to end users.
 
 
-### Concentrated Centralization {#indirect}
+### Concentration {#indirect}
 
 Even when a function avoids proprietary centralization and mitigates any beneficial centralization present, it might become consolidated in practice when external factors influence its deployment, so that few or even just one entity provides the function. This document refers to this phenomenon as "concentration." Economic, legal, and social factors that encourage use of a central function despite the absence of such a requirement in the protocol itself can cause concentration.
 
