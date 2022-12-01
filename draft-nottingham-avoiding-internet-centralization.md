@@ -324,7 +324,7 @@ Centralization is not a binary condition; it is a continuum. At one extreme, a f
 
 While a few functions might occupy the ends of this spectrum, most reside somewhere between the extremes. Therefore, it is often useful to consider the amount of "consolidation risk" associated with a function's design, depending on the scale, scope, and nature of the influences on it. Note that a function might have more than one source of consolidation risk, each with its own characteristics.
 
-Consolidation risk is most obviously created by the direct assignment of a role to a single entity. However, it can also occur indirectly -- such as when friction against switching to a substitute provider of a function often leads to consolidation (see {{indirect}}).
+Consolidation risk is most obviously created by the direct assignment of a role to a single entity. However, it can also occur indirectly -- such as when friction against switching to a substitute provider of a function leads to the same outcome (see {{indirect}}).
 
 This document focuses largely upon the consolidation risks that emerge in relationships between parties to communication, rather than systems design. For example, a cloud service might use decentralized techniques to improve its resilience but still be operated by a single entity, thereby exhibiting consolidation. A failure due to a cut cable, power outage, or failed server is qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
 
