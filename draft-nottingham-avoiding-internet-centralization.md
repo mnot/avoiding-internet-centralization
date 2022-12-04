@@ -230,7 +230,7 @@ informative:
       name: Dan Boneh
     target: https://crypto.stanford.edu/prio/paper.pdf
   AMBITION:
-    display: SCHNEIDER
+    display: SCHNEIDERa
     title: "Decentralization: an incomplete ambition"
     date: 2019
     author:
@@ -288,6 +288,7 @@ perspective"
     refcontent: Internet Society Global Internet Report
   ECH: I-D.ietf-tls-esni
   SCHNEIDER:
+    display: SCHNEIDERb
     title: What to do once you admit that decentralizing everything never seems to work
     date: 17 October 2022
     author:
