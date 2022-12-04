@@ -595,19 +595,19 @@ See {{?I-D.thomson-tmi}} for more guidance on protocol intermediation.
 The term "intermediary" is also used (often in legal and regulatory contexts) more broadly than it has been in protocol design; for example, an auction Web site intermediates between buyers and sellers is considered an intermediary, even though it is not formally an intermediary in HTTP (see {{Section 3.7 of HTTP}}). Protocol designers can address the consolidation risk associated with this kind of intermediation by standardising the function, rather than restricting the capabilities of the underlying protocols; see {{up}}.
 
 
-## Consider Modularity Carefully {#evolution}
+## Consider Extensibility and Modularity Carefully {#evolution}
 
-An important feature of Internet protocols is their ability to evolve, so that they can meet new requirements and adapt to new conditions without requiring a “flag day” to upgrade implementations. Typically, protocols accommodate evolution through extension mechanisms, which allow optional features to be added over time in an interoperable fashion.
+An important feature of the Internet is its ability to evolve, so that it can meet new requirements and adapt to new conditions without requiring a “flag day” to upgrade implementations. Typically, functions accommodate evolution by defining extension interfaces, which allow optional features to be added or change over time in an interoperable fashion.
 
-Extensibility can also be viewed as a mechanism for decentralization. By allowing uncoordinated evolution, it promotes autonomy and adaption of a function for local needs. The structural boundaries that emerge between the sub-modules of the function -- as well as those with adjacent functions -- also allow substitution of providers and provide touchpoints for interoperability. As such, they are a critical tool for managing consolidation in Internet functions.
-
-However, protocol extensions can also be a basis for platform centralization if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard protocol. This is especially true when the core standard does not itself provide sufficient utility on its own.
+However, these interfaces can also be a basis for platform centralization if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard. This is especially true when the core standard does not itself provide sufficient utility on its own.
 
 For example, the SOAP protocol's {{SOAP}} extreme flexibility and failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favoring those who had more market power.
 
 Therefore, standards efforts should focus on providing concrete utility to the majority of their users as published, rather than being a “framework” where interoperability is not immediately available. Internet functions should not make every aspect of their operation extensible; boundaries between modules should be designed in a way that allows evolution and discourages consolidation, while still offering meaningful functionality.
 
-When a protocol defines extension points, they should not allow an extension to declare itself to be mandatory-to-interoperate, as that pattern invites abuse. Attention should also be paid to those extensions that emerge; where appropriate, widely adopted extensions should be put through a standards process to assure that the result adheres to architectural principles and shared goals (see also {{up}}).
+Beyond allowing evolution, well-considered interfaces can also aid decentralization efforts. The structural boundaries that emerge between the sub-modules of the function -- as well as those with adjacent functions -- provide touchpoints for interoperability and an opportunity for substitution of providers.
+
+In particular, if the interfaces of a function are well-defined and stable, there is an opportunity to use different providers for that function. When those interfaces are open standards, change control resides with the Internet community instead of remaining in proprietary hands, further enhancing stability and enabling (but not ensuring) decentralization.
 
 
 # Security Considerations
