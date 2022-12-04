@@ -319,7 +319,7 @@ Here, "entity" could be a single person, a corporation, or a government. It does
 
 However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to consolidation -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit consolidation. The supply of Internet connectivity to end users in a particular area or situation can also be subject to the forces of consolidation, as can supply of transit between networks (so called "Tier 1" networks).
 
-"Centralization" measures the contribution of a function's technical design to consolidation. As such, it is a primarily architectural phenomenon.
+"Centralization" measures the contribution of a function's technical design to consolidation. As such, it is a primarily architectural phenomenon. For example, many consider the social networking market to be highly consolidated around a few providers; the technologies that they use are proprietarily centralized (see {{direct}}) and thus contribute to that consolidation.
 
 Centralization is not a binary condition; it is a continuum. At one extreme, a function designed to be absolutely controlled by a single entity (see {{direct}}) represents complete centralization; at the other extreme, a function whose value can be realized by any two parties without the possibility of any external interference or influence represents complete decentralization (sometimes referred to as "distributed" or "peer-to-peer").
 
