@@ -140,13 +140,14 @@ informative:
       name: Ian Goldberg
     target: https://link.springer.com/chapter/10.1007/978-3-642-27576-0_13
   ACCESS:
-    display: VESTAGER
-    title: Defending Competition in a Digitised World, Address at the European Consumer and Competition Day
-    date: 4 April 2019
-    target: https://wayback.archive-it.org/12090/20191129202059/https://ec.europa.eu/commission/commissioners/2014-2019/vestager/announcements/defending-competition-digitised-world_en
+    display: ABRAHAMSON
+    title: Essential Data
+    date: 2014
+    target: https://www.yalelawjournal.org/comment/essential-data
     author:
      -
-      name: Margrethe Vestager
+      name: Zachary Abrahamson
+    refcontent: Yale Law Journal, Vol. 124, No. 3
   SUCCESS:
     display: KENDE
     title: Study on the Internet's Technical Success Factors
