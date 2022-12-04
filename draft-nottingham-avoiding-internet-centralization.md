@@ -294,6 +294,13 @@ perspective"
       - name: Nathan Schneider
     target: https://nathanschneider.info/articles/DecentralHacker.html
     refcontent: Hacker Noon
+  BACCHI:
+    title: "Introducing the ‘What’s the Problem Represented to be?’ approach"
+    date: 2012
+    author:
+      - name: Carol Bacchi
+    target: https://library.oapen.org/bitstream/handle/20.500.12657/33181/560097.pdf?sequence=1#page=34
+    refcontent: Chapter 2, Engaging with Carol Bacchi
 
 --- abstract
 
@@ -526,13 +533,15 @@ Centralization is driven by powerful forces -- both economic and social -- as we
 While standards bodies on their own cannot prevent consolidation, the subsections below suggest meaningful steps that can be taken.
 
 
-## Be Realistic {#target}
+## Engage with Centralization Risk Thoroughly but Realistically {#target}
 
 Some consolidation risks are easy to manage in standards efforts. For example, if a proprietary protocol were to be proposed to the IETF, it would be rejected out of hand. There is a growing body of knowledge and experience in managing the risk of beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization, and has become the norm in standard protocols. These responses are appropriate ways for Internet standards to manage consolidation risk.
 
 However, mitigating concentration and platform centralization is much more difficult in standards efforts. Because the IETF has no “protocol police”, it’s not possible to demand that someone stop building a proprietary service using a federated protocol (for example). The standards process also cannot stop someone from building services “on top” of standard protocols without abandoning architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of consolidation.
 
 Therefore, committing significant resources to scrutinizing protocols for latent consolidation risk -- especially for concentration and platform risks -- is unlikely to be effective in preventing Internet consolidation. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- exhibit concentration or platform centralization. Refusing to standardize a newer protocol because it faces similar risks would not be equitable, proportionate, or effective.
+
+When claims are made that a given proposal is "centralized" or "decentralized", the context of those statements should be examined for presuppositions, assumptions, and omissions. {{BACCHI}} offers one framework for such critical interrogations. {{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
 
 When consolidation risk is found, standards efforts should consider its relationship with other architectural goals as they consider how to address it. In particular, attention should be paid to how effective standards (as a form of architectural control) is in achieving each goal.
 
