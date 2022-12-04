@@ -321,7 +321,7 @@ However, the Internet's functions are not limited to standards-defined protocols
 
 "Centralization" measures the contribution of a function's technical design to consolidation. As such, it is a primarily architectural phenomenon. For example, many consider the social networking market to be highly consolidated around a few providers; the technologies that they use are proprietarily centralized (see {{direct}}) and thus contribute to that consolidation.
 
-Centralization is not a binary condition; it is a continuum. At one extreme, a function designed to be absolutely controlled by a single entity (see {{direct}}) represents complete centralization; at the other extreme, a function whose value can be realized by any two parties without the possibility of any external interference or influence represents complete decentralization (sometimes referred to as "distributed" or "peer-to-peer").
+Centralization is not a binary condition; it is a continuum. At one extreme, a function designed to be absolutely controlled by a single entity represents complete centralization; at the other extreme, a function whose value can be realized by any two parties without the possibility of any external interference or influence represents complete decentralization (sometimes referred to as "distributed" or "peer-to-peer").
 
 While a few functions might occupy the ends of this spectrum, most reside somewhere between the extremes. Therefore, it is often useful to consider the amount of "consolidation risk" associated with a function's design, depending on the scale, scope, and nature of the influences on it. Note that a function might have more than one source of consolidation risk, each with its own characteristics.
 
