@@ -287,6 +287,13 @@ perspective"
     target: https://future.internetsociety.org/2019/
     refcontent: Internet Society Global Internet Report
   ECH: I-D.ietf-tls-esni
+  SCHNEIDER:
+    title: What to do once you admit that decentralizing everything never seems to work
+    date: 17 October 2022
+    author:
+      - name: Nathan Schneider
+    target: https://nathanschneider.info/articles/DecentralHacker.html
+    refcontent: Hacker Noon
 
 --- abstract
 
@@ -321,26 +328,16 @@ However, the Internet's functions are not limited to standards-defined protocols
 
 "Centralization" measures the contribution of a function's technical design to consolidation. As such, it is a primarily architectural phenomenon. For example, many consider the social networking market to be highly consolidated around a few providers; the technologies that they use are proprietarily centralized (see {{direct}}) and thus contribute to that consolidation.
 
-Centralization is not a binary condition; it is a continuum. At one extreme, a function designed to be absolutely controlled by a single entity represents complete centralization; at the other extreme, a function whose value can be realized by any two parties without the possibility of any external interference or influence represents complete decentralization (sometimes referred to as "distributed" or "peer-to-peer").
+Centralization is not a binary condition; a function's design might contribute to or be vulnerable to consolidation in multiple ways and various degrees. Even when decentralization techniques are purposefully used to avoid it, centralization often appears in other aspects of the function's design -- for example, in its governance, implementation, deployment, or in ancillary functions. As Schneider says, "decentralized technology alone does not guarantee decentralized outcomes." {{SCHNEIDER}}
 
-While a few functions might occupy the ends of this spectrum, most reside somewhere between the extremes. Therefore, it is often useful to consider the amount of "consolidation risk" associated with a function's design, depending on the scale, scope, and nature of the influences on it. Note that a function might have more than one source of consolidation risk, each with its own characteristics.
-
-Consolidation risk is most obviously created by the direct assignment of a role to a single entity. However, it can also occur indirectly -- such as when friction against switching to a substitute provider of a function leads to the same outcome (see {{indirect}}).
-
-This document focuses largely upon the consolidation risks that emerge in relationships between parties to communication, rather than systems design. For example, a cloud service might use decentralized techniques to improve its resilience but still be operated by a single entity, thereby exhibiting consolidation. A failure due to a cut cable, power outage, or failed server is qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
-
-As a result, the concept of availability is distinct from centralization, and any relationship between them cannot be assumed without careful analysis of where and how centralization occurs. Centralized systems might be more available due to factors like the resources available to them, but also have greater impact when they have a fault; decentralized systems might be more resilient in the face of local failures, but less able to react to systemic issues.
-
-For example, a large variety of Web sites might depend upon a cloud hosting provider or content delivery network; if it were to become unavailable (whether for technical or other reasons), many people's experience of the Internet might be disrupted. Likewise, a mobile Internet access provider might have an outage that affects hundreds, thousands, or more of its users. In both cases, consolidation is not indicated by the loss of availability or its scale, but it well might be if the parties relying on the function don't have reasonable options to switch to if they are unhappy with the availability of the service provided, or if friction against switching to an alternative is too great.
-
-it is important to distinguish consolidation risk from anticompetitive concerns (also known as "antitrust"). While there are many interactions between these concepts and making the Internet more competitive may be a motivation for avoiding centralization, only courts (and in some cases, regulators) have the authority to define a relevant market and determine that behavior is anti-competitive. Furthermore, what might be considered undesirable consolidation by the technical community might not attract competition regulation, and conversely what might attract competition regulation might not be of great concern to the technical community if other mitigations are felt to be adequate.
+Therefore, this document considers the amount of "consolidation risk" associated with a function's design, depending on the scale, scope, and nature of those contributions and vulnerabilities.
 
 
-## When Consolidation is Undesirable {#why}
+## Assessing Consolidation Risk {#why}
 
 By default, Internet protocol designers avoid centralized designs, because the Internet's very nature is incompatible with centralization. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
-However, as discussed below in {{necessary}}, not all consolidation is avoidable, and in some cases it is even desirable. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."
+However, as discussed below in {{necessary}}, not all centralization is avoidable, and in some cases it is even desirable. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."
 
 With that in mind, consolidation risk on the Internet is most concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens to diminish the success factors that enable the Internet to thrive -- scalability to meet the demands of new users, adaptability to encompass new applications, flexibility to enable deployment of new technologies, and resilience to shocks and changes {{SUCCESS}}.
 
@@ -357,6 +354,14 @@ Most often, consolidation risk is indicated when a proposal has one or more of t
 * _Monoculture_: The scale available to a consolidated provider can magnify minor flaws in features to a degree that can have broad consequences. For example, a single codebase for routers elevates the impact of a bug or vulnerability; a single recommendation algorithm for content can have severe social impact. Diversity in these functions’ implementation leads to a more robust outcome when viewed systemically. {{POLYCENTRIC}}
 
 * _Self-Reinforcement_: As widely noted (see, e.g., {{ACCESS}}), a consolidated provider's access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.
+
+However, these are only indicators, and need to be evaluated carefully on a case-by-case basis.
+
+For example, it is important to distinguish consolidation risk from anticompetitive concerns (also known as "antitrust"). While there are many interactions between these concepts and making the Internet more competitive may be a motivation for avoiding centralization, only courts (and in some cases, regulators) have the authority to define a relevant market and determine that behavior is anti-competitive. Furthermore, what might be considered undesirable consolidation by the technical community might not attract competition regulation, and conversely what might attract competition regulation might not be of great concern to the technical community if other mitigations are felt to be adequate.
+
+Likewise, while centralization interacts with availability, they are distinct and any relationship between them cannot be assumed without careful analysis of where and how centralization occurs. Centralized systems might be more available due to factors like the resources available to them, but also have greater impact when they encounter a fault; decentralized systems might be more resilient in the face of local failures, but less able to react to systemic issues. Furthermore, a failure due to a cut cable, power outage, or failed server is qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
+
+For example, a large variety of Web sites might depend upon a cloud hosting provider or content delivery network; if it were to become unavailable (whether for technical or other reasons), many people's experience of the Internet might be disrupted. Likewise, a mobile Internet access provider might have an outage that affects hundreds, thousands, or more of its users. In both cases, consolidation is not indicated by the loss of availability or its scale, but it well might be if the parties relying on the function don't have reasonable options to switch to if they are unhappy with the availability of the service provided, or if friction against switching to an alternative is too great.
 
 
 ## Contributors to Centralization {#kinds}
