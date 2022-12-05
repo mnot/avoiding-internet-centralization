@@ -127,7 +127,7 @@ informative:
        name: Paul D. Aligia
      -
        name: Vlad Tarko
-    target: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2149165
+    target: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0491.2011.01550.x
     refcontent: "Governance: An International Journal of Policy, Administration, and Institutions, Vol. 25, No. 2, p. 237"
   PIR:
     display: OLUMOFIN
@@ -358,7 +358,7 @@ Most often, consolidation risk is indicated when a proposal has one or more of t
 
 * _Reduced Availability_: Availability of the Internet (and applications and services built upon it) improves when there are many ways to obtain access. While service availability can benefit from the focused attention of a large consolidated provider, that provider's failure can have a disproportionate impact on availability.
 
-* _Monoculture_: The scale available to a consolidated provider can magnify minor flaws in features to a degree that can have broad consequences. For example, a single codebase for routers elevates the impact of a bug or vulnerability; a single recommendation algorithm for content can have severe social impact. Diversity in these functions’ implementation leads to a more robust outcome when viewed systemically. {{POLYCENTRIC}}
+* _Monoculture_: The scale available to a consolidated provider can magnify minor flaws in features to a degree that can have broad consequences. For example, a single codebase for routers elevates the impact of a bug or vulnerability; a single recommendation algorithm for content can have severe social impact. Diversity in functions’ implementation leads to a more robust outcome when viewed systemically, because "progress is the outcome of a trial-and-error evolutionary process of many agents interacting freely." {{POLYCENTRIC}}
 
 * _Self-Reinforcement_: As widely noted (see, e.g., {{ACCESS}}), a consolidated provider's access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.
 
