@@ -570,7 +570,7 @@ The decentralization techniques listed in {{techniques}} are not a closed set; w
 
 For example, secure multi-party computation techniques (see, e.g., {{YAO}}) can be composed to allow parties to compute over private inputs without revealing them. Protocols like {{ENPA}} and {{PRIO}} use them to limit the information available to participants in protocols to realize privacy goals; as discussed in {{intermediation}} doing so might also counteract some sources of centralization. However, as in other cases these techniques do not automatically preclude all consolidation; such systems often still require trust, even if it is limited, and that might result in other forms of consolidation emerging.
 
-Whether use of these techniques (or others) can meaningfully counteract consolidation is still uncertain. Standards bodies (including the IETF) can serve an important function by incubating them, applying (and, where necessary, developing) architectural guidelines for privacy, security, operability, and other goals, and assuring interoperability. When appropriate, publication on the standards track or as experimental can signal implementers, users, and regulators about their fitness.
+Whether use of these techniques (or others) can meaningfully counteract consolidation is still uncertain. Standards bodies (including the IETF) can serve an important function by incubating them, applying (and, where necessary, developing) architectural guidelines for privacy, security, operability, and other goals, and assuring interoperability. When appropriate, publication on the standards track or as experimental can send signals to implementers, users, and regulators about their fitness for particular purposes.
 
 
 ## Build Robust Ecosystems {#balance}
