@@ -423,15 +423,17 @@ Concentration is difficult to avoid in protocol design, and federated protocols 
 
 ### Inherited Centralization {#network}
 
-Most Internet protocols and applications depend on other, "lower-layer" protocols and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
+Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
 
 For example, the network between endpoints can introduce consolidation risk to application-layer protocols, because it is necessary for communication and therefore has power over it. A network might block access to, slow down, or change the content of various application protocols or specific services for financial, political, operational, or criminal reasons, thereby creating a disincentive (or even inability) to use them. By selectively hindering the use of some services but not others, network interventions can be composed to aid concentration in those other services -- intentionally or not.
 
 Likewise, having only a single implementation of a protocol is an inherited consolidation risk, because applications that use it are vulnerable to the control it has over their operation. Even Open Source projects can exhibit this risk if there are factors that make forking difficult (for example, the cost of maintaining that fork).
 
-Inherited centralization is often present when network effects restrict choices, but can also be created by legal mandates and incentives that restrict the options for a function (such as Internet access), its provision, or the range of implementations available.
+Inherited centralization surfaces when viable alternatives to these dependencies are not available. It is often present when network effects restrict choices, but can also be created by legal mandates and incentives that restrict the options for a function (such as Internet access), its provision, or the range of implementations available.
 
-Some kinds of inherited centralization can be prevented by enforcing layer boundaries through use of techniques like encryption. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other traffic.
+Alternatively, it might occur due to scarcity. For example, the exhaustion of IPv4 addresses creates a power differential between those who have addresses and those who do not, which can affect how the protocols that depend on IP connectivity are deployed and used. If that power is concentrated into few hands, consolidation is the result.
+
+Some effects of inherited centralization can be mitigated by enforcing layer boundaries through use of techniques like encryption. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
 
 Note that the prohibitive effect of encryption on inherited centralization is most pronounced when most (if not all) traffic is encrypted. See also {{?RFC7258}}.
 
