@@ -451,7 +451,7 @@ While the term "decentralization" has a long history of use in economics, politi
 
 This seemingly straightforward technical definition hides several issues.
 
-First, identifying which aspects of a function to decentralize and how to do so can be difficult, both because there are often many ways a function might be centralized, and because consolidation sometimes only becomes evident after the function is deployed at scale.
+First, identifying which aspects of a function to decentralize and how to do so can be difficult, both because there are often many ways a function might be centralized, and because consolidation sometimes only becomes evident after the function is deployed at scale. Efforts to decentralize often have the effect of merely shifting consolidation to a different place.
 
 For example, a cloud storage function might be implemented using a distributed consensus protocol, assuring that the failure of any single node will not affect the system's operation or availability. In that sense, it is decentralized. However, if it is operated by a single legal entity, that brings a very different kind of consolidation risk, especially if there are few other options available, or if there is friction against choosing other options.
 
