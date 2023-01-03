@@ -530,16 +530,14 @@ These potential shortcomings do not rule out the use of distributed consensus te
 
 # What Should Internet Standards Do? {#considerations}
 
-Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Because permissionless innovation is a core value for the Internet, and yet much of the consolidation seen on the Internet is performed by proprietary platforms that take advantage of this nature, the controls available to standards efforts are very limited.
-
-While standards bodies on their own cannot prevent consolidation, the subsections below suggest meaningful steps that can be taken.
+Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Bodies like the IETF create voluntary standards; they cannot require adoption, but when a specification succeeds, it creates those very network effects. As such, standards bodies cannot prevent all forms of consolidation, but they can still take meaningful steps to prevent some of them. The subsections below suggest a few.
 
 
 ## Engage with Centralization Risk Thoroughly but Realistically {#target}
 
 Some consolidation risks are easy to manage in standards efforts. For example, if a proprietary protocol were to be proposed to the IETF, it would be rejected out of hand. There is a growing body of knowledge and experience in managing the risk of beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization, and has become the norm in standard protocols. These responses are appropriate ways for Internet standards to manage consolidation risk.
 
-However, mitigating concentration and platform centralization is much more difficult in standards efforts. Because the IETF has no “protocol police”, it’s not possible to demand that someone stop building a proprietary service using a federated protocol (for example). The standards process also cannot stop someone from building services “on top” of standard protocols without abandoning architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of consolidation.
+However, mitigating concentration and platform centralization is much more difficult in standards efforts. Because the IETF has no "protocol police", it’s not possible to demand that someone stop building a proprietary service using a federated protocol (for example). The standards process also cannot stop someone from building services "on top" of standard protocols without abandoning architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of consolidation.
 
 Therefore, committing significant resources to scrutinizing protocols for latent consolidation risk -- especially for concentration and platform risks -- is unlikely to be effective in preventing Internet consolidation. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- exhibit concentration or platform centralization. Refusing to standardize a newer protocol because it faces similar risks would not be equitable, proportionate, or effective.
 
