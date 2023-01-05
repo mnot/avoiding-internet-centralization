@@ -514,7 +514,6 @@ A major downside of this approach is that setup and ongoing operation of multi-s
 
 ### Distributed Consensus {#distributed}
 
-
 Increasingly, distributed consensus technologies (such as the blockchain) are touted as a solution to consolidation issues. A complete survey of this rapidly changing area is beyond the scope of this document, but we can generalize about its properties.
 
 These techniques attempt to avoid consolidation risk by distributing functions to members of a sometimes large pool of protocol participants. They typically guarantee proper performance of a function using cryptographic techniques (often, an append-only transaction ledger). A particular task's assignment to a node for handling usually cannot be predicted or controlled.
