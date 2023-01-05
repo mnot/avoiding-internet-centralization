@@ -472,7 +472,7 @@ In practice, this means that decentralizing a function requires considerable wor
 
 ## Decentralization Techniques {#techniques}
 
-In the context of Internet standardization, decentralization is implemented as a two-step process: assessing the nature of consolidation risk, followed by the application of techniques to reduce or mitigate it. The subsections below examine some of these techniques.
+In the context of Internet standardization, decentralization is a two-step process: first assessing the nature of consolidation risk, followed by the application of techniques to reduce or mitigate it. The subsections below examine some of these techniques.
 
 Choosing the appropriate techniques for decentralization requires balancing the specific goals of the function against consolidation risk, because completely precluding all forms of consolidation through technical means is rarely achievable. When performed properly, decentralization might produce an outcome that still has consolidation risk, but that risk should be understood, acceptable, and, where possible and appropriate, mitigated.
 
