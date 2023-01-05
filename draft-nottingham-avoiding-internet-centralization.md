@@ -573,19 +573,17 @@ For example, secure multi-party computation techniques (see, e.g., {{YAO}}) can 
 Whether use of these techniques (or others) can meaningfully counteract consolidation is still uncertain. Standards bodies (including the IETF) can serve an important function by incubating them, applying (and, where necessary, developing) architectural guidelines for privacy, security, operability, and other goals, and assuring interoperability. When appropriate, publication on the standards track or as experimental can send signals to implementers, users, and regulators about their fitness for particular purposes.
 
 
-## Build Robust Ecosystems {#balance}
+## Enable Switching {#balance}
 
-To minimize inherited consolidation risk, standards-defined functions should have an explicit goal of broad, diverse implementation and deployment so that users have as many choices as possible.
+To minimize consolidation risk, standards-defined functions should have an explicit goal enabling users' switching between implementations and deployments of protocols.
 
-{{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage this outcome.
+One necessary condition for this is the availability of alternatives; breadth and diversity of implementation and deployment are required. {{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage this outcome.
 
-This goal can also be furthered by ensuring that the cost of switching to a different implementation or deployment is as low as possible to facilitate subsequent substitution. This implies that the standard is functionally complete and specified precisely enough to result in meaningful interoperability.
+Another factor is the cost of substituting an alternative implementation or deployment by users. This implies that the standard needs to be functionally complete and specified precisely enough to allow substitution.
 
-The goals of completeness and diversity are sometimes in tension. If a standard is extremely complex, it may discourage implementation diversity because the cost of a complete implementation is too high (consider: Web browsers). On the other hand, if the specification is too simple, it may not offer enough functionality to be complete, and the resulting proprietary extensions may make switching difficult (see {{evolution}}).
+The goals of completeness and diversity are sometimes in tension. If a standard becomes extremely complex to assure easy switching, it may discourage implementation diversity because the cost of a complete implementation is too high (consider: Web browsers). On the other hand, if the specification is too simple, it may not enable easy switching, especially if proprietary extensions are necessary to complete it (see {{evolution}}).
 
-Also worthy of attention are the underlying incentives for implementation. While a completely commoditized protocol might not allow implementations to differentiate themselves, they provide opportunities for specialization and improvement elsewhere in the value chain {{ATTRACTIVE-PROFITS}}. Well-timed standards efforts leverage these forces to focus proprietary interests on top of open technology, rather than as a replacement for it.
-
-Balancing these factors to build robust ecosystems is difficult, but is often helped by community building and good design -- in particular, appropriate use of layering. It also requires continuing maintenance and evolution of protocols, to assure that they are still relevant and appropriate to their use.
+One objection to protocols that enable easy switching is that they reduce the incentives for implementation by commercial vendors. While a completely commoditized protocol might not allow implementations to differentiate themselves, they provide opportunities for specialization and improvement elsewhere in the value chain {{ATTRACTIVE-PROFITS}}. Well-timed standards efforts leverage these forces to focus proprietary interests on top of open technology, rather than as a replacement for it.
 
 
 ## Control Delegation of Power {#intermediation}
