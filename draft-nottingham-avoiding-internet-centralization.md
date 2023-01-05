@@ -344,7 +344,7 @@ Therefore, this document considers the amount of "consolidation risk" associated
 
 ## Assessing Consolidation Risk {#why}
 
-By default, Internet protocol designers avoid centralized designs, because the Internet's very nature is incompatible with centralization. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
+By default, Internet protocol designers avoid centralized designs because the Internet's very nature is incompatible with centralization. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
 However, as discussed below in {{necessary}}, not all centralization is avoidable, and in some cases it is even desirable. With that in mind, consolidation risk on the Internet is most concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens to diminish the success factors that enable the Internet to thrive -- scalability to meet the demands of new users, adaptability to encompass new applications, flexibility to enable deployment of new technologies, and resilience to shocks and changes {{SUCCESS}}.
 
@@ -362,7 +362,7 @@ Most often, consolidation risk is indicated when a proposal has one or more of t
 
 * _Self-Reinforcement_: As widely noted (see, e.g., {{ACCESS}}), a consolidated provider's access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.
 
-However, these are only indicators, and need to be evaluated carefully on a case-by-case basis.
+However, these are only indicators, and each needs to be evaluated carefully on a case-by-case basis.
 
 For example, it is important to distinguish consolidation risk from anticompetitive concerns (also known as "antitrust"). While there are many interactions between these concepts and making the Internet more competitive may be a motivation for avoiding centralization, only courts (and in some cases, regulators) have the authority to define a relevant market and determine that behavior is anti-competitive. Furthermore, what might be considered undesirable consolidation by the technical community might not attract competition regulation, and conversely what might attract competition regulation might not be of great concern to the technical community if other mitigations are felt to be adequate.
 
