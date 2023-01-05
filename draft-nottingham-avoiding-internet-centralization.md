@@ -322,7 +322,7 @@ These difficulties call into question what role architectural design -- in parti
 
 {{centralization}} defines consolidation and centralization, explains why and when they are undesirable, and surveys contributors to consolidation seen on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding consolidation and mitigating its effects.
 
-The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols can benefit from considering these issues, especially if they intend their protocol to be considered for eventual standardization. Likewise, policymakers can use this document to help identify and remedy inappropriately consolidated protocols and applications.
+The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Likewise, policymakers can use this document to help identify and remedy inappropriately consolidated protocols and applications.
 
 
 # Consolidation and Centralization {#centralization}
