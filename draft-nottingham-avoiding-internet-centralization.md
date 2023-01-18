@@ -320,7 +320,7 @@ While avoiding consolidation of power on the Internet remains a widely shared go
 
 These difficulties call into question what role architectural design -- in particular, that performed by open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling consolidation of power on the Internet. This document discusses aspects that relate to Internet standards efforts, and argues that while the IETF may not be able to prevent consolidation, there are still meaningful steps we can take to counteract it.
 
-{{centralization}} defines consolidation and centralization, explains why and when they are undesirable, and surveys contributors to consolidation seen on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding consolidation and mitigating its effects.
+{{centralization}} defines consolidation and centralization, explains why and when they are undesirable, and surveys how centralization occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding consolidation and mitigating its effects.
 
 The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Likewise, policymakers can use this document to help identify and remedy inappropriately consolidated protocols and applications.
 
@@ -371,9 +371,9 @@ Likewise, while centralization interacts with availability, they are distinct an
 For example, a large variety of Web sites might depend upon a cloud hosting provider or content delivery network; if it were to become unavailable (whether for technical or other reasons), many people's experience of the Internet might be disrupted. Likewise, a mobile Internet access provider might have an outage that affects hundreds, thousands, or more of its users. In both cases, consolidation is not indicated by the loss of availability or its scale, but it well might be if the parties relying on the function don't have reasonable options to switch to if they are unhappy with the availability of the service provided, or if friction against switching to an alternative is too great.
 
 
-## Contributors to Centralization {#kinds}
+## How Centralization Occurs {#kinds}
 
-A function's design can exhibit centralization in a variety of ways. The subsections below describe different contributors to and expressions of centralization in Internet functions.
+A function's design can exhibit centralization in a variety of ways. The subsections below describe different contributors to and expressions of centralization in Internet functions. Note that this is not a taxonomy, in that it is not necessarily complete, and there may be overlap.
 
 
 ### Proprietary Centralization {#direct}
