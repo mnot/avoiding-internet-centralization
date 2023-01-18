@@ -536,10 +536,16 @@ Centralization is driven by powerful forces -- both economic and social -- as we
 
 ## Bolster Legitimacy {#legitimate}
 
+As discussed, many efforts to address Internet consolidation are likely to take place outside of standards bodies. If the IETF wishes to contribute to these efforts to assure their compatibility with the Internet's architectural goals, it must be seen as legitimate by the relevant parties -- especially, by competition regulators. Alternatively, if the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet are diminished considerably.
+
+The IETF already has features that arguably provide considerable legitimacy; for example, open participation and representation by individuals rather than companies both enhance input legitimacy; a well-defined process with multiple layers of appeals and transparency contribute to throughput legitimacy, and a long history of successful Internet standards provide perhaps the strongest source of legitimacy for the IETF -- its output.
+
+However, it is also widely recognized the considerable costs (in time and money) involved in successfully participating in the IETF have a tendency of favouring larger companies over smaller concerns. Likewise, the specialised and highly technical nature of the work creates barriers to entry for non-technical stakeholders. These factors have the potential to reduce the legitimacy of the IETF's decisions, at least in some eyes.
+
+Efforts to address these shortcomings are ongoing; see, for example, {{?RFC8890}}. Overall, bolstering the legitimacy of the organization should be seen as a continuous effort, with a focus on all of the aspects listed.
 
 
-
-## Engage with Centralization Risk Thoroughly but Realistically {#target}
+## Engage with Consolidation Risk Thoroughly but Realistically {#target}
 
 Some consolidation risks are easy to manage in standards efforts. For example, if a proprietary protocol were to be proposed to the IETF, it would be rejected out of hand. There is a growing body of knowledge and experience in managing the risk of beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption is often a way to manage inherited centralization, and has become the norm in standard protocols. These responses are appropriate ways for Internet standards to manage consolidation risk.
 
