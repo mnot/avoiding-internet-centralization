@@ -431,7 +431,7 @@ Likewise, having only a single implementation of a protocol is an inherited cons
 
 Inherited centralization surfaces when viable alternatives to these dependencies are not available. It is often present when network effects restrict choices, but can also be created by legal mandates and incentives that restrict the options for a function (such as Internet access), its provision, or the range of implementations available.
 
-Alternatively, it might occur due to scarcity. For example, the exhaustion of IPv4 addresses creates a power differential between those who have addresses and those who do not, which can affect how the protocols that depend on IP connectivity are deployed and used. If that power is concentrated into few hands, consolidation is the result.
+Alternatively, it might occur due to scarcity. For example, the exhaustion of IPv4 addresses creates a power differential between those who have addresses and those who do not, which can affect how the protocols that depend on IP connectivity are deployed and used. If that power is concentrated into few hands, consolidation is the result, in turn leading to ossification because new applications cannot be deployed without their cooperation.
 
 Some effects of inherited centralization can be mitigated by enforcing layer boundaries through use of techniques like encryption. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
 
@@ -532,6 +532,11 @@ These potential shortcomings do not rule out the use of distributed consensus te
 # What Should Internet Standards Do? {#considerations}
 
 Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Bodies like the IETF create voluntary standards; they cannot require adoption, but when a specification succeeds, it creates those very network effects. As such, standards bodies cannot prevent all forms of consolidation, but they can still take meaningful steps to prevent some of them. The subsections below suggest a few.
+
+
+## Bolster Legitimacy {#legitimate}
+
+
 
 
 ## Engage with Centralization Risk Thoroughly but Realistically {#target}
