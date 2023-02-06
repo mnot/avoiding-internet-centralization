@@ -303,6 +303,13 @@ perspective"
       - name: Carol Bacchi
     target: https://library.oapen.org/bitstream/handle/20.500.12657/33181/560097.pdf?sequence=1#page=34
     refcontent: Chapter 2, Engaging with Carol Bacchi
+  ETHEREUM:
+    title: "The Merge"
+    author:
+      -
+       organization: Ethereum
+    date: 4 February 2023
+    target: https://ethereum.org/en/upgrades/merge/
 
 --- abstract
 
@@ -524,7 +531,7 @@ Use of these techniques can create barriers to proprietary and inherited central
 
 It is also important to recognize that a protocol or an application can use distributed consensus for some functions, but still have consolidation risk elsewhere -- either because those functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the designer has chosen not to because of the associated costs and lost opportunities.
 
-Even when distributed consensus is used for all technical functions of a service, some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents consolidation risk, just at a different layer (inherited or platform).
+Even when distributed consensus is used for all technical functions of a service, some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents consolidation risk, just at a different layer (inherited or platform). For example, the Ethereum "merge" demonstrated that that blockchain could address environmental concerns, but only through coordinated community effort and governance. {{ETHEREUM}}
 
 These potential shortcomings do not rule out the use of distributed consensus technologies in every instance. They do, however, caution against uncritically relying upon these technologies to avoid consolidation.
 
