@@ -479,16 +479,16 @@ In practice, this means that decentralizing a function requires considerable wor
 
 ## Decentralization Techniques {#techniques}
 
-In the context of Internet standardization, decentralization is a two-step process: first assessing the nature of consolidation risk, followed by the application of techniques to reduce or mitigate it. The subsections below examine some of these techniques.
+Over time, a few different techniques have been used to facilitate decentralization of Internet protocols. The subsection below examine some of these techniques, along with their limitations.
 
-Choosing the appropriate techniques for decentralization requires balancing the specific goals of the function against consolidation risk, because completely precluding all forms of consolidation through technical means is rarely achievable. When performed properly, decentralization might produce an outcome that still has consolidation risk, but that risk should be understood, acceptable, and, where possible and appropriate, mitigated.
+None of them is a panacea; it is not possible to completely remove all forms of consolidation risk from protocols that, at their heart, require agreement between multiple parties. However, when performed properly, decentralization might produce an outcome where that risk is understood, acceptable, and, where possible and appropriate, mitigated.
 
 Notably, decentralization does not require that provision of a function need be distributed in a particular fashion, or to a particular degree. For example, the Domain Name System {{?RFC1035}} is widely agreed to have acceptable consolidation risk, despite it being provided by a limited set of entities.
 
 
 ### Federation {#federation}
 
-A widely known technique for managing consolidation in Internet protocols is federation -- designing them in such a way that new instances of a function are easy to create and can maintain interoperability and connectivity with other instances.
+A common technique for addressing consolidation in Internet protocols is federation -- designing them in such a way that new instances of a function are easy to create and can maintain interoperability and connectivity with other instances.
 
 For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols, which has two functions that have consolidation risk:
 
@@ -508,7 +508,7 @@ The examples above illustrate that, while federation can be a useful technique t
 
 ### Multi-Stakeholder Governance {#multi}
 
-Protocol designers sometime mitigate the consolidation risks associated with a beneficial centralized function (see {{necessary}}) by delegating that function's governance to a multi-stakeholder body -- an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
+Protocol designers sometime attempt to mitigate the consolidation risks associated with a beneficial centralized function (see {{necessary}}) by delegating that function's governance to a multi-stakeholder body -- an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
 
 The most widely studied example of this technique is the governance of the DNS name space, which as a “single source of truth” exhibits beneficial centralization. The associated risk is mitigated through administration by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
 
