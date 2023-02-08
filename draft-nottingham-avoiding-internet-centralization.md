@@ -1,6 +1,6 @@
 ---
-title: "Internet Consolidation: What can Standards Efforts Do?"
-abbrev: Internet Consolidation and Standards
+title: "Internet Centralization: What Can Standards Do?"
+abbrev: Internet Centralization and Standards
 docname: draft-nottingham-avoiding-internet-centralization-latest
 date: {DATE}
 category: info
@@ -315,45 +315,47 @@ perspective"
 
 Despite the Internet being designed and operated as a decentralized network-of-networks, forces continuously emerge that encourage consolidation of power over its functions into few hands.
 
-This document offers a definition of consolidation and relates it to centralization, explains why they are undesirable, identifies forces that contribute to them, catalogues limitations of common approaches to decentralization, and explores what Internet standards efforts can do.
+This document offers a definition of centralization and relates it to consolidation, explains why they are undesirable, identifies forces that contribute to them, catalogues limitations of common approaches to decentralization, and explores what Internet standards efforts can do.
 
 --- middle
 
 # Introduction
 
-The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. Originating in a desire to prevent a single technical failure from having a wide impact {{RAND}}, this stance has also enabled the Internet’s rapid adoption and broad spread. The Internet can accommodate a spectrum of requirements and is now positioned as a global public good because joining, deploying an application on, or using the Internet does not require permission from or ceding control to a single entity.
+The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. Originating in a desire to prevent a single technical failure from having a wide impact {{RAND}}, this stance has also enabled the Internet’s rapid adoption and broad spread. The Internet can accommodate a spectrum of requirements and is now a global public good because joining, deploying an application on, or using the Internet does not require permission from or ceding control to a single entity.
 
-While avoiding consolidation of power on the Internet remains a widely shared goal, achieving it consistently has proven difficult. Today, many successful protocols and applications on the Internet operate in a centralized fashion -- to the point where some proprietary services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent consolidation, economic and social factors can drive users to prefer solutions built with or on top of supposedly decentralized technology.
+While maintaining these properties remains a widely shared goal for the Internet, achieving them consistently has proven difficult. Today, many successful protocols and applications on the Internet operate in a centralized fashion -- to the point where some proprietary services have become so well-known that they are commonly mistaken for the Internet itself. Even when protocols incorporate techniques intended to prevent consolidation, economic and social factors can drive users to prefer solutions built with or on top of supposedly decentralized technology.
 
-These difficulties call into question what role architectural design -- in particular, that performed by open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling consolidation of power on the Internet. This document discusses aspects that relate to Internet standards efforts, and argues that while the IETF may not be able to prevent consolidation, there are still meaningful steps we can take to counteract it.
+These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling consolidation of power on the Internet. This document discusses aspects that relate to Internet standards efforts, and argues that while the IETF may not be able to prevent these outcomes, there are still meaningful steps it can take to help counteract them.
 
-{{centralization}} defines consolidation and centralization, explains why and when they are undesirable, and surveys how centralization occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding consolidation and mitigating its effects.
+{{centralization}} defines centralization and consolidation, explains why and when they are undesirable, and surveys how they occur on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
-The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Likewise, policymakers can use this document to help identify and remedy inappropriately consolidated protocols and applications.
+The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Likewise, policymakers can use this document to help identify and evaluate proposed remedies for inappropriately centralized protocols and applications.
 
 
-# Consolidation and Centralization {#centralization}
+# Centralization and Consolidation {#centralization}
 
-This document defines "consolidation" as the ability of a single entity or a small group of them to exclusively observe, capture, control, or extract rent from the operation or use of an Internet function.
+This document distinguishes "consolidation" from "centralization" to separate effects from (some of) their causes.
+
+"Consolidation" is the ability of a single entity or a small group of them to exclusively observe, capture, control, or extract rent from the operation or use of an Internet function.
 
 Here, "entity" could be a single person, a corporation, or a government. It does not include an organization that operates in a manner that effectively mitigates consolidation (see, e.g., {{multi}}).
 
-"Internet function" is defined broadly. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
+"Internet function" is used broadly. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
-However, the Internet's functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to consolidation -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit consolidation. The supply of Internet connectivity to end users in a particular area or situation can also be subject to consolidation, as can supply of transit between networks (so called "Tier 1" networks).
+Furthermore, Internet functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to consolidation -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit consolidation. The supply of Internet connectivity to end users in a particular area or situation can also be subject to consolidation, as can supply of transit between networks (so called "Tier 1" networks).
 
-"Centralization" measures the contribution of a function's technical design to consolidation. As such, it is a primarily architectural phenomenon. For example, many consider the social networking market to be highly consolidated around a few providers who use proprietarily centralized (see {{direct}}) technology to reinforce their control.
+"Centralization" is one source of consolidation that this document focuses upon; it measures the potential contribution of a function's technical design to consolidation. For example, many consider the social networking market to be highly consolidated around a few providers who have used highly centralized architectures (see {{direct}}) to reinforce their control.
 
-Centralization is not a binary condition; a function's design might contribute to or be vulnerable to consolidation in multiple ways and various degrees. Even when decentralization techniques are purposefully used to avoid it, centralization often appears in other aspects of the function's design -- for example, in its governance, implementation, deployment, or in ancillary functions. In summary, "decentralized technology alone does not guarantee decentralized outcomes." {{SCHNEIDER}}
+Centralization is not a binary condition; a function's design might contribute to or be vulnerable to consolidation in multiple ways and various degrees. Even when decentralization techniques are purposefully used to avoid centralization in a particular aspect of a function, it often appears in other places -- for example, in its governance, implementation, deployment, or in ancillary functions. In summary, "decentralized technology alone does not guarantee decentralized outcomes." {{SCHNEIDER}}
 
-Therefore, this document considers the amount of "consolidation risk" associated with a function's design, depending on the scale, scope, and nature of those contributions and vulnerabilities.
+Therefore, this document considers the amount and kinds of "consolidation risk" associated with a function's design, depending on the scale, scope, and nature of those contributions and vulnerabilities.
 
 
 ## Assessing Consolidation Risk {#why}
 
 By default, Internet protocol designers avoid centralized designs because the Internet's very nature is incompatible with centralization. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
-However, as discussed below in {{necessary}}, not all centralization is avoidable, and in some cases it is even desirable. With that in mind, consolidation risk on the Internet is most concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens to diminish the success factors that enable the Internet to thrive -- scalability to meet the demands of new users, adaptability to encompass new applications, flexibility to enable deployment of new technologies, and resilience to shocks and changes {{SUCCESS}}.
+However, as discussed below in {{necessary}}, not all centralization is avoidable, and in some cases it is even desirable. With that in mind, consolidation risk on the Internet is most concerning when centralization is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens to diminish the success factors that enable the Internet to thrive -- scalability to meet the demands of new users, adaptability to encompass new applications, flexibility to enable deployment of new technologies, and resilience to shocks and changes {{SUCCESS}}.
 
 Most often, consolidation risk is indicated when a proposal has one or more of the following damaging effects (or the potential for them):
 
