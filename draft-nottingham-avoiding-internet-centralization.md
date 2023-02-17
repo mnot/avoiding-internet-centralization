@@ -563,7 +563,16 @@ However, mitigating concentration and platform centralization is much more diffi
 
 Therefore, committing significant resources to scrutinizing protocols for latent centralization -- especially for concentration and platform centralization -- is unlikely to be effective in preventing Internet consolidation. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- exhibit concentration or platform centralization. Refusing to standardize a newer protocol because it exhibits similar properties would not be equitable, proportionate, or effective.
 
-When claims are made that a given proposal is "centralized" or "decentralized", the context of those statements should be examined for presuppositions, assumptions, and omissions. {{BACCHI}} offers one framework for such critical interrogations. {{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
+When claims are made that a given proposal is "centralized" or "decentralized", the context of those statements should be examined for presuppositions, assumptions, and omissions. One framework for critical interrogations is offered by {{BACCHI}}, which can be adapted for centralization-related discussions:
+
+1. What is the nature of the centralization that is represented as being problematic or as being addressed by a proposal?
+2. What deep-seated presuppositions or assumptions (conceptual logics) underlie this representation of the "problem"?
+3. How has this representation of the problem come about?
+4. What is left unproblematic in this problem representation? Where are the silences? Can the "problem" be conceptualized differently?
+5. What effects are produced by this representation of the “problem”?
+6. How and where has this representation of the “problem” been produced, disseminated and defended? How has it been and/or how can it be disrupted and replaced?
+
+{{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
 
 When centralization is found, standards efforts should consider its relationship with architectural goals as they consider how to address it. In particular, attention should be paid to how effective standards (as a form of architectural control) is in achieving each goal.
 
