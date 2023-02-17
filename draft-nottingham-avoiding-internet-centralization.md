@@ -667,3 +667,5 @@ This document does not have a direct security impact on Internet protocols. Howe
 This document benefits from discussions with Brian Trammell during our shared time on the Internet Architecture Board.
 
 Thanks to Jari Arkko, Kristin Berdan, Christian Huitema, Mallory Knodel, Eliot Lear, Tommy Pauly, and Martin Thomson for their comments and suggestions.
+
+No machine learning models were used in the production of this document.
