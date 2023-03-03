@@ -346,7 +346,7 @@ Furthermore, Internet functions are not limited to standards-defined protocols. 
 
 "Centralization" is the source of consolidation that this document focuses upon; it measures the direct or potential contribution of a function's technical design to consolidation. For example, many consider the social networking market to be highly consolidated around a few providers who have used highly centralized architectures (see {{direct}}) to reinforce their control.
 
-Centralization is not a binary condition; a function's design might contribute to or be vulnerable to consolidation in multiple ways and in various degrees. Even when decentralization techniques are purposefully used to avoid centralization in a particular aspect of a function, it often appears in other places -- for example, in its governance, implementation, deployment, or in ancillary functions. In summary, "decentralized technology alone does not guarantee decentralized outcomes." {{SCHNEIDER}} Therefore, we need a more nuanced way to asess it.
+Centralization is not a binary condition; a function's design might contribute to or be vulnerable to consolidation in multiple ways and in various degrees. Even when decentralization techniques are purposefully used to avoid centralization in a particular aspect of a function, it often appears in other places -- for example, in its governance, implementation, deployment, or in ancillary functions. In summary, "decentralized technology alone does not guarantee decentralized outcomes." {{SCHNEIDER}}
 
 
 ## Assessing Centralization {#why}
