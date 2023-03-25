@@ -327,7 +327,7 @@ This document discusses the relationship between Internet protocol design and ce
 
 # Introduction
 
-The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While originating in a desire to prevent a single technical failure from having a wide impact {{RAND}}, this stance has also enabled the Internet’s rapid adoption and broad spread. The Internet can accommodate a spectrum of requirements and is now a global public good because permission is not required to connect to it, deploy an application on it, or use it for a particular purpose.
+The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While originating in a desire to prevent a single technical failure from having a wide impact {{RAND}}, this stance has also enabled the Internet’s rapid adoption and broad spread. Arguably, the Internet can accommodate a spectrum of requirements and is now a global public good because permission is not required to connect to it, deploy an application on it, or use it for a particular purpose.
 
 While maintaining these properties remains a widely shared goal, consistently achieving them has proven more difficult over time. Today, many successful services operate in a centralized fashion -- to the point where some proprietary applications have become so well-known that they are commonly mistaken for the Internet itself. {{FB-INTERNET}} Even when open protocols incorporate techniques intended to prevent consolidation, economic and social factors can drive users to prefer solutions built with or on top of supposedly decentralized technology.
 
