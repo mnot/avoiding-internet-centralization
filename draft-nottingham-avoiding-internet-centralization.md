@@ -315,7 +315,7 @@ perspective"
 
 Despite the Internet being designed and operated as a decentralized network-of-networks, forces often (and increasingly) encourage consolidation of power over its functions into few hands.
 
-This document discusses centralization in Internet protocols and relates it to consolidation of power, explains why both are undesirable, identifies forces that contribute to them, catalogues limitations of common approaches to decentralization, and explores what Internet standards efforts can do.
+This document discusses the relationship between Internet protocol design and centralization, and explores what role Internet standards efforts can play in preventing, mitigating, and controlling it.
 
 --- middle
 
