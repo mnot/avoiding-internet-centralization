@@ -318,8 +318,6 @@ perspective"
 
 --- abstract
 
-Despite the Internet being designed and operated as a decentralized network-of-networks, forces often (and increasingly) encourage concentration of power over its functions into few hands.
-
 This document discusses the relationship between Internet protocol design and centralization, and explores what role Internet standards efforts can -- and should -- play in preventing, mitigating, and controlling it.
 
 --- middle
