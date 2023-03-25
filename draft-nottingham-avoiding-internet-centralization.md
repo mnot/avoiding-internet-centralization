@@ -337,7 +337,7 @@ The primary audience for this document is the engineers who design and standardi
 
 # Centralization {#centralization}
 
-"Centralization" is the ability of a single entity or a small group of them to exclusively observe, capture, control, or extract rent from the operation or use of an Internet function.
+"Centralization" is the state of affairs where a single entity or a small group of them is able to exclusively observe, capture, control, or extract rent from the operation or use of an Internet function.
 
 Here, "entity" could be a single person, a corporation, or a government. It does not include an organization that operates in a manner that effectively mitigates centralization (see, e.g., {{multi}}).
 
