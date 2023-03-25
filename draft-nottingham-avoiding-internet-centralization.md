@@ -310,12 +310,18 @@ perspective"
        organization: Ethereum
     date: 4 February 2023
     target: https://ethereum.org/en/upgrades/merge/
+  FB-INTERNET:
+    title: "Regulators Seem to Think That Facebook Is the Internet"
+    date: 6 August 2021
+    author:
+     - name: Konstantinos Komaitis
+    target: https://slate.com/technology/2021/08/facebook-internet-regulation.html
 
 --- abstract
 
 Despite the Internet being designed and operated as a decentralized network-of-networks, forces often (and increasingly) encourage consolidation of power over its functions into few hands.
 
-This document discusses the relationship between Internet protocol design and centralization, and explores what role Internet standards efforts can play in preventing, mitigating, and controlling it.
+This document discusses the relationship between Internet protocol design and centralization, and explores what role Internet standards efforts can -- and should -- play in preventing, mitigating, and controlling it.
 
 --- middle
 
@@ -323,7 +329,7 @@ This document discusses the relationship between Internet protocol design and ce
 
 The Internet has succeeded in no small part because of its purposeful avoidance of any single controlling entity. While originating in a desire to prevent a single technical failure from having a wide impact {{RAND}}, this stance has also enabled the Internet’s rapid adoption and broad spread. The Internet can accommodate a spectrum of requirements and is now a global public good because permission is not required to connect to it, deploy an application on it, or use it for a particular purpose.
 
-While maintaining these properties remains a widely shared goal, consistently achieving them has proven more difficult over time. Today, many successful services operate in a centralized fashion -- to the point where some proprietary applications have become so well-known that they are commonly mistaken for the Internet itself. Even when open protocols incorporate techniques intended to prevent consolidation, economic and social factors can drive users to prefer solutions built with or on top of supposedly decentralized technology.
+While maintaining these properties remains a widely shared goal, consistently achieving them has proven more difficult over time. Today, many successful services operate in a centralized fashion -- to the point where some proprietary applications have become so well-known that they are commonly mistaken for the Internet itself. {{FB-INTERNET}} Even when open protocols incorporate techniques intended to prevent consolidation, economic and social factors can drive users to prefer solutions built with or on top of supposedly decentralized technology.
 
 These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling consolidation of power on the Internet. This document discusses aspects of centralization that relate to Internet standards efforts, and argues that while the IETF may not be able to prevent these outcomes, there are still meaningful steps it can take to help counteract them.
 
