@@ -627,7 +627,7 @@ This document does not have a direct security impact on Internet protocols. Howe
 
 # Acknowledgements
 
-This document benefits from discussions with Brian Trammell during our shared time on the Internet Architecture Board.
+This document was born out of early discussions with Brian Trammell during our shared time on the Internet Architecture Board.
 
 Thanks to Jari Arkko, Kristin Berdan, Christian Huitema, Geoff Huston, Mallory Knodel, Eliot Lear, John Levine, Milton Mueller, Tommy Pauly, and Martin Thomson for their comments and suggestions.
 
