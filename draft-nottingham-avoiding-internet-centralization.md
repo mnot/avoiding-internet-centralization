@@ -1,5 +1,5 @@
 ---
-title: "Internet Centralization: What Can Standards Do?"
+title: "Centralization, Decentralization, and Internet Standards"
 abbrev: Internet Centralization and Standards
 docname: draft-nottingham-avoiding-internet-centralization-latest
 date: {DATE}
