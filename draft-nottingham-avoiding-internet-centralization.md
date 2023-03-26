@@ -405,8 +405,9 @@ Deployed proprietary protocols and applications are not under the control of the
 
 ### Consolidation {#indirect}
 
-Even when a function avoids or mitigates other forms of centralization, it might become centralized in practice when external factors influence its deployment, so that few or even just one entity provides the function. This document refers to this phenomenon as "consolidation."
-Consolidation can be caused by economic, legal, social, and even cognitive factors that encourage use of a central function despite the absence of such a requirement in the protocol itself.
+Even when a function's design avoids or mitigates other forms of centralization, it might become centralized in practice when external factors influence its implementation or deployment, so that few or even just one entity provides or otherwise has control over it. This document refers to this phenomenon as "consolidation."
+
+Consolidation can be caused by economic, legal, social, and even cognitive factors that encourage use of a central function despite the absence of such a requirement in its design.
 
 Consolidation is often associated with the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks, these effects award asymmetric power to nodes that act as intermediaries to communication. {{SCALE-FREE}}
 
