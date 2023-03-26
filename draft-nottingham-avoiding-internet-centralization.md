@@ -349,13 +349,11 @@ Furthermore, Internet functions are not limited to standards-defined protocols. 
 Centralization is not a binary condition; it is a continuum, whereby a function might be vulnerable to it to various degrees. Likewise, a function might be vulnerable to more centralization by more than one avenue.
 
 
-## Assessing Centralization {#why}
+## Why We Want to Avoid Centralization {#why}
 
-By default, Internet protocol designers will avoid an obviously centralized design because the Internet's very nature is incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
+The Internet community -- and especially Internet-related standards bodies -- have a strong motivation to avoid centralized designs, because the Internet's very nature is incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
-However, as discussed below in {{necessary}}, not all centralization is avoidable, and in some cases, it is even desirable. With that in mind, centralization on the Internet is most concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens to diminish the success factors that enable the Internet to thrive -- scalability to meet the demands of new users, adaptability to encompass new applications, flexibility to enable deployment of new technologies, and resilience to shocks and changes {{SUCCESS}}.
-
-Most often, unacceptable centralization is indicated when a proposal has one or more of the following damaging effects (or the potential for them):
+Centralization can have some or all of the following damaging effects (or the potential for them):
 
 * _Power Imbalance_: When a third party has unavoidable access to communications, the informational and positional advantages gained allow observation of behavior (the "panopticon effect") and shaping or even denial of behavior (the "chokepoint effect") {{INTERMEDIARY-INFLUENCE}} -- capabilities that those parties (or the states that have authority over them) can use for coercive ends {{INTERDEPENDENCE}} or even to disrupt society itself. Just as good governance of states requires separation of powers {{FEDERALIST-51}}, so too does good governance of the Internet require that power not be consolidated in one place without appropriate checks and balances.
 
@@ -369,14 +367,15 @@ Most often, unacceptable centralization is indicated when a proposal has one or 
 
 * _Self-Reinforcement_: As widely noted (see, e.g., {{ACCESS}}), a centralized provider's access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.
 
-However, these are only indicators, and each needs to be evaluated carefully on a case-by-case basis.
+However, each of these indicators needs to be evaluated carefully on a case-by-case basis. A centralized design does not automatically lead to these consequences, and observing one or even many of them does not necessarily indicate centralization.
 
 For example, it is important to distinguish centralization from anticompetitive concerns (also known as "antitrust"). While there are many interactions between these concepts and making the Internet more competitive may be a motivation for avoiding centralization, only courts (and sometimes, regulators) have the authority to define a relevant market and determine that behavior is anti-competitive. Furthermore, what might be considered undesirable centralization by the technical community might not attract competition regulation. Conversely, what might attract competition regulation might not be of great concern to the technical community if other mitigations are felt to be adequate.
 
-Likewise, while centralization interacts with availability, they are distinct and any relationship between them cannot be assumed without careful analysis of where and how centralization occurs. Centralized systems might be more available because of factors like the resources available to them, but also have greater impact when they encounter a fault; decentralized systems might be more resilient in the face of local failures, but less able to react to systemic issues. A failure because of a cut cable, power outage, or failed server is qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
+Likewise, centralization is distinct from many other factors that influence availability, and any relationship between them cannot be assumed without careful analysis of where and how centralization occurs. Centralized systems might be more available because of factors like the resources available to them, but also have greater impact when they encounter a fault; decentralized systems might be more resilient in the face of local failures, but less able to react to systemic issues. A failure because of a cut cable, power outage, or failed server is qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
 
 For example, a large variety of Web sites might depend upon a cloud hosting provider or content delivery network; if it were to become unavailable (whether for technical or other reasons), many people's experience of the Internet might be disrupted. Likewise, a mobile Internet access provider might have an outage that affects hundreds, thousands, or more of its users. In both cases, centralization is not indicated by the loss of availability or its scale, but it well might be if the parties relying on the function don't have reasonable options to switch to if they are unhappy with the availability of the service provided, or if friction against switching to an alternative is too great.
 
+As discussed below in {{necessary}}, not all centralization is avoidable. In some cases, it is even desirable.
 
 ## How Centralization Occurs {#kinds}
 
