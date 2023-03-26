@@ -278,14 +278,6 @@ perspective"
       name: Jo Freeman
     target: https://www.jstor.org/stable/41035187
     refcontent: Berkeley Journal of Sociology, Vol. 17
-  ISOC:
-    title: Consolidation in the Internet Economy
-    date: 2019
-    author:
-      -
-       organization: Internet Society
-    target: https://future.internetsociety.org/2019/
-    refcontent: Internet Society Global Internet Report
   ECH: I-D.ietf-tls-esni
   SCHNEIDER:
     display: SCHNEIDERa
