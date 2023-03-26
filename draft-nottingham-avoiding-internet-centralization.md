@@ -359,7 +359,7 @@ Centralization can have some or all of the following damaging effects (or the po
 
 * _Self-Reinforcement_: As widely noted (see, e.g., {{ACCESS}}), a centralized provider's access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.
 
-However, each of these indicators needs to be evaluated carefully on a case-by-case basis. A centralized design does not automatically lead to these consequences, and observing one or even many of them does not necessarily indicate centralization.
+However, a centralized design does not automatically lead to these consequences, and observing one or even many of them does not necessarily indicate centralization.
 
 For example, it is important to distinguish centralization from anticompetitive concerns (also known as "antitrust"). While there are many interactions between these concepts and making the Internet more competitive may be a motivation for avoiding centralization, only courts (and sometimes, regulators) have the authority to define a relevant market and determine that behavior is anti-competitive. Furthermore, what might be considered undesirable centralization by the technical community might not attract competition regulation. Conversely, what might attract competition regulation might not be of great concern to the technical community if other mitigations are felt to be adequate.
 
