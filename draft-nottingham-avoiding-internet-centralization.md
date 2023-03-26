@@ -338,15 +338,15 @@ The primary audience for this document is the engineers who design and standardi
 
 # Centralization {#centralization}
 
-"Centralization" is the state of affairs where a single entity or a small group of them is able to exclusively observe, capture, control, or extract rent from the operation or use of an Internet function.
+In this document, "centralization" is the state of affairs where a single entity or a small group of them is able to exclusively observe, capture, control, or extract rent from the operation or use of an Internet function.
 
-Here, "entity" could be a single person, a corporation, or a government. It does not include an organization that operates in a manner that effectively mitigates centralization (see, e.g., {{multi}}).
+Here, "entity" could be a single person, group, corporation, or government. An organization might be designed in a manner that is intended to mitigate centralization (see, e.g., {{multi}}), but that organisation is still a centralized entity.
 
 "Internet function" is used broadly in this document. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
 Furthermore, Internet functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit centralization. The supply of Internet connectivity to end users in a particular area or situation can also be subject to centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
-Centralization is not a binary condition; a function's design might contribute to or be vulnerable to it in multiple ways and in various degrees. Even when decentralization techniques are purposefully used to avoid centralization in a particular aspect of a function, it often appears in other places -- for example, in its governance, implementation, deployment, or in ancillary functions. In summary, "decentralized technology alone does not guarantee decentralized outcomes." {{SCHNEIDER}}
+Centralization is not a binary condition; it is a continuum, whereby a function might be vulnerable to it to various degrees. Likewise, a function might be vulnerable to more centralization by more than one avenue.
 
 
 ## Assessing Centralization {#why}
@@ -463,7 +463,9 @@ While the term "decentralization" has a long history of use in economics, politi
 
 This seemingly straightforward technical definition hides several issues.
 
-First, identifying which aspects of a function to decentralize and how to do so can be difficult, both because there are often many ways a function might be centralized, and because centralization sometimes only becomes clear after the function is deployed at scale. Efforts to decentralize often have the effect of merely shifting centralization to a different place.
+First, identifying which aspects of a function to decentralize and how to do so can be difficult, both because there are often many ways a function might be centralized, and because centralization sometimes only becomes clear after the function is deployed at scale.
+
+Often, efforts to decentralize often have the effect of merely shifting centralization to a different place -- for example, in its governance, implementation, deployment, or in ancillary functions. In other words, "decentralized technology alone does not guarantee decentralized outcomes." {{SCHNEIDER}}
 
 For example, a cloud storage function might be implemented using a distributed consensus protocol, assuring that the failure of any single node will not affect the system's operation or availability. In that sense, it is decentralized. However, if it is operated by a single legal entity, that brings a very different kind of centralization, especially if there are few other options available, or if there is friction against choosing other options.
 
