@@ -372,7 +372,7 @@ For example, a large variety of Web sites might depend upon a cloud hosting prov
 
 Even though the Internet community might have a goal of avoiding centralization, this is not always possible; in some cases, it is even desirable. Some protocols and applications have goals that require centralization, because they rely on it to deliver a particular benefit.
 
-Often, this is due to technical necessity. For example, a single, globally coordinated “source of truth” is by nature centralized -- such as in the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
+Often, this is due to technical necessity. For example, a single, globally coordinated “source of truth” is by nature centralized -- such as in the root zone of the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
 
 Or, consider IP addresses allocation. Internet routing requires addresses to be allocated uniquely, but if a single government or company were to capture the addressing function, the entire Internet would be at risk of abuse by that entity. The same benefits and risks can be seen in the Web's trust model, thanks to the Certificate Authority's role in communication between clients and servers.
 
