@@ -312,9 +312,9 @@ In this document, "centralization" is the state of affairs where a single entity
 
 Here, "entity" could be a single person, group, corporation, or government. An organization might be designed in a manner that is intended to mitigate centralization (see, e.g., {{multi}}), but that organisation is still a centralized entity.
 
-"Internet function" is used broadly in this document. It might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
+"Internet function" is used broadly in this document. Most directly, it might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
-Furthermore, Internet functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit centralization. The supply of Internet connectivity to end users in a particular area or situation can also be subject to centralization, as can the supply of transit between networks (so called "Tier 1" networks).
+However, because people's experience is not limited to standards-defined protocols, this document also considers centralization in applications built on top of standard protocols -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can likewise exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
 Centralization is not a binary condition, it is a continuum: a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) and enables easy switching between instances might have still have risk of centralization, but not as great as one that had a single, proprietary provider.
 
@@ -381,17 +381,17 @@ Deployed proprietary protocols and applications are not under the control of the
 
 ### Consolidation {#indirect}
 
-Even when a function's design avoids or mitigates other forms of centralization, it might become centralized in practice when external factors influence its implementation or deployment, so that few or even just one entity provides or otherwise has control over it. This document refers to this phenomenon as "consolidation."
+Even when a function's design avoids or mitigates other forms of centralization, it might become centralized in practice when external factors influence its implementation or deployment, so that few or even just one entity provides or otherwise has control over it. This document refers to that phenomenon as "consolidation."
 
-Consolidation can be caused by economic, legal, social, and even cognitive factors that encourage use of a central function despite the absence of such a requirement in its design.
+Those external factors might be economic, legal, social, or even cognitive.
 
-Consolidation is often associated with the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web.{{SCALE-FREE}}
+Consolidation is often driven by the network effects that are so often seen on the Internet.{{SCALE-FREE}} When the value of a function increases as its user base increases,
 
 There may be legitimate qualitative reasons for some nodes being favoured over others. However, when friction against using an alternative prevents switching, benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
 
 Conversely, a function based on a well-defined, open specification designed to minimize switching costs might be considered to have less centralization even when users continue to favor large providers, because ease of switching creates implicit competitive pressure upon them.
 
-For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{ACTIVITYSTREAMS}}), because of the powerful network effects associated. While there has been some competition in social networking, the choices that their peers make often restricts individual choices, because of the coordination required to move to a new service.
+For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{ACTIVITYSTREAMS}}), because of the powerful network effects associated. While there has been some competition in social networking, the coordination required to move to a new service effectively locks users into the incumbents.
 
 Consolidation is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
 
