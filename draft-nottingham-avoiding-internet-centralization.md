@@ -346,7 +346,7 @@ Likewise, centralization is distinct from many other factors that influence avai
 For example, a large variety of Web sites might depend upon a cloud hosting provider or content delivery network; if it were to become unavailable (whether for technical or other reasons), many people's experience of the Internet might be disrupted. Likewise, a mobile Internet access provider might have an outage that affects hundreds, thousands, or more of its users. In both cases, centralization is not indicated by the loss of availability or its scale, but it well might be if the parties relying on the function don't have reasonable options to switch to if they are unhappy with the availability of the service provided, or if friction against switching to an alternative is too great.
 
 
-## Centralization is Sometimes Beneficial {#necessary}
+## Centralization is Sometimes Beneficial or Necessary {#necessary}
 
 Even though the Internet community might have a goal of stopping centralization, doing so is not always possible; in some cases, centralization is even desirable. Some protocols and applications have goals that require centralization, because they rely on it to deliver a particular benefit.
 
