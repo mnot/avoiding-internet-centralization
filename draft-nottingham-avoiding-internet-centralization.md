@@ -385,9 +385,9 @@ Even when a function's design avoids or mitigates other forms of centralization,
 
 Consolidation can be caused by economic, legal, social, and even cognitive factors that encourage use of a central function despite the absence of such a requirement in its design.
 
-Consolidation is often associated with the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web. While expected and observed in many kinds of networks, these effects award asymmetric power to nodes that act as intermediaries to communication. {{SCALE-FREE}}
+Consolidation is often associated with the network effects that are so often seen on the Internet. While in theory every node on the Internet is equal, in practice some nodes are much more connected than others: for example, just a few sites drive much of the traffic on the Web.{{SCALE-FREE}}
 
-There may be legitimate qualitative reasons for some nodes being favoured over others. However, when it happens because friction against using an alternative prevents switching, benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
+There may be legitimate qualitative reasons for some nodes being favoured over others. However, when friction against using an alternative prevents switching, benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
 
 Conversely, a function based on a well-defined, open specification designed to minimize switching costs might be considered to have less centralization even when users continue to favor large providers, because ease of switching creates implicit competitive pressure upon them.
 
