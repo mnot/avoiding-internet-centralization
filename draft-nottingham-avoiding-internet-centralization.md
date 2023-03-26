@@ -321,7 +321,7 @@ Centralization is not a binary condition, it is a continuum: a function might be
 
 ## Why Centralization is Undesirable {#why}
 
-The Internet community -- and especially Internet-related standards bodies -- have a strong motivation to avoid centralized designs, because the Internet's very nature is incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
+Internet standards bodies naturally try to prevent and counteract centralization because the Internet's history and architecture are incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
 Centralization can have some or all of the following damaging effects (or the potential for them):
 
