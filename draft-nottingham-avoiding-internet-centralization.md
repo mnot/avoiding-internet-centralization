@@ -294,13 +294,15 @@ This document explores the role that technical standards efforts can play in pre
 
 # Introduction
 
-One of the Internet's defining features is its purposeful avoidance of any single controlling entity. While originating in a desire to prevent a single technical failure from having a wide impact {{RAND}}, this stance has arguably enabled the Internet’s rapid adoption and broad reach; permission is not required to connect to it, deploy an application on it, or use it for a particular purpose.
+One of the Internet's defining features is its purposeful avoidance of any single controlling entity. While originating in a desire to prevent a single technical failure from having a wide impact,{{RAND}} this stance has arguably enabled the Internet’s rapid adoption and broad reach: permission is not required to connect to it, deploy an application on it, or use it for a particular purpose.
 
 While maintaining this property remains a widely shared goal, consistently maintaining it across the range of services and applications that people see as "the Internet" has proven more difficult over time. Today, many successful services operate in a centralized fashion -- to the point where some proprietary applications have become so well-known that they are commonly mistaken for the Internet itself.{{FB-INTERNET}} Even when a protocol's design purposefully incorporates decentralization techniques, economic and social factors can foster centralization in services that use it.
 
-These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling centralization on the Internet. This document discusses aspects of centralization that relate to Internet standards efforts, and argues that while the IETF has very limited agency to prevent many of these outcomes, there are still some meaningful steps that it can take.
+These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- should play in preventing, mitigating, and controlling centralization on the Internet.
 
-{{centralization}} defines centralization, explains why and when it is undesirable, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
+This document discusses aspects of centralization that relate to Internet standards efforts, and argues that while the standards bodies on their own have little ability to prevent most forms of Internet centralization, they can still make contributions that facilitate decentralization of the Internet.
+
+{{centralization}} defines centralization, explains why it is undesirable, when it can be beneficial, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} considers the role that Internet standards play in avoiding centralization and mitigating its effects.
 
 The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Likewise, policymakers can use this document to help identify and evaluate proposed remedies for abuses that involve centralized protocols and applications.
 
