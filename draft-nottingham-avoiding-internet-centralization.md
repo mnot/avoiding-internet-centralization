@@ -349,7 +349,7 @@ For example, a large variety of Web sites might depend upon a cloud hosting prov
 
 ## Centralization is Sometimes Beneficial {#necessary}
 
-Even though the Internet community might have a goal of avoiding centralization, this is not always possible; in some cases, it is even desirable. Some protocols and applications have goals that require centralization, because they rely on it to deliver a particular benefit.
+Even though the Internet community might have a goal of avoiding centralization, this is not always possible; in some cases, centralization is even desirable. Some protocols and applications have goals that require centralization, because they rely on it to deliver a particular benefit.
 
 Often, this is due to technical necessity. For example, a single, globally coordinated “source of truth” is by nature centralized -- such as in the root zone of the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
 
@@ -359,7 +359,7 @@ Protocols that need to solve the "rendezvous problem" to coordinate communicatio
 
 Even when not strictly necessary, centralization can be deployed to beneficial ends. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."
 
-For example, when traffic from many users is mixed in a way that can't be distinguished, censorship becomes more difficult. This "too big to block" phenomenon drives the design of many recent protocols (such as {{ECH}}), but they require a degree of centralization to meet their goals.
+For example, when traffic from many users is mixed in a way that can't be distinguished, censorship becomes more difficult. This "too big to block" phenomenon drives the design of many recent protocols (such as {{ECH}}), which require a degree of centralization to meet their goals.
 
 Likewise, when a function requires governance to realize common goals and protect minority interests, a "choke point" is naturally formed by the chosen governance mechanism, increasing centralization. For example, content moderation functions consolidate decision making to impose community values. Complex and risky functions like financial services (e.g., credit card processing) can be seen as beneficially centralized into relatively few, specialized organizations, where they can received the focused attention that they require.
 
