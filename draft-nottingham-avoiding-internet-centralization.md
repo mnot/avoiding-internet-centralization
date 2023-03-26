@@ -508,7 +508,7 @@ As such, standards bodies cannot prevent or even influence many instances of cen
 
 ## Bolster Legitimacy {#legitimate}
 
-Many efforts to address Internet centralization are likely to take place outside of standards bodies. If the IETF wishes to contribute to these efforts and assure their compatibility with the Internet's architectural goals, it must be seen as legitimate by the relevant parties -- especially, by competition regulators. Otherwise, if the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
+Many efforts to address Internet centralization are likely to take place outside of standards bodies. If the IETF wishes to contribute to these efforts and assure their compatibility with the Internet's architectural goals, it must be seen as legitimate by the relevant parties -- for example, by competition regulators. Otherwise, if the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
 
 The IETF already has features that arguably provide considerable legitimacy; for example, open participation and representation by individuals rather than companies both enhance input legitimacy; a well-defined process with multiple layers of appeals and transparency contributes to throughput legitimacy, and a long history of successful Internet standards provides perhaps the strongest source of legitimacy for the IETF -- its output.
 
