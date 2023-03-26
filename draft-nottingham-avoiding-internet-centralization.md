@@ -129,16 +129,6 @@ informative:
        name: Vlad Tarko
     target: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0491.2011.01550.x
     refcontent: "Governance: An International Journal of Policy, Administration, and Institutions, Vol. 25, No. 2, p. 237"
-  PIR:
-    display: OLUMOFIN
-    title: Revisiting the Computational Practicality of Private Information Retrieval
-    date: 2010
-    author:
-     -
-      name: Femi Olumofin
-     -
-      name: Ian Goldberg
-    target: https://link.springer.com/chapter/10.1007/978-3-642-27576-0_13
   ACCESS:
     display: ABRAHAMSON
     title: Essential Data
