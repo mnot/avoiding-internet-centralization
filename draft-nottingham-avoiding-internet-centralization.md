@@ -341,7 +341,7 @@ Furthermore, Internet functions are not limited to standards-defined protocols. 
 Centralization is not a binary condition; it is a continuum, whereby a function might be vulnerable to it to various degrees. Likewise, a function might be vulnerable to more centralization by more than one avenue.
 
 
-## Why We Want to Avoid Centralization {#why}
+## Why Centralization is Undesirable {#why}
 
 The Internet community -- and especially Internet-related standards bodies -- have a strong motivation to avoid centralized designs, because the Internet's very nature is incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
 
