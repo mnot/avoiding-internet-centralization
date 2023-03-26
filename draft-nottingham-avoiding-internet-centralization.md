@@ -147,20 +147,6 @@ informative:
      -
       name: Zachary Abrahamson
     refcontent: Yale Law Journal, Vol. 124, No. 3
-  SUCCESS:
-    display: KENDE
-    title: Study on the Internet's Technical Success Factors
-    date: December 2021
-    target: https://blog.apnic.net/wp-content/uploads/2021/12/MKGRA669-Report-for-APNIC-LACNIC-V3.pdf
-    author:
-     -
-       name: Michael Kende
-     -
-       name: Amund Kvalbein
-     -
-       name: Julia Allford
-     -
-       name: David Abecassis
   OECD:
     title: Data portability, interoperability and digital platform competition
     date: 9 June 2021
