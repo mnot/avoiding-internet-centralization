@@ -317,7 +317,7 @@ Here, "entity" could be a single person, group, corporation, or government. An o
 
 Furthermore, Internet functions are not limited to standards-defined protocols. User-visible applications built on top of standard protocols are also vulnerable to centralization -- for example, social networking, file sharing, financial services, and news dissemination. Likewise,  networking equipment, hardware, operating systems, and software act as enabling technologies that can exhibit centralization. The supply of Internet connectivity to end users in a particular area or situation can also be subject to centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
-Centralization is not a binary condition; it is a continuum, whereby a function might be vulnerable to it to various degrees. Likewise, a function might be vulnerable to more centralization by more than one avenue.
+Centralization is not a binary condition, it is a continuum: a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) and enables easy switching between instances might have still have risk of centralization, but not as great as one that had a single, proprietary provider.
 
 
 ## Why Centralization is Undesirable {#why}
