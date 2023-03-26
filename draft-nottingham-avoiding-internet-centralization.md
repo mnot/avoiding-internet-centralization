@@ -525,7 +525,9 @@ These potential shortcomings do not rule out the use of distributed consensus te
 
 # What Should Internet Standards Do? {#considerations}
 
-Centralization is driven by powerful forces -- both economic and social -- as well as the network effects that come with Internet scale. Bodies like the IETF create voluntary standards; they cannot require adoption, but when a specification succeeds it creates those very network effects. As such, standards bodies cannot prevent all forms of centralization, but they can still take meaningful steps to prevent some of them. The subsections below suggest a few.
+Centralization is driven by powerful economic and social forces, and often amplified by the network effects that come with Internet scale. Bodies like the IETF create voluntary standards; they cannot require adoption or constrain behaviour by command. Instead, their power comes from the coordination that results when a specification is widely deployed.
+
+As such, standards bodies cannot prevent or even influence many instances of centralization, but can still take meaningful steps to improve the Internet. The subsections below suggest a few.
 
 
 ## Bolster Legitimacy {#legitimate}
