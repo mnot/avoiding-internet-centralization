@@ -480,22 +480,17 @@ There is also no "correct" way to decentralize; it does not require that provisi
 
 ### Federation {#federation}
 
-A common technique for addressing centralization in Internet protocols is federation -- designing them in such a way that new instances of a function are easy to create and can maintain interoperability and connectivity with other instances.
+A common technique for controlling centralization is federation: designing a function in a way that uses independent instances who maintain connectivity and interoperability to provide a single, cohesive service. Properly executed, federation allows users to choose the instance they associate with, and also accommodates substitution of one instance for another, thereby lowering switching costs.
 
-For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols, which has two functions that exhibit centralization:
+For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols. Messages need to be routable to a user even when that user changes network locations or becomes disconnected for a long period of time. To facilitate this, SMTP defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids the use of a single, central server. Users can (and often do) choose to delegate that role to someone else, or can run their own MTA.
 
-1. Giving each user a globally unique address, and
-2. Routing messages to the user, even when they change network locations or become disconnected for long periods of time.
+However, many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, consolidating the protocol’s operation (see {{indirect}}).
 
-E-mail reuses DNS to help mitigate the first. To mitigate the second, it defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol's users avoid a requirement for a single central router.
+Another example of federation is XMPP {{?RFC6120}}, a chat protocol. Like e-mail, it is federated to facilitate rendezvous of users from different systems.
 
-Users can (and often do) choose to delegate that role to someone else, or run their own MTA. However, many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, consolidating the protocol’s operation (see {{indirect}}).
+However, while some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, denying them the benefits of global interoperability.
 
-Another example of a federated Internet protocol is XMPP {{?RFC6120}}, supporting "instant messaging" and similar functionality. Like e-mail, it reuses DNS for naming and requires federation to facilitate rendezvous of users from different systems.
-
-While some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, denying them the benefits of global interoperability.
-
-The examples above illustrate that, while federation can be a useful technique for avoiding proprietary centralization and managing beneficial centralization, it does not prevent consolidation or platform centralization. For example, network effects might enable a single entity to obtain a “winner take all” outcome, or external factors (such as spam control) might “tilt the table” towards a few operators.
+The examples above illustrate that, while federation can be a useful technique for avoiding proprietary centralization and managing beneficial centralization, it does not prevent consolidation or platform centralization.
 
 
 ### Multi-Stakeholder Governance {#multi}
