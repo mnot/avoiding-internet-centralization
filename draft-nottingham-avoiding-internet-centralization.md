@@ -8,6 +8,7 @@ category: info
 ipr: trust200902
 area: General
 workgroup:
+stream: independent
 keyword: centralization
 keyword: decentralization
 keyword: consolidation
