@@ -255,7 +255,6 @@ perspective"
       name: Jo Freeman
     target: https://www.jstor.org/stable/41035187
     refcontent: Berkeley Journal of Sociology, Vol. 17
-  ECH: I-D.ietf-tls-esni
   SCHNEIDER:
     display: SCHNEIDERa
     title: What to do once you admit that decentralizing everything never seems to work
@@ -359,9 +358,7 @@ Protocols that need to solve the "rendezvous problem" to coordinate communicatio
 
 Even when not strictly necessary, centralization can be deployed to beneficial ends. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."
 
-For example, when traffic from many users is mixed in a way that can't be distinguished, censorship becomes more difficult. This "too big to block" phenomenon drives the design of many recent protocols (such as {{ECH}}), which require a degree of centralization to meet their goals.
-
-Likewise, when a function requires governance to realize common goals and protect minority interests, a "choke point" is naturally formed by the chosen governance mechanism, increasing centralization. For example, content moderation functions consolidate decision making to impose community values. Complex and risky functions like financial services (e.g., credit card processing) can be seen as beneficially centralized into relatively few, specialized organizations, where they can received the focused attention that they require.
+This can be seen when a function requires governance to realize common goals and protect minority interests. For example, content moderation functions consolidate decision making to impose community values. Likewise, complex and risky functions like financial services (e.g., credit card processing) can be seen as beneficially centralized into relatively few, specialized organizations, where they can received the focused attention that they require.
 
 When beneficial centralization is present, Internet protocols often attempt to mitigate the associated risks using measures such as federation (see {{federation}}) or multi-stakeholder governance (see {{multi}}). Protocols that successfully do so are often reused to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is usually preferable to establishing a new system.
 
@@ -632,6 +629,6 @@ This document does not have a direct security impact on Internet protocols. Howe
 
 This document benefits from discussions with Brian Trammell during our shared time on the Internet Architecture Board.
 
-Thanks to Jari Arkko, Kristin Berdan, Christian Huitema, Mallory Knodel, Eliot Lear, Tommy Pauly, and Martin Thomson for their comments and suggestions.
+Thanks to Jari Arkko, Kristin Berdan, Christian Huitema, Geoff Huston, Mallory Knodel, Eliot Lear, John Levine, Milton Mueller, Tommy Pauly, and Martin Thomson for their comments and suggestions.
 
 No machine learning models were used in the production of this document.
