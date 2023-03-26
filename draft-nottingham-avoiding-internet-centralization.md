@@ -348,7 +348,7 @@ For example, a large variety of Web sites might depend upon a cloud hosting prov
 
 ## Centralization is Sometimes Beneficial {#necessary}
 
-Even though the Internet community might have a goal of avoiding centralization, this is not always possible; in some cases, centralization is even desirable. Some protocols and applications have goals that require centralization, because they rely on it to deliver a particular benefit.
+Even though the Internet community might have a goal of stopping centralization, doing so is not always possible; in some cases, centralization is even desirable. Some protocols and applications have goals that require centralization, because they rely on it to deliver a particular benefit.
 
 Often, this is due to technical necessity. For example, a single, globally coordinated “source of truth” is by nature centralized -- such as in the root zone of the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
 
