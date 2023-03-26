@@ -391,7 +391,7 @@ Ultimately, deciding what is beneficial is a judgment call. Some protocols canno
 
 ## How Centralization Occurs {#kinds}
 
-A function's design can exhibit and encourage centralization in a variety of ways. The subsections below describe different contributors to and expressions of centralization in Internet functions. Note that this is not a taxonomy, in that it is not complete and there may be overlap.
+A function might become centralized in a variety of ways. The subsections below describe some contributors to and expressions of centralization in Internet functions.
 
 
 ### Proprietary Centralization {#direct}
