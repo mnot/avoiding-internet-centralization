@@ -495,7 +495,7 @@ Another example of a federated Internet protocol is XMPP {{?RFC6120}}, supportin
 
 While some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, denying them the benefits of global interoperability.
 
-The examples above illustrate that, while federation can be a useful technique for avoiding proprietary centralization and managing beneficial centralization, it does not prevent consolidation or platform centralization. If a single entity can capture the value provided by a protocol, it may use the protocol as a platform to get a “winner take all” outcome -- a significant risk with many Internet protocols, since network effects often promote such outcomes. Likewise, external factors (such as spam control) might naturally “tilt the table” towards a few operators.
+The examples above illustrate that, while federation can be a useful technique for avoiding proprietary centralization and managing beneficial centralization, it does not prevent consolidation or platform centralization. For example, network effects might enable a single entity to obtain a “winner take all” outcome, or external factors (such as spam control) might “tilt the table” towards a few operators.
 
 
 ### Multi-Stakeholder Governance {#multi}
