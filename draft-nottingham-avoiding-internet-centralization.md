@@ -318,7 +318,8 @@ perspective"
 
 --- abstract
 
-This document discusses the relationship between Internet protocol design and centralization, and explores what role Internet standards efforts can -- and should -- play in preventing, mitigating, and controlling it.
+This document explores the role that technical standards efforts can play in preventing, mitigating, and controlling Internet centralization.
+
 
 --- middle
 
