@@ -461,7 +461,7 @@ As such, standards bodies cannot prevent or even influence many instances of cen
 
 ## Bolster Legitimacy {#legitimate}
 
-Many efforts to address Internet centralization are likely to take place outside of standards bodies. If the IETF wishes to contribute to these efforts and assure their compatibility with the Internet's architectural goals, it must be seen as legitimate by the relevant parties -- for example, by competition regulators. In particular, if the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
+Many efforts to address Internet centralization are likely to take place outside of standards bodies. If the IETF wishes to contribute to them and assure compatibility with the Internet's architectural goals, it must be seen as legitimate by the relevant parties -- for example, by competition regulators. In particular, if the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
 
 The IETF already has features that arguably provide considerable legitimacy; for example, open participation and representation by individuals rather than companies both enhance input legitimacy; a well-defined process with multiple layers of appeals and transparency contributes to throughput legitimacy, and a long history of successful Internet standards provides perhaps the strongest source of legitimacy for the IETF -- its output.
 
@@ -469,15 +469,20 @@ However, it is also widely recognized the considerable costs (not just financial
 
 Efforts to address these shortcomings are ongoing; see, for example, {{?RFC8890}}. Overall, bolstering the legitimacy of the organization should be seen as a continuous effort.
 
+When engaging in external efforts, the IETF community (in particular, its leadership) should keep firmly in mind that it is most authoritative when focused on technical and architectural impact. Straying from these topics will likely result in a loss of legitimacy that would likely be difficult to recover from.
 
-## Engage with Centralization Thoroughly but Realistically {#target}
 
-Some kinds of centralization are easy to manage in standards efforts. For example, a protocol that exhibited obvious proprietary centralization would be an unlikely candidate for standardization.
-There is a growing body of knowledge and experience in managing the risks of beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption can be used to manage selected instances of inherited centralization by enforcing layer boundaries. These responses are examples of appropriate ways for Internet standards to manage centralization.
+## Focus Discussion of Centralization {#target}
 
-However, mitigating practical and platform centralization (arguably, the most common kinds) is much more difficult in standards efforts. Because the IETF has no "protocol police", it’s not possible to demand, for example, that someone stop building a proprietary service using a federated protocol; even if it could, doing so would contradict architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
+Some kinds of centralization are relevant to consider in standards discussions. For example, if a proposal exhibited obvious proprietary centralization, it should (and hopefully would) be rejected. The community has a growing body of knowledge and experience in managing the risks of beneficial centralization, and a strong inclination to reuse existing infrastructure (such as the DNS) where possible. As discussed above, encryption can be used to manage selected instances of inherited centralization by enforcing layer boundaries.
 
-Therefore, committing significant resources to scrutinizing protocols for latent centralization -- especially for practical and platform centralization -- is unlikely to be effective in preventing Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- exhibit practical or platform centralization. Refusing to standardize a newer protocol because it exhibits similar properties would not be equitable, proportionate, or effective.
+These responses are examples of appropriate ways for discussions in standards bodies to engage with centralization concerns. However, other kinds of centralization are less fruitful topics in standards discussions.
+
+In particular, practical and platform centralization (arguably, the most common kinds) are much more difficult to control in standards. Because the IETF has no "protocol police", it’s not possible to demand, for example, that someone stop building a proprietary service using a federated protocol; even if it could, doing so would contradict architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
+
+Furthermore, claims of centralization can be proxies for power struggles between actors with competing interests, as discussed in {{decentralization}}. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but a competitor might use a claim of centralization to deny them the benefit of standardization.
+
+Therefore, approaches like requiring a "Centralization Considerations" section in drafts, gatekeeping publication on a centralization review, or committing significant resources to examining centralization properties of protocols -- especially when searching for these latter types of centralization -- are unlikely to improve the Internet. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- exhibit practical or platform centralization. Refusing to standardize a newer protocol because it exhibits similar properties would not be equitable, proportionate, or effective.
 
 When claims are made that a given proposal is "centralized" or "decentralized", the context of those statements should be examined for presuppositions, assumptions, and omissions. One framework for critical interrogations is offered by {{BACCHI}}, which can be adapted for centralization-related discussions:
 
@@ -490,9 +495,9 @@ When claims are made that a given proposal is "centralized" or "decentralized", 
 
 {{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
 
-When centralization is found, standards efforts should consider its relationship with architectural goals as they consider how to address it. In particular, attention should be paid to how effective standards (as a form of architectural control) is in achieving each goal.
+When centralization is found, standards efforts should consider its relationship with architectural goals as they consider how and if it should be mitigated (if possible). In particular, attention should be paid to how effective standards (as a form of architectural control) is in achieving each goal.
 
-For example, privacy is often more effectively ensured by ex ante technical constraints, as compared to ex post legal regulation. Conversely (as discussed) some centralization may be more effectively addressed through legal regulation. Thus, a standards effort balancing these concerns might focus primarily on privacy. However, these are often not completely separable goals. Consolidation can result in one or a few entities having greater volume and variety of data available exclusively to them, raising significant privacy and security concerns.
+For example, privacy is often more effectively ensured by ex ante technical constraints, as compared to ex post legal regulation. Conversely (as discussed) some centralization may be more effectively addressed through legal regulation. Thus, a standards effort balancing these concerns might bias towards privacy, after informed discussion.
 
 
 ## Decentralize Proprietary Functions {#up}
