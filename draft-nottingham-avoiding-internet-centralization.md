@@ -47,23 +47,6 @@ informative:
        organization: RAND Corporation
   HTTP: RFC9110
   SOAP: W3C.REC-soap12-part0-20070427
-  SCALE-FREE:
-    display: BARABASI
-    target: https://barabasi.com/f/67.pdf
-    title: Emergence of Scaling in Random Networks
-    date: October 1999
-    author:
-     -
-       ins: A. Barabási
-       name: Albert-László Barabási
-       organization: University of Notre Dame
-       email: alb@nd.edu
-    author:
-     -
-       ins: R. Albert
-       name: Réka Albert
-       organization: University of Notre Dame
-    refcontent: SCIENCE, Vol. 286, No. 15, p. 509
   INTERMEDIARY-INFLUENCE:
     display: JUDGE
     target: https://scholarship.law.columbia.edu/faculty_scholarship/1856
@@ -385,9 +368,7 @@ Even when a function's design avoids or mitigates other forms of centralization,
 
 Those external factors might be economic, legal, social, or even cognitive.
 
-Consolidation is often driven by the network effects that are so often seen on the Internet.{{SCALE-FREE}} When the value of a function increases as its user base increases,
-
-There may be legitimate qualitative reasons for some nodes being favoured over others. However, when friction against using an alternative prevents switching, benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
+Consolidation is often associated with the network effects that are so often seen on the Internet. There may be legitimate qualitative reasons for some nodes being favoured over others. However, when friction against using an alternative prevents switching, benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
 
 Conversely, a function based on a well-defined, open specification designed to minimize switching costs might be considered to have less centralization even when users continue to favor large providers, because ease of switching creates implicit competitive pressure upon them.
 
