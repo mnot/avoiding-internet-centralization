@@ -367,11 +367,11 @@ Deployed proprietary protocols and applications are not under the control of the
 
 Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
 
-For example, this kind of centralization can be introduced to application-layer protocols by the network functions they depend upon; because the application's function depends upon networking, a degree of power over communication is available to the provider of networking. A network might block access to, slow down, or change the content of various application protocols or specific services for financial, political, operational, or criminal reasons, thereby creating a disincentive (or even removing the ability) to use them. By selectively hindering the use of some services but not others, network interventions can be composed to aid consolidation in those other services -- intentionally or not.
+For example, centralization can be introduced to application-layer protocols by the network functions they depend upon; because the application requires a network to function, a degree of power over communication is available to the network provider. They might block access to, slow down, or change the content of a specific service for financial, political, operational, or criminal reasons, thereby creating a disincentive (or even removing the ability) to use them. By selectively hindering the use of some services but not others, network interventions can be composed to create pressure to use those other services -- intentionally or not.
 
 Likewise, having only a single implementation of a protocol is a form of inherited centralization, because applications that use it are vulnerable to the control it has over their operation. Even Open Source projects can exhibit this if there are factors that make forking difficult (for example, the cost of maintaining that fork).
 
-Inherited centralization surfaces when viable alternatives to these dependencies are not available. It is often present when network effects restrict choices, but can also be created by legal mandates and incentives that restrict the options for a function (such as Internet access), its provision, or the range of implementations available.
+Inherited centralization surfaces when viable alternatives to a dependency is not available. It is often present when switching costs restrict choices, but can also be created by legal mandates and incentives that restrict the options for a function (such as Internet access), its provision, or the range of implementations available.
 
 Some effects of inherited centralization can be mitigated by enforcing layer boundaries using techniques like encryption. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
 
@@ -384,7 +384,7 @@ The complement to inherited centralization is platform centralization -- where a
 
 For example, HTTP {{HTTP}} is not generally considered a centralized protocol; interoperable servers are easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above. However, applications built on top of HTTP (as well as the rest of the “Web Platform”) often exhibit centralization (for example, social networking). HTTP is therefore an example of platform centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications.
 
-Like consolidation, platform centralization is difficult to prevent with protocol design. Because of the layered nature of the Internet, most protocols allow considerable flexibility in how they are used, to promote permissionless innovation.
+Platform centralization is difficult to prevent with protocol design. Because of the layered nature of the Internet, most protocols allow considerable flexibility in how they are used, to promote permissionless innovation.
 
 
 ### Consolidation {#indirect}
