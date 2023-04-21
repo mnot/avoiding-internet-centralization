@@ -243,7 +243,7 @@ perspective"
 
 --- abstract
 
-This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, they can still make valuable contributions to a larger dialogue about it.
+This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, they can still make make contributions that improve the Internet.
 
 
 --- middle
@@ -256,7 +256,7 @@ Although maintaining this property remains a widely shared goal, consistently pr
 
 These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- can and should play in controlling centralization on the Internet.
 
-This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, they can still make valuable contributions to a larger dialogue about it.
+This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, they can still make make contributions that improve the Internet.
 
 {{centralization}} defines centralization, explains why it is often undesirable but sometimes beneficial, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} makes recommendations about the role that Internet standards should play in controlling centralization.
 
