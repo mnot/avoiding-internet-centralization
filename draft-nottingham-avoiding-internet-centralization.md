@@ -406,10 +406,6 @@ In practice, this means that decentralizing a function requires considerable wor
 
 Over time, a few different techniques have been used to facilitate decentralization of Internet protocols. The subsection below examine some of these techniques, along with their limitations.
 
-None of them is a panacea; it is not possible to completely remove all forms of centralization from protocols that, at their heart, require agreement between multiple parties. However, when performed properly, decentralization might produce an outcome where that risk is understood, acceptable, and, where possible and appropriate, mitigated.
-
-There is also no "correct" way to decentralize; it does not require that provision of a function need be distributed in a particular fashion, or to a particular degree. For example, the Domain Name System {{?RFC1035}} is widely agreed to have an acceptable form of centralization, despite it being provided by a limited set of entities.
-
 
 ### Federation {#federation}
 
