@@ -163,32 +163,6 @@ informative:
       name: Daniel F. Spulber
     refcontent: "Northwestern University Law Review, Vol. 104, No. 2"
     target: https://wwws.law.northwestern.edu/research-faculty/clbe/workingpapers/documents/spulber_circularconundrum.pdf
-  YAO:
-    title: Protocols for secure computations
-    date: November 1982
-    author:
-     -
-      name: Andrew C. Yao
-    target: https://dl.acm.org/doi/10.5555/1382436.1382751
-    refcontent: SFCS '82
-  ENPA:
-    title: Exposure Notification Privacy-preserving Analytics (ENPA) White Paper
-    date: April 2021
-    author:
-     -
-      organization: Apple
-     -
-      organization: Google
-    target: https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf
-  PRIO:
-    title: "Prio: Private, Robust, and Scalable Computation of Aggregate Statistics"
-    date: March 2017
-    author:
-     -
-      name: Henry Corrigan-Gibbs
-     -
-      name: Dan Boneh
-    target: https://crypto.stanford.edu/prio/paper.pdf
   AMBITION:
     display: SCHNEIDERb
     title: "Decentralization: an incomplete ambition"
@@ -538,15 +512,6 @@ However, while standards aren't mandatory, legal regulation is, and legal mandat
 As such, appetite for regulation presents an opportunity for new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}. That opportunity also presents a risk, however, if the resulting legal regulation is at odds with the Internet architecture.
 
 Successfully creating standards that work in concert with legal regulation presents many potential pitfalls, and will require improved and new capabilities (especially liaison, likely originating in the IAB), and considerable effort. If the Internet community does not make that effort, it is likely that regulators will turn to other sources of interoperability specifications -- most likely, with less transparency, more narrow input, limited experience, and without reference to the Internet’s architectural goals.
-
-
-## Evaluate New Decentralization Techniques {#new}
-
-The decentralization techniques listed in {{techniques}} are not a closed set; wide interest has spurred development of new approaches, both in general and as solutions to specific problems.
-
-For example, secure multi-party computation techniques (see, e.g., {{YAO}}) can be composed to allow parties to compute over private inputs without revealing them. Protocols like {{ENPA}} and {{PRIO}} use them to limit the information available to participants in protocols to realize privacy goals; as discussed in {{intermediation}} doing so might also counteract some sources of centralization. However, as with those covered above, these techniques do not automatically preclude all centralization; such systems often still require trust, even if it is limited, and that might result in other forms of centralization emerging.
-
-Whether use of these techniques (or others) can meaningfully counteract centralization is still uncertain. Standards bodies (including the IETF) can serve an important function by incubating them, applying (and, where necessary, developing) architectural guidelines for privacy, security, operability, and other goals, and assuring interoperability. When appropriate, publication on the standards track or as experimental can send signals to implementers, users, and regulators about their fitness for particular purposes.
 
 
 ## Enable Switching {#balance}
