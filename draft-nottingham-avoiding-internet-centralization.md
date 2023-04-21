@@ -323,7 +323,7 @@ When centralization is purposefully used like this, Internet protocols often att
 Ultimately, deciding what is beneficial is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient.
 
 
-## How Centralization Occurs {#kinds}
+## Contributors to Centralization {#kinds}
 
 A function might become centralized in a variety of ways. The subsections below describe some contributors to and expressions of centralization in Internet functions.
 
