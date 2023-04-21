@@ -363,21 +363,6 @@ Because they allow control by a single entity, proprietary protocols are often c
 Deployed proprietary protocols and applications are not under the control of the standards process; they are best characterized as being built "on top of" the Internet. The Internet architecture and associated standards do not place constraints upon them beyond those imposed by the underlying protocols (e.g., TCP, IP, HTTP).
 
 
-### Consolidation {#indirect}
-
-Even when a function's design avoids or mitigates other forms of centralization, it might become centralized in practice when external factors influence its implementation or deployment, so that few or even just one entity provides or otherwise has control over it. This document refers to that phenomenon as "consolidation."
-
-Those external factors might be economic, legal, social, or even cognitive.
-
-Consolidation is often associated with the network effects that are so often seen on the Internet. There may be legitimate qualitative reasons for some nodes being favoured over others. However, when friction against using an alternative prevents switching, benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
-
-Conversely, a function based on a well-defined, open specification designed to minimize switching costs might be considered to have less centralization even when users continue to favor large providers, because ease of switching creates implicit competitive pressure upon them.
-
-For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{ACTIVITYSTREAMS}}), because of the powerful network effects associated. While there has been some competition in social networking, the coordination required to move to a new service effectively locks users into the incumbents.
-
-Consolidation is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
-
-
 ### Inherited Centralization {#network}
 
 Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
@@ -400,6 +385,22 @@ The complement to inherited centralization is platform centralization -- where a
 For example, HTTP {{HTTP}} is not generally considered a centralized protocol; interoperable servers are easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above. However, applications built on top of HTTP (as well as the rest of the “Web Platform”) often exhibit centralization (for example, social networking). HTTP is therefore an example of platform centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications.
 
 Like consolidation, platform centralization is difficult to prevent with protocol design. Because of the layered nature of the Internet, most protocols allow considerable flexibility in how they are used, to promote permissionless innovation.
+
+
+### Consolidation {#indirect}
+
+Even when a function's design avoids or mitigates other forms of centralization, it might become centralized in practice when external factors influence its implementation or deployment, so that few or even just one entity provides or otherwise has control over it. This document refers to that phenomenon as "consolidation."
+
+Those external factors might be economic, legal, social, or even cognitive.
+
+Consolidation is often associated with the network effects that are so often seen on the Internet. There may be legitimate qualitative reasons for some nodes being favoured over others. However, when friction against using an alternative prevents switching, benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
+
+Conversely, a function based on a well-defined, open specification designed to minimize switching costs might be considered to have less centralization even when users continue to favor large providers, because ease of switching creates implicit competitive pressure upon them.
+
+For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{ACTIVITYSTREAMS}}), because of the powerful network effects associated. While there has been some competition in social networking, the coordination required to move to a new service effectively locks users into the incumbents.
+
+Consolidation is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
+
 
 
 # Decentralization {#decentralization}
