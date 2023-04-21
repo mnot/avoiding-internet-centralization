@@ -330,7 +330,7 @@ Likewise, while centralization can impact availability, many other factors also 
 For example, a large variety of Web sites might depend upon a cloud hosting provider or content delivery network; if it were to become unavailable (whether for technical or other reasons), many people's experience of the Internet might be disrupted. Likewise, a mobile Internet access provider might have an outage that affects hundreds, thousands, or more of its users. In both cases, centralization is not indicated by the loss of availability or its scale, but it well might be if the parties relying on the function don't have reasonable options to switch to if they are unhappy with the availability of the service provided, or if friction against switching to an alternative is too great.
 
 
-## Centralization Can Help {#necessary}
+## Centralization Can Be Helpful {#necessary}
 
 Some protocols and applications rely on centralization to deliver their functionality.
 
@@ -373,7 +373,7 @@ Likewise, having only a single implementation of a protocol is a form of inherit
 
 Inherited centralization surfaces when viable alternatives to a dependency is not available. It is often present when switching costs restrict choices, but can also be created by legal mandates and incentives that restrict the options for a function (such as Internet access), its provision, or the range of implementations available.
 
-Some effects of inherited centralization can be mitigated by enforcing layer boundaries using techniques like encryption. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
+Some instances of inherited centralization can be mitigated by enforcing layer boundaries using techniques like encryption. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
 
 Note that the prohibitive effect of encryption on inherited centralization is most pronounced when most (if not all) traffic is encrypted. See also {{?RFC7258}}.
 
@@ -384,7 +384,7 @@ The complement to inherited centralization is platform centralization -- where a
 
 For example, HTTP {{HTTP}} is not generally considered a centralized protocol; interoperable servers are easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above. However, applications built on top of HTTP (as well as the rest of the “Web Platform”) often exhibit centralization (for example, social networking). HTTP is therefore an example of platform centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications.
 
-Platform centralization is difficult to prevent with protocol design. Because of the layered nature of the Internet, most protocols allow considerable flexibility in how they are used, to promote permissionless innovation.
+Platform centralization is difficult to prevent in protocol design, because most protocols allow considerable flexibility in how they are used, to promote permissionless innovation.
 
 
 ### Consolidation {#indirect}
