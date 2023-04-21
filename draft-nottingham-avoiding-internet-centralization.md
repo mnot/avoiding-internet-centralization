@@ -387,19 +387,19 @@ For example, HTTP {{HTTP}} is not generally considered a centralized protocol; i
 Platform centralization is difficult to prevent in protocol design, because most protocols allow considerable flexibility in how they are used, to promote permissionless innovation.
 
 
-### Consolidation {#indirect}
+### Practical Centralization {#indirect}
 
-Even when a function's design avoids or mitigates other forms of centralization, it might become centralized in practice when external factors influence its implementation or deployment, so that few or even just one entity provides or otherwise has control over it. This document refers to that phenomenon as "consolidation."
+Even when a function is designed to avoid or mitigate centralization, it might become centralized in practice when factors not under the control of its designers influence the function's implementation or deployment.
 
 Those external factors might be economic, legal, social, or even cognitive.
 
-Consolidation is often associated with the network effects that are so often seen on the Internet. There may be legitimate qualitative reasons for some nodes being favoured over others. However, when friction against using an alternative prevents switching, benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
+Practical centralization is often associated with the network effects that are so often seen on the Internet. There may be legitimate qualitative reasons for some nodes being favoured over others. However, when friction against using an alternative prevents switching, benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
 
 Conversely, a function based on a well-defined, open specification designed to minimize switching costs might be considered to have less centralization even when users continue to favor large providers, because ease of switching creates implicit competitive pressure upon them.
 
 For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{ACTIVITYSTREAMS}}), because of the powerful network effects associated. While there has been some competition in social networking, the coordination required to move to a new service effectively locks users into the incumbents.
 
-Consolidation is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
+Practical centralization is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
 
 
 
@@ -443,13 +443,13 @@ A common technique for controlling centralization is federation: designing a fun
 
 For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols. Messages need to be routable to a user even when that user changes network locations or becomes disconnected for a long period of time. To facilitate this, SMTP defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids the use of a single, central server. Users can (and often do) choose to delegate that role to someone else, or can run their own MTA.
 
-However, many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, consolidating the protocol’s operation (see {{indirect}}).
+However, many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, centralizing the protocol’s operation (see {{indirect}}).
 
 Another example of federation is XMPP {{?RFC6120}}, a chat protocol. Like e-mail, it is federated to facilitate rendezvous of users from different systems.
 
 However, while some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, denying them the benefits of global interoperability.
 
-The examples above illustrate that, while federation can be a useful technique for avoiding proprietary centralization and managing beneficial centralization, it does not prevent consolidation or platform centralization.
+The examples above illustrate that, while federation can be a useful technique for avoiding proprietary centralization and managing beneficial centralization, it does not prevent practical or platform centralization.
 
 
 ### Multi-Stakeholder Governance {#multi}
@@ -473,7 +473,7 @@ These techniques attempt to avoid centralization by distributing functions to me
 
 Sybil attacks (where a party or coordinated parties cheaply create enough protocol participants to affect how consensus is judged) are a major concern for these protocols. They encourage diversity in the pool of participants using indirect techniques, such as proof-of-work (where each participant has to show significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
 
-Use of these techniques can create barriers to proprietary and inherited centralization. However, depending upon the application in question, both consolidation and platform centralization are still possible.
+Use of these techniques can create barriers to proprietary and inherited centralization. However, depending upon the application in question, both practical and platform centralization are still possible.
 
 Furthermore, a protocol or an application can use distributed consensus for some functions, but still be centralized elsewhere -- either because those functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the designer has chosen not to because of the associated costs and lost opportunities.
 
@@ -505,9 +505,9 @@ Efforts to address these shortcomings are ongoing; see, for example, {{?RFC8890}
 Some kinds of centralization are easy to manage in standards efforts. For example, a protocol that exhibited obvious proprietary centralization would be an unlikely candidate for standardization.
 There is a growing body of knowledge and experience in managing the risks of beneficial centralization, and a strong inclination to reuse existing infrastructure where possible. As discussed above, encryption can be used to manage selected instances of inherited centralization by enforcing layer boundaries. These responses are examples of appropriate ways for Internet standards to manage centralization.
 
-However, mitigating consolidation and platform centralization (arguably, the most common kinds) is much more difficult in standards efforts. Because the IETF has no "protocol police", it’s not possible to demand, for example, that someone stop building a proprietary service using a federated protocol; even if it could, doing so would contradict architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
+However, mitigating practical and platform centralization (arguably, the most common kinds) is much more difficult in standards efforts. Because the IETF has no "protocol police", it’s not possible to demand, for example, that someone stop building a proprietary service using a federated protocol; even if it could, doing so would contradict architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
 
-Therefore, committing significant resources to scrutinizing protocols for latent centralization -- especially for consolidation and platform centralization -- is unlikely to be effective in preventing Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- exhibit consolidation or platform centralization. Refusing to standardize a newer protocol because it exhibits similar properties would not be equitable, proportionate, or effective.
+Therefore, committing significant resources to scrutinizing protocols for latent centralization -- especially for practical and platform centralization -- is unlikely to be effective in preventing Internet centralization. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- exhibit practical or platform centralization. Refusing to standardize a newer protocol because it exhibits similar properties would not be equitable, proportionate, or effective.
 
 When claims are made that a given proposal is "centralized" or "decentralized", the context of those statements should be examined for presuppositions, assumptions, and omissions. One framework for critical interrogations is offered by {{BACCHI}}, which can be adapted for centralization-related discussions:
 
@@ -574,7 +574,7 @@ Some functions might see substantial benefits if they are provided by a third pa
 
 * _Privacy_: For some functions, user privacy can be improved by consolidating their activity to prevent individual behaviors from being discriminated from each other.{{MIX}} Introduction of a third party can also enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called “oblivious” protocols (e.g., {{?RFC9230}}) that allow end users to hide their identity from services, while still accessing them.
 
-However, introducing a new party to communication adds consolidation and platform centralization to Internet functions, because it brings opportunities for control and observation. While (as discussed above) standards efforts have a very limited capability to prevent or control the resulting centralization, designing functions with thoughtful constraints on third party functions can prevent at least the most egregious outcomes.
+However, introducing a new party to communication adds practical and platform centralization to Internet functions, because it brings opportunities for control and observation. While (as discussed above) standards efforts have a very limited capability to prevent or control the resulting centralization, designing functions with thoughtful constraints on third party functions can prevent at least the most egregious outcomes.
 
 Most often, third parties are added to functions as "intermediaries" or in designated "agent" roles. In general, they should only be interposed because of the positive action of at least one of the primary parties, and should have their ability to observe or control communication limited to what is necessary to perform their intended function.
 
