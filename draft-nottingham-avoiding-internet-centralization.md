@@ -389,11 +389,11 @@ Platform centralization is difficult to prevent in protocol design, because most
 
 ### Practical Centralization {#indirect}
 
-Even when a function is designed to avoid or mitigate centralization, it might become centralized in practice when factors not under the control of its designers influence the function's implementation or deployment.
+Even when a function is designed to avoid or mitigate centralization, it can (and often does) become centralized in practice when factors not under the control of its designers influence the function's implementation or deployment.
 
 Those external factors might be economic, legal, social, or even cognitive.
 
-Practical centralization is often associated with the network effects that are so often seen on the Internet. There may be legitimate qualitative reasons for some nodes being favoured over others. However, when friction against using an alternative prevents switching, benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
+Practical centralization is often associated with the network effects that are so often seen on the Internet. While there may be legitimate qualitative reasons for some nodes being favoured over others, friction against using an alternative prevents switching and means that benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
 
 Conversely, a function based on a well-defined, open specification designed to minimize switching costs might be considered to have less centralization even when users continue to favor large providers, because ease of switching creates implicit competitive pressure upon them.
 
