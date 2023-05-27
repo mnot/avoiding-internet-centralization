@@ -273,6 +273,8 @@ Here, "entity" could be a single person, group, corporation, or government. An o
 
 However, because people's experience is not limited to standards-defined protocols, this document also considers centralization in applications built on top of standard protocols -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can likewise exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
+The forms of centralization that this document discusses are primarily economic and political -- for example, one company (or a cartel of them) capturing a function, or a country being able to control how a function is supplied in another jurisdiction. Centralization can also be technical; for example, a machine or network link being a single point of failure for the provision of a function. While an important factor in protocol design, this form of centralization is relatively well-understood by the technical community and therefore is not addressed by this document.
+
 Centralization is not a binary condition -- a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) and enables easy switching between instances might have still have risk of centralization, but not as great as one that had a single, proprietary provider.  Some functions' centralization risk is mitigated so effectively that they are not commonly perceived as being centralized at all.
 
 
