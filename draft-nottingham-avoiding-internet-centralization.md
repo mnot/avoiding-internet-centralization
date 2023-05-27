@@ -281,7 +281,7 @@ Centralization is not a binary condition -- a function might be vulnerable to it
 
 ## Centralization Can Be Harmful {#why}
 
-Internet standards bodies naturally try to prevent and counteract centralization because the Internet's history and architecture are seen to be incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks". These networks relate as peers who agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action carries through the way the network is architected -- for example, in the concept of an "autonomous system".
+Engineers who participate in Internet standards bodies have a natural inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" who relate as peers that agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
 
 Centralization can have some or all of the following damaging effects (or the potential for them):
 
