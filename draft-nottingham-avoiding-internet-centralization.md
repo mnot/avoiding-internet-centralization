@@ -252,11 +252,11 @@ This document discusses aspects of centralization that relate to Internet standa
 
 One of the Internet's defining features is its purposeful avoidance of any single controlling entity. While originating in a desire to prevent a single technical failure from having a wide impact,{{RAND}} avoiding central control has arguably enabled the Internet's rapid adoption and broad reach: permission is not required to connect to, deploy an application on, or use the Internet for a particular purpose.
 
-Although maintaining this property remains a widely shared goal, consistently preserving it across the range of services and applications that people see as "the Internet" has proven elusive. Today, many successful services operate in a centralized fashion -- to the point where some proprietary applications have become so well-known that they are commonly mistaken for the Internet itself.{{FB-INTERNET}} Even when a protocol's design purposefully incorporates decentralization techniques, economic and social forces can foster centralization in services that use it.
+Although maintaining this property remains a widely shared goal, consistently preserving it across the range of services and applications that people see as "the Internet" has proven elusive. Today, many successful services operate in a centralized fashion -- to the point where some proprietary applications have become so well-known that they are commonly mistaken for the Internet itself.{{FB-INTERNET}}
 
 These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- can and should play in controlling centralization on the Internet.
 
-This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, they can still make make contributions that improve the Internet.
+This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, there are still contributions they can make.
 
 {{centralization}} defines centralization, explains why it is often undesirable but sometimes beneficial, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} makes recommendations about the role that Internet standards should play in controlling centralization.
 
