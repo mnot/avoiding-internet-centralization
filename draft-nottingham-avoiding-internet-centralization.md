@@ -283,11 +283,11 @@ Centralization is not a binary condition -- a function might be vulnerable to it
 
 Engineers who participate in Internet standards bodies have a natural inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" who relate as peers that agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
 
-Centralization can have some or all of the following damaging effects (or the potential for them):
+Many potentially damaging effects have been associated with economic and political centralization, including:
 
 * _Power Imbalance_: When a third party has unavoidable access to communications, the informational and positional advantages gained allow observation of behavior (the "panopticon effect") and shaping or even denial of behavior (the "chokepoint effect") {{INTERMEDIARY-INFLUENCE}} -- capabilities that those parties (or the states that have authority over them) can use for coercive ends {{INTERDEPENDENCE}} or even to disrupt society itself. Just as good governance of states requires separation of powers {{FEDERALIST-51}}, so too does good governance of the Internet require that power (whether that be economic or political) not be consolidated in one place without appropriate checks and balances.
 
-* _Limits on Innovation_: Centralization can preclude the possibility of "permissionless innovation" -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
+* _Limits on Innovation_: A party with the ability to control communication can preclude the possibility of "permissionless innovation" -- the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
 * _Constraints on Competition_: The Internet and its users benefit from robust competition when applications and services are available from many providers -- especially when those users can build their own applications and services based upon interoperable standards. When a centralized service or platform must be used because no substitutes are suitable, it effectively becomes an essential facility, which facilitates abuse of power.
 
