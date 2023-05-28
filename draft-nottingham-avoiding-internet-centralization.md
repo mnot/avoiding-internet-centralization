@@ -258,7 +258,7 @@ These difficulties call into question what role architectural design -- in parti
 
 This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, there are still contributions they can make.
 
-{{centralization}} defines centralization, explains why it is often undesirable but sometimes beneficial, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant techniques, along with their limitations. Finally, {{considerations}} makes recommendations about the role that Internet standards should play in controlling centralization.
+{{centralization}} defines centralization, explains why it is often undesirable but sometimes beneficial, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant strategies, along with their limitations. Finally, {{considerations}} makes recommendations about the role that Internet standards should play in controlling centralization.
 
 The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Likewise, policymakers can use this document to help identify and evaluate proposed remedies for abuses that involve centralized protocols and applications.
 
@@ -405,42 +405,31 @@ For example, while blockchain-based cryptocurrencies purport to address the poli
 In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. In particular, if one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
 
 
-## Decentralization Techniques {#techniques}
+## Decentralization Strategies {#techniques}
 
-Over time, a few different techniques have been used to facilitate decentralization of Internet protocols. The subsection below examine some of these techniques, along with their limitations.
+Despite the inherent issues in achieving decentralization, a few technical strategies are sometimes touted as addressing not only technical centralization, but also political and economic centralization. This section examines some, along with their limitations.
 
 
 ### Federation {#federation}
 
-A common technique for controlling centralization is federation: designing a function in a way that uses independent instances who maintain connectivity and interoperability to provide a single, cohesive service. Properly executed, federation allows users to choose the instance they associate with, and also accommodates substitution of one instance for another, thereby lowering switching costs.
+Protocol designers often attempt to address political and economic centralization with federation: designing a function in a way that uses independent instances who maintain connectivity and interoperability to provide a single, cohesive service. Federation promises to allow users to choose the instance they associate with and accommodates substitution of one instance for another, lowering switching costs.
 
-For example, SMTP {{?RFC5321}} is the basis of the e-mail suite of protocols. Messages need to be routable to a user even when that user changes network locations or becomes disconnected for a long period of time. To facilitate this, SMTP defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids the use of a single, central server. Users can (and often do) choose to delegate that role to someone else, or can run their own MTA.
+However, federation alone is insufficient to prevent or mitigate centralization of a function, because non-technical factors can create pressure to use a central solution.
 
-However, many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, centralizing the protocol’s operation (see {{indirect}}).
+For example, the e-mail suite of protocols needs to be able to route messages to a user even when that user changes network locations or becomes disconnected for a long period of time. To facilitate this, SMTP {{?RFC5321}} defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids the use of a single, central server. Users can (and often do) choose to delegate that role to someone else, or can run their own MTA.
 
-Another example of federation is XMPP {{?RFC6120}}, a chat protocol. Like e-mail, it is federated to facilitate rendezvous of users from different systems.
+Despite this design, e-mail exhibits a degree of centralization. Part of the reason is a side effect of spam controls; many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such, centralizing the protocol’s operation (see {{indirect}}).
 
-However, while some deployments of XMPP do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, denying them the benefits of global interoperability.
+XMPP {{?RFC6120}} is a chat protocol that demonstrates another issue with federation: the voluntary nature of technical standards. Like e-mail, XMPP is federated to facilitate rendezvous of users from different systems - if they allow it.
+
+While some XMPP deployments do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, denying them the benefits of global interoperability.
 
 The examples above illustrate that, while federation can be a useful technique for avoiding proprietary centralization and managing beneficial centralization, it does not prevent practical or platform centralization.
 
 
-### Multi-Stakeholder Governance {#multi}
-
-Protocol designers sometime attempt to mitigate beneficial centralization (see {{necessary}}) by incorporating governance by a multi-stakeholder body -- an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
-
-The most widely studied example of this technique is the governance of the DNS name space, which as a “single source of truth” exhibits centralization. The associated risk is managed through administration by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
-
-Another example is the governance of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To promote the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both parties as stakeholders.
-
-Yet another example of multi-stakeholderism is the standardization of Internet protocols themselves. Because a specification controls implementation behavior, the standardization process can be seen as a single point of control. As a result, Internet standards bodies like the IETF allow open participation and contribution, make decisions in an open and accountable way, have a well-defined process for making (and when necessary, appealing) decisions, considering the views of different stakeholder groups {{?RFC8890}}.
-
-A major downside of this approach is that setup and ongoing operation of multi-stakeholder bodies is not trivial. Additionally, their legitimacy cannot be assumed, and may be difficult to establish and maintain (see, e.g., {{MULTISTAKEHOLDER}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
-
-
 ### Distributed Consensus {#distributed}
 
-Increasingly, distributed consensus technologies (such as the blockchain) are touted as a solution to centralization issues. A complete survey of this rapidly changing area is beyond the scope of this document, but we can generalize about its properties.
+Increasingly, distributed consensus technologies (such as the blockchain) are touted as a solution to political and economic centralization. A complete survey of this rapidly changing area is beyond the scope of this document, but we can generalize about its properties.
 
 These techniques attempt to avoid centralization by distributing functions to members of a sometimes large pool of protocol participants. They typically guarantee proper performance of a function using cryptographic techniques (often, an append-only transaction ledger). A particular task's assignment to a node for handling usually cannot be predicted or controlled.
 
@@ -450,9 +439,24 @@ Use of these techniques can create barriers to proprietary and inherited central
 
 Furthermore, a protocol or an application can use distributed consensus for some functions, but still be centralized elsewhere -- either because those functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the designer has chosen not to because of the associated costs and lost opportunities.
 
-Even when distributed consensus is used for all technical functions of a service, some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization, just of a non-technical nature. For example, the Ethereum "merge" demonstrated that the blockchain could address environmental concerns, but only through coordinated community effort and governance. {{ETHEREUM}}
+Even when distributed consensus is used for all technical functions of a service, some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization, just of am indirect nature. For example, the Ethereum "merge" demonstrated that the blockchain could address environmental concerns, but only through coordinated community effort and governance. {{ETHEREUM}}
 
 These potential shortcomings do not rule out the use of distributed consensus technologies in every instance. They do, however, caution against uncritically relying upon these technologies to avoid or mitigate centralization.
+
+
+### Protocol-Imposed Governance {#multi}
+
+Lastly, protocol designers sometime attempt to mitigate beneficial centralization (see {{necessary}}) by incorporating a governance mechanism into the protocol's operation.
+
+Often, this is through the establishment of a multi-stakeholder body: an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
+
+The most widely studied example of this technique is the governance of the DNS name space, which as a “single source of truth” exhibits centralization. The associated risk is managed through administration by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
+
+Another example is the governance of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To promote the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both parties as stakeholders.
+
+One can also see the standardization of Internet protocols themselves as a governance mechanism. Because a specification controls implementation behavior, the standardization process can be seen as a single point of control. As a result, Internet standards bodies like the IETF allow open participation and contribution, make decisions in an open and accountable way, have a well-defined process for making (and when necessary, appealing) decisions, considering the views of different stakeholder groups {{?RFC8890}}.
+
+A major downside of this approach is that setup and ongoing operation of a governance bodies is not trivial. Additionally, their legitimacy cannot be assumed, and may be difficult to establish and maintain (see, e.g., {{MULTISTAKEHOLDER}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
 
 
 # What Should Internet Standards Do? {#considerations}
