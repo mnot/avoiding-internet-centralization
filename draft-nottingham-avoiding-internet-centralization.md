@@ -459,7 +459,7 @@ One can also see the standardization of Internet protocols themselves as a gover
 A major downside of this approach is that setup and ongoing operation of a governance bodies is not trivial. Additionally, their legitimacy cannot be assumed, and may be difficult to establish and maintain (see, e.g., {{MULTISTAKEHOLDER}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
 
 
-# What Should Internet Standards Do? {#considerations}
+# What Can Internet Standards Do? {#considerations}
 
 Centralization is driven by powerful economic and social forces, and often amplified by the network effects that come with Internet scale. Bodies like the IETF create voluntary standards; they cannot require adoption or constrain behaviour by command. Instead, their power comes from the coordination that results when a specification is widely deployed.
 
