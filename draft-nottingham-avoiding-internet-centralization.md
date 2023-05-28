@@ -310,9 +310,9 @@ Another example of this requirement for nuance regards competitive constraints. 
 
 ## Centralization Can Be Helpful {#necessary}
 
-Some protocols and applications rely on centralization to deliver their functionality.
+The potential harms of centralization listed above are widely appreciated. Less widely explored is the reliance on centralization by some protocols and applications to deliver their functionality.
 
-Often, this is due to technical necessity. For example, a single, globally coordinated “source of truth” is by nature centralized -- such as in the root zone of the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
+Often, centralization is present due to technical necessity. For example, a single, globally coordinated “source of truth” is by nature centralized -- such as in the root zone of the Domain Name System (DNS), which allows human-friendly naming to be converted into network addresses in a globally consistent fashion.
 
 Or, consider IP address allocation. Internet routing requires addresses to be allocated uniquely, but if a single government or company were to capture the addressing function, the entire Internet would be at risk of abuse by that entity. Similarly, the Web's trust model requires a Certificate Authority to serve as the root of trust for communication between browsers and servers, bringing centralization risk that needs to be considered in the design of that system.
 
@@ -320,11 +320,11 @@ Protocols that need to solve the "rendezvous problem" to coordinate communicatio
 
 Even when not strictly necessary, centralization can be deployed to beneficial ends. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."
 
-This can be seen when a function requires governance to realize common goals and protect minority interests. For example, content moderation functions consolidate decision making to impose community values. Likewise, complex and risky functions like financial services (e.g., credit card processing) can be seen as beneficially centralized into relatively few, specialized organizations, where they can received the focused attention that they require.
+This can be seen when a function requires governance to realize common goals and protect minority interests. For example, content moderation functions impose community values, but can also be viewed as a choke point. Likewise, complex and risky functions like financial services (e.g., credit card processing) can be seen as beneficially centralized into relatively few, specialized organizations, where they can received the focused attention that they require.
 
-When centralization is purposefully used like this, Internet protocols often attempt to mitigate the associated risks using measures such as federation (see {{federation}}) or multi-stakeholder governance (see {{multi}}). Protocols that successfully do so are often reused to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, reusing the Domain Name System is usually preferable to establishing a new system.
+When centralization is purposefully used like this, Internet protocols often attempt to mitigate the associated risks using measures such as federation (see {{federation}}) or governance structures (see {{multi}}). Protocols that successfully do so are often reused to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, incorporating the Domain Name System is usually preferable to establishing a new system.
 
-Ultimately, deciding what is beneficial is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient.
+Ultimately, deciding when centralization is beneficial is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient.
 
 
 ## Contributors to Centralization {#kinds}
