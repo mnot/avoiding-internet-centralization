@@ -389,24 +389,22 @@ Furthermore, a protocol or an application can use distributed consensus for some
 These potential shortcomings do not rule out the use of distributed consensus technologies in every instance. They do, however, caution against uncritically relying upon these technologies to avoid or mitigate centralization.
 
 
-### Protocol-Imposed Governance {#multi}
+### Operational Governance {#multi}
 
-Lastly, protocol designers sometime attempt to mitigate beneficial centralization (see {{necessary}}) by incorporating a governance mechanism into the protocol's operation.
-
-Often, this is through the establishment of a multi-stakeholder body: an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
+Lastly, sometimes technologists attempt to mitigate centralization by incorporating a governance mechanism into a protocol's operation. Often, this is through the establishment of a multi-stakeholder body: an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
 
 The most widely studied example of this technique is the governance of the DNS name space, which as a “single source of truth” exhibits centralization. The associated risk is managed through administration by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
 
 Another example is the governance of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To promote the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both parties as stakeholders.
 
-One can also see the standardization of Internet protocols themselves as a governance mechanism. Because a specification controls implementation behavior, the standardization process can be seen as a single point of control. As a result, Internet standards bodies like the IETF allow open participation and contribution, make decisions in an open and accountable way, have a well-defined process for making (and when necessary, appealing) decisions, considering the views of different stakeholder groups {{?RFC8890}}.
+These examples are notable in that the governance mechanism is not specified in the protocol documents directly; rather, they are layered on operationally, but in a manner that takes advantage of protocol design features that enabled the imposition of governance.
 
-A major downside of this approach is that setup and ongoing operation of a governance bodies is not trivial. Additionally, their legitimacy cannot be assumed, and may be difficult to establish and maintain (see, e.g., {{MULTISTAKEHOLDER}}). This concern is especially relevant if the function being coordinated is broad, complex, and/or contentious.
+Governance in this manner is best suited to very limited functions, like the examples above. Even then, setup and ongoing operation of a governance mechanism is not trivial, and their legitimacy may be difficult to establish and maintain (see, e.g., {{MULTISTAKEHOLDER}}).
 
 
 # What Can Internet Standards Do? {#considerations}
 
-Centralization is driven by powerful economic and social forces, and often amplified by the network effects that come with Internet scale. Bodies like the IETF create voluntary standards; they cannot require adoption or constrain behaviour by command. Instead, their power comes from the coordination that results when a specification is widely deployed.
+Centralization is driven by powerful economic and social forces, and often amplified by the network effects that come with Internet scale. Technical standards bodies like the IETF create voluntary standards; they cannot require adoption or constrain behaviour by command. Instead, their power comes from the coordination that results when a specification is widely deployed.
 
 As such, standards bodies cannot prevent or even influence many instances of centralization, but can still take meaningful steps to improve the Internet. The subsections below suggest a few.
 
