@@ -282,7 +282,7 @@ Centralization can also be technical; for example, a machine or network link bei
 
 ## Centralization Can Be Harmful {#why}
 
-Engineers who participate in Internet standards bodies have a natural inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" who relate as peers that agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
+Engineers who participate in Internet standards efforts have a natural inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" who relate as peers that agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
 
 This reluctance to countenance centralization is also rooted in the many potentially damaging effects that have been associated with economic and political centralization, including:
 
