@@ -470,7 +470,7 @@ As such, standards bodies cannot prevent or even influence many instances of cen
 
 While technical standards have only limited ability to control political and economic centralization of the Internet, legal standards (whether regulation or legislation) show more promise. However, regulating the Internet is risky without a firm grounding in the effects on the architecture, informed by a technical viewpoint.
 
-If the IETF wishes to assure that any future regulations are compatibile with the Internet's architectural goals, it must be seen as legitimate by the relevant parties -- for example, by competition regulators. In particular, if the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
+That viewpoint can and should be provided by the Internet standards community. To effectively do so, its institutions must be seen as legitimate by the relevant parties -- for example, by competition regulators. In particular, if the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
 
 The IETF already has features that arguably provide considerable legitimacy; for example, open participation and representation by individuals rather than companies both enhance input legitimacy; a well-defined process with multiple layers of appeals and transparency contributes to throughput legitimacy, and a long history of successful Internet standards provides perhaps the strongest source of legitimacy for the IETF -- its output.
 
@@ -483,17 +483,13 @@ When engaging in external efforts, the IETF community (in particular, its leader
 
 ## Focus Discussion of Centralization {#target}
 
-Some kinds of centralization are relevant to consider in standards discussions. For example, if a proposal had an obvious central point of political or economic control, it should (and hopefully would) be rejected. The community has a growing body of knowledge and experience in managing the risks of beneficial centralization, and a strong inclination to reuse existing infrastructure (such as the DNS) where possible. As discussed above, encryption can be used to manage selected instances of inherited centralization by enforcing layer boundaries.
+Centralization and decentralization are increasingly being raised in technical standards discussions. Any claims needs to be critically evaluated; as discussed in {{centralization}}, not all centralization is automatically harmful, and per {{decentralization}}, decentralization techniques do not automatically address all centralization harms -- and they may bring their own risks.
 
-These responses are examples of appropriate ways for discussions in standards bodies to engage with centralization concerns. However, other kinds of centralization are less fruitful topics in standards discussions.
-
-In particular, while a standard can be designed to avoid technical centralization, doing so for economic and political centralization using only technical means is much more challenging. Because the IETF has no "protocol police", it’s not possible to demand, for example, that someone stop building a proprietary service using a federated protocol; even if it could, doing so would contradict architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
-
-Furthermore, claims of centralization can be proxies for power struggles between actors with competing interests, as discussed in {{decentralization}}. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but a competitor might use a claim of centralization to deny them the benefit of standardization.
+In particular, claims of centralization can be proxies for power struggles between actors with competing interests. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but a competitor might use a claim of centralization to deny them the benefit of standardization.
 
 Therefore, approaches like requiring a "Centralization Considerations" section in drafts, gatekeeping publication on a centralization review, or committing significant resources to examining centralization properties of protocols -- especially when searching for these latter types of centralization -- are unlikely to improve the Internet.
 
-Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- can be used by a centralized function. Refusing to standardize a newer protocol because it does not prevent use by those same functions would not be equitable, proportionate, or effective.
+Likewise, refusing to standardize a protocol because it does not actively prevent all forms of centralization ignores the very limited power that standards efforts have to do so. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to do so. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
 
 When claims are made that a given proposal is "centralized" or "decentralized", the context of those statements should be examined for presuppositions, assumptions, and omissions. One framework for critical interrogations is offered by {{BACCHI}}, which can be adapted for centralization-related discussions:
 
