@@ -250,7 +250,7 @@ This document discusses aspects of centralization that relate to Internet standa
 
 # Introduction
 
-One of the Internet's defining features is its purposeful avoidance of any single controlling entity. While originating in a desire to prevent a single technical failure from having a wide impact,{{RAND}} avoiding central control has arguably enabled the Internet's rapid adoption and broad reach: permission is not required to connect to, deploy an application on, or use the Internet for a particular purpose.
+One of the Internet's defining features is its purposeful avoidance of any single controlling entity. While originating in a desire to prevent a single technical failure from having a wide impact,{{RAND}} avoiding central control not only technically but also economically and politically has arguably enabled the Internet's rapid adoption and broad reach: permission is not required to connect to, deploy an application on, or use the Internet for a particular purpose.
 
 Although maintaining this property remains a widely shared goal, consistently preserving it across the range of services and applications that people see as "the Internet" has proven elusive. Today, many successful services operate in a centralized fashion -- to the point where some proprietary applications have become so well-known that they are commonly mistaken for the Internet itself.{{FB-INTERNET}}
 
