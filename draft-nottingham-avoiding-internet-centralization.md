@@ -327,59 +327,6 @@ When centralization is purposefully used like this, Internet protocols often att
 Ultimately, deciding when centralization is beneficial is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient.
 
 
-## How Standards Relate to Centralization {#kinds}
-
-A function might become centralized in a variety of ways. The subsections below describe some contributors to and expressions of centralization in Internet functions.
-
-
-### Proprietary Centralization {#direct}
-
-Creating of a protocol or application with a fixed role for a specific party is the most obvious expression of centralization. Many messaging, videoconferencing, chat, social networking, and similar applications currently operate in this fashion.
-
-Because they allow control by a single entity, proprietary protocols are often considered simpler to design, more amenable to evolution, and more likely to meet user needs,{{MOXIE}} compared to decentralized alternatives. However, their centralization is absolute -- if the function has no alternative providers, or switching to those providers is too difficult, its users are "locked in."
-
-Completely proprietary protocols and applications have no connection to the standards process; they are best characterized as being built "on top of" the Internet. The Internet architecture and associated standards do not place constraints upon them beyond those imposed by the underlying protocols (e.g., TCP, IP, HTTP).
-
-
-### Inherited Centralization {#network}
-
-Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
-
-For example, centralization can be introduced to application-layer protocols by the network functions they depend upon; because the application requires a network to function, a degree of power over communication is available to the network provider. They might block access to, slow down, or change the content of a specific service for financial, political, operational, or criminal reasons, thereby creating a disincentive (or even removing the ability) to use them. By selectively hindering the use of some services but not others, network interventions can be composed to create pressure to use those other services -- intentionally or not.
-
-Likewise, having only a single implementation of a protocol is a form of inherited centralization, because applications that use it are vulnerable to the control it has over their operation. Even Open Source projects can exhibit this if there are factors that make forking difficult (for example, the cost of maintaining that fork).
-
-Inherited centralization surfaces when viable alternatives to a dependency is not available. It is often present when switching costs restrict choices, but can also be created by legal mandates and incentives that restrict the options for a function (such as Internet access), its provision, or the range of implementations available.
-
-Some instances of inherited centralization can be mitigated by enforcing layer boundaries using techniques like encryption. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
-
-Note that the prohibitive effect of encryption on inherited centralization is most pronounced when most (if not all) traffic is encrypted. See also {{?RFC7258}}.
-
-
-### Platform Centralization {#platform}
-
-The complement to inherited centralization is platform centralization -- where a function does not directly define a central role, but could facilitate centralization in the applications it supports.
-
-For example, HTTP {{HTTP}} is not generally considered a centralized protocol; interoperable servers are easy to instantiate, and multiple clients are available. It can be used without central coordination beyond that provided by DNS, as discussed above. However, applications built on top of HTTP (as well as the rest of the “Web Platform”) often exhibit centralization (for example, social networking). HTTP is therefore an example of platform centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications.
-
-Platform centralization is difficult to prevent in protocol design, because most protocols allow considerable flexibility in how they are used, to promote permissionless innovation.
-
-
-### Practical Centralization {#indirect}
-
-Even when a function is designed to avoid or mitigate centralization, it can (and often does) become centralized in practice when factors not under the control of its designers influence the function's implementation or deployment.
-
-Those external factors might be economic, legal, social, or even cognitive.
-
-Practical centralization is often associated with the network effects that are so often seen on the Internet. While there may be legitimate qualitative reasons for some nodes being favoured over others, friction against using an alternative prevents switching and means that benefits are accrued to services rather than users. If choosing an alternate provider requires a significant amount of time, resources, expertise, coordination, loss of functionality, or effort, centralization is indicated.
-
-Conversely, a function based on a well-defined, open specification designed to minimize switching costs might be considered to have less centralization even when users continue to favor large providers, because ease of switching creates implicit competitive pressure upon them.
-
-For example, social networking is an application that is currently supplied by a few proprietary platforms despite standardization efforts (see, e.g., {{ACTIVITYSTREAMS}}), because of the powerful network effects associated. While there has been some competition in social networking, the coordination required to move to a new service effectively locks users into the incumbents.
-
-Practical centralization is difficult to avoid in protocol design, and federated protocols are particularly vulnerable to it (see {{federation}}).
-
-
 # Decentralization {#decentralization}
 
 While the term "decentralization" has a long history of use in economics, politics, religion, and international development, Baran gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required." {{RAND}}
@@ -435,11 +382,11 @@ These techniques attempt to avoid centralization by distributing functions to me
 
 Sybil attacks (where a party or coordinated parties cheaply create enough protocol participants to affect how consensus is judged) are a major concern for these protocols. They encourage diversity in the pool of participants using indirect techniques, such as proof-of-work (where each participant has to show significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
 
-Use of these techniques can create barriers to proprietary and inherited centralization. However, depending upon the application in question, both practical and platform centralization are still possible.
+XXX Use of these techniques can create barriers to proprietary and inherited centralization. However, depending upon the application in question, both practical and platform centralization are still possible.
 
 Furthermore, a protocol or an application can use distributed consensus for some functions, but still be centralized elsewhere -- either because those functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the designer has chosen not to because of the associated costs and lost opportunities.
 
-Even when distributed consensus is used for all technical functions of a service, some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization, just of am indirect nature. For example, the Ethereum "merge" demonstrated that the blockchain could address environmental concerns, but only through coordinated community effort and governance. {{ETHEREUM}}
+Even when distributed consensus is used for all technical functions of a service, some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That represents centralization, just of an indirect nature. For example, the Ethereum "merge" demonstrated that the blockchain could address environmental concerns, but only through coordinated community effort and governance. {{ETHEREUM}}
 
 These potential shortcomings do not rule out the use of distributed consensus technologies in every instance. They do, however, caution against uncritically relying upon these technologies to avoid or mitigate centralization.
 
@@ -524,9 +471,9 @@ Successfully creating standards that work in concert with legal regulation prese
 
 To minimize centralization, specifications should have an explicit goal of facilitating users' switching between implementations and deployments of the functions they define or enable.
 
-One necessary condition for this is the availability of alternatives; breadth and diversity of implementation and deployment are required. {{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage this outcome.
+One necessary condition for switching is the availability of alternatives; breadth and diversity of implementation and deployment are required. For example, if there is only a single implementation of a protocol, applications that use it are vulnerable to the control it has over their operation. Even Open Source projects can be an issue in this regard if there are factors that make forking difficult (for example, the cost of maintaining that fork). {{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage diversity of implementation.
 
-Another factor is the cost of substituting an alternative implementation or deployment by users. This implies that the standard needs to be functionally complete and specified precisely enough to allow substitution.
+Another factor is the cost of substituting an alternative implementation or deployment by users. For example, enabling switching implies minimizing the amount of time, resources, expertise, coordination, loss of functionality, and effort required to use a different provider or implementation. This implies that the standard needs to be functionally complete and specified precisely enough to allow substitution.
 
 These goals of completeness and diversity are sometimes in tension. If a standard becomes extremely complex, it may discourage implementation diversity because the cost of a complete implementation is too high (consider: Web browsers). On the other hand, if the specification is too simple, it may not enable easy switching, especially if proprietary extensions are necessary to complete it (see {{evolution}}).
 
@@ -558,7 +505,16 @@ See {{?I-D.thomson-tmi}} for more guidance on protocol intermediation.
 The term "intermediary" is also used (often in legal and regulatory contexts) more broadly than it has been in protocol design; for example, an auction Web site intermediates between buyers and sellers is considered an intermediary, even though it is not formally an intermediary in HTTP (see {{Section 3.7 of HTTP}}). Protocol designers can address the centralization associated with this kind of intermediation by standardising the function, rather than restricting the capabilities of the underlying protocols; see {{up}}.
 
 
-## Consider Extensibility and Modularity Carefully {#evolution}
+### Enforce Layer Boundaries {#network}
+
+Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
+
+For example, application-layer protocols require a network to function, and therefore a degree of power over communication is available to the network provider. They might block access to, slow down, or change the content of a specific service for financial, political, operational, or criminal reasons, thereby creating a disincentive (or even removing the ability) to use a specific provider of a function. By selectively hindering the use of some services but not others, network interventions can be composed to create pressure to use those other services -- intentionally or not.
+
+Techniques like encryption can discourage such centralization by enforcing layer boundaries. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
+
+
+## Consider Extensibility Carefully {#evolution}
 
 The Internet's ability to evolve is critical, allowing it to meet new requirements and adapt to new conditions without requiring a “flag day” to upgrade implementations. Typically, functions accommodate evolution by defining extension interfaces, which allow optional features to be added or change over time in an interoperable fashion.
 
