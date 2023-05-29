@@ -327,18 +327,18 @@ When centralization is purposefully used like this, Internet protocols often att
 Ultimately, deciding when centralization is beneficial is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient.
 
 
-## Contributors to Centralization {#kinds}
+## How Standards Relate to Centralization {#kinds}
 
 A function might become centralized in a variety of ways. The subsections below describe some contributors to and expressions of centralization in Internet functions.
 
 
 ### Proprietary Centralization {#direct}
 
-Creating of a protocol or application with a fixed role for a specific party is the most obvious form of centralization. Many messaging, videoconferencing, chat, social networking, and similar applications currently operate in this fashion.
+Creating of a protocol or application with a fixed role for a specific party is the most obvious expression of centralization. Many messaging, videoconferencing, chat, social networking, and similar applications currently operate in this fashion.
 
 Because they allow control by a single entity, proprietary protocols are often considered simpler to design, more amenable to evolution, and more likely to meet user needs,{{MOXIE}} compared to decentralized alternatives. However, their centralization is absolute -- if the function has no alternative providers, or switching to those providers is too difficult, its users are "locked in."
 
-Deployed proprietary protocols and applications are not under the control of the standards process; they are best characterized as being built "on top of" the Internet. The Internet architecture and associated standards do not place constraints upon them beyond those imposed by the underlying protocols (e.g., TCP, IP, HTTP).
+Completely proprietary protocols and applications have no connection to the standards process; they are best characterized as being built "on top of" the Internet. The Internet architecture and associated standards do not place constraints upon them beyond those imposed by the underlying protocols (e.g., TCP, IP, HTTP).
 
 
 ### Inherited Centralization {#network}
@@ -424,7 +424,7 @@ XMPP {{?RFC6120}} is a chat protocol that demonstrates another issue with federa
 
 While some XMPP deployments do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, denying them the benefits of global interoperability.
 
-The examples above illustrate that, while federation can be a useful technique for avoiding proprietary centralization and managing beneficial centralization, it does not prevent practical or platform centralization.
+The examples above illustrate that, while federation can create the conditions necessary for a function to be decentralized, it does not guarantee that outcome.
 
 
 ### Distributed Consensus {#distributed}
@@ -481,15 +481,17 @@ When engaging in external efforts, the IETF community (in particular, its leader
 
 ## Focus Discussion of Centralization {#target}
 
-Some kinds of centralization are relevant to consider in standards discussions. For example, if a proposal exhibited obvious proprietary centralization, it should (and hopefully would) be rejected. The community has a growing body of knowledge and experience in managing the risks of beneficial centralization, and a strong inclination to reuse existing infrastructure (such as the DNS) where possible. As discussed above, encryption can be used to manage selected instances of inherited centralization by enforcing layer boundaries.
+Some kinds of centralization are relevant to consider in standards discussions. For example, if a proposal had an obvious central point of political or economic control, it should (and hopefully would) be rejected. The community has a growing body of knowledge and experience in managing the risks of beneficial centralization, and a strong inclination to reuse existing infrastructure (such as the DNS) where possible. As discussed above, encryption can be used to manage selected instances of inherited centralization by enforcing layer boundaries.
 
 These responses are examples of appropriate ways for discussions in standards bodies to engage with centralization concerns. However, other kinds of centralization are less fruitful topics in standards discussions.
 
-In particular, practical and platform centralization (arguably, the most common kinds) are much more difficult to control in standards. Because the IETF has no "protocol police", it’s not possible to demand, for example, that someone stop building a proprietary service using a federated protocol; even if it could, doing so would contradict architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
+In particular, while a standard can be designed to avoid technical centralization, doing so for economic and political centralization using only technical means is much more challenging. Because the IETF has no "protocol police", it’s not possible to demand, for example, that someone stop building a proprietary service using a federated protocol; even if it could, doing so would contradict architectural goals like permissionless innovation. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
 
 Furthermore, claims of centralization can be proxies for power struggles between actors with competing interests, as discussed in {{decentralization}}. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but a competitor might use a claim of centralization to deny them the benefit of standardization.
 
-Therefore, approaches like requiring a "Centralization Considerations" section in drafts, gatekeeping publication on a centralization review, or committing significant resources to examining centralization properties of protocols -- especially when searching for these latter types of centralization -- are unlikely to improve the Internet. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- exhibit practical or platform centralization. Refusing to standardize a newer protocol because it exhibits similar properties would not be equitable, proportionate, or effective.
+Therefore, approaches like requiring a "Centralization Considerations" section in drafts, gatekeeping publication on a centralization review, or committing significant resources to examining centralization properties of protocols -- especially when searching for these latter types of centralization -- are unlikely to improve the Internet.
+
+Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- can be used by a centralized function. Refusing to standardize a newer protocol because it does not prevent use by those same functions would not be equitable, proportionate, or effective.
 
 When claims are made that a given proposal is "centralized" or "decentralized", the context of those statements should be examined for presuppositions, assumptions, and omissions. One framework for critical interrogations is offered by {{BACCHI}}, which can be adapted for centralization-related discussions:
 
@@ -562,7 +564,7 @@ The term "intermediary" is also used (often in legal and regulatory contexts) mo
 
 The Internet's ability to evolve is critical, allowing it to meet new requirements and adapt to new conditions without requiring a “flag day” to upgrade implementations. Typically, functions accommodate evolution by defining extension interfaces, which allow optional features to be added or change over time in an interoperable fashion.
 
-However, these interfaces can also be a basis for platform centralization if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard. This is especially true when the core standard does not itself provide sufficient utility on its own.
+However, these interfaces can also be a basis for centralization if a powerful entity can change the target for meaningful interoperability by adding proprietary extensions to a standard. This is especially true when the core standard does not itself provide sufficient utility on its own.
 
 For example, the SOAP protocol's {{SOAP}} extreme flexibility and failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favoring those who had more market power.
 
