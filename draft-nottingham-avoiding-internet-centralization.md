@@ -407,7 +407,7 @@ In practice, this means that decentralizing a function requires considerable wor
 
 ## Decentralization Strategies {#techniques}
 
-Despite the inherent issues in achieving decentralization, a few technical strategies are sometimes touted as addressing not only technical centralization, but also political and economic centralization. This section examines some, along with their limitations.
+Despite the inherent issues in achieving political and economic decentralization through solely technical means, a few technical strategies are sometimes promoted as addressing not only technical centralization, but also political and economic centralization. This section examines some, along with their limitations.
 
 
 ### Federation {#federation}
