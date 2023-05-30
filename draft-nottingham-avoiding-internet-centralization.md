@@ -273,7 +273,7 @@ Here, "entity" could be a person, group, corporation, or government. An organiza
 
 However, because people's experience is not limited to standards-defined protocols, this document also considers centralization in applications built on top of standard protocols -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can likewise exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
-Centralization is not a binary condition -- a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) and enables easy switching between instances might have still have risk of centralization, but not as great as one that had a single, proprietary provider.  Some functions' centralization risk is mitigated so effectively that they are not commonly perceived as being centralized at all.
+Centralization is not a binary condition: a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) to enable easy switching between instances might have still have risk of centralization, but not as great as one that had a single, proprietary provider. Some functions' centralization risk is mitigated so effectively that they are not commonly perceived as being centralized at all.
 
 Centralization also has many potential sources. A single function might be subject to many forms of centralization, due to technical, political, economic, social, and even cognitive factors.
 
@@ -306,7 +306,7 @@ For example, while centralization can impact availability, many other factors al
 
 Consider a large variety of Web sites might depend upon a cloud hosting provider; if it were to become unavailable (whether for technical or other reasons), many people's experience of the Internet might be disrupted. Likewise, a mobile Internet access provider might have an outage that affects hundreds, thousands, or more of its users. In both cases, centralization is not indicated by the loss of availability or its scale, but it well might be if the parties relying on the function don't have reasonable options to switch to if they are unhappy with the availability of the service provided, or if friction against switching to an alternative is too great.
 
-Another example of this requirement for nuance regards competitive constraints. While making the Internet more competitive may be a motivation for many engineers, only courts (and sometimes, regulators) have the authority to define a relevant market and determine that particular behavior is anti-competitive. Furthermore, what might be considered undesirable centralization by the technical community might not attract competition regulation. Conversely, what might attract competition regulation might not be of great concern to the technical community if other mitigations are felt to be adequate.
+Competitive constraints provide another example of a need for nuance. While making the Internet more competitive may be a motivation for many engineers, only courts (and sometimes, regulators) have the authority to define a relevant market and determine that a behavior is anti-competitive. What might be considered undesirable centralization by the technical community might not attract competition regulation. Conversely, what might attract competition regulation might not be of great concern to the technical community if other mitigations are felt to be adequate.
 
 
 ## Centralization Can Be Helpful {#necessary}
@@ -321,7 +321,7 @@ Protocols that need to solve the "rendezvous problem" to coordinate communicatio
 
 Even when not strictly necessary, centralization can be deployed to beneficial ends. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."
 
-This can be seen when a function requires governance to realize common goals and protect minority interests. For example, content moderation functions impose community values, but can also be viewed as a choke point. Likewise, complex and risky functions like financial services (e.g., credit card processing) can be seen as beneficially centralized into relatively few, specialized organizations, where they can received the focused attention that they require.
+This can be seen when a function requires governance to realize common goals and protect minority interests. For example, content moderation functions impose community values, but can also be viewed as a choke point. Likewise, complex and risky functions like financial services (e.g., credit card processing) can be seen as beneficially centralized into relatively few, specialized organizations, where they can receive the focused attention that they require.
 
 When centralization is purposefully used like this, Internet protocols often attempt to mitigate the associated risks using measures such as federation (see {{federation}}) or governance structures (see {{multi}}). Protocols that successfully do so are often reused to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, incorporating the Domain Name System is usually preferable to establishing a new system.
 
@@ -355,7 +355,7 @@ In practice, this means that decentralizing a function requires considerable wor
 
 ## Decentralization Strategies {#techniques}
 
-Despite the inherent issues in achieving political and economic decentralization through solely technical means, a few technical strategies are sometimes promoted as addressing not only technical centralization, but also political and economic centralization. This section examines some, along with their limitations.
+Despite the inherent issues in achieving political and economic decentralization through solely technical means, a few technical strategies are sometimes promoted as addressing not only technical centralization but also political and economic centralization. This section examines some, along with their limitations.
 
 
 ### Federation {#federation}
@@ -364,9 +364,9 @@ Protocol designers often attempt to address political and economic centralizatio
 
 However, federation alone is insufficient to prevent or mitigate centralization of a function, because non-technical factors can create pressure to use a central solution.
 
-For example, the e-mail suite of protocols needs to be able to route messages to a user even when that user changes network locations or becomes disconnected for a long period of time. To facilitate this, SMTP {{?RFC5321}} defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids the use of a single, central server. Users can (and often do) choose to delegate that role to someone else, or can run their own MTA.
+For example, the e-mail suite of protocols needs to route messages to a user even when that user changes network locations or becomes disconnected for a long period. To facilitate this, SMTP {{?RFC5321}} defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids the use of a single, central server. Users can (and often do) choose to delegate that role to someone else, or can run their own MTA.
 
-Despite this design, e-mail exhibits a degree of centralization. Part of the reason is a side effect of spam controls; many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such -- thereby creating pressure towards centralization.
+Despite this design, e-mail exhibits a degree of centralization. Part of the reason is a side effect of spam controls; many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such -- creating pressure towards centralization.
 
 XMPP {{?RFC6120}} is a chat protocol that demonstrates another issue with federation: the voluntary nature of technical standards. Like e-mail, XMPP is federated to facilitate rendezvous of users from different systems - if they allow it.
 
@@ -381,9 +381,9 @@ Increasingly, distributed consensus technologies (such as the blockchain) are to
 
 These techniques attempt to avoid centralization by distributing functions to members of a sometimes large pool of protocol participants. They typically guarantee proper performance of a function using cryptographic techniques (often, an append-only transaction ledger). A particular task's assignment to a node for handling usually cannot be predicted or controlled.
 
-Sybil attacks (where a party or coordinated parties cheaply create enough protocol participants to affect how consensus is judged) are a major concern for these protocols. They encourage diversity in the pool of participants using indirect techniques, such as proof-of-work (where each participant has to show significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
+Sybil attacks (where a party or coordinated parties cheaply create enough protocol participants to affect how consensus is judged) are a major concern for these protocols. They encourage diversity in the pool of participants using indirect techniques, such as proof-of-work (where each participant has to show a significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
 
-Even when distributed consensus is used for all technical functions of a service, some coordination is still necessary -- whether that be through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That suggests a path for centralization, just of an indirect nature. For example, the Ethereum "merge" demonstrated that the blockchain could address environmental concerns, but only through coordinated community effort and governance. {{ETHEREUM}}
+Even when distributed consensus is used for all technical functions of a service, some coordination is still necessary -- whether that is through governance of the function itself, creation of shared implementations, or documentation of shared wire protocols. That suggests a path for centralization, just of an indirect nature. For example, the Ethereum "merge" demonstrated that the blockchain could address environmental concerns, but only through coordinated community effort and governance. {{ETHEREUM}}
 
 Furthermore, a protocol or an application can use distributed consensus for some functions, but still be centralized elsewhere -- either because those functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the designer has chosen not to because of the associated costs and lost opportunities.
 
@@ -392,7 +392,7 @@ These potential shortcomings do not rule out the use of distributed consensus te
 
 ### Operational Governance {#multi}
 
-Lastly, sometimes technologists attempt to mitigate centralization by incorporating a governance mechanism into a protocol's operation. Often, this is through the establishment of a multi-stakeholder body: an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
+Sometimes technologists attempt to mitigate centralization by incorporating a governance mechanism into a protocol's operation. Often, this is through the establishment of a multi-stakeholder body: an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
 
 The most widely studied example of this technique is the governance of the DNS name space, which as a “single source of truth” exhibits centralization. The associated risk is managed through administration by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
 
@@ -405,7 +405,7 @@ Governance in this manner is best suited to very limited functions, like the exa
 
 # What Can Internet Standards Do? {#considerations}
 
-Centralization is driven by powerful economic and social forces, and often amplified by the network effects that come with Internet scale. Technical standards bodies like the IETF create voluntary standards; they cannot require adoption or constrain behaviour by command. Instead, their power comes from the coordination that results when a specification is widely deployed.
+Centralization is driven by powerful economic and social forces and often amplified by the network effects that come with Internet scale. Technical standards bodies like the IETF create voluntary standards; they cannot require adoption or constrain behaviour by command. Instead, their power comes from the coordination that results when a specification is widely deployed.
 
 As such, standards bodies cannot prevent or even influence many instances of centralization, but can still take meaningful steps to improve the Internet. The subsections below suggest a few.
 
@@ -442,7 +442,7 @@ When claims are made that a given proposal is "centralized" or "decentralized", 
 3. How has this representation of the problem come about?
 4. What is left unproblematic in this problem representation? Where are the silences? Can the "problem" be conceptualized differently?
 5. What effects are produced by this representation of the “problem”?
-6. How and where has this representation of the “problem” been produced, disseminated and defended? How has it been and/or how can it be disrupted and replaced?
+6. How and where has this representation of the “problem” been produced, disseminated, and defended? How has it been and/or how can it be disrupted and replaced?
 
 {{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
 
@@ -453,7 +453,7 @@ For example, privacy is often more effectively ensured by ex ante technical cons
 
 ## Target Proprietary Functions {#up}
 
-Functions that are currently only available from proprietary providers are ripe for standardisation efforts. That might include large-scale protocols for existing proprietary functions (e.g., chat) as well as smaller efforts to improve interoperability and portability of specific features that are often used to "lock in" users to a platform; for example, a format for lists of contacts in a social network.
+Functions that are currently only available from proprietary providers are ripe for standardisation efforts. That might include large-scale protocols for existing proprietary functions (e.g., chat) as well as smaller efforts to improve interoperability and portability of specific features that are often used to users into a platform; for example, a format for lists of contacts in a social network.
 
 A common objection to this approach is that adoption is voluntary, not mandatory; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{ACTIVITYSTREAMS}}) were available for some time without being used in a federated manner by commercial social networking providers.
 
@@ -506,9 +506,9 @@ The term "intermediary" is also used (often in legal and regulatory contexts) mo
 
 Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
 
-For example, application-layer protocols require a network to function, and therefore a degree of power over communication is available to the network provider. They might block access to, slow down, or change the content of a specific service for financial, political, operational, or criminal reasons, thereby creating a disincentive (or even removing the ability) to use a specific provider of a function. By selectively hindering the use of some services but not others, network interventions can be composed to create pressure to use those other services -- intentionally or not.
+For example, application-layer protocols require a network to function, and therefore a degree of power over communication is available to the network provider. They might block access to, slow down, or change the content of a specific service for financial, political, operational, or criminal reasons, creating a disincentive (or even removing the ability) to use a specific provider of a function. By selectively hindering the use of some services but not others, network interventions can be composed to create pressure to use those other services -- intentionally or not.
 
-Techniques like encryption can discourage such centralization by enforcing layer boundaries. When the number of parties who have access to content of communication are limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
+Techniques like encryption can discourage such centralization by enforcing layer boundaries. When the number of parties who have access to the content of communication is limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
 
 
 ## Consider Extensibility Carefully {#evolution}
@@ -540,4 +540,4 @@ This document was born out of early discussions with Brian Trammell during our s
 
 Thanks to Jari Arkko, Kristin Berdan, Christian Huitema, Geoff Huston, Mallory Knodel, Eliot Lear, John Levine, Milton Mueller, Tommy Pauly, and Martin Thomson for their comments and suggestions.
 
-No machine learning models were used in the production of this document.
+No large language models were used in the production of this document.
