@@ -530,7 +530,7 @@ In particular, if the interfaces of a function are well-defined and stable, ther
 
 # Security Considerations
 
-This document does not have a direct security impact on Internet protocols. However, failure to consider centralization might cause a myriad of security issues.
+This document does not have a direct security impact on Internet protocols. However, failure to consider centralization might cause a myriad of security issues; see {{why}} for a preliminary discussion.
 
 
 --- back
