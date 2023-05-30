@@ -265,7 +265,7 @@ The primary audience for this document is the engineers who design and standardi
 
 # Centralization {#centralization}
 
-In this document, "centralization" is the state of affairs where a single entity or a small group of them is able to observe, capture, control, or extract rent from the operation or use of an Internet function exclusively.
+In this document, "centralization" is the state of affairs where a single entity or a small group of them can observe, capture, control, or extract rent from the operation or use of an Internet function exclusively.
 
 Here, "entity" could be a person, group, corporation, or government. An organization might be subject to governance that mitigates centralization risk (see {{multi}}), but that organisation is still a centralized entity.
 
