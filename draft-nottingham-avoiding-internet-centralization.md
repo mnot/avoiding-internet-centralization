@@ -431,7 +431,7 @@ Centralization and decentralization are increasingly being raised in technical s
 
 In particular, claims of centralization can be proxies for power struggles between actors with competing interests. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but a competitor might use a claim of centralization to deny them the benefit of standardization.
 
-Therefore, approaches like requiring a "Centralization Considerations" section in drafts, gatekeeping publication on a centralization review, or committing significant resources to examining centralization properties of protocols -- especially when searching for these latter types of centralization -- are unlikely to improve the Internet.
+Therefore, approaches like requiring a "Centralization Considerations" section in drafts, gatekeeping publication on a centralization review, or committing significant resources to searching for centralization in protocols are unlikely to improve the Internet.
 
 Likewise, refusing to standardize a protocol because it does not actively prevent all forms of centralization ignores the very limited power that standards efforts have to do so. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to do so. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
 
