@@ -405,7 +405,9 @@ Governance in this manner is best suited to very limited functions, like the exa
 
 # What Can Internet Standards Do? {#considerations}
 
-Given the limits of decentralization techniques like federation and distributed consensus, the voluntary nature of standards compliance, and the powerful economic, social, and political forces that can drive centralization, it is reasonable to ask what stanards efforts like those at the IETF can do to accommodate helpful centralization while avoiding the associated harms -- while acknowledging that the distinction itself is a judgement call, and inherently political.
+Economic and political centralization can be driven by many factors, such as the strategies of Internet-focused businesses, government policies and regulation, Intellectual Property, and inherent forces like network effects.
+
+Given the limits of decentralization techniques like federation and distributed consensus, the voluntary nature of standards compliance, and the powerful forces that can drive centralization, it is reasonable to ask what stanards efforts like those at the IETF can do to accommodate helpful centralization while avoiding the associated harms -- while acknowledging that the distinction itself is a judgement call, and inherently political.
 
 The subsections below suggest a few concrete, meaningful steps that stanards bodies can take.
 
