@@ -493,7 +493,7 @@ However, if that new party is able to make their participation "sticky" -- for e
 
 Most often, third parties are added to functions as "intermediaries" or in designated "agent" roles. Designing such functions with thoughtful constraints on these roles can prevent at least the most egregious abuses of such power.
 
-Two techniques have proven useful in the past: first, third parties should only be interposed into communication when at least one of the primary parties takes a positive action to do so. Second, these parties should have their ability to observe or control communication limited to what is necessary to perform their intended function.
+When adding new parties to communication into a protocol, two techniques have proven useful: first, third parties should only be interposed into communication when at least one of the primary parties takes a positive action to do so. Second, these parties should have their ability to observe or control communication limited to what is necessary to perform their intended function.
 
 For example, early deployments of HTTP allowed intermediaries to be interposed by the network without knowledge of the endpoints, and those intermediaries could see and change the full content of traffic by default -- even when they are only intended to perform basic functions such as caching. Because of the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with efforts to encourage its adoption, those intermediaries are now required to be explicitly interposed by one endpoint, and they only have access to basic routing information.
 
