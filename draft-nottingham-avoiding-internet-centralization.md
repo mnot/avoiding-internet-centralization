@@ -405,9 +405,9 @@ Governance in this manner is best suited to very limited functions, like the exa
 
 # What Can Internet Standards Do? {#considerations}
 
-Centralization is driven by powerful economic and social forces and often amplified by the network effects that come with Internet scale. Technical standards bodies like the IETF create voluntary standards; they cannot require adoption or constrain behaviour by command. Instead, their power comes from the coordination that results when a specification is widely deployed.
+Given the limits of decentralization techniques like federation and distributed consensus, the voluntary nature of standards compliance, and the powerful economic, social, and political forces that can drive centralization, it is reasonable to ask what stanards efforts like those at the IETF can do to accommodate helpful centralization while avoiding the associated harms -- while acknowledging that the distinction itself is a judgement call, and inherently political.
 
-As such, standards bodies cannot prevent or even influence many instances of centralization, but can still take meaningful steps to improve the Internet. The subsections below suggest a few.
+The subsections below suggest a few concrete, meaningful steps that stanards bodies can take.
 
 
 ## Bolster Legitimacy {#legitimate}
