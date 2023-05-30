@@ -258,7 +258,7 @@ These difficulties call into question what role architectural design -- in parti
 
 This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, there are still contributions they can make.
 
-{{centralization}} defines centralization, explains why it is often undesirable but sometimes beneficial, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant strategies, along with their limitations. Finally, {{considerations}} makes recommendations about the role that Internet standards can play in controlling centralization.
+{{centralization}} defines centralization, explains why it is often undesirable but sometimes beneficial, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant strategies, along with their limitations. Then, {{considerations}} makes recommendations about the role that Internet standards can play in controlling centralization. {{conclude}} concludes by identifying areas for future work.
 
 The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Likewise, policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
 
@@ -526,6 +526,15 @@ Therefore, standards efforts should focus on providing concrete utility to the m
 Beyond allowing evolution, well-considered interfaces can also aid decentralization efforts. The structural boundaries that emerge between the sub-modules of the function -- as well as those with adjacent functions -- provide touchpoints for interoperability and an opportunity for substitution of providers.
 
 In particular, if the interfaces of a function are well-defined and stable, there is an opportunity to use different providers for that function. When those interfaces are open standards, change control resides with the Internet community instead of remaining in proprietary hands, further enhancing stability and enabling (but not ensuring) decentralization.
+
+
+## Future Work {#conclude}
+
+This document has argued that while standards bodies have little means of effectively controlling or preventing centralization on the Internet, there are still concrete and useful steps they can take to improve the Internet in this regard.
+
+Those steps might be elaborated upon and extended in future work; doubtless there is more that can be done. New decentralization techniques might be identified and examined; what we learn from relationships with other, more effective regulators in this space can be documented.
+
+Some have suggested creating a how-to guide or checklist for dealing with centralization. Because centralization is so contextual and so varied in how it manifests, this might best be attempted within very limited areas; for example, for a particular type of function, or a function at a particular layer.
 
 
 # Security Considerations
