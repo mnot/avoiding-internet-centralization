@@ -279,6 +279,8 @@ Centralization also has many potential sources. A single function might be subje
 
 The forms of centralization that this document discusses are primarily economic and political -- for example, one company (or a cartel of them) capturing a function, or a country being able to control how a function is supplied in another jurisdiction. While legal constraints on the Internet within a single jurisdiction are of natural concern to the Internet community, they are not considered as centralization by this document.
 
+These forms of centralization can be driven by many factors, such as the strategies of Internet-focused businesses, government policies and regulation, Intellectual Property, and inherent forces like network effects.
+
 Centralization can also be technical; for example, a machine or network link being a single point of failure for the provision of a function. While an important factor in protocol design, this form of centralization is relatively well-understood by the technical community and therefore is not addressed by this document. A failure because of a cut cable, power outage, or failed server is qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
 
 
@@ -404,8 +406,6 @@ Governance in this manner is best suited to very limited functions, like the exa
 
 
 # What Can Internet Standards Do? {#considerations}
-
-Economic and political centralization can be driven by many factors, such as the strategies of Internet-focused businesses, government policies and regulation, Intellectual Property, and inherent forces like network effects.
 
 Given the limits of decentralization techniques like federation and distributed consensus, the voluntary nature of standards compliance, and the powerful forces that can drive centralization, it is reasonable to ask what stanards efforts like those at the IETF can do to accommodate helpful centralization while avoiding the associated harms -- while acknowledging that the distinction itself is a judgement call, and inherently political.
 
