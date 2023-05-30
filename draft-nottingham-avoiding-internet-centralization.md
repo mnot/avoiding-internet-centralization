@@ -446,6 +446,8 @@ When claims are made that a given proposal is "centralized" or "decentralized", 
 5. What effects are produced by this representation of the “problem”?
 6. How and where has this representation of the “problem” been produced, disseminated, and defended? How has it been and/or how can it be disrupted and replaced?
 
+Discussions should focus on whether claimed centralization is harmful or, if helpful, whether it is justified. Centralization is concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens the architectural features that make the Internet successful.
+
 {{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
 
 When centralization is found, standards efforts should consider its relationship with architectural goals as they consider how and if it should be mitigated (if possible). In particular, attention should be paid to how effective standards (as a form of architectural control) is in achieving each goal.
