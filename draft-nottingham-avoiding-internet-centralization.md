@@ -267,13 +267,15 @@ The primary audience for this document is the engineers who design and standardi
 
 In this document, "centralization" is the state of affairs where a single entity or a small group of them is able to exclusively observe, capture, control, or extract rent from the operation or use of an Internet function.
 
-Here, "entity" could be a single person, group, corporation, or government. An organization might be designed in a manner that is intended to mitigate centralization (see, e.g., {{multi}}), but that organisation is still a centralized entity.
+Here, "entity" could be a person, group, corporation, or government. An organization might be subject to governance that mitigates centralization risk (see {{multi}}), but that organisation is still a centralized entity.
 
 "Internet function" is used broadly in this document. Most directly, it might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
 However, because people's experience is not limited to standards-defined protocols, this document also considers centralization in applications built on top of standard protocols -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can likewise exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
 Centralization is not a binary condition -- a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) and enables easy switching between instances might have still have risk of centralization, but not as great as one that had a single, proprietary provider.  Some functions' centralization risk is mitigated so effectively that they are not commonly perceived as being centralized at all.
+
+Centralization also has many potential sources. A single function might be subject to many forms of centralization, due to technical, political, economic, social, and even cognitive factors.
 
 The forms of centralization that this document discusses are primarily economic and political -- for example, one company (or a cartel of them) capturing a function, or a country being able to control how a function is supplied in another jurisdiction. While legal constraints on the Internet within a single jurisdiction are of natural concern to the Internet community, they are not considered as centralization by this document.
 
