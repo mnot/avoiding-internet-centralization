@@ -284,7 +284,7 @@ Centralization can also be technical; for example, a machine or network link bei
 
 ## Centralization Can Be Harmful {#why}
 
-Engineers who participate in Internet standards efforts have a natural inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" who relate as peers that agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
+Engineers who participate in Internet standards efforts often have a natural inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" who relate as peers that agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
 
 This reluctance to countenance centralization is also rooted in the many potentially damaging effects that have been associated with economic and political centralization, including:
 
@@ -300,7 +300,7 @@ This reluctance to countenance centralization is also rooted in the many potenti
 
 * _Self-Reinforcement_: As widely noted (see, e.g., {{ACCESS}}), a centralized provider's access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.
 
-However, the relationship between these harms and centralization is often complex; it is not always the case that centralization will lead to them, and when it does, there is not always a direct and simple tradeoff. This makes it important to critically evaluate claims of centralization before allowing them to influence protocol design.
+The relationship between these harms and centralization is often complex; it is not always the case that centralization will lead to them, and when it does, there is not always a direct and simple tradeoff. This makes it important to critically evaluate claims of centralization before allowing them to influence protocol design.
 
 For example, while centralization can impact availability, many other factors also influence it, and any relationship between them cannot be assumed without careful analysis of where and how centralization occurs. A system operated in a central fashion might be more available because of factors like the resources available to a larger operator, but also have greater impact when a fault is encountered; decentralized systems might be more resilient in the face of local failures, but less able to react to systemic issues.
 
