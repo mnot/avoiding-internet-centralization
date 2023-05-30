@@ -437,7 +437,7 @@ Likewise, refusing to standardize a protocol because it does not actively preven
 
 When claims are made that a given proposal is "centralized" or "decentralized", the context of those statements should be examined for presuppositions, assumptions, and omissions. One framework for critical interrogations is offered by {{BACCHI}}, which can be adapted for centralization-related discussions:
 
-1. What is the nature of the centralization that is represented as being problematic?
+1. What is the nature of the (de)centralization that is represented as being problematic?
 2. What deep-seated presuppositions or assumptions (conceptual logics) underlie this representation of the "problem"?
 3. How has this representation of the problem come about?
 4. What is left unproblematic in this problem representation? Where are the silences? Can the "problem" be conceptualized differently?
