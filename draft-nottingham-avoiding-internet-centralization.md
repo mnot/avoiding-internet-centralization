@@ -409,7 +409,7 @@ Governance in this manner is best suited to very limited functions, like the exa
 
 Given the limits of decentralization techniques like federation and distributed consensus, the voluntary nature of standards compliance, and the powerful forces that can drive centralization, it is reasonable to ask what stanards efforts like those at the IETF can do to accommodate helpful centralization while avoiding the associated harms -- while acknowledging that the distinction itself is a judgement call, and inherently political.
 
-The subsections below suggest a few concrete, meaningful steps that stanards bodies can take.
+The subsections below suggest a few concrete, meaningful steps that standards bodies can take.
 
 
 ## Bolster Legitimacy {#legitimate}
