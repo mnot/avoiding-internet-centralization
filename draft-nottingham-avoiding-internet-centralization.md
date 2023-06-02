@@ -352,7 +352,7 @@ Third, decentralization unavoidably involves adjustments to the power relationsh
 
 For example, while blockchain-based cryptocurrencies purport to address the political and economic centralization inherent in traditional currencies through technical means, many exhibit considerable concentration of power due to voting/mining power, distribution of funds, and diversity of codebase causes many to question how decentralized they actually are. {{AREWEDECENTRALIZEDYET}} Over-reliance on technical measures brings an opportunity for latent, informal power structures that have their own risks -- including centralization. {{STRUCTURELESS}}
 
-In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. In particular, if one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
+In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. If one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
 
 
 ## Decentralization Strategies {#techniques}
@@ -416,7 +416,7 @@ The subsections below suggest a few concrete, meaningful steps that standards bo
 
 While technical standards have only limited ability to control political and economic centralization of the Internet, legal standards (whether regulation or legislation) show more promise. However, regulating the Internet is risky without a firm grounding in the effects on the architecture, informed by a technical viewpoint.
 
-That viewpoint can and should be provided by the Internet standards community. To effectively do so, its institutions must be seen as legitimate by the relevant parties -- for example, by competition regulators. In particular, if the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
+That viewpoint can and should be provided by the Internet standards community. To effectively do so, its institutions must be seen as legitimate by the relevant parties -- for example, by competition regulators. If the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
 
 The IETF already has features that arguably provide considerable legitimacy; for example, open participation and representation by individuals rather than companies both enhance input legitimacy; a well-defined process with multiple layers of appeals and transparency contributes to throughput legitimacy, and a long history of successful Internet standards provides perhaps the strongest source of legitimacy for the IETF -- its output.
 
@@ -424,14 +424,14 @@ However, it is also widely recognized the considerable costs (not just financial
 
 Efforts to address these shortcomings are ongoing; see, for example, {{?RFC8890}}. Overall, bolstering the legitimacy of the organization should be seen as a continuous effort.
 
-When engaging in external efforts, the IETF community (in particular, its leadership) should keep firmly in mind that it is most authoritative when focused on technical and architectural impact. Straying from these topics will likely result in a loss of legitimacy that would likely be difficult to recover from.
+When engaging in external efforts, the IETF community (especially, its leadership) should keep firmly in mind that it is most authoritative when focused on technical and architectural impact. Straying from these topics will likely result in a loss of legitimacy that would likely be difficult to recover from.
 
 
 ## Focus Discussion of Centralization {#target}
 
 Centralization and decentralization are increasingly being raised in technical standards discussions. Any claims needs to be critically evaluated; as discussed in {{centralization}}, not all centralization is automatically harmful, and per {{decentralization}}, decentralization techniques do not automatically address all centralization harms -- and they may bring their own risks.
 
-In particular, claims of centralization can be proxies for power struggles between actors with competing interests. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but a competitor might use a claim of centralization to deny them the benefit of standardization.
+Claims of centralization can be proxies for power struggles between actors with competing interests. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but a competitor might use a claim of centralization to deny them the benefit of standardization.
 
 Therefore, approaches like requiring a "Centralization Considerations" section in drafts, gatekeeping publication on a centralization review, or committing significant resources to searching for centralization in protocols are unlikely to improve the Internet.
 
