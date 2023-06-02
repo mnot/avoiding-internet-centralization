@@ -260,7 +260,7 @@ This document discusses aspects of centralization that relate to Internet standa
 
 {{centralization}} defines centralization, explains why it is often undesirable but sometimes beneficial, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant strategies, along with their limitations. Then, {{considerations}} makes recommendations about the role that Internet standards can play in controlling centralization. {{conclude}} concludes by identifying areas for future work.
 
-The primary audience for this document is the engineers who design and standardize Internet protocols. However, designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Likewise, policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
+The primary audience for this document is the engineers who design and standardize Internet protocols. Designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Likewise, policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
 
 
 # Centralization {#centralization}
@@ -271,7 +271,7 @@ Here, "entity" could be a person, group, corporation, or government. An organiza
 
 "Internet function" is used broadly in this document. Most directly, it might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
-However, because people's experience is not limited to standards-defined protocols, this document also considers centralization in applications built on top of standard protocols -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can likewise exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
+Because people's experience is not limited to standards-defined protocols, this document also considers centralization in applications built on top of standard protocols -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can likewise exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
 Centralization is not a binary condition: a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) to enable easy switching between instances might have still have risk of centralization, but not as great as one that had a single, proprietary provider. Some functions' centralization risk is mitigated so effectively that they are not commonly perceived as being centralized at all.
 
@@ -389,7 +389,7 @@ Even when distributed consensus is used for all technical functions of a service
 
 Furthermore, a protocol or an application can use distributed consensus for some functions, but still be centralized elsewhere -- either because those functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the designer has chosen not to because of the associated costs and lost opportunities.
 
-These potential shortcomings do not rule out the use of distributed consensus technologies in every instance. They do, however, caution against uncritically relying upon these technologies to avoid or mitigate centralization.
+These potential shortcomings do not rule out the use of distributed consensus technologies in every instance, but they do merit caution against uncritically relying upon these technologies to avoid or mitigate centralization.
 
 
 ### Operational Governance {#multi}
@@ -463,7 +463,7 @@ A common objection to this approach is that adoption is voluntary, not mandatory
 
 However, while standards aren't mandatory, legal regulation is, and legal mandates for interoperability are increasingly discussed by policymakers as a remedy for competition issues (see, e.g., {{OECD}}).
 
-As such, appetite for regulation presents an opportunity for new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}. That opportunity also presents a risk, however, if the resulting legal regulation is at odds with the Internet architecture.
+As such, appetite for regulation presents an opportunity for new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}. That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture.
 
 Successfully creating standards that work in concert with legal regulation presents many potential pitfalls, and will require improved and new capabilities (especially liaison), and considerable effort. If the Internet community does not make that effort, it is likely that regulators will turn to other sources of interoperability specifications -- most likely, with less transparency, more narrow input, limited experience, and without reference to the Internet’s architectural goals.
 
@@ -541,7 +541,7 @@ Some have suggested creating a how-to guide or checklist for dealing with centra
 
 # Security Considerations
 
-This document does not have a direct security impact on Internet protocols. However, failure to consider centralization might cause a myriad of security issues; see {{why}} for a preliminary discussion.
+This document does not have a direct security impact on Internet protocols. That said, failure to consider centralization might cause a myriad of security issues; see {{why}} for a preliminary discussion.
 
 
 --- back
