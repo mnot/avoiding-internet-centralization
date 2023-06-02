@@ -260,7 +260,7 @@ This document discusses aspects of centralization that relate to Internet standa
 
 {{centralization}} defines centralization, explains why it is often undesirable but sometimes beneficial, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant strategies, along with their limitations. Then, {{considerations}} makes recommendations about the role that Internet standards can play in controlling centralization. {{conclude}} concludes by identifying areas for future work.
 
-The primary audience for this document is the engineers who design and standardize Internet protocols. Designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Likewise, policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
+The primary audience for this document is the engineers who design and standardize Internet protocols. Designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
 
 
 # Centralization {#centralization}
@@ -271,7 +271,7 @@ Here, "entity" could be a person, group, corporation, or government. An organiza
 
 "Internet function" is used broadly in this document. Most directly, it might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
-Because people's experience is not limited to standards-defined protocols, this document also considers centralization in applications built on top of standard protocols -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can likewise exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
+Because people's experience is not limited to standards-defined protocols, this document also considers centralization in applications built on top of standard protocols -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
 Centralization is not a binary condition: a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) to enable easy switching between instances might have still have risk of centralization, but not as great as one that had a single, proprietary provider. Some functions' centralization risk is mitigated so effectively that they are not commonly perceived as being centralized at all.
 
@@ -420,7 +420,7 @@ That viewpoint can and should be provided by the Internet standards community. T
 
 The IETF already has features that arguably provide considerable legitimacy; for example, open participation and representation by individuals rather than companies both enhance input legitimacy; a well-defined process with multiple layers of appeals and transparency contributes to throughput legitimacy, and a long history of successful Internet standards provides perhaps the strongest source of legitimacy for the IETF -- its output.
 
-However, it is also widely recognized the considerable costs (not just financial) involved in successfully participating in the IETF have a tendency to favour larger companies over smaller concerns. Likewise, the specialised and highly technical nature of the work creates barriers to entry for non-technical stakeholders. These factors have the potential to reduce the legitimacy of the IETF's decisions, at least in some eyes.
+However, it is also widely recognized the considerable costs (not just financial) involved in successfully participating in the IETF have a tendency to favour larger companies over smaller concerns. Additionally, the specialised and highly technical nature of the work creates barriers to entry for non-technical stakeholders. These factors have the potential to reduce the legitimacy of the IETF's decisions, at least in some eyes.
 
 Efforts to address these shortcomings are ongoing; see, for example, {{?RFC8890}}. Overall, bolstering the legitimacy of the organization should be seen as a continuous effort.
 
@@ -435,7 +435,7 @@ In particular, claims of centralization can be proxies for power struggles betwe
 
 Therefore, approaches like requiring a "Centralization Considerations" section in drafts, gatekeeping publication on a centralization review, or committing significant resources to searching for centralization in protocols are unlikely to improve the Internet.
 
-Likewise, refusing to standardize a protocol because it does not actively prevent all forms of centralization ignores the very limited power that standards efforts have to do so. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to do so. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
+Refusing to standardize a protocol because it does not actively prevent all forms of centralization ignores the very limited power that standards efforts have to do so. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to do so. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
 
 When claims are made that a given proposal is "centralized" or "decentralized", the context of those statements should be examined for presuppositions, assumptions, and omissions. One framework for critical interrogations is offered by {{BACCHI}}, which can be adapted for centralization-related discussions:
 
