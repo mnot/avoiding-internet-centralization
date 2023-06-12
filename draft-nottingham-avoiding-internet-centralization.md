@@ -531,7 +531,7 @@ Beyond allowing evolution, well-considered interfaces can also aid decentralizat
 In particular, if the interfaces of a function are well-defined and stable, there is an opportunity to use different providers for that function. When those interfaces are open standards, change control resides with the Internet community instead of remaining in proprietary hands, further enhancing stability and enabling (but not ensuring) decentralization.
 
 
-## Future Work {#conclude}
+# Future Work {#conclude}
 
 This document has argued that while standards bodies have little means of effectively controlling or preventing centralization on the Internet, there are still concrete and useful steps they can take to improve the Internet in this regard.
 
