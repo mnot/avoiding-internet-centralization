@@ -250,13 +250,13 @@ This document discusses aspects of centralization that relate to Internet standa
 
 # Introduction
 
-One of the Internet's defining features is its purposeful avoidance of any single controlling entity. While originating in a desire to prevent a single technical failure from having a wide impact,{{RAND}} the Internet's early avoidance of economic and political centralization arguably enabled its rapid adoption and broad reach: permission is not required to connect to, deploy an application on, or use the Internet for a particular purpose.
+One of the Internet's defining features is its lack of any single point of technical, political, or economic control. Arguably, that property assisted the Internet's early adoption and broad reach: because permission is not required to connect to, deploy an application on, or use the Internet for a particular purpose, it can meet diverse needs and be deployed in many different environments.
 
-Although maintaining this property remains a widely shared goal, consistently preserving it across the range of services and applications that people see as "the Internet" has proven elusive. Today, many successful services operate in a centralized fashion -- to the point where some proprietary applications have become so well-known that they are commonly mistaken for the Internet itself.{{FB-INTERNET}}
+Although maintaining that state of affairs remains a widely shared goal, consistently preserving it across the range of services and applications that people see as "the Internet" has proven elusive. Whereas early services like NNTP and email had multiple, interoperable operators, most contemporary platforms for content and services are operated by single, commercial entities -- to the point where some have become so well-known and important to people's experiences that they are commonly mistaken for the Internet itself.{{FB-INTERNET}}
 
 These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- can and should play in controlling centralization on the Internet.
 
-This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, there are still contributions they can make.
+This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies might be able to promote alternatives to technical centralization, their products are not able to control economic or political centralization. That said, there are still meaningful contributions that standards bodies can make.
 
 The primary audience for this document is the engineers who design and standardize Internet protocols. Designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
 
@@ -276,13 +276,9 @@ Because people's experience is not limited to standards-defined protocols, this 
 
 Centralization is not a binary condition: a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) to enable easy switching between instances might have still be at risk of centralization, but not as great as one that had a single, proprietary provider. Some centralization risk is mitigated so effectively that they are not commonly perceived as being centralized at all.
 
-Centralization also has many potential sources. A single function might be subject to many forms of centralization, due to technical, political, economic, social, and even cognitive factors.
+Engineers are most familiar with technical centralization; for example, a machine or network link being a single point of failure for the provision of a function. This document does not discuss that form of centralization. Rather, it is concerned with economic and political centralization; for example, one company (or a cartel of them) capturing a function, or a country being able to control how a function is supplied in another jurisdiction. A failure because of a cut cable, power outage, or failed server is well-understood by the technical community, and qualitatively different from the issues encountered when a core Internet function has a political or economic gatekeeper.
 
-The forms of centralization that this document discusses are primarily economic and political -- for example, one company (or a cartel of them) capturing a function, or a country being able to control how a function is supplied in another jurisdiction. While legal constraints on the Internet within a single jurisdiction are of natural concern to the Internet community, they are not considered as centralization by this document.
-
-These forms of centralization can be driven by many factors, such as the strategies of Internet-focused businesses, government policies and regulation, Intellectual Property, and inherent forces like network effects.
-
-Centralization can also be technical; for example, a machine or network link being a single point of failure for the provision of a function. While an important factor in protocol design, this form of centralization is relatively well-understood by the technical community and therefore is not addressed by this document. A failure because of a cut cable, power outage, or failed server is qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
+While legal constraints on the Internet within a single jurisdiction are of natural concern to the Internet community, they are not considered as centralization by this document.
 
 
 ## Centralization Can Be Harmful {#why}
