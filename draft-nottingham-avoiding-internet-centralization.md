@@ -268,7 +268,7 @@ The primary audience for this document is the engineers who design and standardi
 
 In this document, "centralization" is the state of affairs where a single entity or a small group of them can observe, capture, control, or extract rent from the operation or use of an Internet function exclusively.
 
-Here, "entity" could be a person, group, corporation, or government. An organization might be subject to governance that mitigates centralization risk (see {{multi}}), but that organisation is still a centralized entity.
+Here, "entity" could be a person, group, corporation, or government. An organization might be subject to governance that mitigates centralization risk (see {{multi}}), but that organisation is still a centralizing entity.
 
 "Internet function" is used broadly in this document. Most directly, it might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
@@ -331,7 +331,7 @@ Ultimately, deciding when centralization is beneficial is a judgment call. Some 
 
 While the term "decentralization" has a long history of use in economics, politics, religion, and international development, Baran gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required." {{RAND}}
 
-Avoiding technical centralization -- while not a trivial topic -- is relatively well understood. Doing so for political and economic centralization is considerably more challenge, especially when using only technical tools (like protocol design). Several issues are encountered.
+Avoiding technical centralization -- while not a trivial topic -- is relatively well understood. Avoiding political and economic centralization using only technical tools (like protocol design) is considerably more difficult. Several issues are encountered.
 
 First, identifying which aspects of a function to decentralize and how to do so can be difficult, both because there are often many interactions between different types and sources of centralization, and because centralization sometimes only becomes clear after the function is deployed at scale.
 
@@ -339,15 +339,15 @@ Indeed, efforts to decentralize often have the effect of merely shifting central
 
 For example, a cloud storage function might be implemented using a distributed consensus protocol, assuring that the failure of any single node will not affect the system's operation or availability. In that sense, it is technically decentralized. However, if it is operated by a single legal entity, that brings the aspect of economic and latent political centralization, especially if there are few other options available, or if there is friction against choosing other options.
 
-Another example is the Web, which was envisioned and widely held to be a decentralizing force in its early life. Its potential for centralization only became apparent when large sites successfully leveraged network effects for dominance of social networking, marketplaces, and similar functions.
+Another example is the Web, which was envisioned and widely held to be a decentralizing force in its early life. Its potential as an enabler of centralization only became apparent when large sites successfully leveraged network effects for dominance of social networking, marketplaces, and similar functions.
 
-Second, different parties might have good-faith differences on what "sufficiently decentralized" means based upon their beliefs, perceptions and goals. Just as centralization is a continuum, so is decentralization, and not everyone agrees one what the "right" level or type is, how to weigh different forms of centralization against each other, or how to weigh potential centralization against other architectural goals (such as security or privacy).
+Second, different parties might have good-faith differences on what "sufficiently decentralized" means based upon their beliefs, perceptions and goals. Just as centralization is a continuum, so is decentralization, and not everyone agrees what the "right" level or type is, how to weigh different forms of centralization against each other, or how to weigh potential centralization against other architectural goals (such as security or privacy).
 
 These tensions can be seen, for example, in the DNS. While much of the system is decentralized through the distribution of the lookup function to local servers that users have the option to override, the DNS is also a name space -- a single, global "source of truth" with inherent (if beneficial) centralization in its management. ICANN mitigates the associated risk through multi-stakeholder governance (see {{multi}}). While many believe that this arrangement is sufficient and might even have desirable qualities (such as the ability to impose community standards over the operation of the name space), others reject ICANN's oversight of the DNS as illegitimate, favoring decentralization based upon distributed consensus protocols rather than human governance. {{MUSIANI}}
 
 Third, decentralization unavoidably involves adjustments to the power relationships between protocol participants, especially when it opens up the possibility of centralization elsewhere. As Schneider notes in {{AMBITION}}, decentralization "appears to operate as a rhetorical strategy that directs attention toward some aspects of a proposed social order and away from others", so "we cannot accept technology as a substitute for taking social, cultural, and political considerations seriously." Or, more bluntly, "without governance mechanisms in place, nodes may collude, people may lie to each other, markets can be rigged, and there can be significant cost to people entering and exiting markets." {{PERSPECTIVE}}
 
-For example, while blockchain-based cryptocurrencies purport to address the political and economic centralization inherent in traditional currencies through technical means, many exhibit considerable concentration of power due to voting/mining power, distribution of funds, and diversity of codebase causes many to question how decentralized they actually are. {{AREWEDECENTRALIZEDYET}} Over-reliance on technical measures brings an opportunity for latent, informal power structures that have their own risks -- including centralization. {{STRUCTURELESS}}
+For example, while blockchain-based cryptocurrencies purport to address the political and economic centralization inherent in traditional currencies through technical means, many exhibit considerable concentration of power due to voting/mining power, distribution of funds, and diversity of codebase. {{AREWEDECENTRALIZEDYET}} Over-reliance on technical measures brings an opportunity for latent, informal power structures that have their own risks -- including centralization. {{STRUCTURELESS}}
 
 In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. If one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
 
@@ -411,7 +411,7 @@ The subsections below suggest a few concrete, meaningful steps that standards bo
 
 ## Bolster Legitimacy {#legitimate}
 
-While technical standards have only limited ability to control political and economic centralization of the Internet, legal standards (whether regulation or legislation) show more promise. However, regulating the Internet is risky without a firm grounding in the effects on the architecture, informed by a technical viewpoint.
+While technical standards have only limited ability to control political and economic centralization of the Internet, legal standards (whether regulation, legislation, or case law) show more promise. However, regulating the Internet is risky without a firm grounding in the effects on the architecture, informed by a technical viewpoint.
 
 That viewpoint can and should be provided by the Internet standards community. To effectively do so, its institutions must be seen as legitimate by the relevant parties -- for example, by competition regulators. If the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
 
