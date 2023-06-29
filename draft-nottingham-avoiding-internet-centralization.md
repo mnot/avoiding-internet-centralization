@@ -256,7 +256,7 @@ Although maintaining that state of affairs remains a widely shared goal, consist
 
 These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- can and should play in controlling centralization on the Internet.
 
-This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies might be able to promote alternatives to technical centralization, their products are not able to control economic or political centralization. That said, there are still meaningful contributions that standards bodies can make.
+This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies might be able to promote alternatives to technical centralization, their products are not able to control centralization. That said, there are still meaningful contributions that standards bodies can make.
 
 The primary audience for this document is the engineers who design and standardize Internet protocols. Designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
 
@@ -266,26 +266,26 @@ The primary audience for this document is the engineers who design and standardi
 
 # Centralization {#centralization}
 
-In this document, "centralization" is the state of affairs where a single entity or a small group of them can observe, capture, control, or extract rent from the operation or use of an Internet function exclusively.
+For the purposes of this document, "centralization" is the state of affairs where a single entity or a small group of them can observe, capture, control, or extract rent from the operation or use of an Internet function exclusively.
 
-Here, "entity" could be a person, group, corporation, or government. An organization might be subject to governance that mitigates centralization risk (see {{multi}}), but that organisation is still a centralizing entity.
+Here, "entity" could be a person, group, or corporation. An organization might be subject to governance that mitigates centralization risk (see {{multi}}), but that organisation is still a centralizing entity.
 
 "Internet function" is used broadly in this document. Most directly, it might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
 
 Because people's experience is not limited to standards-defined protocols, this document also considers centralization in applications built on top of standard protocols -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
+This definition does not capture all types of centralization. Notably, technical centralization (where, for example, a machine or network link is a single point of failure) is relatively well-understood by engineers, and can be mitigated by designing a design that distributes a function across multiple components. As we will see, these techniques might address that type of centralization while failing to prevent control of the function falling into few hands. A failure because of a cut cable, power outage, or failed server is well-understood by the technical community, but qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
+
+Likewise, political centralization (where a country is able to control how a function is supplied across the whole Internet) is equally concerning, but outside the scope of this document.
+
 Centralization is not a binary condition: a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) to enable easy switching between instances might have still be at risk of centralization, but not as great as one that had a single, proprietary provider. Some centralization risk is mitigated so effectively that they are not commonly perceived as being centralized at all.
-
-Engineers are most familiar with technical centralization -- for example, a machine or network link being a single point of failure for the provision of a function. This document does not discuss that form of centralization. Rather, it is concerned with economic and political centralization; for example, one company (or a cartel of them) capturing a function, or a country being able to control how a function is supplied in another jurisdiction. A failure because of a cut cable, power outage, or failed server is well-understood by the technical community, and qualitatively different from the issues encountered when a core Internet function has a political or economic gatekeeper.
-
-While legal constraints on the Internet within a single jurisdiction are of natural concern to the Internet community, they are not considered as centralization by this document.
 
 
 ## Centralization Can Be Harmful {#why}
 
-Many engineers who participate in Internet standards efforts have an inclination to prevent and counteract economic and political centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" who relate as peers that agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
+Many engineers who participate in Internet standards efforts have an inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" who relate as peers that agree to facilitate communication, rather than having a relationship of subservience to others' requirements or coercion by them. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
 
-This oft-seen reluctance to countenance centralization is also rooted in the many potentially damaging effects that have been associated with economic and political centralization, including:
+This oft-seen reluctance to countenance centralization is also rooted in the many potentially damaging effects that have been associated with centralization, including:
 
 * _Power Imbalance_: When a third party has unavoidable access to communications, the informational and positional advantages gained allow observation of behavior (the "panopticon effect") and shaping or even denial of behavior (the "chokepoint effect") {{INTERMEDIARY-INFLUENCE}} -- capabilities that those parties (or the states that have authority over them) can use for coercive ends {{INTERDEPENDENCE}} or even to disrupt society itself. Just as good governance of states requires separation of powers {{FEDERALIST-51}}, so too does good governance of the Internet require that power (whether that be economic or political) not be consolidated in one place without appropriate checks and balances.
 
@@ -331,13 +331,13 @@ Ultimately, deciding when centralization is beneficial is a judgment call. Some 
 
 While the term "decentralization" has a long history of use in economics, politics, religion, and international development, Baran gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required." {{RAND}}
 
-Avoiding technical centralization -- while not a trivial topic -- is relatively well understood. Avoiding political and economic centralization using only technical tools (like protocol design) is considerably more difficult. Several issues are encountered.
+Avoiding technical centralization -- while not a trivial topic -- is relatively well understood. Avoiding all centralization using only technical tools (like protocol design) is considerably more difficult. Several issues are encountered.
 
 First, identifying which aspects of a function to decentralize and how to do so can be difficult, both because there are often many interactions between different types and sources of centralization, and because centralization sometimes only becomes clear after the function is deployed at scale.
 
 Indeed, efforts to decentralize often have the effect of merely shifting centralization to a different place -- for example, in its governance, implementation, deployment, or in ancillary functions. In other words, "decentralized technology alone does not guarantee decentralized outcomes." {{SCHNEIDER}}
 
-For example, a cloud storage function might be implemented using a distributed consensus protocol, assuring that the failure of any single node will not affect the system's operation or availability. In that sense, it is technically decentralized. However, if it is operated by a single legal entity, that brings the aspect of economic and latent political centralization, especially if there are few other options available, or if there is friction against choosing other options.
+For example, a cloud storage function might be implemented using a distributed consensus protocol, assuring that the failure of any single node will not affect the system's operation or availability. In that sense, it is technically decentralized. However, if it is operated by a single legal entity, that implies centralization -- especially if there are few other options available, or if there is friction against choosing other options.
 
 Another example is the Web, which was envisioned and widely held to be a decentralizing force in its early life. Its potential as an enabler of centralization only became apparent when large sites successfully leveraged network effects for dominance of social networking, marketplaces, and similar functions.
 
@@ -347,19 +347,19 @@ These tensions can be seen, for example, in the DNS. While much of the system is
 
 Third, decentralization unavoidably involves adjustments to the power relationships between protocol participants, especially when it opens up the possibility of centralization elsewhere. As Schneider notes in {{AMBITION}}, decentralization "appears to operate as a rhetorical strategy that directs attention toward some aspects of a proposed social order and away from others", so "we cannot accept technology as a substitute for taking social, cultural, and political considerations seriously." Or, more bluntly, "without governance mechanisms in place, nodes may collude, people may lie to each other, markets can be rigged, and there can be significant cost to people entering and exiting markets." {{PERSPECTIVE}}
 
-For example, while blockchain-based cryptocurrencies purport to address the political and economic centralization inherent in traditional currencies through technical means, many exhibit considerable concentration of power due to voting/mining power, distribution of funds, and diversity of codebase. {{AREWEDECENTRALIZEDYET}} Over-reliance on technical measures brings an opportunity for latent, informal power structures that have their own risks -- including centralization. {{STRUCTURELESS}}
+For example, while blockchain-based cryptocurrencies purport to address the centralization inherent in traditional currencies through technical means, many exhibit considerable concentration of power due to voting/mining power, distribution of funds, and diversity of codebase. {{AREWEDECENTRALIZEDYET}} Over-reliance on technical measures brings an opportunity for latent, informal power structures that have their own risks -- including centralization. {{STRUCTURELESS}}
 
 In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. If one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
 
 
 ## Decentralization Strategies {#techniques}
 
-Despite the inherent issues in achieving political and economic decentralization through solely technical means, a few technical strategies are sometimes promoted as addressing not only technical centralization but also political and economic centralization. This section examines some, along with their limitations.
+Despite the inherent issues in achieving decentralization through solely technical means, a few technical strategies are sometimes promoted as addressing other forms of centralization. This section examines some, along with their limitations.
 
 
 ### Federation {#federation}
 
-Protocol designers often attempt to address political and economic centralization with federation: designing a function in a way that uses independent instances who maintain connectivity and interoperability to provide a single, cohesive service. Federation promises to allow users to choose the instance they associate with and accommodates substitution of one instance for another, lowering switching costs.
+Protocol designers often attempt to address centralization through federation: designing a function in a way that uses independent instances who maintain connectivity and interoperability to provide a single, cohesive service. Federation promises to allow users to choose the instance they associate with and accommodates substitution of one instance for another, lowering switching costs.
 
 However, federation alone is insufficient to prevent or mitigate centralization of a function, because non-technical factors can create pressure to use a central solution.
 
@@ -376,7 +376,7 @@ The examples above illustrate that, while federation can create the conditions n
 
 ### Distributed Consensus {#distributed}
 
-Increasingly, distributed consensus technologies (such as the blockchain) are touted as a solution to political and economic centralization. A complete survey of this rapidly changing area is beyond the scope of this document, but we can generalize about its properties.
+Increasingly, distributed consensus technologies (such as the blockchain) are touted as a solution to centralization. A complete survey of this rapidly changing area is beyond the scope of this document, but we can generalize about its properties.
 
 These techniques attempt to avoid centralization by distributing functions to members of a sometimes large pool of protocol participants. They typically guarantee proper performance of a function using cryptographic techniques (often, an append-only transaction ledger). A particular task's assignment to a node for handling usually cannot be predicted or controlled.
 
@@ -411,7 +411,7 @@ The subsections below suggest a few concrete, meaningful steps that standards bo
 
 ## Bolster Legitimacy {#legitimate}
 
-While technical standards have only limited ability to control political and economic centralization of the Internet, legal standards (whether regulation, legislation, or case law) show more promise. However, regulating the Internet is risky without a firm grounding in the effects on the architecture, informed by a technical viewpoint.
+While technical standards have only limited ability to control centralization of the Internet, legal standards (whether regulation, legislation, or case law) show more promise. However, regulating the Internet is risky without a firm grounding in the effects on the architecture, informed by a technical viewpoint.
 
 That viewpoint can and should be provided by the Internet standards community. To effectively do so, its institutions must be seen as legitimate by the relevant parties -- for example, by competition regulators. If the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
 
