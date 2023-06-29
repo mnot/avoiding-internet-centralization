@@ -355,7 +355,7 @@ Fourth, decentralization unavoidably involves adjustments to the power relations
 
 For example, while blockchain-based cryptocurrencies purport to address the centralization inherent in traditional currencies through technical means, many exhibit considerable concentration of power due to voting/mining power, distribution of funds, and diversity of codebase. {{BITCOIN}} Over-reliance on technical measures also brings an opportunity for latent, informal power structures that have their own risks -- including centralization. {{STRUCTURELESS}}
 
-Fifth, a decentralized function's design can be more difficult to adapt to user needs or introduce new feature to, because doing so requires coordination between many different actors. In some caes, it also can reduce the economic incentives for service providers, which creates adoption challenges. {{MOXIE}}
+Fifth, a decentralized function can be more difficult to adapt to user needs (for example, introducing new features, or experimenting with user interface), because doing so often requires coordination between many different actors. In some caes, it also can reduce the economic incentives for service providers, which creates adoption challenges. {{MOXIE}}
 
 Overall, decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. If one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
 
