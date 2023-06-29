@@ -172,13 +172,19 @@ informative:
       name: Nathan Schneider
     target: https://osf.io/m7wyj/
     refcontent: "Journal of Cultural Economy, Vol. 12, No. 4"
-  AREWEDECENTRALIZEDYET:
-    title: "Are We Decentralized Yet?"
-    date: 2022
+  BITCOIN:
+    title: "Blockchain Analysis of the Bitcoin Market"
+    display: Makarov
+    date: October 2021
     author:
       -
-       organization: bitcoinera
-    target: https://bitcoinera.app/arewedecentralizedyet/
+       name: Igor Makarov
+       organization: London School of Economics
+      -
+       name: Antoinette Schoar
+       organization: MIT Sloan School of Management
+    target: https://www.nber.org/papers/w29396
+    refcontent: "National Bureau of Economic Research, Working Paper 29396"
   PERSPECTIVE:
     display: BODO
     title: "Decentralization: a multidisciplinary
@@ -347,7 +353,7 @@ These tensions can be seen, for example, in the DNS. While much of the system is
 
 Fourth, decentralization unavoidably involves adjustments to the power relationships between protocol participants, especially when it opens up the possibility of centralization elsewhere. As Schneider notes in {{AMBITION}}, decentralization "appears to operate as a rhetorical strategy that directs attention toward some aspects of a proposed social order and away from others", so "we cannot accept technology as a substitute for taking social, cultural, and political considerations seriously." Or, more bluntly, "without governance mechanisms in place, nodes may collude, people may lie to each other, markets can be rigged, and there can be significant cost to people entering and exiting markets." {{PERSPECTIVE}}
 
-For example, while blockchain-based cryptocurrencies purport to address the centralization inherent in traditional currencies through technical means, many exhibit considerable concentration of power due to voting/mining power, distribution of funds, and diversity of codebase. {{AREWEDECENTRALIZEDYET}} Over-reliance on technical measures brings an opportunity for latent, informal power structures that have their own risks -- including centralization. {{STRUCTURELESS}}
+For example, while blockchain-based cryptocurrencies purport to address the centralization inherent in traditional currencies through technical means, many exhibit considerable concentration of power due to voting/mining power, distribution of funds, and diversity of codebase. {{BITCOIN}} Over-reliance on technical measures brings an opportunity for latent, informal power structures that have their own risks -- including centralization. {{STRUCTURELESS}}
 
 In practice, this means that decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. If one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
 
@@ -529,7 +535,7 @@ In particular, if the interfaces of a function are well-defined and stable, ther
 
 # Future Work {#conclude}
 
-This document has argued that while standards bodies have little means of effectively controlling or preventing centralization on the Internet through protocol, there are still concrete and useful steps they can take to improve the Internet in this regard.
+This document has argued that while standards bodies have little means of effectively controlling or preventing centralization on the Internet through protocol, there are still concrete and useful steps they can take to improve the Internet.
 
 Those steps might be elaborated upon and extended in future work; doubtless there is more that can be done. New decentralization techniques might be identified and examined; what we learn from relationships with other, more effective regulators in this space can be documented.
 
