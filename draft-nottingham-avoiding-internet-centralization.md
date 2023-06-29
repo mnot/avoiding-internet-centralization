@@ -411,9 +411,9 @@ The subsections below suggest a few concrete, meaningful steps that standards bo
 
 ## Bolster Legitimacy {#legitimate}
 
-While technical standards have only limited ability to control centralization of the Internet, legal standards (whether regulation, legislation, or case law) show more promise. However, regulating the Internet is risky without a firm grounding in the effects on the architecture, informed by a technical viewpoint.
+Where technical standards have only limited ability to control centralization of the Internet, legal standards (whether regulation, legislation, or case law) show more promise, and are actively being considered and implemented in various jurisdictions. However, regulating the Internet is risky without a firm grounding in the effects on the architecture, informed by a technical viewpoint.
 
-That viewpoint can and should be provided by the Internet standards community. To effectively do so, its institutions must be seen as legitimate by the relevant parties -- for example, by competition regulators. If the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
+That viewpoint can and should be provided by the Internet standards community. To effectively do so, its institutions must be seen as legitimate by the relevant parties -- for example, competition regulators. If the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
 
 The IETF already has features that arguably provide considerable legitimacy; for example, open participation and representation by individuals rather than companies both enhance input legitimacy; a well-defined process with multiple layers of appeals and transparency contributes to throughput legitimacy, and a long history of successful Internet standards provides perhaps the strongest source of legitimacy for the IETF -- its output.
 
@@ -443,13 +443,13 @@ When claims are made that a given proposal is "centralized" or "decentralized", 
 5. What effects are produced by this representation of the “problem”?
 6. How and where has this representation of the “problem” been produced, disseminated, and defended? How has it been and/or how can it be disrupted and replaced?
 
-Discussions should focus on whether claimed centralization is harmful or, if helpful, whether it is justified. Centralization is concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens the architectural features that make the Internet successful.
+Discussions should focus on whether claimed centralization is harmful or, if helpful, whether it is justified. Centralization is most concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens the architectural features that make the Internet successful.
 
 {{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
 
 When centralization is found, standards efforts should consider its relationship with architectural goals as they consider how and if it should be mitigated (if possible). In particular, attention should be paid to how effective standards (as a form of architectural control) is in achieving each goal.
 
-For example, privacy is often more effectively ensured by ex ante technical constraints, as compared to ex post legal regulation. Conversely (as discussed) some centralization may be more effectively addressed through legal regulation. Thus, a standards effort balancing these concerns might bias towards privacy, after informed discussion.
+For example, privacy is often more effectively ensured by ex ante technical constraints, as compared to ex post legal regulation. Conversely, some centralization may be more effectively addressed through legal regulation. Thus, a standards effort balancing these concerns might bias towards privacy, after informed discussion.
 
 
 ## Target Proprietary Functions {#up}
@@ -458,7 +458,7 @@ Functions that are currently only available from proprietary providers are ripe 
 
 A common objection to this approach is that adoption is voluntary, not mandatory; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{ACTIVITYSTREAMS}}) were available for some time without being used in a federated manner by commercial social networking providers.
 
-However, while standards aren't mandatory, legal regulation is, and legal mandates for interoperability are increasingly discussed by policymakers as a remedy for competition issues (see, e.g., {{OECD}}).
+That objection ignores that while standards aren't mandatory, legal regulation is, and legal mandates for interoperability are increasingly discussed by policymakers as a remedy for competition issues (see, e.g., {{OECD}}).
 
 As such, appetite for regulation presents an opportunity for new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}. That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture.
 
@@ -494,7 +494,7 @@ However, if that new party is able to make their participation "sticky" -- for e
 
 Most often, third parties are added to functions as "intermediaries" or in designated "agent" roles. Designing such functions with thoughtful constraints on these roles can prevent at least the most egregious abuses of such power.
 
-When adding new parties to communication into a protocol, two techniques have proven useful: first, third parties should only be interposed into communication when at least one of the primary parties takes a positive action to do so. Second, these parties should have their ability to observe or control communication limited to what is necessary to perform their intended function.
+When adding new parties to communication into a protocol, two guidelines have proven useful: first, third parties should only be interposed into communication when at least one of the primary parties takes a positive action to do so. Second, these parties should have their ability to observe or control communication limited to what is necessary to perform their intended function.
 
 For example, early deployments of HTTP allowed intermediaries to be interposed by the network without knowledge of the endpoints, and those intermediaries could see and change the full content of traffic by default -- even when they are only intended to perform basic functions such as caching. Because of the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with efforts to encourage its adoption, those intermediaries are now required to be explicitly interposed by one endpoint, and they only have access to basic routing information.
 
@@ -529,7 +529,7 @@ In particular, if the interfaces of a function are well-defined and stable, ther
 
 # Future Work {#conclude}
 
-This document has argued that while standards bodies have little means of effectively controlling or preventing centralization on the Internet, there are still concrete and useful steps they can take to improve the Internet in this regard.
+This document has argued that while standards bodies have little means of effectively controlling or preventing centralization on the Internet through protocol, there are still concrete and useful steps they can take to improve the Internet in this regard.
 
 Those steps might be elaborated upon and extended in future work; doubtless there is more that can be done. New decentralization techniques might be identified and examined; what we learn from relationships with other, more effective regulators in this space can be documented.
 
