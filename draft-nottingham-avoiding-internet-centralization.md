@@ -281,7 +281,7 @@ Although maintaining that state of affairs remains a widely shared goal, consist
 
 These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- can and should play in controlling centralization on the Internet.
 
-This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies might be able to promote alternatives to technical centralization, their products are not able to control centralization. That said, there are still meaningful contributions that standards bodies can make.
+This document argues that while decentralized technical standards may be necessary to avoid centralization of Internet functions, they are not sufficient to achieve that goal because centralization is often caused by non-technical factors outside their control. That said, there are still meaningful contributions that standards bodies can make, such as assisting those who have similar goals and greater ability to control those factors.
 
 The primary audience for this document is the engineers who design and standardize Internet protocols. Designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
 
