@@ -246,6 +246,25 @@ perspective"
     author:
      - name: Konstantinos Komaitis
     target: https://slate.com/technology/2021/08/facebook-internet-regulation.html
+  DEPENDENCIES:
+    title: "Analyzing Third Party Service Dependencies in Modern Web Services: Have We Learned from the Mirai-Dyn Incident?"
+    display: Kashaf
+    author:
+     -
+      name: Aqsa Kashaf
+      organization: Carnegie Mellon University
+     -
+      name: Vyas Sekar
+      organization: Carnegie Mellon University
+     -
+      name: Yuvraj Agarwal
+      organization: Carnegie Mellon University
+    date: October 2020
+    target: https://dl.acm.org/doi/pdf/10.1145/3419394.3423664
+  PHONE:
+    title: "Computer Failure Paralyzes Region's Phone Service"
+    date: 27 June 1991
+    target: https://www.washingtonpost.com/archive/politics/1991/06/27/computer-failure-paralyzes-regions-phone-service/0db94ac7-89f0-446e-ba33-c126c751b251/
 
 --- abstract
 
@@ -305,11 +324,17 @@ This reluctance to countenance centralization is also rooted in the many potenti
 
 * _Self-Reinforcement_: As widely noted (see, e.g., {{ACCESS}}), a centralized provider's access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.
 
-The relationship between these harms and centralization is often complex; it is not always the case that centralization will lead to them, and when it does, there is not always a direct and simple tradeoff. This makes it important to critically evaluate claims of centralization before allowing them to influence protocol design.
+The relationship between these harms and centralization is often complex; it is not always the case that centralization will lead to them, and when it does, there is not always a direct and simple tradeoff.
 
-For example, the relationship between availability and centralization is not a straightforward tradeoff. A centrally operated system might be more available because of factors like the resources available to a larger operator, but also have greater impact when a fault is encountered; decentralized systems might be more resilient in the face of local failures, but less able to react to systemic issues.
+For example, consider the impact of centralization upon availability. A centrally operated system might be more available because of factors like the resources available to a larger operator, but also have greater impact when a fault is encountered; decentralized systems might be more resilient in the face of local failures, but less able to react to systemic issues.
 
-This tension can be seen in areas like the cloud and mobile Internet access. If a cloud hosting provider were to become unavailable (whether for technical or other reasons), many people's experience of the Internet might be disrupted. Likewise, a mobile Internet access provider might have an outage that affects hundreds, thousands, or more of its users. In both cases, centralization is not indicated by the loss of availability or its scale, but it well might be if the parties relying on the function don't have reasonable options to switch to if they are unhappy with the availability of the service provided, or if friction against switching to an alternative is too great.
+This tension can be seen in areas like the cloud and mobile Internet access. If a popular cloud hosting provider were to become unavailable (whether for technical or other reasons), many people's experience of the Internet might be disrupted (especially due to the multiple dependencies that a modern Web site often has; see {{DEPENDENCIES}}). Likewise, a lage mobile Internet access provider might have an outage that affects hundreds of thousands of its users, or more -- just as previous issues at large telephone companies precipitated widespread outages. {{PHONE}}
+
+In both cases, the services are not technically centralized; these operators have strong incentives to have multiple redundancies in place and use various techniques to mitigate the risk of any one component failing. However, they generally do rely upon a single codebase, a limited selection of hardware, a unified 'control plane', and a uniform administrative practice that might precipitate a widespread failure.
+
+While that risk to availability might indicate centralization of these services if there were only one provider in these markets (like the telephone networks of old), there are many cloud providers who offer similar services, and in most places there are multiple mobile operators available.
+
+These circumstances suggest one area of inquiry when considering the relationship between centralization and availability of a given function: how easy is it to switch to other providers (thereby making any disruptions temporary and manageable) or to use multiple providers simultaneously (to mask the failure of a single operator)?
 
 Another example of the need for nuance can be seen when evaluating competitive constraints. While making the Internet more competitive may be a motivation for many engineers, only courts (and sometimes, regulators) have the authority to define a relevant market and determine that a behavior is anti-competitive. What might be considered undesirable centralization by the technical community might not attract competition regulation. Conversely, what might attract competition regulation might not be of great concern to the technical community if other mitigations are felt to be adequate.
 
