@@ -362,7 +362,7 @@ Ultimately, deciding when centralization is beneficial is a judgment call. Some 
 
 While the term "decentralization" has a long history of use in economics, politics, religion, and international development, Baran gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required." {{RAND}}
 
-Avoiding technical centralization -- while not a trivial topic -- is relatively well understood. Avoiding all centralization using only technical tools (like protocol design) is considerably more difficult. Several issues are encountered.
+Avoiding technical centralization -- while not a trivial topic -- is relatively well understood. Avoiding all forms of centralization using only technical tools (like protocol design) is considerably more difficult. Several issues are encountered.
 
 First and most critically, technical decentralization measures have at best limited effects on non-technical forms of centralization. As explored below in {{techniques}}, technical measures are better characterised as necessary but insufficient to achieve full decentralization of a function.
 
