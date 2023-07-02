@@ -265,6 +265,13 @@ perspective"
     title: "Computer Failure Paralyzes Region's Phone Service"
     date: 27 June 1991
     target: https://www.washingtonpost.com/archive/politics/1991/06/27/computer-failure-paralyzes-regions-phone-service/0db94ac7-89f0-446e-ba33-c126c751b251/
+  BEHAVIOUR:
+    title: The Role of Behavioural Economics in Competition Policy
+    date: March 2023
+    author:
+     -
+      name: Amelia Fletcher
+    target: http://dx.doi.org/10.2139/ssrn.4389681
 
 --- abstract
 
@@ -568,7 +575,7 @@ Those steps might be elaborated upon and extended in future work; doubtless ther
 
 Some have suggested creating a how-to guide or checklist for dealing with centralization. Because centralization is so contextual and so varied in how it manifests, this might best be attempted within very limited areas; for example, for a particular type of function, or a function at a particular layer.
 
-The nature of centralization also deserves further study; in particular, its causes. While there is much commentary on factors like network effects and switching costs, other aspects such as behavioural, cognitive, and social factors have received comparatively little attention.
+The nature of centralization also deserves further study; in particular, its causes. While there is much commentary on factors like network effects and switching costs, other aspects such as behavioural, cognitive, and social factors have received comparatively little attention, although that is changing (e.g., {{BEHAVIOUR}}).
 
 
 # Security Considerations
