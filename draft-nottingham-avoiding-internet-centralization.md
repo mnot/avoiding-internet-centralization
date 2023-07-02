@@ -303,7 +303,7 @@ This definition does not capture all types of centralization. Notably, technical
 
 Likewise, political centralization (where a country is able to control how a function is supplied across the whole Internet) is equally concerning, but not considered in depth here.
 
-Centralization is not a binary condition: a function might be vulnerable to it to various degrees. For example, a function that effectively uses federation ({{federation}}) to enable easy switching between instances might have still be at risk of centralization, but not as great as one that had a single, proprietary provider. Some centralization risk is mitigated so effectively that they are not commonly perceived as being centralized at all.
+Even when centralization is not currently present in a function, some conditions make it more likely that centralization will emerge in the future. This document uses "centralization risk" to characterise that possibility.
 
 
 ## Centralization Can Be Harmful {#why}
