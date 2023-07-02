@@ -430,7 +430,7 @@ The most widely studied example of this technique is the governance of the DNS n
 
 Another example is the governance of the Web's trust model, implemented by Web browsers as relying parties and Certificate Authorities as trust anchors. To promote the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both parties as stakeholders.
 
-These examples are notable in that the governance mechanism is not specified in the protocol documents directly; rather, they are layered on operationally, but in a manner that takes advantage of protocol design features that enable the imposition of governance.
+These examples are notable in that the governance mechanism is not specified in the protocol documents directly; rather, they are layered on operationally, but in a manner that takes advantage of protocol features that enable the imposition of governance.
 
 Governance in this manner is best suited to very limited functions, like the examples above. Even then, setup and ongoing operation of a governance mechanism is not trivial, and their legitimacy may be difficult to establish and maintain (see, e.g., {{MULTISTAKEHOLDER}}); by their nature, they are vulnerable to capture by the interests that are being governed.
 
