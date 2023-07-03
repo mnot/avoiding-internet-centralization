@@ -284,7 +284,7 @@ This document discusses aspects of centralization that relate to Internet standa
 
 One of the Internet's defining features is its lack of any single point of technical, political, or economic control. Arguably, that property assisted the Internet's early adoption and broad reach: because permission is not required to connect to, deploy an application on, or use the Internet for a particular purpose, it can meet diverse needs and be deployed in many different environments.
 
-Although maintaining that state of affairs remains a widely shared goal, consistently preserving it across the range of services and applications that people see as "the Internet" has proven elusive. Whereas early services like NNTP and email had multiple, interoperable operators, most contemporary platforms for content and services are operated by single, commercial entities -- to the point where some have become so well-known and important to people's experiences that they are commonly mistaken for the Internet itself.{{FB-INTERNET}}
+Although maintaining that state of affairs remains a widely shared goal, consistently preserving it across the range of services and applications that people see as "the Internet" has proven elusive. Whereas early services like NNTP and e-mail had multiple, interoperable operators, most contemporary platforms for content and services are operated by single, commercial entities -- to the point where some have become so well-known and important to people's experiences that they are commonly mistaken for the Internet itself.{{FB-INTERNET}}
 
 These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- can and should play in controlling centralization on the Internet.
 
@@ -315,7 +315,7 @@ Even when centralization is not currently present in a function, some conditions
 
 ## Centralization Can Be Harmful {#why}
 
-Many engineers who participate in Internet standards efforts have an inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" who relate as peers who agree to facilitate communication, rather than experiencing coercion or requiring subservience to others' requirements. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
+Many engineers who participate in Internet standards efforts have an inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" whose operators relate as peers who agree to facilitate communication, rather than experiencing coercion or requiring subservience to others' requirements. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
 
 This reluctance to countenance centralization is also rooted in the many potentially damaging effects that have been associated with centralization, including:
 
@@ -405,7 +405,7 @@ However, federation alone is insufficient to prevent or mitigate centralization 
 
 For example, the e-mail suite of protocols needs to route messages to a user even when that user changes network locations or becomes disconnected for a long period. To facilitate this, SMTP {{?RFC5321}} defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids the use of a single, central server. Users can (and often do) choose to delegate that role to someone else, or can run their own MTA.
 
-Despite this design, e-mail exhibits a degree of centralization. Part of the reason is a side effect of spam controls; many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and have greater impact if their operation is affected, they are less likely to be classified as such -- creating pressure towards centralization.
+Despite this design, e-mail exhibits a degree of centralization. Part of the reason is a side effect of spam controls; many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and there is greater impact if their operation is affected, they are less likely to be classified as such -- creating pressure towards centralization.
 
 XMPP {{?RFC6120}} is a chat protocol that demonstrates another issue with federation: the voluntary nature of technical standards. Like e-mail, XMPP is federated to facilitate rendezvous of users from different systems - if they allow it.
 
@@ -494,7 +494,7 @@ For example, privacy is often more effectively ensured by ex ante technical cons
 
 ## Target Proprietary Functions {#up}
 
-Functions that are currently only available from proprietary providers are ripe for standardisation efforts. That might include large-scale protocols for existing proprietary functions (e.g., chat) as well as smaller efforts to improve interoperability and portability of specific features that are often used to users into a platform; for example, a format for lists of contacts in a social network.
+Functions that are currently only available from proprietary providers are ripe for standardisation efforts. That might include large-scale protocols for existing proprietary functions (e.g., chat) as well as smaller efforts to improve interoperability and portability of specific features that are often used to lock users into a platform; for example, a format for lists of contacts in a social network.
 
 A common objection to this approach is that adoption is voluntary, not mandatory; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{ACTIVITYSTREAMS}}) were available for some time without being used in a federated manner by commercial social networking providers.
 
