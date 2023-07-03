@@ -592,6 +592,6 @@ This document was born out of early discussions with Brian Trammell during our s
 
 Special thanks to Geoff Huston and Milton Mueller for their well-considered, thoughtful, and helpful comments.
 
-Thanks also to Jari Arkko, Kristin Berdan, Christian Huitema, Mallory Knodel, Eliot Lear, John Levine, Tommy Pauly, and Martin Thomson for their comments and suggestions.
+Thanks also to Jari Arkko, Kristin Berdan, Richard Clayton, Christian Huitema, Mallory Knodel, Eliot Lear, John Levine, Tommy Pauly, and Martin Thomson for their comments and suggestions.
 
 No large language models were used in the production of this document.
