@@ -273,6 +273,20 @@ perspective"
      -
       name: Amelia Fletcher
     target: http://dx.doi.org/10.2139/ssrn.4389681
+  DELIVERABILITY:
+    title: "Not that Simple: Email Delivery in the 21st Century"
+    date: July 2022
+    author:
+     -
+      name: Florian Hozbauer
+     -
+      name: Johanna Ullrich
+     -
+      name: Martina Lindorfer
+     -
+      name: Tobias Fiebig
+    target: https://www.usenix.org/system/files/atc22-holzbauer.pdf
+    display: Holzbauer
 
 --- abstract
 
@@ -404,9 +418,11 @@ Protocol designers often attempt to address centralization through federation: d
 
 However, federation alone is insufficient to prevent or mitigate centralization of a function, because non-technical factors can create pressure to use a central solution.
 
-For example, the e-mail suite of protocols needs to route messages to a user even when that user changes network locations or becomes disconnected for a long period. To facilitate this, SMTP {{?RFC5321}} defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids the use of a single, central server. Users can (and often do) choose to delegate that role to someone else, or can run their own MTA.
+For example, the e-mail suite of protocols needs to route messages to a user even when that user changes network locations or becomes disconnected for a long period. To facilitate this, SMTP {{?RFC5321}} defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids a requirement for a single, central server in that role; users can (and often do) choose to delegate it to someone else, or can run their own MTA.
 
-Despite this design, e-mail exhibits a degree of centralization. Part of the reason is a side effect of spam controls; many now consider running a personal MTA to be impractical because of the likelihood of a small MTA being classified as a spam source. Because large MTA operators are widely known and there is greater impact if their operation is affected, they are less likely to be classified as such -- creating pressure towards centralization.
+Running one's own MTA has become considerably more onerous over the years, due in part to the increasingly complex mechanisms introduced to fight unwanted commercial e-mail.  These costs create an incentive to delegate one's MTA to a third party who has the appropriate expertise and resources, contributing to market concentration. {{DELIVERABILITY}}
+
+Additionally, the measures that MTAs use to identify unwanted commercial e-mail are often site-specific. Because large MTAs handle so many more addresses, there is a power imbalance with smaller ones; if a large MTA decides that e-mail from a small one is unwanted, there is significant impact on its ability to function, and little recourse.
 
 XMPP {{?RFC6120}} is a chat protocol that demonstrates another issue with federation: the voluntary nature of technical standards. Like e-mail, XMPP is federated to facilitate rendezvous of users from different systems - if they allow it.
 
