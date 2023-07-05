@@ -121,13 +121,14 @@ informative:
      -
       name: Zachary Abrahamson
     refcontent: Yale Law Journal, Vol. 124, No. 3
-  OECD:
-    title: Data portability, interoperability and digital platform competition
-    date: 9 June 2021
-    target: https://www.oecd.org/daf/competition/data-portability-interoperability-and-digital-platform-competition-2021.pdf
+  DMA:
+    title: Regulation (EU) 2022/1925 of the European Parliament and of the Council of 14 September 2022 on contestable and fair markets in the digital sector and amending Directives (EU) 2019/1937 and (EU) 2020/1828 (Digital Markets Act)
+    date: 14 September 2022
+    target: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R1925
+    refcontent: OJ L 265/1, 12.10.2022
     author:
      -
-      organization: OECD
+      organization: The European Parliament and the Council of the European Union
   MIX:
     display: CHAUM
     title: Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms
@@ -496,13 +497,11 @@ For example, privacy is often more effectively ensured by ex ante technical cons
 
 Functions that are currently only available from proprietary providers are ripe for standardisation efforts. That might include large-scale protocols for existing proprietary functions (e.g., chat) as well as smaller efforts to improve interoperability and portability of specific features that are often used to lock users into a platform; for example, a format for lists of contacts in a social network.
 
-A common objection to this approach is that adoption is voluntary, not mandatory; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{ACTIVITYSTREAMS}}) were available for some time without being used in a federated manner by commercial social networking providers.
+A common objection to this approach is that adoption is voluntary; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{ACTIVITYSTREAMS}}) were available for some time without being used in a federated manner by commercial social networking providers.
 
-That objection ignores that while standards aren't mandatory, legal regulation is, and legal mandates for interoperability are increasingly discussed by policymakers as a remedy for competition issues (see, e.g., {{OECD}}).
+That objection ignores that while standards aren't mandatory, legal regulation is. Legal mandates for interoperability are increasingly proposed by policymakers as a remedy for competition issues (see, e.g., {{DMA}}). This appetite for regulation presents an opportunity for new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}.
 
-As such, appetite for regulation presents an opportunity for new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}. That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture.
-
-Successfully creating standards that work in concert with legal regulation presents many potential pitfalls, and will require improved and new capabilities (especially liaison), and considerable effort. If the Internet community does not make that effort, it is likely that regulators will turn to other sources of interoperability specifications -- most likely, with less transparency, more narrow input, limited experience, and without reference to the Internet’s architectural goals.
+That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture. Successfully creating standards that work in concert with legal regulation presents many potential pitfalls, and will require improved and new capabilities (especially liaison), and considerable effort. If the Internet community does not make that effort, it is likely that regulators will turn to other sources of interoperability specifications -- most likely, with less transparency, more narrow input, limited experience, and without reference to the Internet’s architectural goals.
 
 
 ## Enable Switching {#balance}
