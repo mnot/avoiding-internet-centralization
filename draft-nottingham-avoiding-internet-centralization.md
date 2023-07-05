@@ -59,7 +59,7 @@ informative:
         organization: Columbia Law School
     refcontent: University of Chicago Law Review, Vol. 82, p. 573
   INTERDEPENDENCE:
-    display: FARRELLa
+    display: FARRELLh
     target: https://doi.org/10.1162/ISEC_a_00351
     title: "Weaponized Interdependence: How Global Economic Networks Shape State Coercion"
     date: 2019
@@ -289,7 +289,7 @@ perspective"
     display: Holzbauer
   SWITCHING:
     title: Dynamic Competition with Switching Costs
-    display: FARRELLb
+    display: FARRELLj
     date: January 11, 1988
     author:
      -
