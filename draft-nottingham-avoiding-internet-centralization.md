@@ -37,7 +37,7 @@ normative:
 
 informative:
   RAND:
-    display: BARAN
+    display: Baran
     target: https://www.rand.org/pubs/research_memoranda/RM3420.html
     title: "On Distributed Communications: Introduction to Distributed Communications Networks"
     date: 1964
@@ -48,7 +48,7 @@ informative:
   HTTP: RFC9110
   SOAP: W3C.REC-soap12-part0-20070427
   INTERMEDIARY-INFLUENCE:
-    display: JUDGE
+    display: Judge
     target: https://scholarship.law.columbia.edu/faculty_scholarship/1856
     title: Intermediary Influence
     date: 2014
@@ -59,7 +59,7 @@ informative:
         organization: Columbia Law School
     refcontent: University of Chicago Law Review, Vol. 82, p. 573
   INTERDEPENDENCE:
-    display: FARRELLh
+    display: FarrellH
     target: https://doi.org/10.1162/ISEC_a_00351
     title: "Weaponized Interdependence: How Global Economic Networks Shape State Coercion"
     date: 2019
@@ -76,6 +76,7 @@ informative:
   MOXIE:
     target: https://signal.org/blog/the-ecosystem-is-moving/
     title: "Reflections: The ecosystem is moving"
+    display: Marlinspike
     date: 10 May 2016
     author:
      -
@@ -83,7 +84,7 @@ informative:
        name: Moxie Marlinspike
        organization: Signal
   MULTISTAKEHOLDER:
-    display: PALLADINO
+    display: Palladino
     title: "Legitimacy, Power, and Inequalities in the Multistakeholder Internet Governance"
     date: 2020
     author:
@@ -93,7 +94,7 @@ informative:
        name: Nauro Santaniello
     target: https://link.springer.com/book/10.1007/978-3-030-56131-4
   NEW-CHICAGO:
-    display: LESSIG
+    display: Lessig
     title: "The New Chicago School"
     date: June 1998
     author:
@@ -102,7 +103,7 @@ informative:
     refcontent: "Journal of Legal Studies, Vol. 27"
     target: https://www.journals.uchicago.edu/doi/10.1086/468039
   POLYCENTRIC:
-    display: ALIGIA
+    display: Aligia
     title: "Polycentricity: From Polanyi to Ostrom, and Beyond"
     date: April 2012
     author:
@@ -113,7 +114,7 @@ informative:
     target: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0491.2011.01550.x
     refcontent: "Governance: An International Journal of Policy, Administration, and Institutions, Vol. 25, No. 2, p. 237"
   ACCESS:
-    display: ABRAHAMSON
+    display: Abrahamson
     title: Essential Data
     date: 2014
     target: https://www.yalelawjournal.org/comment/essential-data
@@ -130,7 +131,7 @@ informative:
      -
       organization: The European Parliament and the Council of the European Union
   MIX:
-    display: CHAUM
+    display: Chaum
     title: Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms
     date: 1 February 1981
     target: https://dl.acm.org/doi/10.1145/358549.358563
@@ -139,7 +140,7 @@ informative:
       name: David L. Chaum
     refcontent: Communications of the ACM, Vol. 24, No. 2
   FEDERALIST-51:
-    display: MADISON
+    display: Madison
     title: The Structure of the Government Must Furnish the Proper Checks and Balances Between the Different Departments
     date: 8 February 1788
     author:
@@ -147,7 +148,7 @@ informative:
        name: James Madison
     refcontent: The Federalist Papers, No. 51
   ATTRACTIVE-PROFITS:
-    display: CHRISTENSEN
+    display: Christensen
     title: The Law of Conservation of Attractive Profits
     date: February 2004
     author:
@@ -156,7 +157,7 @@ informative:
     refcontent: Harvard Business Review, "Breakthrough Ideas for 2004"
   ACTIVITYSTREAMS: W3C.CR-activitystreams-core-20161215
   CIRCULAR-CONUNDRUM:
-    display: SPULBER
+    display: Spulber
     title: "Solving The Circular Conundrum: Communication And Coordination In Internet Markets"
     date: 2010
     author:
@@ -165,7 +166,7 @@ informative:
     refcontent: "Northwestern University Law Review, Vol. 104, No. 2"
     target: https://wwws.law.northwestern.edu/research-faculty/clbe/workingpapers/documents/spulber_circularconundrum.pdf
   AMBITION:
-    display: SCHNEIDERb
+    display: Schneider2
     title: "Decentralization: an incomplete ambition"
     date: 2019
     author:
@@ -187,7 +188,7 @@ informative:
     target: https://www.nber.org/papers/w29396
     refcontent: "National Bureau of Economic Research, Working Paper 29396"
   PERSPECTIVE:
-    display: BODO
+    display: Bodo
     title: "Decentralization: a multidisciplinary
 perspective"
     date: 16 June 2021
@@ -205,13 +206,14 @@ perspective"
     refcontent: "Internet Policy Review, Vol. 10, No. 2"
   MUSIANI:
     title: "Alternative Technologies as Alternative Institutions: The Case of the Domain Name System"
+    display: Musiani
     date: 2016
     author:
       - name: Francesca Musiani
     target: https://link.springer.com/chapter/10.1057/9781137483591_4
     refcontent: "The Turn to Infrastructure in Internet Governance"
   STRUCTURELESS:
-    display: FREEMAN
+    display: Freeman
     title: The Tyranny of Structurelessness
     date: 1972
     author:
@@ -220,7 +222,7 @@ perspective"
     target: https://www.jstor.org/stable/41035187
     refcontent: Berkeley Journal of Sociology, Vol. 17
   SCHNEIDER:
-    display: SCHNEIDERa
+    display: Schneider1
     title: What to do once you admit that decentralizing everything never seems to work
     date: 17 October 2022
     author:
@@ -229,6 +231,7 @@ perspective"
     refcontent: Hacker Noon
   BACCHI:
     title: "Introducing the ‘What’s the Problem Represented to be?’ approach"
+    display: Bacchi
     date: 2012
     author:
       - name: Carol Bacchi
@@ -243,6 +246,7 @@ perspective"
     target: https://ethereum.org/en/upgrades/merge/
   FB-INTERNET:
     title: "Regulators Seem to Think That Facebook Is the Internet"
+    display: Komaitis
     date: 6 August 2021
     author:
      - name: Konstantinos Komaitis
@@ -273,6 +277,7 @@ perspective"
      -
       name: Amelia Fletcher
     target: http://dx.doi.org/10.2139/ssrn.4389681
+    display: Fletcher
   DELIVERABILITY:
     title: "Not that Simple: Email Delivery in the 21st Century"
     date: July 2022
@@ -286,10 +291,10 @@ perspective"
      -
       name: Tobias Fiebig
     target: https://www.usenix.org/system/files/atc22-holzbauer.pdf
-    display: HOLZBAUER
+    display: Holzbauer
   SWITCHING:
     title: Dynamic Competition with Switching Costs
-    display: FARRELLj
+    display: FarrellJ
     date: January 11, 1988
     author:
      -
