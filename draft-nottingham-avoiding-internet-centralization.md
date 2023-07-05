@@ -278,7 +278,7 @@ perspective"
     date: July 2022
     author:
      -
-      name: Florian Hozbauer
+      name: Florian Holzbauer
      -
       name: Johanna Ullrich
      -
@@ -286,7 +286,7 @@ perspective"
      -
       name: Tobias Fiebig
     target: https://www.usenix.org/system/files/atc22-holzbauer.pdf
-    display: Holzbauer
+    display: HOLZBAUER
   SWITCHING:
     title: Dynamic Competition with Switching Costs
     display: FARRELLj
