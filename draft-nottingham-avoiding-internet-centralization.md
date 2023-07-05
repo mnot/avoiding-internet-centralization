@@ -59,7 +59,7 @@ informative:
         organization: Columbia Law School
     refcontent: University of Chicago Law Review, Vol. 82, p. 573
   INTERDEPENDENCE:
-    display: FARRELL
+    display: FARRELLa
     target: https://doi.org/10.1162/ISEC_a_00351
     title: "Weaponized Interdependence: How Global Economic Networks Shape State Coercion"
     date: 2019
@@ -287,6 +287,18 @@ perspective"
       name: Tobias Fiebig
     target: https://www.usenix.org/system/files/atc22-holzbauer.pdf
     display: Holzbauer
+  SWITCHING:
+    title: Dynamic Competition with Switching Costs
+    display: FARRELLb
+    date: January 11, 1988
+    author:
+     -
+      name: Joseph Farrell
+     -
+      name: Carl Shapiro
+    target: http://dx.doi.org/10.2307/2555402
+    refcontent: UC Berkeley Department of Economics Working Paper 8865
+
 
 --- abstract
 
@@ -522,7 +534,7 @@ That opportunity also presents a risk, if the resulting legal regulation is at o
 
 ## Enable Switching {#balance}
 
-To minimize centralization, specifications should have an explicit goal of facilitating users' switching between implementations and deployments of the functions they define or enable.
+To minimize centralization, standards should have an explicit goal of facilitating users' switching between implementations and deployments of the functions they define or enable. {{SWITCHING}}
 
 One necessary condition for switching is the availability of alternatives; breadth and diversity of implementation and deployment are required. For example, if there is only a single implementation of a protocol, applications that use it are vulnerable to the control it has over their operation. Even Open Source projects can be an issue in this regard if there are factors that make forking difficult (for example, the cost of maintaining that fork). {{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage diversity of implementation.
 
