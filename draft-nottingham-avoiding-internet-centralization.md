@@ -575,7 +575,7 @@ See {{?I-D.thomson-tmi}} for more guidance on protocol intermediation.
 The term "intermediary" is also used (often in legal and regulatory contexts) more broadly than it has been in protocol design; for example, an auction Web site intermediates between buyers and sellers is considered an intermediary, even though it is not formally an intermediary in HTTP (see {{Section 3.7 of HTTP}}). Protocol designers can address the centralization associated with this kind of intermediation by standardising the function, rather than restricting the capabilities of the underlying protocols; see {{up}}.
 
 
-### Enforce Layer Boundaries {#network}
+## Enforce Layer Boundaries {#network}
 
 Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
 
