@@ -500,9 +500,9 @@ When engaging in external efforts, the IETF community (especially, its leadershi
 
 ## Focus Discussion of Centralization {#target}
 
-Centralization and decentralization are increasingly being raised in technical standards discussions. Any claims needs to be critically evaluated; as discussed in {{centralization}}, not all centralization is automatically harmful, and per {{decentralization}}, decentralization techniques do not automatically address all centralization harms -- and they may bring their own risks.
+Centralization and decentralization are increasingly being raised in technical standards discussions. Any claim needs to be critically evaluated: as discussed in {{centralization}}, not all centralization is automatically harmful, and per {{decentralization}}, decentralization techniques do not automatically address all centralization harms -- and they may bring their own risks.
 
-Claims of centralization can be proxies for power struggles between actors with competing interests. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but a competitor might use a claim of centralization to deny them the benefit of standardization.
+However, standards participants rarely have the expertise or information available to evaluate those claims or perform a complete (or even competent) analysis of the various economic, social, commercial, and legal aspects in play. Furthermore, claims of centralization may have other motivations; they can be proxies for power struggles between actors with competing interests. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but a competitor might use a claim of centralization to deny the benefits of standardization.
 
 Therefore, approaches like requiring a "Centralization Considerations" section in drafts, gatekeeping publication on a centralization review, or committing significant resources to searching for centralization in protocols are unlikely to improve the Internet.
 
