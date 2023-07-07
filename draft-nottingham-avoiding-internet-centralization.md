@@ -607,7 +607,7 @@ Those steps might be elaborated upon and extended in future work; doubtless ther
 
 Some have suggested creating a how-to guide or checklist for dealing with centralization. Because centralization is so contextual and so varied in how it manifests, this might best be attempted within very limited areas; for example, for a particular type of function, or a function at a particular layer.
 
-The nature of centralization also deserves further study; in particular, its causes. While there is much commentary on factors like network effects and switching costs, other aspects such as behavioural, cognitive, and social factors have received comparatively little attention, although that is changing (e.g., {{BEHAVIOUR}}).
+The nature of centralization also deserves further study; in particular, its causes. While there is much commentary on factors like network effects and switching costs, other aspects such as behavioural, cognitive, and social and economic factors have received comparatively little attention, although that is changing (e.g., {{BEHAVIOUR}}).
 
 
 # Security Considerations
