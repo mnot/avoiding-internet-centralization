@@ -443,7 +443,7 @@ Additionally, the measures that MTAs use to identify unwanted commercial e-mail 
 
 XMPP {{?RFC6120}} is a chat protocol that demonstrates another issue with federation: the voluntary nature of technical standards. Like e-mail, XMPP is federated to facilitate rendezvous of users from different systems - if they allow it.
 
-While some XMPP deployments do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, denying them the benefits of global interoperability.
+While some XMPP deployments do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, deliberately denying them the benefits of global interoperability.
 
 The examples above illustrate that, while federation can create the conditions necessary for a function to be decentralized, it does not guarantee that outcome.
 
