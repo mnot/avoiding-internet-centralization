@@ -365,7 +365,7 @@ This reluctance to countenance centralization is also rooted in the many potenti
 
 The relationship between these harms and centralization is often complex; it is not always the case that centralization will lead to them, and when it does, there is not always a direct and simple tradeoff.
 
-For example, consider the impact of centralization upon availability. A centrally operated system might be more available because of factors like the resources available to a larger operator, but also have greater impact when a fault is encountered; decentralized systems might be more resilient in the face of local failures, but less able to react to systemic issues.
+For example, consider the impact of centralization upon availability. A centrally operated system might be more available because of factors like the resources available to a larger operator, but also have greater impact when a fault is encountered; decentralized systems might be more resilient in the face of some forms of failure, but may be less able to react to systemic issues, may have a larger collection of vulnerabilities exposed, and may be more prone to disruption due to some forms of failure.
 
 This tension can be seen in areas like the cloud and mobile Internet access. If a popular cloud hosting provider were to become unavailable (whether for technical or other reasons), many people's experience of the Internet might be disrupted (especially due to the multiple dependencies that a modern Web site often has; see {{DEPENDENCIES}}). Likewise, a large mobile Internet access provider might have an outage that affects hundreds of thousands of its users, or more -- just as previous issues at large telephone companies precipitated widespread outages. {{PHONE}}
 
