@@ -473,7 +473,7 @@ Another example is the governance of the Web's trust model, implemented by Web b
 
 These examples are notable in that the governance mechanism is not specified in the protocol documents directly; rather, they are layered on operationally, but in a manner that takes advantage of protocol features that enable the imposition of governance.
 
-Governance in this manner is best suited to very limited functions, like the examples above. Even then, setup and ongoing operation of a governance mechanism is not trivial, and their legitimacy may be difficult to establish and maintain (see, e.g., {{MULTISTAKEHOLDER}}); by their nature, they are vulnerable to capture by the interests that are being governed.
+Governance in this manner is suited to very limited functions like the examples above. Even then, setup and ongoing operation of a governance mechanism is not trivial, and their legitimacy may be difficult to establish and maintain (see, e.g., {{MULTISTAKEHOLDER}}); by their nature, they are vulnerable to capture by the interests that are being governed.
 
 
 # What Can Internet Standards Do? {#considerations}
