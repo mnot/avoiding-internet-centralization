@@ -487,7 +487,7 @@ The subsections below suggest a few concrete, meaningful steps that standards bo
 
 Where technical standards have only limited ability to control centralization of the Internet, legal standards (whether regulation, legislation, or case law) show more promise, and are actively being considered and implemented in various jurisdictions. However, regulating the Internet is risky without a firm grounding in the effects on the architecture, informed by a technical viewpoint.
 
-That viewpoint can and should be provided by the Internet standards community. To effectively do so, its institutions must be seen as legitimate by the relevant parties -- for example, competition regulators. If the IETF is perceived as representing or being controlled by "big tech" concerns, its ability to guide decisions that affect the Internet will be diminished considerably.
+That viewpoint can and should be provided by the Internet standards community. To effectively do so, its institutions must be seen as legitimate by the relevant parties -- for example, competition regulators. If the IETF is perceived as representing or being controlled by "big tech" concerns or only US-based companies, its ability to guide decisions that affect the Internet will be diminished considerably.
 
 The IETF already has features that arguably provide considerable legitimacy; for example, open participation and representation by individuals rather than companies both enhance input legitimacy; a well-defined process with multiple layers of appeals and transparency contributes to throughput legitimacy, and a long history of successful Internet standards provides perhaps the strongest source of legitimacy for the IETF -- its output.
 
