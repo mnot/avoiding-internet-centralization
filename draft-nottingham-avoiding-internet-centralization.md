@@ -575,13 +575,13 @@ See {{?I-D.thomson-tmi}} for more guidance on protocol intermediation.
 The term "intermediary" is also used (often in legal and regulatory contexts) more broadly than it has been in protocol design; for example, an auction Web site intermediates between buyers and sellers is considered an intermediary, even though it is not formally an intermediary in HTTP (see {{Section 3.7 of HTTP}}). Protocol designers can address the centralization associated with this kind of intermediation by standardising the function, rather than restricting the capabilities of the underlying protocols; see {{up}}.
 
 
-## Enforce Layer Boundaries {#network}
+## Enforce Boundaries {#network}
 
 Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
 
-For example, application-layer protocols require a network to function, and therefore a degree of power over communication is available to the network provider. They might block access to, slow down, or change the content of a specific service for financial, political, operational, or criminal reasons, creating a disincentive (or even removing the ability) to use a specific provider of a function. By selectively hindering the use of some services but not others, network interventions can be composed to create pressure to use those other services -- intentionally or not.
+For example, application protocols require a network to function, and therefore a degree of power over communication is available to the network provider. They might block access to, slow down, or change the content of a specific service for financial, political, operational, or criminal reasons, creating a disincentive (or even removing the ability) to use a specific provider of a function. By selectively hindering the use of some services but not others, network interventions can be composed to create pressure to use those other services -- intentionally or not.
 
-Techniques like encryption can discourage such centralization by enforcing layer boundaries. When the number of parties who have access to the content of communication is limited, parties at lower layers can be prevented from interfering with and observing it. Although those lower-layer parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
+Techniques like encryption can discourage such centralization by enforcing such boundaries. When the number of parties who have access to the content of communication is limited, other parties who handle it but are not party to it can be prevented from interfering with and observing it. Although those parties might still prevent communication, encryption also makes it more difficult to discriminate a target from other users' traffic.
 
 
 ## Consider Extensibility Carefully {#evolution}
