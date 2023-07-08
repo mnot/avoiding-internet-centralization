@@ -340,7 +340,7 @@ Because people's experiences are not limited to standards-defined protocols and 
 
 This definition does not capture all types of centralization. Notably, technical centralization (where, for example, a machine or network link is a single point of failure) is relatively well-understood by engineers, and can be mitigated, typically by distributing a function across multiple components. As we will see, these techniques might address that type of centralization while failing to prevent control of the function falling into few hands. A failure because of a cut cable, power outage, or failed server is well-understood by the technical community, but qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
 
-Likewise, political centralization (where a country is able to control how a function is supplied across the whole Internet) is equally concerning, but not considered in depth here.
+Likewise, political centralization (where, for example, a country is able to control how a function is supplied across the whole Internet) is equally concerning, but not considered in depth here.
 
 Even when centralization is not currently present in a function, some conditions make it more likely that centralization will emerge in the future. This document uses "centralization risk" to characterise that possibility.
 
