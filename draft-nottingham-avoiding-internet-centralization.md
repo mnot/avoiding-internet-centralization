@@ -495,7 +495,7 @@ However, it is also widely recognized the considerable costs (not just financial
 
 Efforts to address these shortcomings are ongoing; see, for example, {{?RFC8890}}. Overall, bolstering the legitimacy of the organization should be seen as a continuous effort.
 
-When engaging in external efforts, the IETF community (especially, its leadership) should keep firmly in mind that it is most authoritative when focused on technical and architectural impact. Straying from these topics will likely result in a loss of legitimacy that would likely be difficult to recover from.
+When engaging in external efforts, the IETF community (especially, its leadership) should keep firmly in mind that its voice is most authoritative when focused on technical and architectural impact.
 
 
 ## Focus Discussion of Centralization {#target}
