@@ -388,7 +388,7 @@ Or, consider IP address allocation. Internet routing requires addresses to be al
 
 Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties who are not in direct contact also require centralization. For example, chat protocols need to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party at some point. From the perspective of those two users, the rendezvous function is centralized.
 
-Even when not strictly necessary, centralization can bring benefits for a function's users and society.
+Even when not strictly necessary, centralization can bring benefits for a function's users and for society.
 
 For example, centralized systems often have greater access to economies of scale and greater access to data and experience, leading to higher quality products and lower costs that can be passed on to the consumer. Complex and risky functions like financial services (e.g., credit card processing) are often centralized into relatively few, specialized organizations, where they can receive the focused attention and expertise that they require.
 
