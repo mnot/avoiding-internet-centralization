@@ -398,7 +398,7 @@ This can be seen when a function requires governance to realize common goals and
 
 When centralization is purposefully allowed in an Internet function, protocol designers often attempt to mitigate the associated risks using technical measures such as federation (see {{federation}}) and operational governance structures (see {{multi}}). Protocols that successfully do so are often reused to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, incorporating the Domain Name System is usually preferable to establishing a new system.
 
-Ultimately, deciding when centralization is beneficial is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient.
+Ultimately, deciding when centralization is beneficial is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient. In general, though, centralization is most concerning when it is not broadly held to be necessary or beneficial, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens the architectural features that make the Internet successful.
 
 
 # Decentralization {#decentralization}
@@ -506,28 +506,22 @@ When engaging in external efforts, the IETF community (especially, its leadershi
 
 Centralization and decentralization are increasingly being raised in technical standards discussions. Any claim needs to be critically evaluated: as discussed in {{centralization}}, not all centralization is automatically harmful, and per {{decentralization}}, decentralization techniques do not automatically address all centralization harms -- and they may bring their own risks.
 
-However, standards participants rarely have the expertise or information available to evaluate those claims or perform a complete (or even competent) analysis of the various economic, social, commercial, and legal aspects in play. Furthermore, claims of centralization may have other motivations; they can be proxies for power struggles between actors with competing interests. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but a competitor might use a claim of centralization to deny the benefits of standardization.
+However, standards participants rarely have the expertise or information available to completely evaluate those claims, because the analysis involves not only technical factors, but also economic, social, commercial, and legal aspects. Furthermore, claims of centralization may have other motivations; they can be proxies for power struggles between actors with competing interests. A protocol that is deployed by a large, centralized service does not necessarily cause that centralization, but another party might use a claim of centralization to deny them the benefits of standardization.
 
 Therefore, approaches like requiring a "Centralization Considerations" section in drafts, gatekeeping publication on a centralization review, or committing significant resources to searching for centralization in protocols are unlikely to improve the Internet.
 
-Refusing to standardize a protocol because it does not actively prevent all forms of centralization ignores the very limited power that standards efforts have to do so. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to prevent all forms of centralization. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
+Similarly, refusing to standardize a protocol because it does not actively prevent all forms of centralization ignores the very limited power that standards efforts have to do so. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to prevent all forms of centralization. While the imprimatur of an Internet Standard is not without value, merely withholding it cannot prevent these sources of centralization.
 
-When claims are made that a given proposal is "centralized" or "decentralized", the context of those statements should be examined for presuppositions, assumptions, and omissions. One framework for critical interrogations is offered by {{BACCHI}}, which can be adapted for centralization-related discussions:
+Discussions should thus be very focused and limited, and any proposals for decentralization should be detailed, so their full effects can be evaluated. {{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
 
-1. What is the nature of the (de)centralization that is represented as being problematic?
+When evaluating claims that a given proposal is centralized, the context of those statements should be examined for presuppositions, assumptions, and omissions. One framework for critical interrogations is offered by {{BACCHI}}, which can be adapted for centralization-related discussions:
+
+1. What is the nature of the centralization that is represented as being problematic?
 2. What deep-seated presuppositions or assumptions (conceptual logics) underlie this representation of the "problem"?
 3. How has this representation of the problem come about?
 4. What is left unproblematic in this problem representation? Where are the silences? Can the "problem" be conceptualized differently?
 5. What effects are produced by this representation of the “problem”?
 6. How and where has this representation of the “problem” been produced, disseminated, and defended? How has it been and/or how can it be disrupted and replaced?
-
-Discussions should focus on whether claimed centralization is harmful or, if helpful, whether it is justified. Centralization is most concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens the architectural features that make the Internet successful.
-
-{{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
-
-When centralization is found, standards efforts should consider its relationship with architectural goals as they consider how and if it should be mitigated (if possible). In particular, attention should be paid to how effective standards (as a form of architectural control) is in achieving each goal.
-
-For example, privacy is often more effectively ensured by ex ante technical constraints, as compared to ex post legal regulation. Conversely, some centralization may be more effectively addressed through legal regulation. Thus, a standards effort balancing these concerns might bias towards privacy, after informed discussion.
 
 
 ## Target Proprietary Functions {#up}
