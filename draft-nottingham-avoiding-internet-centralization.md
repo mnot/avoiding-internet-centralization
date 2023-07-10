@@ -347,7 +347,7 @@ Even when centralization is not currently present in a function, some conditions
 
 ## Centralization Can Be Harmful {#why}
 
-Many engineers who participate in Internet standards efforts have an inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" whose operators relate as peers who agree to facilitate communication, rather than experiencing coercion or requiring subservience to others' requirements. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
+Many engineers who participate in Internet standards efforts have an inclination to prevent and counteract centralization because they see the Internet's history and architecture as incompatible with it. As a "large, heterogeneous collection of interconnected systems" {{?BCP95}} the Internet is often characterised as a "network of networks" whose operators relate as peers that agree to facilitate communication, rather than experiencing coercion or requiring subservience to others' requirements. This focus on independence of action is prevalent in the Internet's design -- for example, in the concept of an "autonomous system".
 
 This reluctance to countenance centralization is also rooted in the many potentially damaging effects that have been associated with centralization, including:
 
