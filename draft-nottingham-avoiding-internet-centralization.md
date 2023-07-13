@@ -371,7 +371,7 @@ This tension can be seen in areas like the cloud and mobile Internet access. If 
 
 In both cases, the services are not technically centralized; these operators have strong incentives to have multiple redundancies in place and use various techniques to mitigate the risk of any one component failing. However, they generally do rely upon a single codebase, a limited selection of hardware, a unified control plane, and a uniform administrative practice -- each of which might precipitate a widespread failure.
 
-If there were only one provider for these services (like the telephone networks of old), they would easily be considered as centralized. However, many cloud providers offer similar services, and in most places there are multiple mobile operators available. That weakens the argument that there is a link between centralization and their availability, because the function's users can switch to other providers, or use more than one provider simultaneously.
+If there were only one provider for these services (like the telephone networks of old), they would easily be considered as centralized. However, many cloud providers offer similar services, and in most places there are multiple mobile operators available. That weakens the argument that there is a link between centralization and their availability, because the function's users can switch to other providers, or use more than one provider simultaneously; see {{switch}}.
 
 These circumstances suggest one area of inquiry when considering the relationship between centralization and availability of a given function: what barriers are there to switching to other providers (thereby making any disruptions temporary and manageable) or to using multiple providers simultaneously (to mask the failure of a single operator)?
 
@@ -535,9 +535,11 @@ That objection ignores that while standards aren't mandatory, legal regulation i
 That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture. Successfully creating standards that work in concert with legal regulation presents many potential pitfalls, and will require improved and new capabilities (especially liaison), and considerable effort. If the Internet community does not make that effort, it is likely that regulators will turn to other sources for interoperability specifications.
 
 
-## Enable Switching {#balance}
+## Enable Switching {#switch}
 
-To minimize centralization, standards should have an explicit goal of facilitating users' switching between implementations and deployments of the functions they define or enable. {{SWITCHING}}
+The ability to switch between different function providers is a core mechanism to control centralization. If users are unable to switch, they cannot exercise choice or fully realize the value of their efforts; for example, "learning to use a vendor's product takes time, and the skill may not be fully transferrable to a competitor's product if there is inadequate standardization."{{SWITCHING}}
+
+Therefore, standards should have an explicit goal of facilitating users' switching between implementations and deployments of the functions they define or enable.
 
 One necessary condition for switching is the availability of alternatives; breadth and diversity of implementation and deployment are required. For example, if there is only a single implementation of a protocol, applications that use it are vulnerable to the control it has over their operation. Even Open Source projects can be an issue in this regard if there are factors that make forking difficult (for example, the cost of maintaining that fork). {{Section 2.1 of ?RFC5218}} explores some factors in protocol design that encourage diversity of implementation.
 
