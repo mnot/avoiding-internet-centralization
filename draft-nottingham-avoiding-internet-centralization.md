@@ -322,7 +322,7 @@ These difficulties call into question what role architectural design -- in parti
 
 This document argues that while decentralized technical standards may be necessary to avoid centralization of Internet functions, they are not sufficient to achieve that goal because centralization is often caused by non-technical factors outside their control. That said, there are still meaningful contributions that standards bodies can make, such as assisting those who have similar goals and greater ability to control those factors.
 
-The primary audience for this document is the engineers who design and standardize Internet protocols. Designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
+Although this document has been discussed widely in the IETF community (see {{acks}}), it represents the views of the author, not community consensus. Its primary audience is the engineers who design and standardize Internet protocols. Designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
 
 {{centralization}} defines centralization, explains why it is often undesirable but sometimes beneficial, and surveys how it occurs on the Internet. {{decentralization}} explores decentralization and highlights some relevant strategies, along with their limitations. Then, {{considerations}} makes recommendations about the role that Internet standards can play in controlling centralization. {{conclude}} concludes by identifying areas for future work.
 
@@ -618,12 +618,12 @@ This document does not have a direct security impact on Internet protocols. That
 --- back
 
 
-# Acknowledgements
+# Acknowledgements {#acks}
 
 This document was born out of early discussions with Brian Trammell during our shared time on the Internet Architecture Board.
 
 Special thanks to Geoff Huston and Milton Mueller for their well-considered, thoughtful, and helpful comments.
 
-Thanks also to Jari Arkko, Kristin Berdan, Richard Clayton, Christian Huitema, Mallory Knodel, Eliot Lear, John Levine, Tommy Pauly, and Martin Thomson for their comments and suggestions.
+Thanks to Jari Arkko, Kristin Berdan, Richard Clayton, Christian Huitema, Mallory Knodel, Eliot Lear, John Levine, Tommy Pauly, and Martin Thomson for their comments and suggestions. Likewise, the arch-discuss@ietf.org mailing list and Decentralized Internet Infrastructure Research Group provided valuable discussion and feedback.
 
 No large language models were used in the production of this document.
