@@ -1,0 +1,3357 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-06-01T00:04:59.153771+00:00",
+  "repo": "mnot/avoiding-internet-centralization",
+  "labels": [
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "work item",
+      "description": "Well-defined issue that need spec text",
+      "color": "5319e7"
+    },
+    {
+      "name": "editorial",
+      "description": "",
+      "color": "c2e0c6"
+    },
+    {
+      "name": "nearly editorial",
+      "description": "fairly straightforward",
+      "color": "068FB3"
+    },
+    {
+      "name": "idea",
+      "description": "source material / notes for potential use",
+      "color": "E7C3B1"
+    },
+    {
+      "name": "waiting for feedback",
+      "description": "",
+      "color": "f9d0c4"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOGCfj784_8_bx",
+      "title": "Add examples",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/1",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Throughout, but especially in the recommendations.",
+      "createdAt": "2021-12-07T06:04:44Z",
+      "updatedAt": "2022-01-07T08:42:44Z",
+      "closedAt": "2022-01-07T08:42:44Z",
+      "comments": []
+    },
+    {
+      "number": 2,
+      "id": "I_kwDOGCfj784_8_eY",
+      "title": "Expand upon distributed consensus / blockchain",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/2",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-12-07T06:05:01Z",
+      "updatedAt": "2022-01-07T07:05:36Z",
+      "closedAt": "2022-01-07T07:05:36Z",
+      "comments": [
+        {
+          "author": "Mubelotix",
+          "authorAssociation": "NONE",
+          "body": "I think it is important to note that many things can be done without blockchain. In a distributed network, each participant can store and relay the data they care about. That works well if you can accept that data is made unavailable as soon as all nodes forget about it. Blockchains don't have this problem though. Blockchains never forget. ",
+          "createdAt": "2022-01-06T21:44:04Z",
+          "updatedAt": "2022-01-06T21:44:04Z"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "I_kwDOGCfj784_-YZl",
+      "title": "access to data also creates barriers to entry",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/3",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "relate to observation ",
+      "createdAt": "2021-12-07T12:52:06Z",
+      "updatedAt": "2021-12-08T05:58:54Z",
+      "closedAt": "2021-12-08T05:58:54Z",
+      "comments": []
+    },
+    {
+      "number": 6,
+      "id": "I_kwDOGCfj785Aar1e",
+      "title": "balancing against other goals",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/6",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "E.g., privacy sometimes comes up in tension (at least purportedly). However, privacy is *much* more effectively regulated by architecture than competition; play to our strengths.",
+      "createdAt": "2021-12-15T08:40:24Z",
+      "updatedAt": "2022-01-07T08:51:14Z",
+      "closedAt": "2022-01-07T08:51:14Z",
+      "comments": [
+        {
+          "author": "Mubelotix",
+          "authorAssociation": "NONE",
+          "body": "Also note that everything public can be published trough an anonymity network (like Nym and Tor) and everything private can be encrypted.",
+          "createdAt": "2022-01-06T21:29:57Z",
+          "updatedAt": "2022-01-06T21:29:57Z"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOGCfj785Aar98",
+      "title": "build affordances for regulation",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/7",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "should be a primary goal for standards efforts.",
+      "createdAt": "2021-12-15T08:41:02Z",
+      "updatedAt": "2022-01-07T07:38:57Z",
+      "closedAt": "2022-01-07T07:38:57Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "This includes building \"up\" into the proprietary spaces.",
+          "createdAt": "2021-12-15T08:41:16Z",
+          "updatedAt": "2021-12-15T08:41:16Z"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "I_kwDOGCfj785BJwEJ",
+      "title": "Economic aspects",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/8",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Brian suggests:\r\n  https://blog.apnic.net/wp-content/uploads/2021/12/MKGRA669-Report-for-APNIC-LACNIC-V3.pdf\r\n\r\n... as a potential reference to explore the economic aspects of centralisation.\r\n",
+      "createdAt": "2022-01-04T07:15:16Z",
+      "updatedAt": "2022-01-07T07:05:39Z",
+      "closedAt": "2022-01-07T07:05:39Z",
+      "comments": []
+    },
+    {
+      "number": 9,
+      "id": "I_kwDOGCfj785BJwSO",
+      "title": "Define intermediation",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/9",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Watson [said](https://mailarchive.ietf.org/arch/msg/architecture-discuss/bBd0vGs5rGZaMBLCkcA_mtepRjw):\r\n\r\n> I think the comments on intermediaries in\r\ndraft-nottingham-avoiding-internet-centralization need some more work.\r\nIt's not clear to me why intermediation should be considered to lead\r\nto centralization. Often in examples I've seen the intermediation is\r\nnot a network but a mediator between the two ends. This can be\r\ncentralizing due to two sided market dynamics or decentralizing due to\r\nready access to many intermediates and a reduction in trust invested\r\nin an endpoint.\r\n>\r\n> From a network perspective all devices transporting packets are\r\nintermediaries between the hosts that ultimately generate them. While\r\nencryption does reduce the possible intervention of these boxes,\r\nthere's quite a few cases where they do do things, and even without\r\ncentralization manage to undercut permissionless innovation.\r\n\r\n... and I replied:\r\n\r\n> I may have been infected by a legal/policy perspective that assumes a much broader definition of 'intermediation' -- will try to clarify to get everyone on the same page.",
+      "createdAt": "2022-01-04T07:16:43Z",
+      "updatedAt": "2022-01-07T07:38:46Z",
+      "closedAt": "2022-01-07T07:38:46Z",
+      "comments": []
+    },
+    {
+      "number": 10,
+      "id": "I_kwDOGCfj785BUpsT",
+      "title": "tradeoffs",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/10",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "esp. vs. efficiency (latency, power and other costs).",
+      "createdAt": "2022-01-07T02:55:21Z",
+      "updatedAt": "2022-01-07T08:46:41Z",
+      "closedAt": "2022-01-07T08:46:41Z",
+      "comments": []
+    },
+    {
+      "number": 11,
+      "id": "I_kwDOGCfj785BZSyx",
+      "title": "Talk more about data?",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/11",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Data is often brought up as a compounding factor in competition discussions, and it's likely the same for centralization.\r\n\r\nThis might also be an opportunity to talk about:\r\n\r\n- data mininmisation\r\n- focus on formats rather than APIs where appropriate",
+      "createdAt": "2022-01-09T09:38:28Z",
+      "updatedAt": "2022-01-30T05:11:21Z",
+      "closedAt": "2022-01-30T05:11:21Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I suspect these are important, but only adjacent to centralisation. Closing for now.",
+          "createdAt": "2022-01-30T05:11:21Z",
+          "updatedAt": "2022-01-30T05:11:21Z"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "I_kwDOGCfj785BZTj4",
+      "title": "Discuss tradeoff of decentralization",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/12",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "e.g., large functions tend to be administered / operated more professionally, thus more available/performant/resistant to attack/have appropriate legal resource/etc.\r\n\r\nHowever, if they are too large, they can take out a significant portion of the internet.\r\n\r\nDepending on how difficult it is to switch providers / use multiple ones, different balance points can be found.",
+      "createdAt": "2022-01-09T09:55:21Z",
+      "updatedAt": "2022-02-06T03:20:22Z",
+      "closedAt": "2022-02-06T03:20:21Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Subsumed by #22.",
+          "createdAt": "2022-02-06T03:20:21Z",
+          "updatedAt": "2022-02-06T03:20:21Z"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "I_kwDOGCfj785BulyO",
+      "title": "Redundancy / Distributed as a function of resistance against centralization",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/14",
+      "state": "CLOSED",
+      "author": "karlcow",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Not sure if it fits the scope of the document that I just read now. And probably not completely matured in my head too (rough thoughts)\r\n\r\nOne feature to reduce centralization is the redundancy and/or duplication of a feature. Geo-Distributed Multiple servers make it easier to avoid the control by another entity at a different or in the same layer to control the system. If server A is down (for any reasons: technical, political, economic, etc.), re-routing to server B becomes a function of resilience, specifically if server A and server B are not controlled by the same political or economic entity. \r\n\r\nYou are mentioning this a bit in the notion of federated protocol and also the issue #11 has an impact on this. \r\nAka open standard format of data frees the data of being captured by a single entity that making them processable in a different context, by multiple clients, on multiple networks. It also makes the \"data redundant\" for the lack of a better word, aka having multiple copies of them in different locations and contexts (as opposed to a single point of failure such as a social network message with a unique URI for accessing it).\r\n\r\nAs you said all of that doesn't prevent centralization, but it encourages the possibility of decentralization. ",
+      "createdAt": "2022-01-14T01:37:52Z",
+      "updatedAt": "2022-01-30T03:12:18Z",
+      "closedAt": "2022-01-30T03:12:18Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Hmm. A few different parts of the document touch on this obliquely, but my takeaway is that it might be useful to focus more on substitutability as a design goal -- i.e., a protocol should enable users to switch providers of a given function with as little friction as possible. Does that help?",
+          "createdAt": "2022-01-21T03:47:01Z",
+          "updatedAt": "2022-01-21T03:47:01Z"
+        },
+        {
+          "author": "karlcow",
+          "authorAssociation": "NONE",
+          "body": "yes probably. Thanks.",
+          "createdAt": "2022-01-21T04:20:37Z",
+          "updatedAt": "2022-01-21T04:20:37Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Serendipitously, Watson said this in e-mail:\r\n\r\n> The other point I would make is\r\nnetwork effects are related to switching costs: if it is easy to\r\nswitch to another network or use both, then the value of having\r\neveryone on the network is less than if it is inherently difficult to\r\nswitch. In that regards the Internet can create a situation  where\r\n\"the competition is a click away\" and a seemingly unassailable\r\nadvantage vanishes overnight.",
+          "createdAt": "2022-01-21T07:15:57Z",
+          "updatedAt": "2022-01-21T07:15:57Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "See commit above - thoughts?",
+          "createdAt": "2022-01-29T08:51:46Z",
+          "updatedAt": "2022-01-29T08:51:46Z"
+        },
+        {
+          "author": "karlcow",
+          "authorAssociation": "NONE",
+          "body": "Yes that goes into the line of thoughts I had. Thanks. ",
+          "createdAt": "2022-01-29T09:28:45Z",
+          "updatedAt": "2022-01-29T09:28:45Z"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "I_kwDOGCfj785BxT4I",
+      "title": "Mention browsers?",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/16",
+      "state": "CLOSED",
+      "author": "annevk",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I think they are worth highlighting. I think they illustrate rather well that increased complexity in a particular function might make it more likely for it to become centralized.",
+      "createdAt": "2022-01-14T10:40:23Z",
+      "updatedAt": "2022-02-07T09:14:37Z",
+      "closedAt": "2022-02-06T03:20:00Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "So is the underlying point / guidance that attention should be paid to overall complexity of a given function, to allow broad implementation?",
+          "createdAt": "2022-01-21T03:29:44Z",
+          "updatedAt": "2022-01-21T03:29:44Z"
+        },
+        {
+          "author": "annevk",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Yeah, that sounds about right. (Might be hard to avoid though for complex things like virtual machines, especially once they start competing on performance.)",
+          "createdAt": "2022-01-21T08:14:28Z",
+          "updatedAt": "2022-01-21T08:14:28Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "See 9cc6486 - thoughts?",
+          "createdAt": "2022-01-29T08:51:58Z",
+          "updatedAt": "2022-01-29T08:51:58Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Closing but feel free to respond / suggest / etc.",
+          "createdAt": "2022-02-06T03:20:00Z",
+          "updatedAt": "2022-02-06T03:20:00Z"
+        },
+        {
+          "author": "annevk",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "That looks great, thanks!",
+          "createdAt": "2022-02-07T09:14:37Z",
+          "updatedAt": "2022-02-07T09:14:37Z"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": "I_kwDOGCfj785CKZOj",
+      "title": "Intermediary power differentials",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/17",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "E.g., forward proxy vs. reverse proxy\r\n\r\ndepends on point of interposition, agency",
+      "createdAt": "2022-01-21T03:48:56Z",
+      "updatedAt": "2022-01-30T05:42:09Z",
+      "closedAt": "2022-01-30T05:42:09Z",
+      "comments": []
+    },
+    {
+      "number": 18,
+      "id": "I_kwDOGCfj785CKe6Y",
+      "title": "'out of control'",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/18",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "I'd like to work this quote in if possible (along with a reference to a very topical paper) if possible:\r\n\r\n> The Internet is \"out of control\" only in the much more limited sense that nature or the capitalist economy are out of control -- it is run on a distributed rather than a centralized basis\r\n\r\n x-devonthink-item://96EBD419-DBD7-409B-A860-C016B549FE16?page=3  ",
+      "createdAt": "2022-01-21T04:29:13Z",
+      "updatedAt": "2022-01-30T04:38:28Z",
+      "closedAt": "2022-01-30T04:38:28Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Not sure it's really going to fit; closing for now.",
+          "createdAt": "2022-01-30T04:38:28Z",
+          "updatedAt": "2022-01-30T04:38:28Z"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "id": "I_kwDOGCfj785CKfFy",
+      "title": "Moar Habermas",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/19",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "> Habermas's own discussion of a concrete political agenda includes recommendations for increased decentralization in order to allow pluralistic decisionmaking. Decentralization also serves to counteract the \"generation of mass loyalty\" sought (and increasingly, he believes, achieved) by mass institutions such as political parties and states.\r\n\r\nRef to KENNETH BAYNES, THE NORMATIVE GROUNDS OF SOCIAL CRITICISM 109 (1992) 179-80.\r\n\r\nx-devonthink-item://4EFBE3F1-1988-414A-870E-44F21A17B8EA?page=17",
+      "createdAt": "2022-01-21T04:30:34Z",
+      "updatedAt": "2022-05-23T02:06:04Z",
+      "closedAt": "2022-05-23T02:06:04Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Most relevant portion of Baynes:\r\n\r\n> Habermas does not argue that the formal political system, together with is mass political parties, should simply be replaced by a more highly decentralized form of democratic rule based solely on such secondary institutions. What he insists upon, rather, is that the former relinquish one of their functions--the generation of mass loyalty.63 In complex modern societies, proposals for more highly decentralized and pluralistic decision making processes encounter two specific sorts of difficulties: On the one hand, they threaten to undermine concern for the common good on a broad territorial scale or the preservation of basic rights and liberties. These are the \"mischiefs of faction\" described by Madison in the Federalist Papers. On the other hand, they would also most likely weaken the possibility for accountable decision making with respect to any large-scale problems that arise within modern societies.64 Thus, rather than calling for the dismantling of the formal political system, Habermas has instead spoken of the need for secondary associations of the public sphere to surround and \"besiege\" it, without however conquering it.65 Although this metaphor is not particularly instructive for identifying the specific modes of exchange that should exist between institutions of the public sphere and the state, the basic intuition is relatively clear: The informal associations within civil society responsible for the production of solidarity should exercise an indirect influence upon the formal political system through the production of loyalties and legitimations; at the same time, however, the political system, including its territorially based form of representation, should provide appropriate mechanisms for accountable decision making and guarantee adequate concern for the common good of the republic as a whole.\r\n\r\nThis can also be seen as an argument against excessive decentralisation.",
+          "createdAt": "2022-05-15T05:26:19Z",
+          "updatedAt": "2022-05-15T05:26:19Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Closing in favour of #49.",
+          "createdAt": "2022-05-23T02:06:02Z",
+          "updatedAt": "2022-05-23T02:06:02Z"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "id": "I_kwDOGCfj785CKz1N",
+      "title": "Certificate authorities",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/20",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Watson points out:\r\n\r\n>>\"Similarly, the need for coordination in the Web's trust model brings\r\ncentralization risk, because a Certificate Authority (CA) can control\r\ncommunication between the Web sites that they sign certificates for\r\nand users whose browsers trust the CA's root certificates.\"\r\n>\r\n> This isn't quite the case; a CA can sign for any website (ignoring\r\nCAA, etc.) and then intercept. However techniques like CT make it much\r\nmore visible.",
+      "createdAt": "2022-01-21T07:07:37Z",
+      "updatedAt": "2022-01-30T04:42:16Z",
+      "closedAt": "2022-01-30T04:42:16Z",
+      "comments": []
+    },
+    {
+      "number": 21,
+      "id": "I_kwDOGCfj785C188G",
+      "title": "Capture Resistance",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/21",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "@darobin suggests this as a concept - might be more crisp than 'centralization risk'",
+      "createdAt": "2022-02-02T02:28:23Z",
+      "updatedAt": "2022-05-15T04:53:01Z",
+      "closedAt": "2022-05-15T04:53:01Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I added 'capture' to the definition of centralization. \r\n\r\nThinking about this more, centralization is more than capture -- and so decentralisation is more than capture resistance. See especially 'observe' in the definition. ",
+          "createdAt": "2022-02-06T04:46:02Z",
+          "updatedAt": "2022-02-06T04:46:02Z"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "id": "I_kwDOGCfj785DD3gA",
+      "title": "Counterbalances",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/22",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "There are a number of factors that argue against complete decentralisation -- or at least make it less attractive / more difficult.  Discuss:[^1]\r\n\r\n- efficiency (many functions are inherently more efficient at higher scale. This may imply downward pressure on the number of providers of a given function)\r\n- complexity (disintermediated communication exposes users to more complexity - in particular, the choices they're required to make. This has a cognitive load.)\r\n- specialisation (having a function concentrated into relatively few hands can result in them having greater proficiency in providing it, whereas fully distributed it would be performed less well -- especially relevant to security and reliability)\r\n- privacy / hiding in a crowd (concentrating a function can protect against certain kinds of attacks / surveillance by removing the ability to distinguish the target)\r\n\r\nNote that none are reasons to allow centralisation. May be good to expand upon the idea that centralization is a spectrum with various tensions pulling in each direction.\r\n\r\n\r\n[^1]: also in notes was 'collective action' -- worth pursuing?",
+      "createdAt": "2022-02-06T02:43:25Z",
+      "updatedAt": "2022-02-06T06:19:07Z",
+      "closedAt": "2022-02-06T06:19:07Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Another merit (for some) is ease of regulation.",
+          "createdAt": "2022-02-06T04:11:29Z",
+          "updatedAt": "2022-02-06T04:11:29Z"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "id": "I_kwDOGCfj785DFcu9",
+      "title": "Privacy",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/23",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Some additional context for privacy considerations around distributed consensus here:\r\n  https://coinsights.substack.com/p/the-duality-of-web3\r\n",
+      "createdAt": "2022-02-07T04:39:42Z",
+      "updatedAt": "2022-02-07T04:40:10Z",
+      "closedAt": "2022-02-07T04:40:10Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "(closing immediately; this is just for background)",
+          "createdAt": "2022-02-07T04:40:10Z",
+          "updatedAt": "2022-02-07T04:40:10Z"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "id": "I_kwDOGCfj785Fw3Ct",
+      "title": "highlight differences in regulation mechanisms",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/25",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "e.g., architectural tends to be 'hard' -- not possible to overcome by someone changing their mind or being coerced, whereas legal/normative are more 'soft' -- e.g., icann et at deciding to drop .ru (though they didn't). ",
+      "createdAt": "2022-03-16T01:36:47Z",
+      "updatedAt": "2022-05-22T03:49:33Z",
+      "closedAt": "2022-05-22T03:49:33Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "This has probably worked itself into enough parts of the document to close now.",
+          "createdAt": "2022-05-22T03:49:33Z",
+          "updatedAt": "2022-05-22T03:49:33Z"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "id": "I_kwDOGCfj785GTRpn",
+      "title": "Centralisation and concentration",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/26",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "Distinguish them. E.g., many people use gmail, but aren't required to by the architecture or network effects, etc. It's concentrated, but not centralized.",
+      "createdAt": "2022-03-24T12:37:07Z",
+      "updatedAt": "2022-05-21T02:44:30Z",
+      "closedAt": "2022-05-21T02:44:30Z",
+      "comments": []
+    },
+    {
+      "number": 27,
+      "id": "I_kwDOGCfj785GV3VR",
+      "title": "Privacy",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/27",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Jari says:\r\n\r\n> Section 6.1 talks about relationship between centralization and privacy, and points out that there's sometimes a tradeoff. I would argue that this is heavily dependent on what we're talking about. We're far along on the mission to encrypt all communications. Many of the remaining privacy issues are made worse, not better, by centralization. E.g., one entity has access to all your mail or browser history or other things. Perhaps the 6.1 language could be improved, as it currently reads a bit like focusing on privacy in standardisation and leaving centralisation to other entities. I\u2019m not sure that\u2019s always desirable, particularly if we want to address privacy.",
+      "createdAt": "2022-03-24T22:56:24Z",
+      "updatedAt": "2022-07-26T10:55:31Z",
+      "closedAt": "2022-05-23T03:01:29Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I'm not happy with the below text, but to get us started, here's a proposal:\r\n\r\nReplace last paragraph in Section 6.1 with:\r\n\r\n   When we find centralization risk, we should consider its relationship\r\n   with other goals, such as privacy.  While abstract goals such as these\r\n   are rarely entirely separate from each other, \r\n   attention should be paid to how effective architectural regulation\r\n   (such as a standards effort) is in achieving each goal.  For instance,\r\n   a technical mechanism might be much more effective at\r\n   improving some privacy concerns, whereas some aspects of centralization could be \r\n   better controlled by other regulators. This might lead us to conclude that the standards\r\n   effort should focus on technical matters such as privacy. However, because topics such as\r\n   privacy are not entirely separate from other issues, this is perhaps a too quick conclusion.\r\n   For instance, centralization and consolidation often helps increase some aspects of \r\n   privacy concerns, such as collecting more data in one set of hands. While such data can be\r\n   well guarded by both technical and non-technical means, it also clearly increases the risk of\r\n   attacks on such data stores, or commercial or government pressures to use the data in some way.\r\n\r\n",
+          "createdAt": "2022-05-20T13:45:52Z",
+          "updatedAt": "2022-05-20T13:45:52Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "@jariarkko PTAL",
+          "createdAt": "2022-05-22T03:16:36Z",
+          "updatedAt": "2022-05-22T03:16:36Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Closing to keep the issues list clean :) but please say so if you're not happy with that.",
+          "createdAt": "2022-05-23T03:01:29Z",
+          "updatedAt": "2022-05-23T03:01:29Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "FWIW, the latest version is good on this issue.",
+          "createdAt": "2022-07-26T10:55:31Z",
+          "updatedAt": "2022-07-26T10:55:31Z"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "id": "I_kwDOGCfj785GV3x2",
+      "title": "Discovery / defaults / etc.",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/28",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [
+        "jariarkko"
+      ],
+      "labels": [
+        "waiting for feedback"
+      ],
+      "body": "Jari says:\r\n\r\n> [O]ne thing that is not discussed but perhaps should be is the role of discovery. We seem to have an increasing number of solutions that are built for relatively fixed linkages between OS - device - browser - application - network services. For instance, a default service lead to a situation where a vast majority of users will use the default service. From a standards perspective it would be better to build on discovery such that for instance local services can be used. This is of course not always easy, but I think it needs to be looked at, at least on a per-case basis.\r\n\r\nThis is most closely related to the 'Decentralise Proprietary Functions' section, but it's not obvious / related enough; more examples and perhaps reframing might help.",
+      "createdAt": "2022-03-24T22:59:54Z",
+      "updatedAt": "2023-02-01T05:17:13Z",
+      "closedAt": "2023-02-01T05:17:13Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Here I don\u2019t have a text proposal yet, but maybe one could cover at least the following:\r\n\r\n- examples: OS, device, browser, and application systems get built to use very specific services. E.g., the use of DNS resolvers.\r\n- effects: Difficult for other or local services to be used.\r\n- rationale for X to be built with very specific binding to a service: Whoever builds X understands exactly what they need and what is provided by the service. There may also be contracts associated with the use of that specific service.\r\n- issue: While settings can be changed, that is not a practical alternative for vast majority of users\r\n- issue: Sets up a model where only the services that can have a default bundling and a contract e.g. with major browser or OS vendor will actually get used\r\n- issue: Internet and applications become more and more \u2019packaged\u2019, designed & curated black box services where changing components or parts is difficult\r\n- possible alleviating techniques: Modularity, discovery, indirection\r\n- difficulties: For many functions, it is not ok to use a random thing that someone nearby offers, for obvious security reasons. Indirection and user/os-specificed trusted roots for specific functions may be helpful though.\r\n- other: there\u2019s probably some more considerations that at least I have not figured out yet",
+          "createdAt": "2022-05-20T14:28:50Z",
+          "updatedAt": "2022-05-20T14:28:50Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I feel like this might be part of a larger issue / discussion regarding consideration of the user -- providing choices, how defaults work, cognitive load considerations (eg how security dialogues in browsers are presented).",
+          "createdAt": "2022-05-22T03:38:55Z",
+          "updatedAt": "2022-05-22T03:38:55Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I'm trying to rough in something along those lines, but what I'm running into is that while it's easy to point out problems in the ecosystem (as you highlight), it's much more difficult to recommend actions that _standards bodies_ can take to improve the situation, beyond those we already have.\r\n\r\nWhat do you see as in-scope for _this_ document? I.e., what recommendations can we make? Or is it adequate to just point at these things and say \"carefully consider these\"?",
+          "createdAt": "2022-05-22T06:09:06Z",
+          "updatedAt": "2022-05-22T06:09:06Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Your new doc version is great otherwise, but I think we still need to do something on this. Let me come back with a proposal per your question marks above...",
+          "createdAt": "2022-06-15T13:48:36Z",
+          "updatedAt": "2022-06-15T13:48:36Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Isn't the actions for standards bodies somewhat straightforward, still? For instance, due to lack of standards, it has been difficult to upgrade existing DNS servers to use DOH (albeit that is now being fixed in ADD), which lead to a situation where you have to be a party to a deal with Mozilla in order to get into their selected TRR list. Had both discovery and configuration been options from day one, then DOH deployment could have occurred both from the point of view of browsers pushing their model of TRRs *and* organic upgrades. As it was, more of the former happened. Of course there are many other factors as well (who wants to spend effort on DNS etc) but that's certainly one area where standards organizations could have helped. Removing gatekeepers is a useful service!\r\n\r\nAnd this isn't limited to DNS, of course, or even companies pushing their agendas and standards organizations being the good guys. Sometimes a standards organization has big players that want to keep a feature out so that they get to benefit from whatever current situation gives to them -- something which I recently encountered in an entirely different field. In that particular case it was important that architectures are flexible, components are pluggable, so that the standard organisations don't get to be too much of gatekeepers any more. I guess the flexibility of QUIC for new versions and new functionality is another example of this, something which we can perhaps benefit from in the future.\r\n\r\nObviously those discovery and flexibility mechanisms may also be misused. A dominant player use them to push (perhaps a proprietary version) of their thing, leaving others out.\r\n",
+          "createdAt": "2022-07-26T11:04:40Z",
+          "updatedAt": "2022-07-26T11:04:40Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "So, I think standards bodies could have shipped a more complete solution (and the draft already obliquely talks about that). However, an SDO couldn't compel Mozilla (or anyone else) not to use it in a 'locked in' fashion. \r\n\r\nAlso, one could argue the community wanted to prove the base technology before shipping other components to scale it out (in this case, oblivious DNS is one component that adds some very interesting properties from a centralizaton standpoint). I don't know that ADD _is_ the answer, in that letting a network interpose an intermediary removes much of the value of DoH.\r\n\r\nBack to this spec, I'm still struggling to see how it fits in. Discovery is one specific technology area that has impact on centralization, but there are many more -- e.g., identity. So far this draft doesn't go down to the level of exploring specific technological problems. It _could_ of course -- perhaps using DoH as a case study. I'm a bit concerned that it would make the draft more of a political football, however.\r\n\r\nThoughts? Can you give me an indication of how you'd like to see this surface in the draft -- is it fitting into one of the existing sections, or something new like a case study?\r\n\r\nSee also #54 which might be somewhat related. ",
+          "createdAt": "2022-07-27T08:33:47Z",
+          "updatedAt": "2022-07-27T08:33:47Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "To tease that out a bit - #54 might result in a recommendation to assure there are appropriate, well-thought-out points of interoperability in the specifications we create. We could talk about discoverability there as a factor to making that 'pivot point' actually useful / complete.\r\n\r\nThat said, I'm wary of making blanket pronouncements that discovery is good / desirable - mostly because it ignores issues of trust / safety if you allow anyone to shove something into the users' face as an option. ",
+          "createdAt": "2022-08-08T04:08:29Z",
+          "updatedAt": "2022-08-08T04:08:29Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "NONE",
+          "body": "For me discovery mechanisms are the technical basis to enable broader federation. Only having both open interfaces and discovery makes it possible for new actors to join (without asking the existing actors for permission). Having this said I\u2019m actually not sure you are describing different decentralization techniques in section 3 or just the same techniques (federation?) on different layers\u2026?",
+          "createdAt": "2022-09-05T15:48:43Z",
+          "updatedAt": "2022-09-05T15:48:43Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "What Mirja said",
+          "createdAt": "2022-11-10T14:13:05Z",
+          "updatedAt": "2022-11-10T14:13:05Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "One of the reasons I'm reluctant to do something specific about discovery in this draft is that it would create the expectation that it was a complete treatment, and that other aspects that have an important contribution also get equal coverage. \r\n\r\nI don't think discovery is that simple. There are tradeoffs in cognitive load for users, security modelling, and trust models for the new actors we're adding. That's not to say that discovery doesn't have a place in a less centralized world, but it's a complex topic that really deserves its own study -- not a brief overview in this draft that's likely to be misinterpreted.\r\n\r\nAgain, I do see aspects that touch on discovery coming out at a higher level in #54, and I think that's a more appropriate approach for this draft to take.\r\n\r\nMirja, you make an interesting point about the nature of the subsections of 3. I suspect we could recast them in that manner, but many people think of them as distinct options, so it might not communicate as well. ",
+          "createdAt": "2022-11-28T07:00:12Z",
+          "updatedAt": "2022-11-28T07:00:12Z"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "id": "I_kwDOGCfj785GV4Pu",
+      "title": "Externally-induced centralisation",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/29",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "Jari points out:\r\n\r\n> Section 4.4 inherited centralization \u2014 I\u2019m not sure how much network-imposed limitations we have today, or in few years, given that in the western world at least much of the traffic is today encrypted. However, there are situations where government mandates or government - large internet content provider collaboration can create a setup where the user's choices for communication are severely restricted, and consequently, often centralized to few remaining ones. Perhaps you could talk a bit about this.",
+      "createdAt": "2022-03-24T23:02:17Z",
+      "updatedAt": "2022-05-20T14:30:25Z",
+      "closedAt": "2022-05-15T06:33:56Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "OK",
+          "createdAt": "2022-05-20T14:30:25Z",
+          "updatedAt": "2022-05-20T14:30:25Z"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "id": "I_kwDOGCfj785GfnqA",
+      "title": "Reading list",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/30",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Papers / sources to check:\r\n\r\n* https://doi.org/10.1145/3503158\r\n\r\n* https://arxiv.org/abs/2111.03785 \r\n\r\n* https://changelog.complete.org/archives/10216-the-hidden-drawbacks-of-p2p-and-a-defense-of-signal",
+      "createdAt": "2022-03-27T23:06:03Z",
+      "updatedAt": "2022-05-22T05:00:05Z",
+      "closedAt": "2022-05-22T05:00:05Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "* https://coinsights.substack.com/p/the-duality-of-web3?s=r",
+          "createdAt": "2022-05-15T03:48:37Z",
+          "updatedAt": "2022-05-15T03:48:37Z"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "id": "I_kwDOGCfj785HVrUy",
+      "title": "Is your organization and of the types of centralization correct?",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/31",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "You discuss direct, indirect, inherited, and platform centralization.  Is this model the appropriate delineation?  Is there more direct language you can use to describe these forms?",
+      "createdAt": "2022-04-08T06:01:09Z",
+      "updatedAt": "2022-05-22T03:21:41Z",
+      "closedAt": "2022-05-22T03:21:41Z",
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "The purpose of this question is not to claim that you are wrong or that I know of a better model.  Rather, I'd suggest that you do two things here:\r\n\r\n - take a step back and think about whether there are other organizations of your thoughts that might bring your point across in a clearer crisper way.\r\n  - use of \"direct\" and \"indirect\" is... indirect.  You might want to consider more descriptive terms.\r\n\r\nN.B.: class this \"minor issue or question\"",
+          "createdAt": "2022-04-08T06:05:01Z",
+          "updatedAt": "2022-04-08T06:05:01Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I think the classification as it sits serves the immediate purpose -- informing a discussion of what an SDO (specifically, the IETF) can and cannot do about centralization. Very happy to consider other arrangements or even specific issues with this classification.\r\n\r\nRe: direct/indirect -- yeah, I'm not 100% happy with these names (and perhaps others). \r\n\r\nFor \"direct\", how about \"Centralization by Design\" or \"Intentional Centralization\"? Other ideas?\r\n\r\nFor \"indirect\", how about \"Centralisation by Side Effect\" or \"Induced Centralization\"? Other ideas?",
+          "createdAt": "2022-05-15T04:51:03Z",
+          "updatedAt": "2022-05-15T04:51:03Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "Must noodle further.  This may be one you might want to ask people **other** than me.  Perhaps there is a term of art that an economist could cough up.",
+          "createdAt": "2022-05-15T07:42:28Z",
+          "updatedAt": "2022-05-15T07:42:28Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Maybe we should just call it 'monopolistic' instead of 'direct', then.",
+          "createdAt": "2022-05-15T08:32:56Z",
+          "updatedAt": "2022-05-15T08:32:56Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "... and maybe 'market-driven' instead of 'indirect'?",
+          "createdAt": "2022-05-15T08:33:19Z",
+          "updatedAt": "2022-05-15T08:33:19Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "If 'monopolistic' has too many legal overtones/implications (which we *can* caution against), perhaps just 'fixed centralization'.\r\n",
+          "createdAt": "2022-05-15T09:49:02Z",
+          "updatedAt": "2022-05-15T09:49:02Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "'proprietary' seems like a better fit and less potentially problematic.",
+          "createdAt": "2022-05-15T22:27:36Z",
+          "updatedAt": "2022-05-15T22:27:36Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "This probably rambles a bit.  Take it as you will...\r\n\r\nProprietary Protocols is a good way of putting this, and it jibes very well with what Europe is saying right now.  What is the benefit to the protocol \"owner\"/developer?\r\n\r\n - Only those who the \"owner\" authorizes can even see the specification, much less implement it.\r\n - If the owner controls both ends, they can retire old protocol features or correct bugs without having to go through a laborious standards process.\r\n - New features can be rapidly introduced.\r\n\r\nIn fact, MOST protocols these days are proprietary.  Any app on a phone or tablet has such a thing, and it is often No Big Deal.  What makes it A Big Deal?  There's some other aspect that triggers centralization.\r\n",
+          "createdAt": "2022-05-16T06:58:56Z",
+          "updatedAt": "2022-05-16T06:58:56Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "changed 'indirect' to 'concentration'. A tiny bit awkward from a 'does this fit with the others', but really really nice from a high level, I think.",
+          "createdAt": "2022-05-22T03:18:26Z",
+          "updatedAt": "2022-05-22T03:18:26Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I think the edits above address everything here (although some of it could be expanded upon). Am closing, feel free to continue to discuss or request reopening if I didn't.",
+          "createdAt": "2022-05-22T03:21:41Z",
+          "updatedAt": "2022-05-22T03:21:41Z"
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "id": "I_kwDOGCfj785HVtcy",
+      "title": "Federation",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/32",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I think federation is an area worth a **lot** more exploration.  We began discussing this a bit on list, and I really want to get into with you just a bit more.\r\n\r\nWhen we look at the history of wifi, it is one of federation, and it is a HUGE success.  Thanks to my dear friend and former colleague Klaas Wierenga, students, researchers, and professors can travel to just about any university and connect. It's lovely.  But it's not the only federation.  We can consider iPass a commerical federation, and now there is Open Roaming.  We're about to see the same sorts of mechanisms spread to private 5g.\r\n\r\nBut federation, as you say, does have its limitations.  In the case of **public** 5g and anything of that scale, capital costs are so prohibitive as to limit the number of entrants.  Is this Internet centralization?  Maybe not, but a key factor seems to me to be that universities and most enterprises aren't in the business of offering wifi, so they don't mind its use so long as its not **ab**use.  More on that in another issue ;-)",
+      "createdAt": "2022-04-08T06:13:05Z",
+      "updatedAt": "2022-05-23T10:05:26Z",
+      "closedAt": "2022-05-23T10:05:26Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "University connectivity is a non-commercial deployment; the incentives are fundamentally different. For better or worse, much of the Internet is commercial now. Maybe the lesson here is that we shouldn't be designing protocols without considering the incentives for deployment, nor should we be counting on cooperation as the only motivation.\r\n\r\nI think there should be a new bit of text somewhere (perhaps substantial) talking about how so many factors feed into centralization - economic, complexity, social, etc. and how they should be considered, but no one on its own is decisive (typically). \r\n\r\nI don't think that's specific to federation, though. For *this* issue, what are you wanting to see - more examples? More properties of federation explored, as they relate to centralization? If this is just a note to say 'expand the federation section', I tend to agree...",
+          "createdAt": "2022-05-15T04:22:58Z",
+          "updatedAt": "2022-05-15T04:22:58Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "Perhaps the lesson is that protocol developers should consider incentive alignment in a way that permits deployments to benefit from one another (e.g., the network effect).  We think about that effect in the context of connectivity, but someone might be able to make that work for safety and security, higher layers of communication like instant messaging, such that someone trying to be king of the mountain gets left behind...\r\n\r\nThere is a layer 8/9 aspect here that I hesitate to qualify, because it could occur at either layer: if the federation offers inherent value, so long as it is not exclusive, sites could join.\r\n\r\nLet's take that IM example from Issue #33 : if the federation rules are established, then perhaps new social networking sites who abide by those rules can spring up.  The protocol elements discussed would support those rules.\r\n\r\nI'll also add that the game may be different when there are already dominant players.",
+          "createdAt": "2022-05-15T07:31:10Z",
+          "updatedAt": "2022-05-15T07:31:10Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I question how much influence protocol design has, as opposed to market forces and regulation. I think (and I hope the draft supports) that the best we can do is make open, decentralized, functional protocols available; what's done with them is out of our hands. As they say, hope is not a strategy.\r\n\r\nThis also calls to mind the law of conservation of attractive profits from Clayton Christensen, described in the HBR (Feb 2004):\r\n\r\n> Products are most profitable when they're still not \"good enough\" to satisfy consumers. This is because to make them performance competitive, engineers must use interdependent, proprietary architectures. Use of such architectures makes product differentiation straightforward, because each company pieces its parts together in a unique way.\r\n> \r\n> Once a product's performance _is_ good enough, companies must change the way they compete. The innovations for which customers will pay premium prices become speed to market and the ability responsively and conveniently to give customers exactly what they need, when they need it. To compete in this way, companies are forced to employ modular architectures for products. Modularity causes the products to become undifferentiable and commoditized. Attractive profits don't evaporate, however...\r\n> \r\n> They move elsewhere in the value chain, often to subsystems from which the modular product is assembled. This is because it is improvements in the subsystems, rather than the modular product's architecture, that drive the assembler's ability to move upmarket toward more attractive profit margins. Hence, the subsystems become decommoditized and attractively profitable. \r\n>\r\n> My sense is that these shifts are more than coincidental; I suspect that when most products start to become commoditized or modularized, this tum of events kick-starts a decommoditization process somewhere else in the value chain. As a general rule, one side of an interface in the value chain must be modular to allow the side that's not yet good enough to be optimized.\r\n>\r\n> My friend Chris Rowen, CEO of Tensilica, suggested that we call this phenomenon the law of conservation of attractive profits. (He was playing off the law of conservation of energy, which states that energy cannot be created or destroyed, though it may be changed from one form to another.) Translated into managerial terms, the law goes something like this: When attractive profits disappear at one stage in the value chain because a product becomes modular and commoditized, the opportunity to earn attractive profits with proprietary products will usually emerge at an adjacent stage.\r\n\r\nAgain and again, we see proprietary efforts at establishing those modular architectures, so that the proponent can control the market. They're \"platforms\" but they're still centralized. The IETF has seen this story before: TCP was not the first or only network protocol, but the proprietary vendors moved on to other things when they realised the value was in a different place. I don't think we're going to convince the current crop to do likewise -- but we're not the only regulators in town any more.\r\n\r\nReturning to the issue -- I'll take this as a general one to expand upon federation some.",
+          "createdAt": "2022-05-18T01:26:29Z",
+          "updatedAt": "2022-05-18T01:26:29Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Returning to federation - while uni wifi is successful, I'm not sure what that says about centralization. My uni can still revoke access, and a lot more wifi is deployed as a complement -- e.g., free in a coffee shop. ",
+          "createdAt": "2022-05-23T06:58:59Z",
+          "updatedAt": "2022-05-23T06:58:59Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "I think it says that federation doesn't have to have a centralizing impact so long as it is non-exclusive, and so long as associated COGS don't make new entry prohibitive.  The IETF enables federation through a number of technologies, including authentication of certificates, and OAUTH.  Add to that SAML from OASIS.\r\n\r\nHere's another real life case the industry is facing today:\r\n\r\nGovernments are about to require software bills of material (SBOMs) to be delivered to customers in certain markets, and the industry is moving toward delivering that information.  But some producers want to authenticate recipients.  Now put yourself in a recipient's position, where you are monitoring perhaps 2,000 device types.  How to scale that such that the admin isn't constantly typing in credentials for different producers?  There are a few choices:\r\n\r\n - introduce a trusted aggregator service (there are a few of these)\r\n - use a federation to authenticate (there are a few of these)\r\n\r\nEach has pluses and minuses.  The capital costs to enter are fairly low.  Both of these mechanisms could be viewed as intermediary services.  Will they concentrate/centralize and what might the impact be if people are using them to determine whether devices are safe to connect to?\r\n\r\nOne potential next step, by the way, would be to track the evolution of this use case over the next two-three years.\r\n",
+          "createdAt": "2022-05-23T08:20:08Z",
+          "updatedAt": "2022-05-23T08:20:08Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "My takeaway is that federation, for some styles of protocol, is necessary to help mitigate centralisation, but not sufficient. Whether centralization depends on how deployments use it -- especially, who they allow federation with. If it's universal (e.g., e-mail) that's great -- if it's selective or internal-only (as many eg XMPP deployments are), it's a problem.\r\n\r\nWhether or not it's universal is a very case-by-case thing; in the case of e-mail, there's clearly enough value in the ecosystem where a competitor that does't federate is going to lose; other incompatible systems purposefully gateway to email because of this.\r\n\r\nIn other cases, there isn't enough shared value to motivate deployments like this -- or there's enough value in not federating that they take that path. \r\n\r\nHowever, that choice isn't in the hands of standards bodies -- so I don't think it's in scope for this document.\r\n",
+          "createdAt": "2022-05-23T10:05:26Z",
+          "updatedAt": "2022-05-23T10:05:26Z"
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "id": "I_kwDOGCfj785HVvOz",
+      "title": "Centralization Scales Governance",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/33",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "As you may have noticed, I've been going at it with EKR just a bit on **interoperability** versus **interconnectivity** over his discussion about Europe's Digital Markets Act.  First, I **highly** recommend that you check out his and Steve Bellovin's views, as you may find them enlightening.  This goes to my earlier issues in several ways:\r\n\r\n1. Is the organizational model the one you want or might you take advantage of the timeliness of the DMA debate to think in different terms?\r\n\r\n2. Your point about reputation and email is **very** good and important; and goes to this interconnectivity versus interoperability aspect.  What is perhaps important is understanding the relationship between the protocol design and the governance model.  \r\n\r\nLet's take WhatsApp for example (this is what I mentioned to Eric).  They have a way cool approach to abuse reporting: and endpoint sends a message in the clear to a central authority who evaluates it and puts people on the naughty step if it is warranted.  It might be possible for WA to share those reports with other services.  That happens with email with DMARC and ARF, fur instance.  But the governance model is important as well.  Would you automatically send an abuse report to Eliot's Bar and Grill IM service without first reviewing it?  Would you accept an abuse report and take action from Eliot's Bar and Grill IM service without first reviewing it?\r\n\r\nObviously there are non-protocol aspects here, but the protocol developers need to recognize those as they are building out capabilities.",
+      "createdAt": "2022-04-08T06:22:36Z",
+      "updatedAt": "2022-11-25T05:08:56Z",
+      "closedAt": "2022-11-25T05:08:56Z",
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "See forthcoming Issue 34 on this as well.",
+          "createdAt": "2022-04-08T06:23:43Z",
+          "updatedAt": "2022-04-08T06:23:43Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I'm having trouble seeing how this fits into the document -- can you please restate as something more actionable? And perhaps re-title?",
+          "createdAt": "2022-05-15T05:58:58Z",
+          "updatedAt": "2022-05-15T05:58:58Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "Yeah, I blathered there a bit.  What I was aiming at was something closer to this...\r\n\r\nCentralization scales governance.  The example I am trying to lay out is the converse: it is difficult to scale governance without some form of centralization.  Two examples:\r\n\r\n- Google can't just randomly credit ARF reports from anyone, because their data warehouse would be polluted (adversarial ML attack).\r\n- Were WhatsApp to take abuse reports about its users, it would need countermeasures to validate the authenticity of the message.  If such reports could come from anywhere, it would also offer a source of DDOS on the abuse system.\r\n\r\nBut there may be protocol operations that facilitate governance.  In the WA example, messages are/could be signed and thus validated.  If you bind that to an enforced code of practice, you can even apply violation codes to scale.\r\n\r\n",
+          "createdAt": "2022-05-15T07:10:58Z",
+          "updatedAt": "2022-05-15T07:10:58Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "This seems to be veering into making recommendations for specific design patterns / architectural decisions, which I've tried to avoid. Does it _really_ fit into this document?",
+          "createdAt": "2022-05-22T03:34:43Z",
+          "updatedAt": "2022-05-22T03:34:43Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "I'm not aiming for those recommendations here (tho I did just suggest a handful in the CtA).  In this case, what I am trying to call out is the level of complexity we are facing.",
+          "createdAt": "2022-05-22T11:18:45Z",
+          "updatedAt": "2022-05-22T11:25:14Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "> what I am trying to call out is the level of complexity we are facing.\r\n\r\nThat seems like a point worth making. There are many well-intentioned effort to combat centralisation, with limited results (and indeed the draft already calls some out). ",
+          "createdAt": "2022-05-23T03:00:33Z",
+          "updatedAt": "2022-05-23T03:00:33Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I think this might link in very well with #19, but I need to read more.",
+          "createdAt": "2022-06-06T04:20:43Z",
+          "updatedAt": "2022-06-06T04:20:43Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I think the change above this and the text about the potential benefits of a choke point for governance in s 2.2.2 cover this - please say if you disagree.",
+          "createdAt": "2022-11-25T05:08:56Z",
+          "updatedAt": "2022-11-25T05:08:56Z"
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "id": "I_kwDOGCfj785HVwK_",
+      "title": "Multi-Stakeholder Administration is Hard",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/34",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "Further to Issue #33, I would broaden out this section.  In our community we tend to think of \"multistakeholderism\" as the RIRs and ICANN.  But you mean something quite a bit more broad.  How would FBs, Twitters, \"Truth\", and the like establish governance models to avoid abuse?  You do mention the CAB Forum, which is excellent.  But you bury that example.  I think I would recommend either defining the term broadly and sticking CAB up front, followed by perhaps my (as of now) fictitious example, and then followed by more classic stuff like the DNS.",
+      "createdAt": "2022-04-08T06:27:29Z",
+      "updatedAt": "2022-05-15T06:41:33Z",
+      "closedAt": "2022-05-15T06:41:33Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I'm going to leave DNS at the top but walk away from the 'most relevant' language -- it's the most widely studied and understood. ",
+          "createdAt": "2022-05-15T06:41:27Z",
+          "updatedAt": "2022-05-15T06:41:27Z"
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "id": "I_kwDOGCfj785HVw-h",
+      "title": "Timing and stakeholder involvement in the standards process, as well as use-it-or-lose-it",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/35",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Is it worth asking the question about how to bring in a broader swathe of stakeholders such that the standards can be developed that allow for both flexibility **and** interoperability?  For instance, how might we get a selection of new entrants and entrenched players to play together?  My personal observations at M3AAWG lead me to believe that this may be a **very** hard problem, but the IETF seems to do its best work when you have a good mix of operators and developers (made easy when we're in the space of devops ;-)\r\n\r\nSimilarly, are there RFC 9170 issues hiding here that also need to be considered when it comes to centralization?\r\n",
+      "createdAt": "2022-04-08T06:31:43Z",
+      "updatedAt": "2022-05-15T04:27:23Z",
+      "closedAt": "2022-05-15T04:27:23Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "> Is it worth asking the question about how to bring in a broader swathe of stakeholders such that the standards can be developed that allow for both flexibility and interoperability? For instance, how might we get a selection of new entrants and entrenched players to play together? My personal observations at M3AAWG lead me to believe that this may be a very hard problem, but the IETF seems to do its best work when you have a good mix of operators and developers (made easy when we're in the space of devops ;-)\r\n\r\nI feel like this would be overreaching for this spec - these issues deserve separate consideration, and centralisation is just one aspect. I really want to resist this draft becoming a sink for _all_ of the issues that face the Internet (even if many do relate to centralization in some fashion).\r\n\r\n> Similarly, are there RFC 9170 issues hiding here that also need to be considered when it comes to centralization?\r\n\r\n6.5 touches on that lightly, and IIRC I previously had more text around this, but removed it because it didn't seem well-supported (and again, it didn't seem central to the arguments the draft was making).\r\n\r\nI'm inclined to close this; if you feel there's more to discuss here say so and I'll reopen.",
+          "createdAt": "2022-05-15T04:27:23Z",
+          "updatedAt": "2022-05-15T04:27:23Z"
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "id": "I_kwDOGCfj785HVxf2",
+      "title": "Editorial nit: two parties that are not in direct contact",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/36",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Should that be \"two parties who are not in direct contact\"?\r\n",
+      "createdAt": "2022-04-08T06:33:51Z",
+      "updatedAt": "2022-05-15T04:27:51Z",
+      "closedAt": "2022-05-15T04:27:51Z",
+      "comments": []
+    },
+    {
+      "number": 37,
+      "id": "I_kwDOGCfj785HVypd",
+      "title": "A whimsical point: GNS",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/37",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "4.2 necessary centralization and DNS cover good ground in your draft.  Right now, draft-schanzen-gns exists.  Here we have the PGP web of trust of naming.  The value of this draft is that it attempts to provide a way around centralized authorities and is very relevant in a world where belligerent governments try to impose controls on DNS.   They turn DNS on its head and make every resolver the root.\r\n\r\nYou are already hitting at one of the two weakpoints that draft has: how do you do that first rendezvous?  The other weakpoint may also be worth mentioning here: without some sort of trusted introducer model, if keys are lost, that really is the ballgame.  And those keys have to be properly managed.  I asked the authors to undertake a thought experiment: what would it be like for FB to run GNS?  You may want to touch on some of this as a complication.",
+      "createdAt": "2022-04-08T06:40:12Z",
+      "updatedAt": "2022-05-15T06:53:47Z",
+      "closedAt": "2022-05-15T06:53:47Z",
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "I would imagine that this could be a bit of additional text in Section 5.3 (Blockchains are not magical).",
+          "createdAt": "2022-04-08T06:42:01Z",
+          "updatedAt": "2022-04-08T06:42:01Z"
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "id": "I_kwDOGCfj785HV1Q6",
+      "title": "More on trusted introduction: countersigning and resilience",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/38",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Bringing two models together, centralization risks hit the PKI model pretty hard.  We just saw an instance in which 2 million certificates were invalidated by LetsEncrypt because of a flaw in their verification code.  But wouldn't it have been \"nice\" if people using LE certs could ALSO have had their CSRs signed by another authority Just In Case.  But the standard doesn't really support that.  THAT's something we could do something about in our standards, no?\r\n\r\nAnd this brings me to a bigger point: I think you should highlight, perhaps with some fun references to papers of record or the like, the harm centralization **has** caused.  What you are addressing **isn't** theoretical.  This will link to my next issue as well.",
+      "createdAt": "2022-04-08T06:54:45Z",
+      "updatedAt": "2022-05-24T06:11:45Z",
+      "closedAt": "2022-05-24T06:11:44Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I'm a bit reluctant to second-guess protocol design discussions, especially regarding security properties.  Having a second signature on a cert can be seen to add risks of compromise and might add more failure modes -- how that security be balanced against centralisation issues is a discussion that needs to take place in the WG informed by drafts like this, not pre-determined by them.\r\n\r\nUnderlying that is something we might be able to tease out more questions, though -- e.g., \r\n\r\n* Is having a choice between multiple operators / suppliers (such as CAs) an effective technique against centralization?\r\n* Does it depend on other factors (e.g., switching costs)?\r\n* What's the relationship between centralization and short-term dependencies (e.g., your site going down and not having a backup cert take over, but coming back up relatively soon thereafter) vs. long-term lock-in (e.g., you being beholden to an operator/issuer for an extended period of time)?",
+          "createdAt": "2022-05-15T04:44:10Z",
+          "updatedAt": "2022-05-15T04:44:10Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I've started to talk about friction and switching costs in \"what is centralization?\" Undoubtedly there could be more, but I want to let this stew for a little while first...",
+          "createdAt": "2022-05-24T06:11:44Z",
+          "updatedAt": "2022-05-24T06:11:44Z"
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "id": "I_kwDOGCfj785HV1v5",
+      "title": "Spend a little time more time up front on centralization risk",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/39",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Given that you use the term \"centralization risk\" throughout your draft, I think you should spend a bit more time defining it on first use.  E.g., something like, the likelihood of most people using one or a small number of providers for the same service (or some such).",
+      "createdAt": "2022-04-08T06:57:16Z",
+      "updatedAt": "2022-05-15T07:35:37Z",
+      "closedAt": "2022-05-15T07:35:37Z",
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "Linked to #38 ",
+          "createdAt": "2022-04-08T06:57:30Z",
+          "updatedAt": "2022-04-08T06:57:30Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Section 2 is the definition; I'm not sure if you saw that (or if it existed) when you opened this issue. Are you asking for more definition, or more examples?\r\n\r\nSo far I've shied away from using too many examples, because a) I don't want to pick on any project/protocol specifically too much, and b) I want the document to be relevant for a reasonably long amount of time. \r\n\r\nNeither of those is strong pushback on examples, provided we find the right ones. If you want more examples, some suggestions would be be most welcome.",
+          "createdAt": "2022-05-15T04:32:43Z",
+          "updatedAt": "2022-05-15T04:32:43Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "I agree.  In rereading my own comment, I'm actually happy with the text as it is in this context.",
+          "createdAt": "2022-05-15T07:35:37Z",
+          "updatedAt": "2022-05-15T07:35:37Z"
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "id": "I_kwDOGCfj785HV3DB",
+      "title": "Be careful about RFC 8890 and the like",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/40",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "You write:\r\n\r\n>    Second, as the Internet's first duty is to the end user [RFC8890],\r\n   allowing such power to be concentrated into few hands is counter to\r\n   the IETF's mission of creating an Internet that \"will help us to\r\n   build a better human society.\"  \r\n   \r\nIt's not that I disagree, but this may strike some as bloviation.  You don't need it here.  Regardless, You may wish to state that centralized functions have the potential to disrupt huge swathes of critical societal functions without notice (cf my earlier issue).",
+      "createdAt": "2022-04-08T07:03:43Z",
+      "updatedAt": "2022-05-15T06:45:28Z",
+      "closedAt": "2022-05-15T06:45:28Z",
+      "comments": []
+    },
+    {
+      "number": 41,
+      "id": "I_kwDOGCfj785HV3jw",
+      "title": "More on DMA",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/41",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "You write in Section 6.2:\r\n\r\n>    Keen readers will point out that social networking is effectively\r\n   centralized despite the existence of such standards (see, e.g.,\r\n   [W3C.CR-activitystreams-core-20161215]), because the IETF and W3C\r\n   create voluntary standards, not mandatory regulations.\r\n   \r\n Probably you **do** want to mention DMA here.  It's not just keen readers anymore.",
+      "createdAt": "2022-04-08T07:05:55Z",
+      "updatedAt": "2022-05-15T07:11:09Z",
+      "closedAt": "2022-05-15T07:11:09Z",
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "(e.g., the text has been OBE)",
+          "createdAt": "2022-04-08T07:06:13Z",
+          "updatedAt": "2022-04-08T07:06:13Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "The DMA does not find that social networking is centralized; we need to be careful about the claims we make.",
+          "createdAt": "2022-05-15T06:59:03Z",
+          "updatedAt": "2022-05-15T06:59:03Z"
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "id": "I_kwDOGCfj785HV4hB",
+      "title": "You're being a tease in Section 6.3",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/42",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "The heading for this section is:\r\n\r\n> 6.3.  Build Well-Balanced Standards\r\n\r\nBut then you don't define what a Well-Balanced Standard is!!",
+      "createdAt": "2022-04-08T07:08:30Z",
+      "updatedAt": "2022-05-15T07:46:09Z",
+      "closedAt": "2022-05-15T06:54:19Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Does that help?",
+          "createdAt": "2022-05-15T06:38:24Z",
+          "updatedAt": "2022-05-15T06:38:24Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Closing for now but please yell if that doesn't work (I'm just trying to burn through the issues list)",
+          "createdAt": "2022-05-15T06:54:19Z",
+          "updatedAt": "2022-05-15T06:54:19Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "Tough one.  I know what you are trying to get at, and it's a **great** point.  But the change doesn't advance the concept.  I think what you are aiming for is a title closer to this:\r\n\r\n### Strike a balance between completeness and simplicity\r\n\r\n???",
+          "createdAt": "2022-05-15T07:19:15Z",
+          "updatedAt": "2022-05-15T07:19:15Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Yeah, but that's so long. There's also a bit more to it than just that.",
+          "createdAt": "2022-05-15T07:39:58Z",
+          "updatedAt": "2022-05-15T07:39:58Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "Ok.  I'm good with whatever so long as it doesn't sound like a term that someone might go searching for and not find.",
+          "createdAt": "2022-05-15T07:43:46Z",
+          "updatedAt": "2022-05-15T07:43:46Z"
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "id": "I_kwDOGCfj785HV7c7",
+      "title": "Linkage between the earlier sections and Section 6 is not explicit and a bit tenuous",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/43",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Perhaps my biggest concern with the draft is this:\r\n\r\nWhat can be remedied and what can't be remedied is somewhat lost because of a lack of clear causal linkage, as articulated between the sections.  This is perhaps where I would spend the most time on the draft.  \r\n\r\nTry this: make a copy of the draft; remove Section 6, and then map examples of centralization you use in earlier sections to remediation approaches you think would help.  Then take that text and see if it fits into the earlier sections.  If you do this, you'll have solved the problem entirely.\r\n",
+      "createdAt": "2022-04-08T07:15:46Z",
+      "updatedAt": "2022-06-26T07:45:03Z",
+      "closedAt": "2022-06-26T07:45:03Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Subsection by subsection:\r\n\r\n* 'be realistic' refers to all defined types of centralization\r\n* 'decentralize proprietary functions' is now about direct centralization\r\n* 'build robust ecosystems' is now about inherited centralization\r\n* 'limit intermediary power' is about indirect and platform centralization\r\n* 'avoid over-extensibility' is about platform centralisation\r\n\r\nStill want to look at this systemically, but that's a start.",
+          "createdAt": "2022-05-15T07:50:48Z",
+          "updatedAt": "2022-05-15T07:50:48Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I'm pretty comfortable with where the current editors draft is regarding this. Would you mind taking another look?",
+          "createdAt": "2022-05-24T03:37:43Z",
+          "updatedAt": "2022-05-24T03:37:43Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Closing as I _think_ this was addressed, and the recent reorg might make it OBE anyway. Please feel free to open another if you think there's still work to do here.",
+          "createdAt": "2022-06-26T07:45:03Z",
+          "updatedAt": "2022-06-26T07:45:03Z"
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "id": "I_kwDOGCfj785HV-1X",
+      "title": "What would you like to see by way of future work?",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/44",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I think this document screams for a call-to-action and a summary.  As you put such a thing together, it will help to observe an adage one of my friends lives by:\r\n\r\n1. Say what you're going to say (abstract)\r\n2. Say it (most of the body)\r\n3. Say what you said (summary) and what you want to have happen next (call to action)\r\n\r\n",
+      "createdAt": "2022-04-08T07:25:55Z",
+      "updatedAt": "2022-06-04T07:04:41Z",
+      "closedAt": "2022-06-04T07:04:41Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I don't know the this *is* a 'call to action' kind of document -- it's more explaining the landscape and particular consequence s of it. Beyond the 'what can standards do' section, I'm not sure there _is_ a \"next\".",
+          "createdAt": "2022-05-18T00:58:44Z",
+          "updatedAt": "2022-05-18T00:58:44Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "More specifically -- what do _you_ think the CtA should be?",
+          "createdAt": "2022-05-22T03:22:55Z",
+          "updatedAt": "2022-05-22T03:22:55Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "Here are a few possibilities from which to choose:\r\n\r\n- When developing a protocol, ask these questions (and then some questions {think checklist}) \r\n- The community, the including {IAB, IRTF, others}, is invited to consider this matter in more depth, especially in regards to (specific technologies that might help avoid concentration)\r\n- Further measurements of the risk of centralization a'la [cite Aqsa's wonderful ANRP paper] are invited..\r\n\r\nBut don't forget to summarize well what you said first ;-)\r\n",
+          "createdAt": "2022-05-22T11:16:52Z",
+          "updatedAt": "2022-05-22T11:16:52Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "By the way, those are only suggestions.  You should be comfortable with whatever approach you would like to take.",
+          "createdAt": "2022-05-22T11:17:29Z",
+          "updatedAt": "2022-05-22T11:17:29Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I'm not really on board with those --\r\n\r\n* a checklist is going to be incredibly difficult to create for every internet protocol - by nature, much of this is specific to the market/environment the protocol operates within\r\n* I don't know that a call for specific tech to avoid concentration is really realistic; if it emerges that's great but hope is not...\r\n* I'm less than enthusiastic about measurement activities, because it's not really clear how they're actionable, or often even if the metric is appropriate\r\n",
+          "createdAt": "2022-05-23T02:58:46Z",
+          "updatedAt": "2022-05-23T02:58:46Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "That's ok!  But there must be something you want the community to do, even if it's just considering the document as they're developing specifications.  Anyway, my suggestion is that you consider this as you're developing the rest of doc.",
+          "createdAt": "2022-05-23T04:51:38Z",
+          "updatedAt": "2022-05-23T04:51:38Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I think what I want the community to do is captured (imperfectly) in 'what can standard efforts do?'\r\n\r\nIs there something I can do to make it clearer?",
+          "createdAt": "2022-05-23T05:02:51Z",
+          "updatedAt": "2022-05-23T05:02:51Z"
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "id": "I_kwDOGCfj785HbmQP",
+      "title": "Benefits of Centralization",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/45",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "In Sections 2 and 6.4 you do discuss \"necessary centralization\", but that discussion is couched almost as an aside, and it is not clear to me that \"necessary\" is the word you should use.  I might call out \"benefits\" more directly, because it will help bring into focus the difficulty of the challenge.  Using an example here might help.  Here are two such:\r\n\r\n> The most significant environmental impact of computing is always at the edge.  Each watt expended by consumer gear such as laptops, smart phones, tablets, and routers is multiplied by millions if not billions.  The cost of environmental cost of production and disposal of each consumer device is similarly multiplied.  Each watt saved by use of some amount of centralization is conversely of huge societal benefit.  Everyone running their own SMTP local server would have a massive cost.\r\n\r\n> Similarly, the more distributed control, particularly to the users, requires more work by those same consumers to maintain and protect their components from vulnerabilities and exploits.  Some centralization absolves end users of those responsibilities. \r\n\r\n> The question then turns to how to balance this benefit against the risks.\r\n\r\nAnd this brings into question whether \"intermediaries\" in Section 6.4 is really the right term to use.  I don't have a better one offhand, tho.  Something on which to noodle?\r\n\r\nBy taking this approach, you express to the readers the seriousness and depth and respect that you treat the topic, and that it should demand of them.\r\n",
+      "createdAt": "2022-04-09T08:02:41Z",
+      "updatedAt": "2022-05-22T03:49:05Z",
+      "closedAt": "2022-05-22T03:49:05Z",
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "After a little bit of thought, I might consider examining \"agents\" or \"agency\" and maybe even expending some words differentiating between agents and intermediaries.",
+          "createdAt": "2022-04-09T08:43:33Z",
+          "updatedAt": "2022-04-09T08:43:33Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Dare we call it \"Beneficial Centralization\" instead of \"Necessary\"?\r\n\r\nRe: intermediaries / agents -- could you open that as a separate issue?",
+          "createdAt": "2022-05-15T04:36:11Z",
+          "updatedAt": "2022-05-15T04:36:11Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "Yes to both.",
+          "createdAt": "2022-05-15T07:37:49Z",
+          "updatedAt": "2022-05-15T07:37:49Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Renamed. I think the remaining things to address here are:\r\n\r\n* More discussion of different kinds of beneficial centralisation w/ examples\r\n* A discussion of the inherent tradeoffs; it's always a judgement call about what's 'beneficial'",
+          "createdAt": "2022-05-15T08:21:15Z",
+          "updatedAt": "2022-05-15T08:21:15Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I think we have enough examples now, but feel free to suggest more.",
+          "createdAt": "2022-05-22T03:49:05Z",
+          "updatedAt": "2022-05-22T03:49:05Z"
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "id": "I_kwDOGCfj785Jrxz7",
+      "title": "Intermediaries or agents?",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/46",
+      "state": "CLOSED",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "As discussed elsewhere, I wonder if whether the discussion should be about agents rather than intermediaries.  Sometimes these agents **are** intermediaries, but sometimes they are authentication servers or perhaps other things.",
+      "createdAt": "2022-05-15T07:39:55Z",
+      "updatedAt": "2022-05-22T04:05:22Z",
+      "closedAt": "2022-05-22T04:05:22Z",
+      "comments": []
+    },
+    {
+      "number": 47,
+      "id": "I_kwDOGCfj785KKg3L",
+      "title": "Sybil attack description does not follow classical definition",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/47",
+      "state": "CLOSED",
+      "author": "huitema",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I am reading this draft and my general impression is \"great work\" and \"this should be published and promoted.\" But then, I find this sentence in the section about the blockchain-based designs:\r\n\r\n_Sybil attacks (where enough participants coordinate their activity to affect the protocol's operation) are a major concern for these protocols._\r\n\r\nSybil attacks don't do that. Sybil attacks typically affect systems in which the system state reflects the consensus of a majority of the \"participants\". The [wikipedia entry](https://en.wikipedia.org/wiki/Sybil_attack) correctly states \"A Sybil attack is a type of attack on a computer [network service](https://en.wikipedia.org/wiki/Network_service) in which an attacker subverts the service's reputation system by creating a large number of [pseudonymous](https://en.wikipedia.org/wiki/Pseudonymity) identities and uses them to gain a disproportionately large influence.\"\r\n\r\nThe various kinds of \"proofs\" found in blockchain-based systems attempt to Sybil attack by only considering consensus among those pseudonymous entries that meet some condition. For example, systems based on \"proof of work\" require participants to consume a large quantity of energy before obtaining a \"vote\", and systems based on \"proof of stake\" only considers those participants that can \"stake\" a large quantity of some resource.",
+      "createdAt": "2022-05-22T14:20:44Z",
+      "updatedAt": "2022-05-24T02:26:44Z",
+      "closedAt": "2022-05-23T05:49:53Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "How about changing the parenthetical to\r\n\r\n> (where a party or coordinated parties create enough protocol participants to affect how consensus is judged)\r\n\r\n?",
+          "createdAt": "2022-05-23T02:29:09Z",
+          "updatedAt": "2022-05-23T02:29:09Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Closing but please say so if that isn't sufficient or you can do better.",
+          "createdAt": "2022-05-23T05:49:53Z",
+          "updatedAt": "2022-05-23T05:49:53Z"
+        },
+        {
+          "author": "huitema",
+          "authorAssociation": "NONE",
+          "body": "I commented on the commit, but maybe better says here. The point is indeed to create enough participants to sway the consensus. This is typically facilitated by the use of pseudonyms, which itself is motivated by desires of privacy, and by the low level of resource required to create a pseudonym. We could have qualifiers such as \"pseudonymous participants\" or \"cheaply create\". Your choice.",
+          "createdAt": "2022-05-23T16:31:24Z",
+          "updatedAt": "2022-05-23T16:31:24Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "done.",
+          "createdAt": "2022-05-24T02:26:43Z",
+          "updatedAt": "2022-05-24T02:26:43Z"
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "id": "I_kwDOGCfj785KKh0P",
+      "title": "Extensibility and maintenance",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/48",
+      "state": "CLOSED",
+      "author": "huitema",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The \"Over-Extensibility\" section points out the risks of designs that only specify a narrow core of functions and rely on extensibility to meet actual demand. That's a great point, but the text only addresses the initial design of the protocol. I wonder whether the text should be extended to something like \"protocol gardening\". Gardeners will shape trees as they grow by pruning them. Should standard bodies similarly bring extensions inside the core of a new revision, or prune (and prohibit) extensions that demonstrate too much centralization risks?",
+      "createdAt": "2022-05-22T14:35:55Z",
+      "updatedAt": "2022-05-23T02:56:10Z",
+      "closedAt": "2022-05-23T02:56:10Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "@huitema PTAL.\r\n\r\nI think this is part of a larger point that I'm trying to make -- standards efforts should continue to push the 'waterline' of what's open and interoperable up, rather than allowing it to be claimed as proprietary. There's a dynamic in [this comment](https://github.com/mnot/avoiding-internet-centralization/issues/32#issuecomment-1129472920) that I'm still trying to capture in the document.\r\n\r\nRegarding - 'prune extensions' -- how would we do that?\r\n\r\nAm closing, but please request reopening if you feel I haven't adequately addressed.",
+          "createdAt": "2022-05-23T02:56:10Z",
+          "updatedAt": "2022-05-23T02:56:10Z"
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "id": "I_kwDOGCfj785KLS2c",
+      "title": "Inappropriate decentralisation?",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/49",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "Habermas can be read as arguing against over-decentralization; see [comment](https://github.com/mnot/avoiding-internet-centralization/issues/19#issuecomment-1126863582).\r\n\r\nThis is briefly touched upon in 'avoid over-extensibility'. While extensibility allows distributed evolution, that can surface other power relationships -- e.g., a larger vendor is able to abuse their power.\r\n\r\n\r\n\r\n",
+      "createdAt": "2022-05-23T02:05:40Z",
+      "updatedAt": "2022-05-24T03:56:01Z",
+      "closedAt": "2022-05-24T03:56:01Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "there's a theme of accountability that probably needs to be surfaced. ",
+          "createdAt": "2022-05-23T04:32:00Z",
+          "updatedAt": "2022-05-23T04:32:00Z"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "id": "I_kwDOGCfj785MDXOV",
+      "title": "random reading",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/50",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "* [Cooperation among an anonymous group protected Bitcoin during failures of decentralization](https://arxiv.org/abs/2206.02871)\r\n* [The Web3 Decentralization Debate Is Focused on the Wrong Question](https://www.wired.com/story/web3-blockchain-decentralization-governance/)",
+      "createdAt": "2022-06-19T04:26:20Z",
+      "updatedAt": "2022-07-09T07:23:51Z",
+      "closedAt": "2022-07-09T07:23:51Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "* https://theconversation.com/there-are-systems-guarding-your-data-in-cyberspace-but-who-is-guarding-the-guards-183041\r\n* https://educatedguesswork.org/posts/challenges-web-decentralization/\r\n* ",
+          "createdAt": "2022-06-21T04:23:37Z",
+          "updatedAt": "2022-06-21T04:23:37Z"
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "id": "I_kwDOGCfj785MFNyX",
+      "title": "Underpinning for decentralization",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/51",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "More directly relate it to polycentricity, development, and governance overall.\r\n\r\ncompare with https://www.worldbank.org/en/topic/communitydrivendevelopment/brief/Decentralization",
+      "createdAt": "2022-06-20T06:32:33Z",
+      "updatedAt": "2022-07-09T07:23:39Z",
+      "closedAt": "2022-07-09T07:23:39Z",
+      "comments": []
+    },
+    {
+      "number": 52,
+      "id": "I_kwDOGCfj785MlQxP",
+      "title": "Evaluate New Decentralization Techniques",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/52",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [
+        "mnot"
+      ],
+      "labels": [],
+      "body": "... is still a bit thin. Depending on how they're used, crypto techniques can promote as well as remove centralization risk. \r\n\r\n",
+      "createdAt": "2022-06-26T07:47:44Z",
+      "updatedAt": "2022-07-09T07:23:30Z",
+      "closedAt": "2022-07-09T07:23:30Z",
+      "comments": []
+    },
+    {
+      "number": 53,
+      "id": "I_kwDOGCfj785MlQyP",
+      "title": "Decentralization",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/53",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Needs more meat.",
+      "createdAt": "2022-06-26T07:48:03Z",
+      "updatedAt": "2022-07-09T05:02:06Z",
+      "closedAt": "2022-07-09T05:02:05Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "IN progress enough to close.",
+          "createdAt": "2022-07-09T05:02:05Z",
+          "updatedAt": "2022-07-09T05:02:05Z"
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "id": "I_kwDOGCfj785OoTvZ",
+      "title": "Structural Separation",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/54",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "idea"
+      ],
+      "body": "> A further regulatory problem with natural monopolies is to identify their boundaries. One of the key arguments in favour of the vertical separation of infrastructure industries, for example, has been that this allows the introduction of competition in potentially competitive areas of the industry. However, often the ability to \u2018separate out\u2019 particular parts of an industry is dependent on the availability of technological devices.\r\n\r\n-- Martin Lodge and Kai Wegrich, \"Managing Regulation\" (Macmillan, 2008), 20-1.\r\n\r\nThis ties nicely to SDO's ability to identify and create those 'pivot points' for separating out functions.",
+      "createdAt": "2022-07-27T08:15:58Z",
+      "updatedAt": "2022-12-01T08:25:13Z",
+      "closedAt": "2022-12-01T08:25:13Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "yes...",
+          "createdAt": "2022-11-10T14:11:18Z",
+          "updatedAt": "2022-11-10T14:11:18Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Might also be able to incorporate (or at least allude to) the competition law concept of tying:\r\n\r\n> Tying is the most common form of misuse - where the seller conditions the sale of desirable goods, the tying product (e.g., IP), on the sale of less desirable, or tied products, (e.g., other IP, goods, hardware, perhaps services). Tying is objectionable where there is appreciable economic power in the tying product\u2019s market and this affects a substantial volume of commerce in tied product market. The four elements of tying are: (i) two separate products or services, (ii) purchase of the tying product or service made conditional on purchase of the tied product, (iii) seller has market power in the tying product and (iv) \u201cnot an insubstantial\u201d volume of the market for the tied product is foreclosed.\r\n\r\n-- John W. Bagby, 'An Overview of the Public Policy Impact on Standards Development'",
+          "createdAt": "2022-11-25T04:12:00Z",
+          "updatedAt": "2022-11-25T04:12:00Z"
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "id": "I_kwDOGCfj785PFb6x",
+      "title": "Questions",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/55",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "idea"
+      ],
+      "body": "It might be interesting to pose some questions that should be asked about proposals for centralized _or_ decentralised technologies, in the spirit of ['What's the Problem Represented to be?'](https://library.oapen.org/bitstream/handle/20.500.12657/33181/560097.pdf?sequence=1#page=34).\r\n\r\nSome food for thought [here](https://www.varunsrinivasan.com//2022/01/11/sufficient-decentralization-for-social-networks).",
+      "createdAt": "2022-08-03T07:54:19Z",
+      "updatedAt": "2022-12-04T05:07:44Z",
+      "closedAt": "2022-12-04T05:07:44Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "also maybe [here](https://nathanschneider.info/articles/DecentralHacker.html).",
+          "createdAt": "2022-08-03T07:55:02Z",
+          "updatedAt": "2022-08-03T07:55:02Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Interesting material definitely!",
+          "createdAt": "2022-11-10T13:13:36Z",
+          "updatedAt": "2022-11-10T13:13:36Z"
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "id": "I_kwDOGCfj785QRQ4H",
+      "title": "Who is \"we\"?",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/56",
+      "state": "CLOSED",
+      "author": "tfpauly",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "Section 4.1 uses the term \"we\" several times, presumably referring to the IETF or standards community. The introduction also says \"while the IETF may not be able to prevent centralization, there are still meaningful steps we can take to counteract it.\" The rest of the document doesn't mention a \"we\".\r\n\r\nI think for both cases it would be cleaner to remove the \"we\", so that the document can be more clearly read from any audience. Thoughts?",
+      "createdAt": "2022-08-22T16:41:35Z",
+      "updatedAt": "2022-11-24T06:47:41Z",
+      "closedAt": "2022-11-24T06:47:41Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Definitely. Maybe s/we/standards efforts/",
+          "createdAt": "2022-11-10T12:27:04Z",
+          "updatedAt": "2022-11-10T12:27:04Z"
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "id": "I_kwDOGCfj785QRSOx",
+      "title": "Requiring permission from another entity",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/57",
+      "state": "CLOSED",
+      "author": "tfpauly",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "nearly editorial"
+      ],
+      "body": "The introduction says this:\r\n\r\n> The Internet can accommodate a spectrum of requirements and is now positioned as a global public good because joining, deploying an application on, or using the Internet does not require permission from or ceding control to another entity.\r\n\r\nAfter reading the full document, I agree based on the definition of centralization. However, at first read, I was thinking about the fact that the reality for many people is that they _do_ have limited options for which ISPs to use to access the Internet, and you do need to work with some other entity usually to get your DNS name and certificates, etc. To that end, users and deployments do need some permission or help from \"another entity\".\r\n\r\nOne simple fix could be to change the last phrase to \"...ceding control to a single entity.\"",
+      "createdAt": "2022-08-22T16:45:35Z",
+      "updatedAt": "2022-11-24T06:47:41Z",
+      "closedAt": "2022-11-24T06:47:41Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I think I agree with the suggested change (although I had different ideas what people have limited options for :-) )",
+          "createdAt": "2022-11-10T12:26:28Z",
+          "updatedAt": "2022-11-10T12:26:28Z"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "id": "I_kwDOGCfj785QRTHV",
+      "title": "Why centralization is undesirable",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/59",
+      "state": "CLOSED",
+      "author": "tfpauly",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "Section 2.1 says there are three ways (fundamental nature of the internet, lack of checks and balances, and \u201cdeleterious effects\u201d), but that last one is a list of 5 sub items. This seems a bit odd, since the first two are also arguably deleterious effects?\r\n\r\nAll of the points here are good points, but I'm unclear why they are grouped like they are.",
+      "createdAt": "2022-08-22T16:49:13Z",
+      "updatedAt": "2022-11-24T07:18:15Z",
+      "closedAt": "2022-11-24T07:18:15Z",
+      "comments": []
+    },
+    {
+      "number": 60,
+      "id": "I_kwDOGCfj785QRUYQ",
+      "title": "Naming for \"inherited\" and \"platform\" centralization",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/60",
+      "state": "CLOSED",
+      "author": "tfpauly",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "waiting for feedback"
+      ],
+      "body": "I'm having a bit of trouble with the names for \"inherited\" and \"platform\" centralization. I think these are useful points, but the names don't seem to be the most intuitive to me.\r\n\r\nSection 2.2.4, \u201cInherited centralization\u201d. I find the name to not match with what\u2019s described well. It\u2019s mainly about layering, and what a lower layer can do to force centralization on the layer above. Inheriting sounds more passive, whereas the example seems to require active interference of the lower layer.\r\n\r\nSection 2.2.5, \u201cPlatform centralization\u201d. Is this really a unique type of centralization? It may be, but I'm having trouble with how this is described. It\u2019s more just saying that a protocol might be used as part of a centralized solution, even when that protocol itself isn\u2019t centralized. The social networking example given here was supposedly also the \u201cconsolidation\u201d category already. It seems like there, the driver of centralization is consolidation, that just uses the platform. The platform here (HTTP) seems to be neutral to the centralization question \u2014 it neither encourages or discourages centralization.",
+      "createdAt": "2022-08-22T16:54:22Z",
+      "updatedAt": "2023-01-18T00:14:15Z",
+      "closedAt": "2023-01-18T00:14:15Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "These are the two that I haven't yet found new names for - would love suggestions. \r\n\r\nI'll think more on platform. I included it because this factor does come up in discussions, and while we can't prevent it, we need to be able to talk about it (if only to say that we can't do anything about it).",
+          "createdAt": "2022-08-23T00:37:43Z",
+          "updatedAt": "2022-08-23T00:37:43Z"
+        },
+        {
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I'll think about the names.\r\n\r\nThis is likely too strong, but \"inherited\" could be called \"coercive centralization\" or \"forced centralization\", where another layer tries to enforce centralization on a higher layer by blocking other or new services.\r\n\r\nFor \"platform\", it seems like it is about \"enabling\" centralization, by having a protocol that doesn't actively discourage or prevent centralization above it? But I'm still not sure about this one. It seems like it could be a separate category \u2014 like even if you aren't actively centralizing, you may be participating in a centralized system by enabling it.",
+          "createdAt": "2022-08-23T17:30:00Z",
+          "updatedAt": "2022-08-23T17:30:00Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "NONE",
+          "body": "I also just wanted to open an issue that these two \u201ekinds\u201c are unclear to me. I think the text in the section is good but why this is a different kind is unclear. However I think this is a general problem with the section. I don\u2019t find it too useful to try to classifying centralization into different (separate) \u201ekinds\u201c. Maybe the section should be rather title something like \u201ecauses of centralization\u201c or something like this\u2026.?",
+          "createdAt": "2022-09-05T15:38:27Z",
+          "updatedAt": "2022-09-05T15:38:27Z"
+        },
+        {
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I'm wondering if we could talk about this as \"conditions for centralization to exist\", with \"motivating\" and \"enabling\" factors.\r\n\r\nFor example, in the case of social media concentration, it seems like the concentration is a motivating factor, and that platforms that do not prohibit centralization are enabling to concentration.\r\n\r\nIn the case of inherited centralization, I think there's a motivating factor of some lower layer to do centralization for some reason, but there's an enabling factor of revealing upper layer info by not encrypting that allows the lower layer to block things it doesn't like, etc...",
+          "createdAt": "2022-09-07T14:11:05Z",
+          "updatedAt": "2022-09-07T14:11:05Z"
+        },
+        {
+          "author": "jfinkhaeuser",
+          "authorAssociation": "NONE",
+          "body": "I like the conditions approach.\r\n\r\nI see this in HTTP quite strongly: it contains the conditions for centralization, even skews in favour of it by making it harder to have servers or proxy act as oblivious intermediaries in an end-to-end scenario. But it's really external (e.g. commercial) factors that motivate the exploitation of this. Still, in the case of HTTP I would think \"enabling centralization\" is too soft, \"motivating centralization\" maybe to harsh a phrasing, but it certainly nudges towards centralization because other approaches are harder.",
+          "createdAt": "2022-09-26T15:54:25Z",
+          "updatedAt": "2022-09-26T15:54:25Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I also like the conditions -approach!",
+          "createdAt": "2022-11-10T12:24:53Z",
+          "updatedAt": "2022-11-10T12:24:53Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Any more thoughts about these names?",
+          "createdAt": "2022-11-28T06:50:52Z",
+          "updatedAt": "2022-11-28T06:50:52Z"
+        },
+        {
+          "author": "jfinkhaeuser",
+          "authorAssociation": "NONE",
+          "body": "After revisiting this draft, I think the naming is good enough. But this is in part because of #88, which distinguishes between centralization and consolidation.",
+          "createdAt": "2022-11-28T12:55:10Z",
+          "updatedAt": "2022-11-28T12:55:10Z"
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "id": "I_kwDOGCfj785RMdTh",
+      "title": "Section 4.5 on intermediates",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/62",
+      "state": "CLOSED",
+      "author": "mirjak",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I\u2019m not sure I follow or agree to section 5.4:\r\n\r\n> However, introducing a new party to communication adds concentration\r\n>    and platform centralization risk to Internet protocols, because it\r\n>    brings opportunities for control and observation.\r\n\r\ni would actually think that distributing control to more entities can help to avoid centralization\u2026\r\n\r\nI think the text makes some good points about the pros and cons of intermediates, I\u2019m not sure I fully understand the relation to centralization. Maybe this is just a separate topic\u2026?",
+      "createdAt": "2022-09-05T15:56:42Z",
+      "updatedAt": "2022-11-25T05:11:48Z",
+      "closedAt": "2022-11-25T05:11:42Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "This section has been broadened from 'intermediation' to 'delegation of power', which I think might address your concern. The issue is when you give more parties control over communication - _not_ when you give users the ability to choose who has access to communication.\r\n\r\nClosing, but if you disagree / want to talk more, please say so.",
+          "createdAt": "2022-11-25T05:11:42Z",
+          "updatedAt": "2022-11-25T05:11:42Z"
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "id": "I_kwDOGCfj785SkadT",
+      "title": "DNS centralization is at the root",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/63",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "nearly editorial"
+      ],
+      "body": "Jari:\r\n\r\nSome parts of the document raise DNS as an inherently (and usefully) centralized service. I think it would be worthwhile to make the text clearer about the *root* being a centralized service. The rest is increasingly distributed, at the level of TLDs and then at the level your own domain.\r\n",
+      "createdAt": "2022-09-26T01:42:13Z",
+      "updatedAt": "2022-11-24T06:47:41Z",
+      "closedAt": "2022-11-24T06:47:41Z",
+      "comments": [
+        {
+          "author": "gibson042",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "For me, _decentralized_ is a distinct and stronger claim about a system than _distributed_ (which is a necessary but not sufficient condition for the former), even when both are understood to be continua\u2014the DNS is [to a high degree] distributed but not [or barely] decentralized. But I recognize that this is at odds with the current text, in which \"distributed\" is used to mean something like \"maximally decentralized\". And in the context of that text, DNS delegation does indeed serve to mitigate centralization risk by partitioning along organizational boundaries.",
+          "createdAt": "2022-11-10T15:46:04Z",
+          "updatedAt": "2022-11-10T15:46:04Z"
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "id": "I_kwDOGCfj785Skajb",
+      "title": "Distributed Consensus focus",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/64",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "Jari:\r\n\r\nThere was quite a bit of focus on distributed consensus mechanisms and its difficulties. I fully agree with those difficulties, but maybe the document as it spends even too many paragraphs of text on this, making it appear perhaps more relevant solution than it really is. Perhaps some compression would make the focus clearer.\r\n",
+      "createdAt": "2022-09-26T01:42:41Z",
+      "updatedAt": "2022-11-24T06:47:41Z",
+      "closedAt": "2022-11-24T06:47:41Z",
+      "comments": []
+    },
+    {
+      "number": 65,
+      "id": "I_kwDOGCfj785SkaoX",
+      "title": "Broaden discussion of intermediaries",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/65",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "nearly editorial"
+      ],
+      "body": "Jari:\r\n\r\nS4.5 has a lot of focus on intermediaries in the more narrow sense (e.g., a proxy) but I think the biggest issues are actually in the broader sense (e.g., a server, such as [gmail.com](http://gmail.com/) or Facebook that can for instance retain all your conversations). The basic rule about \"limited to what is necessary to perform their intended function\u201d still applies to them though, and perhaps should be highlighted better.\r\n",
+      "createdAt": "2022-09-26T01:43:06Z",
+      "updatedAt": "2022-11-25T00:13:40Z",
+      "closedAt": "2022-11-25T00:13:40Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I think this is OBE; subsequent edits seem to have captured this. @jariarkko if you have remaining concerns or think it needs more examples / mentions, please say so, happy to oblige.",
+          "createdAt": "2022-11-25T00:13:40Z",
+          "updatedAt": "2022-11-25T00:13:40Z"
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "id": "I_kwDOGCfj785SobMs",
+      "title": "Better description of \"distribution\"",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/66",
+      "state": "CLOSED",
+      "author": "jfinkhaeuser",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "I think the doc glosses over \"distribution\" a bit. Baran's cited paper is a pretty good reference for these terms, and particularly with the popularity of \"distributed consensus\" algorithms, there's a strong push for decentralization techniques. As a consequence of the combination of the two, the distinction between decentralized and distributed architectures tends to get a bit blurred.\r\n\r\nI may put in an PR in a couple of days.",
+      "createdAt": "2022-09-26T15:57:37Z",
+      "updatedAt": "2022-12-01T12:32:35Z",
+      "closedAt": "2022-12-01T08:06:05Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Thanks for the suggestions. At this point I don't think they fit into where I want to focus this document, so I'm not going to merge, but I'll keep them around and look again later on.",
+          "createdAt": "2022-12-01T08:06:01Z",
+          "updatedAt": "2022-12-01T08:06:01Z"
+        },
+        {
+          "author": "jfinkhaeuser",
+          "authorAssociation": "NONE",
+          "body": "Fair enough, I suppose. It's your draft!\r\n\r\nBut I wish you would reconsider. Both major aspects (local decision making/web as an enable for platformisation) are IMHO not present enough in current discourse.",
+          "createdAt": "2022-12-01T12:32:35Z",
+          "updatedAt": "2022-12-01T12:32:35Z"
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "id": "I_kwDOGCfj785Sr11Y",
+      "title": "Avoiding the impression that the doc calls for regulation",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/67",
+      "state": "CLOSED",
+      "author": "jariarkko",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [
+        "nearly editorial",
+        "waiting for feedback"
+      ],
+      "body": "Two regulation-related things come into mind from discussions with IAB members.\r\n\r\nOne, the document uses regulation term in few places when it talks about constraints set by the architecture or technical standards. This is correct use of the term, but may be confusing to some. I would suggest changing:\r\n\r\nOLD: These difficulties call into question what role architectural regulation -- in particular, that performed by open standards bodies\r\nNEW: These difficulties call into question what role architectural design -- in particular, that performed by open standards bodies\r\nOLD: The Internet architecture and associated standards do not regulate them, beyond the constraints that the underlying protocols\r\nNEW: The Internet architecture and associated standards do not control them, beyond the constraints that the underlying protocols\r\nOLD: There are also valuable contributions that standards efforts can make to other relevant forms of regulation.\r\nNEW: There are also valuable contributions that standards efforts can make to other relevant ways that societies can address issues.\r\nOLD: how effective standards (as a form of architectural regulation)\r\nNEW: how effective standards (as a form of architectural control)\r\n\r\nTwo, the parts that talk about governmental regulation as a way to address some issues should be carefully carted to avoid the impression that the document calls for regulation. Indeed, efforts are regulating Internet applications have not all been extremely successful either.\r\n\r\nOLD: some kinds of centralization are likely better addressed through legal regulation\r\nNEW: some kinds of centralization may be more amenable to being addressed through legal regulation\r\nOLD: regulators around the globe are now focusing their efforts on the Internet\r\nNEW: regulators around the globe are in some cases focusing specific efforts on some aspects of the Internet\r\nOLD: it also constitutes an opportunity for new\r\n   specifications to decentralize these functions, backed by a legal\r\n   mandate in combination with changing norms and the resulting market\r\n   forces [LESSIG].\r\nNEW: it also constitutes an opportunity for new\r\n   specifications to decentralize these functions, backed by a legal\r\n   mandate in combination with changing norms and the resulting market\r\n   forces [LESSIG]. However, legal regulation cases have also had in some cases \r\n   significant issues.",
+      "createdAt": "2022-09-27T07:00:45Z",
+      "updatedAt": "2022-11-28T06:49:31Z",
+      "closedAt": "2022-11-28T06:49:30Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "@jariarkko PTAL",
+          "createdAt": "2022-11-24T06:48:00Z",
+          "updatedAt": "2022-11-24T06:48:00Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Closing; please say if you see something remaining.",
+          "createdAt": "2022-11-28T06:49:30Z",
+          "updatedAt": "2022-11-28T06:49:30Z"
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "id": "I_kwDOGCfj785SsGgT",
+      "title": "Abstract ordering / rewrite",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/68",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "nearly editorial",
+        "waiting for feedback"
+      ],
+      "body": "@mallory suggested reordering the abstract to emphasise that decentralised was the original state of the Internet, and centralisation is the issue that we need to deal with.\r\n\r\n(Mallory did you have specific text?)",
+      "createdAt": "2022-09-27T07:54:03Z",
+      "updatedAt": "2022-11-24T23:05:44Z",
+      "closedAt": "2022-11-24T23:05:44Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Also, she suggests 'subjected' isn't quite accurate, because the internet has made its own contribution to centralisation",
+          "createdAt": "2022-09-27T07:57:16Z",
+          "updatedAt": "2022-09-27T07:57:16Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Agreed",
+          "createdAt": "2022-11-10T12:23:08Z",
+          "updatedAt": "2022-11-10T12:23:08Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "@mallory / @jariarkko PTAL",
+          "createdAt": "2022-11-24T06:51:56Z",
+          "updatedAt": "2022-11-24T06:51:56Z"
+        },
+        {
+          "author": "mallory",
+          "authorAssociation": "NONE",
+          "body": "The rework looks good to me ",
+          "createdAt": "2022-11-24T11:05:26Z",
+          "updatedAt": "2022-11-24T11:05:26Z"
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "id": "I_kwDOGCfj785SsHbm",
+      "title": "Kinds of centralisation",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/69",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "waiting for feedback"
+      ],
+      "body": "A few people (eg @mallory, @mirjak) have mentioned that 2.2 is framed as a taxonomy, and as a result isn't helpful.\r\n\r\nMallory suggests 'centralizing forces' -- thoughts?",
+      "createdAt": "2022-09-27T07:56:30Z",
+      "updatedAt": "2023-02-01T05:17:08Z",
+      "closedAt": "2023-02-01T05:17:08Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "NONE",
+          "body": "I think 'centralizing forces' is definitely better but it also sounds very negative to me. However, not all reasons to centralise are \"bad\" or \"forced\". Sometimes it's a good and on-purpose decision to centralise something, e.g. to increase security. Maybe \"centralisation causes\" or something like that is more neutral? ",
+          "createdAt": "2022-09-27T10:46:06Z",
+          "updatedAt": "2022-09-27T10:46:06Z"
+        },
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I agree with both comments (the original one and Mirja's)",
+          "createdAt": "2022-11-10T12:22:26Z",
+          "updatedAt": "2022-11-10T12:22:26Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "See also discussion in #60",
+          "createdAt": "2022-11-24T06:23:56Z",
+          "updatedAt": "2022-11-24T06:23:56Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Trying 'Contributors to Centralization' - PTAL @jariarkko @mallory @mirjak @tfpauly ",
+          "createdAt": "2022-11-25T00:40:02Z",
+          "updatedAt": "2022-11-25T00:40:02Z"
+        },
+        {
+          "author": "mallory",
+          "authorAssociation": "NONE",
+          "body": "Centralising factors?\n\nThe headings are still reading to me as a taxonomy which is going to mean the same comment is brought up again and again, and especially when policy folks read it. \n\nMaybe the headings need to be longer so as not to sound taxonomic. ",
+          "createdAt": "2022-12-30T12:06:50Z",
+          "updatedAt": "2022-12-30T12:06:50Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "The problem is that these names are referred to throughout the paper to refer to different effects and situations, so changing the titles would be quite invasive. For internal purposes, it *is* somewhat of a taxonomy, and the rewrite to completely remove that would be quite extensive, and also go against a lot of the feedback previously received that suggested the different sections have deeper ties.\r\n\r\nI've already passed this in front of many policy people and am not getting any negative reaction along these lines, FWIW.\r\n\r\nBack to the suggestion -- I don't think 'factors' fits either. How about 'aspects of centralization'? Or 'facets'? If that's combined with an explicit statement that this isn't a complete taxonomy, just a collection of aspects, would that address this concern?",
+          "createdAt": "2023-01-03T05:21:16Z",
+          "updatedAt": "2023-01-03T05:21:16Z"
+        },
+        {
+          "author": "mallory",
+          "authorAssociation": "NONE",
+          "body": "Aspects or factors works for me. Characteristics might be another. Where aspect/factor implicates the perspective of the viewer, characteristic feels more objective.",
+          "createdAt": "2023-01-12T18:15:00Z",
+          "updatedAt": "2023-01-12T18:15:00Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "NONE",
+          "body": "I do like this conditions or enabling factors approach as discussed in #60 (or contributors seems also okay as you have it right now in the editor's copy). Because I think what you describe is really more about the root causes for centralisation than different \"kinds\" of centralisation. Kinds of centralisation would be for me more if you e.g. describe different technical form of the centralisation itself e.g. because it happens on different layers... I so I would say what you do is defining some terminology that you can used rather than actually creating a taxonomy (which at least to me has a certain requirement on completeness and non-overlapping separation).",
+          "createdAt": "2023-01-12T18:36:04Z",
+          "updatedAt": "2023-01-12T18:36:04Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "None of those seemed quite right, so I dodged it -- see [1ed5102](https://github.com/mnot/avoiding-internet-centralization/commit/1ed5102858ccf9a1e6e37f87dd6a25357c33644e)",
+          "createdAt": "2023-01-18T04:29:17Z",
+          "updatedAt": "2023-01-18T04:29:17Z"
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "id": "I_kwDOGCfj785SsH2W",
+      "title": "Pull specific text out of KENDE ref",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/70",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "nearly editorial"
+      ],
+      "body": "per @mallory",
+      "createdAt": "2022-09-27T07:57:53Z",
+      "updatedAt": "2022-11-28T06:39:22Z",
+      "closedAt": "2022-11-28T06:39:22Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Agreed",
+          "createdAt": "2022-11-10T12:21:03Z",
+          "updatedAt": "2022-11-10T12:21:03Z"
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "id": "I_kwDOGCfj785SsIZx",
+      "title": "Terminology",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/71",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "nearly editorial",
+        "waiting for feedback"
+      ],
+      "body": "@mallory suggests that:\r\n\r\n- 'centralisation' is a primarily architectural phenomenon\r\n- 'consolidiation' is the effect it can have on power\r\n\r\nReview and see if we can apply consistently.",
+      "createdAt": "2022-09-27T07:59:36Z",
+      "updatedAt": "2022-12-01T06:50:55Z",
+      "closedAt": "2022-12-01T06:50:55Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I have no strong opinion, but the above is what I've been using personally.",
+          "createdAt": "2022-11-10T12:17:23Z",
+          "updatedAt": "2022-11-10T12:17:23Z"
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "id": "I_kwDOGCfj785SsIt_",
+      "title": "Highlight switching costs and similar",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/72",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "nearly editorial"
+      ],
+      "body": "In 2, text on friction against switching costs should be elevated from an example to a factor that contributes to concentration of power. (per @mallory)",
+      "createdAt": "2022-09-27T08:00:34Z",
+      "updatedAt": "2022-11-25T05:03:51Z",
+      "closedAt": "2022-11-25T05:03:51Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Yes",
+          "createdAt": "2022-11-10T12:16:36Z",
+          "updatedAt": "2022-11-10T12:16:36Z"
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "id": "I_kwDOGCfj785SsJAr",
+      "title": "2.1 list",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/73",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "@mallory suggests that the bullet points are the heart of the argument here, and that the first and second points in prose above should be converted into it (making sure list is orthoganal).",
+      "createdAt": "2022-09-27T08:01:33Z",
+      "updatedAt": "2022-11-24T07:18:15Z",
+      "closedAt": "2022-11-24T07:18:15Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Yes, agreed",
+          "createdAt": "2022-11-10T12:16:21Z",
+          "updatedAt": "2022-11-10T12:16:21Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Dup of / related to #59 ",
+          "createdAt": "2022-11-24T06:23:05Z",
+          "updatedAt": "2022-11-24T06:23:05Z"
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "id": "I_kwDOGCfj785SsJUS",
+      "title": "Too Big To Block",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/74",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "work item"
+      ],
+      "body": "@mallory points out this should be listed in 2.2.2 (beneficial); talk about privacy aspects explicitly, acknowledging this is still an area of active development / experimentation.",
+      "createdAt": "2022-09-27T08:02:30Z",
+      "updatedAt": "2022-12-01T07:44:25Z",
+      "closedAt": "2022-12-01T07:44:25Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Too big to block should be mentioned. But if it is, then it should be covered in two ways -- it can be helpful in ensuring availability of e.g. access to information but also part of an unfair competitive advantage; I can't run a mail server because people can block me but not gmail.",
+          "createdAt": "2022-11-10T12:15:13Z",
+          "updatedAt": "2022-11-10T12:15:13Z"
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "id": "I_kwDOGCfj785SsJ-l",
+      "title": "Hardware",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/75",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "@mallory you mentioned discussion of hardware could do with some expansion; did you have specific ideas here?",
+      "createdAt": "2022-09-27T08:04:18Z",
+      "updatedAt": "2022-11-25T05:13:35Z",
+      "closedAt": "2022-11-25T05:13:35Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "I can't think of much here -- one example comes to mind is things like the (only few) CPU manufacturers or the modem chips in phones that also come only from sources. But not sure these are worth expanding on.",
+          "createdAt": "2022-11-10T12:10:36Z",
+          "updatedAt": "2022-11-10T12:10:36Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "The draft already mentions hardware once or twice. Closing, but please come back with suggestions if you have them!",
+          "createdAt": "2022-11-25T05:13:35Z",
+          "updatedAt": "2022-11-25T05:13:35Z"
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "id": "I_kwDOGCfj785SsKkt",
+      "title": "Scarcity",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/76",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "@mallory pointed out that scarcity is a contributor to centralisation; e.g., ipv4 in Europe. It's hard to control, and will have effects on centralisation and responses to it.",
+      "createdAt": "2022-09-27T08:05:21Z",
+      "updatedAt": "2023-01-18T04:09:28Z",
+      "closedAt": "2023-01-18T04:09:27Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Agreed. (But it is important that we don't water the issue of centralization down by only talking about technical things...)",
+          "createdAt": "2022-11-10T12:08:19Z",
+          "updatedAt": "2022-11-10T12:08:19Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I'm having trouble finding an appropriate place to incoroprate this into the document, and wording to use. Suggestions?",
+          "createdAt": "2022-12-01T07:55:16Z",
+          "updatedAt": "2022-12-01T07:55:16Z"
+        },
+        {
+          "author": "mallory",
+          "authorAssociation": "NONE",
+          "body": "Seems to me that the inherited centralisation section would work. ",
+          "createdAt": "2022-12-30T11:56:31Z",
+          "updatedAt": "2022-12-30T11:56:31Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Perfect. PTAL at aa5a032.",
+          "createdAt": "2023-01-03T05:08:47Z",
+          "updatedAt": "2023-01-03T05:08:47Z"
+        },
+        {
+          "author": "mallory",
+          "authorAssociation": "NONE",
+          "body": "LGTM. Do you want to take that paragraph a step further and say out loud that market power due to a legacy protocol like IPv4 might lead to ossification, eg corps profiting from the power differential undermine IPv6 adoption?",
+          "createdAt": "2023-01-12T18:12:23Z",
+          "updatedAt": "2023-01-12T18:12:23Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Done.",
+          "createdAt": "2023-01-18T04:09:27Z",
+          "updatedAt": "2023-01-18T04:09:27Z"
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "id": "I_kwDOGCfj785SsMHJ",
+      "title": "Consumer behaviour as a cause of concentration",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/77",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Users might choose a market leader because it sets a mental model / creates ux efficiency (from @mallory)",
+      "createdAt": "2022-09-27T08:09:09Z",
+      "updatedAt": "2023-03-26T06:41:46Z",
+      "closedAt": "2023-03-26T06:41:46Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Ok. Part of the switching cost issue, familiarity of ux and model and placed in the same set of tools and logins and ...",
+          "createdAt": "2022-11-10T12:06:46Z",
+          "updatedAt": "2022-11-10T12:06:46Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Do we have any references for this? I'd rather not just make the assertion. There's plenty of research showing that access to data gives unfair advantage, but I'm not aware of anthing specifically along these lines.",
+          "createdAt": "2022-12-01T07:52:17Z",
+          "updatedAt": "2022-12-01T07:52:17Z"
+        },
+        {
+          "author": "mallory",
+          "authorAssociation": "NONE",
+          "body": "I asked a colleague who is expert in UX and we couldn't find a clean citation of published research. I think it is largely accepted as a type of monopoly power in other industries, however, so perhaps worth looking here for the right terminology and then following that threat towards something that applies to user-facing tech? https://www.wallstreetmojo.com/monopoly/",
+          "createdAt": "2023-01-12T18:10:24Z",
+          "updatedAt": "2023-01-12T18:10:24Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I agree this is a fascinating area -- I'm particularly interested in questions like whether it's reasonable for Apple to claim that their exclusion of other browsers on iOS is itself an abuse of power over the market for applications on iOS, or if it's a reasonable response to Google's overall dominance of the browser market due to user preferernces / \"clustering\" around one browser. \r\n\r\nIn other words, 'user choice' is often listed as a goal for competition-enhancing efforts. However, it can also be viewed as a factor _decreasing_ competition when so many users make the same choice that diversity suffers, as we see in the browser market, even though browsers are standards-based, interoperable, and therefore highly substitutable. \r\n\r\nI've had a look around for anything that develops this from the competition law perspective, and haven't found anything yet. I suspect that the idea of 'user choice' as a public good is embedded pretty deeploy, so it may be difficult. ",
+          "createdAt": "2023-01-18T05:28:43Z",
+          "updatedAt": "2023-01-18T05:28:43Z"
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "id": "I_kwDOGCfj785SsMd3",
+      "title": "Industry associations as contributors to centralisation",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/78",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "@mallory says: some regulators think IETF is the problem regarding consolidation. We should define this as a cause of centralisation so that we can respond to it later in the document.",
+      "createdAt": "2022-09-27T08:10:01Z",
+      "updatedAt": "2023-01-18T06:03:49Z",
+      "closedAt": "2023-01-18T06:03:49Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Maybe it would be worthwhile to think more in terms of factors influencing things than a specific entity being the problem. E.g., dominant players can influence standards which makes them even more dominant, etc.",
+          "createdAt": "2022-11-10T12:00:43Z",
+          "updatedAt": "2022-11-10T12:00:43Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I don't know how to do this without being ham-fisted about it. If someone wants to suggest some text I'm all ears, but the regulators I've talked to about this document have been very receptive, and I suspect its publication might itself help to counter that impression.",
+          "createdAt": "2022-12-01T08:02:43Z",
+          "updatedAt": "2022-12-01T08:02:43Z"
+        },
+        {
+          "author": "mallory",
+          "authorAssociation": "NONE",
+          "body": "I think a middle ground is in the problem statement to acknowledge the risk of standards development organisations and industry associations as catalysing consolidation and anti-competitive behaviour if left unchecked. This should implicate the ietf in the recommendations, then. ",
+          "createdAt": "2022-12-30T11:53:20Z",
+          "updatedAt": "2022-12-30T11:53:20Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Your use of 'anti-competitive' is making me very nervous. As the draft already says, evaluating whether something is anti-competitive is a very different task, and it's not our job to figure this out. We shouldn't come anywhere near accepting that burden.\r\n\r\nThat said, I'm comfortable saying that SDOs need to demonstrate adequate governance, encourage broad participation, etc. to combat consolidation due to too narrow a focus (either on industry's views, or one particular player). That might tie nicely into RFC8890. It feels like this could be a new subsection of 'what should internet standard do'... thoughts?",
+          "createdAt": "2023-01-03T04:48:26Z",
+          "updatedAt": "2023-01-03T04:48:33Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "> It is difficult, if not impossible, for small suppliers to afford the costs of private regulation rendering it impossible to gain or maintain market access. As a result, private regulation increases the power and the market share of significantly sized suppliers and reduces the market share of small ones, driving some of them away. \r\n\r\n-- Cafaggi, Fabrizio, \u2018New Foundations of Transnational Private Regulation\u2019 (2011) 38(1) Journal of Law and Society 20 <http://dx.doi.org/10.1111/j.1467-6478.2011.00533.x>",
+          "createdAt": "2023-01-10T01:03:02Z",
+          "updatedAt": "2023-01-10T01:03:02Z"
+        },
+        {
+          "author": "mallory",
+          "authorAssociation": "NONE",
+          "body": "Works!",
+          "createdAt": "2023-01-12T18:15:51Z",
+          "updatedAt": "2023-01-12T18:15:51Z"
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "id": "I_kwDOGCfj785SsNg8",
+      "title": "High level goals",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/79",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "My original (very high-level) goals for the document were to:\r\n- encourage IETF efforts to consider centralisation in design\r\n- frame how we think about it when centralisation concerns come up\r\n- bridge discussions here with those happening elsewhere, esp. with regulators\r\n\r\n@mallory suggests it should answer these questions:\r\n- Why have we found ourselves in a situation where e.g., gmail is dominent when email is interoperable?\r\n- What can be done about centralized forces within the ietf stream (because it cares about the internet)?",
+      "createdAt": "2022-09-27T08:13:28Z",
+      "updatedAt": "2022-12-30T12:04:48Z",
+      "closedAt": "2022-11-25T05:15:13Z",
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "NONE",
+          "body": "Personal comment that I don't have a string preference but just wanted to voice that I kind of prefer the first list over the second list. Introduce an issue, give a framework to think about it, and link it to other things. Not necessarily have all answers, e.g., what to do in the IETF stream.",
+          "createdAt": "2022-11-10T11:54:26Z",
+          "updatedAt": "2022-11-10T11:54:26Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I tend to agree, and the second list is probably a fairly different document -- one that could be quite valuable, but separate (esp. the first question).\r\n\r\nClosing; if there's a need to make this more explicit (e.g., in abstract/introduction), please say so!",
+          "createdAt": "2022-11-25T05:15:13Z",
+          "updatedAt": "2022-11-25T05:15:13Z"
+        },
+        {
+          "author": "mallory",
+          "authorAssociation": "NONE",
+          "body": "I think the two are compatible. Stating your goals in the text as you have is good. The reader knows where you are coming from and why. My list was just that: my list. I felt that if by the end of the document I didn't have more insight into those two things then I didn't learn something new about centralisation. That could mean there's future work, but I also think this draft could support text that would at least start the discussion of these two questions-- so perhaps for future work, stated in broad terms?",
+          "createdAt": "2022-12-30T12:04:48Z",
+          "updatedAt": "2022-12-30T12:04:48Z"
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "id": "I_kwDOGCfj785Uf7j-",
+      "title": "random snippet",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/80",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "idea"
+      ],
+      "body": "Schneider - they should enter into a conversation with legacies such as the separation of powers, theories of sovereignty, and antitrust law to glean strategies for employing appropriate centralization to protect decentralized activities (e.g. Reijers et al. 2018). The di#erence in kind between the politics of the past and of the imagined future may be smaller than some assume.\r\n",
+      "createdAt": "2022-10-21T03:26:26Z",
+      "updatedAt": "2022-12-01T08:00:54Z",
+      "closedAt": "2022-12-01T08:00:54Z",
+      "comments": []
+    },
+    {
+      "number": 81,
+      "id": "I_kwDOGCfj785VJ7_T",
+      "title": "Clarify 'internet function'",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/81",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "nearly editorial"
+      ],
+      "body": "Definition of \"Internet function\" is interesting for me because when I first read the definition of \"centralization\" my mind leapt to physical infrastructure like fiber routes or cable landing stations (because I've worked in those areas). The draft's definition initially looks pretty specific--boiled down it's a current recognized standard or a proposed new or modified standard. But then you do mention other function types in subsequent paragraphs -- I'm not sure if you mean to include them in your definition or not. Perhaps you could just clarify either way?\r\n\r\n(from Kristin Berdan)",
+      "createdAt": "2022-10-30T08:18:25Z",
+      "updatedAt": "2022-11-24T07:05:01Z",
+      "closedAt": "2022-11-24T07:05:00Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "I think this is reasonably clear -- the second paragraph continues the definition. Combining them makes it quite lengthy...",
+          "createdAt": "2022-11-24T07:05:00Z",
+          "updatedAt": "2022-11-24T07:05:00Z"
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "id": "I_kwDOGCfj785VJ8Bo",
+      "title": "anti-trust",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/82",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "editorial"
+      ],
+      "body": "\"Also, it is important to distinguish centralization from anti-competitive concerns (also known as \"anti-trust\").\" I'd remove the hyphens from both as they are usually just written as one word each.\r\n\r\n(from Kristin Berdan)",
+      "createdAt": "2022-10-30T08:18:49Z",
+      "updatedAt": "2022-11-24T06:47:42Z",
+      "closedAt": "2022-11-24T06:47:42Z",
+      "comments": []
+    },
+    {
+      "number": 83,
+      "id": "I_kwDOGCfj785VJ8Du",
+      "title": "Courts",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/83",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "nearly editorial"
+      ],
+      "body": "\"only courts have the authority to define a relevant market and determine that behavior is anti-competitive.\" In the US, the FTC also has rulemaking and investigatory powers, with compulsory enforcement (see https://www.ftc.gov/about-ftc/mission/enforcement-authority). I believe this kind of agency power exists in other countries as well.\r\n\r\n(from Kristin Berdan)",
+      "createdAt": "2022-10-30T08:19:07Z",
+      "updatedAt": "2022-11-24T06:51:51Z",
+      "closedAt": "2022-11-24T06:51:51Z",
+      "comments": []
+    },
+    {
+      "number": 84,
+      "id": "I_kwDOGCfj785VJ8G8",
+      "title": "Creating pressure",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/84",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "nearly editorial"
+      ],
+      "body": " In Sec. 2.2.4: \"A network might block access to, slow down, or change the content of various application protocols or specific services for financial, political, operational, or criminal reasons, creating pressure to use other services, which can cause their centralization.\" I followed this sentence until \"creating pressure,\" so I want to check that I'm following you here: you're saying that if a network inhibits the ability of users to receive certain services, users might go elsewhere and that new service provider would become a centralized Internet function?\r\n\r\n(from Kristin Berdan)",
+      "createdAt": "2022-10-30T08:19:38Z",
+      "updatedAt": "2022-11-24T07:03:32Z",
+      "closedAt": "2022-11-24T07:03:32Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Not necessarily new; might already be existant (and dominant). Will rework slightly.",
+          "createdAt": "2022-11-24T06:56:48Z",
+          "updatedAt": "2022-11-24T06:56:48Z"
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "id": "I_kwDOGCfj785VJ8Lj",
+      "title": "General comment",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/85",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "idea"
+      ],
+      "body": " I really like a lot of the points you make in this draft--including, of course, that those working in the development of standards should do so with an eye on the development of Internet regulatory activity, which is heating up. For example, in sec. 4.4: \"This goal can also be furthered by ensuring that the cost of switching to a different implementation or deployment is as low as possible to facilitate subsequent substitution. This implies that the standard is functionally complete and specified precisely enough to result in meaningful interoperability.\" This made me think of the consideration that regulators are giving right now to the costs of switching cloud providers. Or the requirements in GDPR for the ability of users to transfer their data from one provider to another.\r\n\r\n(from Kristin Berdan)",
+      "createdAt": "2022-10-30T08:20:28Z",
+      "updatedAt": "2022-12-01T06:51:28Z",
+      "closedAt": "2022-12-01T06:51:28Z",
+      "comments": []
+    },
+    {
+      "number": 86,
+      "id": "I_kwDOGCfj785VJ8M1",
+      "title": "Security considerations",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/86",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Are you planning on building out the security considerations section, or leaving that as-is?\r\n\r\n(from Kristin Berdan)",
+      "createdAt": "2022-10-30T08:20:42Z",
+      "updatedAt": "2022-11-25T05:12:57Z",
+      "closedAt": "2022-11-25T05:12:57Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "No particular plans. If someone has ideas / a desire to see more, please speak up!",
+          "createdAt": "2022-11-25T05:12:57Z",
+          "updatedAt": "2022-11-25T05:12:57Z"
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "id": "I_kwDOGCfj785XQYK5",
+      "title": "Complexity",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/87",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "idea"
+      ],
+      "body": "It's important that it's clear that an application or function isn't just 'centralized' or 'decentralized' -- there are many layers to it and seldom a simple 'yes' or 'no' answer.",
+      "createdAt": "2022-11-25T00:32:48Z",
+      "updatedAt": "2022-12-01T07:55:56Z",
+      "closedAt": "2022-12-01T07:55:56Z",
+      "comments": []
+    },
+    {
+      "number": 91,
+      "id": "I_kwDOGCfj785YHV7Q",
+      "title": "Explain 'network effects'",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/91",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "esp. with regard to being well-known in economics.",
+      "createdAt": "2022-12-06T06:13:49Z",
+      "updatedAt": "2023-01-18T00:14:39Z",
+      "closedAt": "2023-01-18T00:14:39Z",
+      "comments": []
+    },
+    {
+      "number": 92,
+      "id": "I_kwDOGCfj785Zguk8",
+      "title": "Beneficial example",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/92",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "When talking about potential benefits and the surrounding tensions, services like Stripe are a good example; they offload something specialised to reduce risk and enhance trust (I don't want to give an unknown merchant my credit card details if I can avoid it). Concentration here may be beneficial; however, if stripe were the _only_ such service, that would give them inappropriate power.\r\n\r\nSee also https://truthonthemarket.com/2022/12/14/is-market-concentration-actually-rising/\r\n",
+      "createdAt": "2022-12-18T05:14:47Z",
+      "updatedAt": "2023-01-03T05:32:37Z",
+      "closedAt": "2023-01-03T05:32:37Z",
+      "comments": []
+    },
+    {
+      "number": 93,
+      "id": "I_kwDOGCfj785Zg2n_",
+      "title": "Mastodon",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/93",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "I'm leery of latching onto Mastodon, especially since things are so fluid right now. However, this paper seems relevant:\r\n  http://www.eecs.qmul.ac.uk/~tysong/files/Mastodon.pdf\r\n\r\n... especially as an illustration of the various sorts of pressures (see main findings, p2 ) that a purportedly decentralised service might be subject to.",
+      "createdAt": "2022-12-18T06:53:58Z",
+      "updatedAt": "2023-01-03T05:14:29Z",
+      "closedAt": "2023-01-03T05:14:29Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Closing for now, will reopen if anyone thinks it's a great idea to ref. While it's a good example, there are plenty of others.",
+          "createdAt": "2023-01-03T05:14:29Z",
+          "updatedAt": "2023-01-03T05:14:29Z"
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "id": "I_kwDOGCfj785dTvbf",
+      "title": "Feedback from Cullen",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/94",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "* 3.1.3 - use ethereum merge and other historic examples as illustration for necessity for coordination and corresponding centralization risk.\r\n* Check techniques to make sure we avoid the impression that they are magical / actually fix anything (esp. CAB example).\r\n* Add a parenthetical about the ISE escape hatch in 'proposed to the IETF, it would be rejected out hand'\r\n",
+      "createdAt": "2023-02-01T05:21:39Z",
+      "updatedAt": "2023-02-06T03:51:01Z",
+      "closedAt": "2023-02-06T03:51:01Z",
+      "comments": []
+    },
+    {
+      "number": 95,
+      "id": "I_kwDOGCfj785f1jeF",
+      "title": "Conclusion",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/95",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Eliot points out:\r\n\r\n> The draft ends rather abruptly.  Do you want to add a next steps or future work or conclusion section?",
+      "createdAt": "2023-03-03T03:18:58Z",
+      "updatedAt": "2023-05-30T07:02:59Z",
+      "closedAt": "2023-05-30T07:02:59Z",
+      "comments": []
+    },
+    {
+      "number": 96,
+      "id": "I_kwDOGCfj785f1jqs",
+      "title": "Security Considerations",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/96",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Eliot points out:\r\n\r\n> You shouldn't just throw out that concern without backing it up. I think you could add a bullet in 2.1 about this and then back-reference.",
+      "createdAt": "2023-03-03T03:20:14Z",
+      "updatedAt": "2023-05-30T06:53:26Z",
+      "closedAt": "2023-05-30T06:53:26Z",
+      "comments": []
+    },
+    {
+      "number": 97,
+      "id": "I_kwDOGCfj785f1j4K",
+      "title": "Separate Beneficial Centralization ",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/97",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "One of these things is not like the others in Section 2.2.",
+      "createdAt": "2023-03-03T03:21:33Z",
+      "updatedAt": "2023-03-26T03:24:05Z",
+      "closedAt": "2023-03-26T03:24:05Z",
+      "comments": []
+    },
+    {
+      "number": 98,
+      "id": "I_kwDOGCfj785gAW8h",
+      "title": "Reorg?",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/98",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Eliot:\r\n\r\n> you can probably just organize Section 2 into the \"how centralization occurs\" (2.2) and what the results are (Section 2.3) and drop the concentration part there too.",
+      "createdAt": "2023-03-06T05:37:56Z",
+      "updatedAt": "2023-03-26T06:41:32Z",
+      "closedAt": "2023-03-26T06:41:32Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "OBE; other re-org afoot.",
+          "createdAt": "2023-03-26T06:41:32Z",
+          "updatedAt": "2023-03-26T06:41:32Z"
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "id": "I_kwDOGCfj785hy8US",
+      "title": "text holding",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/99",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Just holding this here:\r\n\r\nWith that in mind, centralization on the Internet is most concerning when it is not broadly held to be necessary, when it has no checks, balances, or other mechanisms of accountability, when it selects \"favorites\" which are difficult (or impossible) to displace, and when it threatens to diminish the success factors that enable the Internet to thrive -- scalability to meet the demands of new users, adaptability to encompass new applications, flexibility to enable deployment of new technologies, and resilience to shocks and changes {{SUCCESS}}.\r\n",
+      "createdAt": "2023-03-26T03:13:07Z",
+      "updatedAt": "2023-05-30T07:10:43Z",
+      "closedAt": "2023-05-30T07:10:43Z",
+      "comments": []
+    },
+    {
+      "number": 100,
+      "id": "I_kwDOGCfj785kAv4T",
+      "title": "Multiple types",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/100",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "in #centralization\r\n\r\ntalk about multiple kinds of centralization applying to the same function",
+      "createdAt": "2023-04-21T06:34:25Z",
+      "updatedAt": "2023-05-30T02:17:04Z",
+      "closedAt": "2023-05-30T02:17:04Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Either done or OBE, depending on how you look at it",
+          "createdAt": "2023-05-30T02:17:04Z",
+          "updatedAt": "2023-05-30T02:17:04Z"
+        }
+      ]
+    },
+    {
+      "number": 101,
+      "id": "I_kwDOGCfj785kAwKG",
+      "title": "Switching costs",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/101",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "in #indirect\r\n\r\nLink more directly to switching costs\r\n\r\nSurvey below to see if this is the right place to do that",
+      "createdAt": "2023-04-21T06:35:23Z",
+      "updatedAt": "2023-05-30T02:16:26Z",
+      "closedAt": "2023-05-30T02:16:25Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "OBE",
+          "createdAt": "2023-05-30T02:16:25Z",
+          "updatedAt": "2023-05-30T02:16:25Z"
+        }
+      ]
+    },
+    {
+      "number": 102,
+      "id": "I_kwDOGCfj785kAwdv",
+      "title": "political",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/102",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "in #centralization\r\n\r\ntalk more explicitly about political risk as well as economic",
+      "createdAt": "2023-04-21T06:36:29Z",
+      "updatedAt": "2023-05-30T02:16:09Z",
+      "closedAt": "2023-05-30T02:16:08Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Done.",
+          "createdAt": "2023-05-30T02:16:08Z",
+          "updatedAt": "2023-05-30T02:16:08Z"
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "id": "I_kwDOGCfj785kAxIZ",
+      "title": "contextualise",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/issues/103",
+      "state": "CLOSED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "explicitly say that protocol design is only a small contributor, and not a significant limit\r\n\r\n- supply-side economies of scale or scope\r\n- business strategies\r\n- demand-side economies of scope (network effects)\r\n- IPR\r\n- regulation\r\n- policies",
+      "createdAt": "2023-04-21T06:38:32Z",
+      "updatedAt": "2023-05-30T06:51:58Z",
+      "closedAt": "2023-05-30T06:51:58Z",
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "contrast technical and non-technical contributors",
+          "createdAt": "2023-04-21T06:49:44Z",
+          "updatedAt": "2023-04-21T06:49:44Z"
+        }
+      ]
+    }
+  ],
+  "pulls": [
+    {
+      "number": 4,
+      "id": "PR_kwDOGCfj784vqoJB",
+      "title": "single typo correction \"simlair\"",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/pull/4",
+      "state": "MERGED",
+      "author": "synctext",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-12-10T09:06:13Z",
+      "updatedAt": "2021-12-13T00:19:21Z",
+      "baseRepository": "mnot/avoiding-internet-centralization",
+      "baseRefName": "main",
+      "baseRefOid": "1fd631dd954640481d2b15926e3f25e6940a1116",
+      "headRepository": "synctext/avoiding-internet-centralization",
+      "headRefName": "patch-1",
+      "headRefOid": "a0305a7bb1b458f3a7f1704e7d0dee459239c720",
+      "closedAt": "2021-12-13T00:19:16Z",
+      "mergedAt": "2021-12-13T00:19:16Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "6b573240bdaebd48a0d7a04c867900d0899ee34f"
+      },
+      "comments": [
+        {
+          "author": "synctext",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "impressive work btw\r\nIf this ever moves into IETF WG stage, please count us in!\r\nBackground, see my drafts:\r\nhttps://www.ietfjournal.org/moving-toward-a-censorship-free-internet/\r\nhttps://tools.ietf.org/id/draft-pouwelse-trustchain-01.html\r\nhttps://datatracker.ietf.org/doc/html/rfc7574 (my university lab)",
+          "createdAt": "2021-12-10T09:09:04Z",
+          "updatedAt": "2021-12-10T09:09:04Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Thanks!",
+          "createdAt": "2021-12-13T00:19:21Z",
+          "updatedAt": "2021-12-13T00:19:21Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOGCfj784vuruS",
+      "title": "a couple more typos",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/pull/5",
+      "state": "MERGED",
+      "author": "dmfay",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-12-13T00:13:02Z",
+      "updatedAt": "2021-12-13T00:19:57Z",
+      "baseRepository": "mnot/avoiding-internet-centralization",
+      "baseRefName": "main",
+      "baseRefOid": "1fd631dd954640481d2b15926e3f25e6940a1116",
+      "headRepository": "dmfay/avoiding-internet-centralization",
+      "headRefName": "patch-1",
+      "headRefOid": "9215074413a095dc10a8f5c6db6c23ff0535649a",
+      "closedAt": "2021-12-13T00:19:52Z",
+      "mergedAt": "2021-12-13T00:19:52Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "d6128fa11a5a76924103cc6b19fa23e1c860f79e"
+      },
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Thanks!",
+          "createdAt": "2021-12-13T00:19:57Z",
+          "updatedAt": "2021-12-13T00:19:57Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOGCfj784ws6Wb",
+      "title": "Fix some typos and awkward phrasings",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/pull/13",
+      "state": "MERGED",
+      "author": "gibson042",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-01-09T17:40:37Z",
+      "updatedAt": "2022-01-10T22:17:24Z",
+      "baseRepository": "mnot/avoiding-internet-centralization",
+      "baseRefName": "main",
+      "baseRefOid": "daf2415e0d978793517062580a7864907d5cd355",
+      "headRepository": "gibson042/avoiding-internet-centralization",
+      "headRefName": "2022-01-editorial-tweaks",
+      "headRefOid": "3b201130dcb6545cd16cd9fbad1196c5deca08ce",
+      "closedAt": "2022-01-10T22:17:17Z",
+      "mergedAt": "2022-01-10T22:17:17Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "ca3c0cd5e930fb62e7d040518868c7529fc1f121"
+      },
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Thanks!",
+          "createdAt": "2022-01-10T22:17:24Z",
+          "updatedAt": "2022-01-10T22:17:24Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGCfj784ygI8p",
+          "commit": {
+            "abbreviatedOid": "48328eb"
+          },
+          "author": "gibson042",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-01-09T17:42:09Z",
+          "updatedAt": "2022-01-09T17:42:09Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "This was swapped with later text to avoid using an undefined initialism. I also wonder if [RFC 8499](https://www.rfc-editor.org/rfc/rfc8499.html) would serve as a better entry point than RFC 1035.",
+              "createdAt": "2022-01-09T17:42:09Z",
+              "updatedAt": "2022-01-09T17:42:09Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGCfj784ygSrE",
+          "commit": {
+            "abbreviatedOid": "48328eb"
+          },
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-01-10T00:27:27Z",
+          "updatedAt": "2022-01-10T00:27:27Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "Unfortunately, the DNS specs are a bit of a mess, so there isn't any really good reference that's actually helpful to readers. 8499 is only about terminology and a BCP, not a definitional document.",
+              "createdAt": "2022-01-10T00:27:27Z",
+              "updatedAt": "2022-01-10T00:27:27Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGCfj784ygTy4",
+          "commit": {
+            "abbreviatedOid": "48328eb"
+          },
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-01-10T01:00:08Z",
+          "updatedAt": "2022-01-10T01:00:08Z",
+          "comments": [
+            {
+              "originalPosition": 39,
+              "body": "'distort the market' isn't quite right -- the market hadn't been established yet. Perhaps:\r\n\r\n```suggestion\r\nFor example, the SOAP protocol's {{SOAP}} extreme flexibility and failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favouring those who had more market power.\r\n```",
+              "createdAt": "2022-01-10T01:00:08Z",
+              "updatedAt": "2022-01-10T01:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGCfj784yjv03",
+          "commit": {
+            "abbreviatedOid": "48328eb"
+          },
+          "author": "gibson042",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-01-10T19:07:13Z",
+          "updatedAt": "2022-01-10T19:07:13Z",
+          "comments": [
+            {
+              "originalPosition": 39,
+              "body": "LGTM!",
+              "createdAt": "2022-01-10T19:07:13Z",
+              "updatedAt": "2022-01-10T19:07:13Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOGCfj784yjwn8",
+          "commit": {
+            "abbreviatedOid": "5cc5889"
+          },
+          "author": "gibson042",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-01-10T19:10:59Z",
+          "updatedAt": "2022-01-10T19:10:59Z",
+          "comments": [
+            {
+              "originalPosition": 14,
+              "body": "That's true, but it does provide numerous links into the various definitional documents and itself serves as something of an overview. However, I don't see a particular problem with using RFC 1035\u2014I was just musing about an alternative.",
+              "createdAt": "2022-01-10T19:10:59Z",
+              "updatedAt": "2022-01-10T19:10:59Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "PR_kwDOGCfj784xBkQF",
+      "title": "Editorial: fix grammar",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/pull/15",
+      "state": "MERGED",
+      "author": "annevk",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-01-14T10:36:56Z",
+      "updatedAt": "2022-01-25T20:34:25Z",
+      "baseRepository": "mnot/avoiding-internet-centralization",
+      "baseRefName": "main",
+      "baseRefOid": "ca3c0cd5e930fb62e7d040518868c7529fc1f121",
+      "headRepository": "annevk/avoiding-internet-centralization",
+      "headRefName": "patch-1",
+      "headRefOid": "a8aaa6aed71526ffbfa18f5824f7b0adb2a8fce1",
+      "closedAt": "2022-01-14T23:36:30Z",
+      "mergedAt": "2022-01-14T23:36:30Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "e78f3b7d7aba5c9fa195560633ca771168182fa9"
+      },
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Thanks.",
+          "createdAt": "2022-01-14T23:36:35Z",
+          "updatedAt": "2022-01-14T23:36:35Z"
+        },
+        {
+          "author": "gimp87",
+          "authorAssociation": "NONE",
+          "body": "cd ./html && git fetch --unshallow",
+          "createdAt": "2022-01-25T11:28:04Z",
+          "updatedAt": "2022-01-25T20:34:25Z"
+        },
+        {
+          "author": "gimp87",
+          "authorAssociation": "NONE",
+          "body": "cd ./html && git fetch --unshallow",
+          "createdAt": "2022-01-25T11:28:14Z",
+          "updatedAt": "2022-01-25T20:34:15Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 58,
+      "id": "PR_kwDOGCfj7849k-2I",
+      "title": "Purely editorial nits and typos",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/pull/58",
+      "state": "MERGED",
+      "author": "tfpauly",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-08-22T16:48:04Z",
+      "updatedAt": "2022-08-23T00:34:40Z",
+      "baseRepository": "mnot/avoiding-internet-centralization",
+      "baseRefName": "main",
+      "baseRefOid": "4a8d937fa13ac7eab5341e0c9595ea87b76a3e3f",
+      "headRepository": "tfpauly/avoiding-internet-centralization",
+      "headRefName": "patch-1",
+      "headRefOid": "c063d0a64d4d4bf2e0695cf860f92ea99954b4ca",
+      "closedAt": "2022-08-23T00:34:33Z",
+      "mergedAt": "2022-08-23T00:34:33Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "d6874f48453f96f56b569ac3583a73df03f905f3"
+      },
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Thanks!",
+          "createdAt": "2022-08-23T00:34:39Z",
+          "updatedAt": "2022-08-23T00:34:39Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 61,
+      "id": "PR_kwDOGCfj7849lBTy",
+      "title": "Spelling convention consistency",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/pull/61",
+      "state": "MERGED",
+      "author": "tfpauly",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The main point here is that I think the document should be consistent in spelling consistency. My suggestions here are to go towards American standards, but I'm happy to have them follow British or Australian standards as well, as long as they are consistent.\r\n\r\nThe document, being about centralization, uses \"ization\" _a lot_. Rather than changing all of those, I moved the few examples of \"isation\" to be \"ization\", and several of those had examples of the same word being spelled both ways.",
+      "createdAt": "2022-08-22T16:59:38Z",
+      "updatedAt": "2022-08-23T23:31:46Z",
+      "baseRepository": "mnot/avoiding-internet-centralization",
+      "baseRefName": "main",
+      "baseRefOid": "d6874f48453f96f56b569ac3583a73df03f905f3",
+      "headRepository": "tfpauly/avoiding-internet-centralization",
+      "headRefName": "patch-2",
+      "headRefOid": "77e91d2f7eab9dc147c0ea483c20b9522fb2176f",
+      "closedAt": "2022-08-23T23:31:46Z",
+      "mergedAt": "2022-08-23T23:31:46Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "087636c66fe0b2bc171394ff083df64f3325368a"
+      },
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "Thanks. I ususally leave it up to the RPC to resolve my conflicted australian/american identities... Can you resolve the merge conflicts?",
+          "createdAt": "2022-08-23T00:35:58Z",
+          "updatedAt": "2022-08-23T00:35:58Z"
+        },
+        {
+          "author": "tfpauly",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Sure \u2014 the RPC can certainly do that, but the lack of consistency was bugging me =)\r\n\r\nFixed the merge conflict!",
+          "createdAt": "2022-08-23T16:07:57Z",
+          "updatedAt": "2022-08-23T16:07:57Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 88,
+      "id": "PR_kwDOGCfj785DrYbw",
+      "title": "Distinguish centralization and consolidation",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/pull/88",
+      "state": "MERGED",
+      "author": "mnot",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "For #71.\r\n\r\n@mallory @jariarkko PTAL - I think I like this, want would love another pair of eyeballs on it. Not 100% sure it's complete and correct, but probably enough to start.",
+      "createdAt": "2022-11-25T01:59:01Z",
+      "updatedAt": "2022-12-01T06:50:39Z",
+      "baseRepository": "mnot/avoiding-internet-centralization",
+      "baseRefName": "main",
+      "baseRefOid": "8f7e423b26b5fdd76e5f9e5aacf59738e077acf3",
+      "headRepository": "mnot/avoiding-internet-centralization",
+      "headRefName": "mnot/71",
+      "headRefOid": "bc115a6877878e94dce0edcf9b0a9e2eaa8d6075",
+      "closedAt": "2022-12-01T06:50:39Z",
+      "mergedAt": "2022-12-01T06:50:39Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "1765538a7defa7747f58d9acd8a3dbf11a40c4bc"
+      },
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "OWNER",
+          "body": "These may help:\r\n\r\n* [draft with PR applied](https://mnot.github.io/avoiding-internet-centralization/mnot/71/draft-nottingham-avoiding-internet-centralization.html)\r\n* [diff from main](https://www.ietf.org/rfcdiff?url1=https://mnot.github.io/avoiding-internet-centralization/draft-nottingham-avoiding-internet-centralization.txt&url2=https://mnot.github.io/avoiding-internet-centralization/mnot/71/draft-nottingham-avoiding-internet-centralization.txt)",
+          "createdAt": "2022-11-25T03:08:00Z",
+          "updatedAt": "2022-11-25T03:08:00Z"
+        },
+        {
+          "author": "jfinkhaeuser",
+          "authorAssociation": "NONE",
+          "body": "I very much agree that consolidation and centralization are not the same thing, and should be distinguished. I like that part of this PR very much.\r\n\r\nI'm a little more concerned with how much the word \"centralization\" has been replaced with \"consolidation\" in this draft, and need to read the entire doc very carefully again from this point of view. I may have comments on that.\r\n\r\nThe main issue I see that consolidation does not imply centralization or vice versa, it's just a very common combination. And I thought I saw a few changes that seemed overly broad at first glance. I'll get back to you with something more meaningful than by previous blabber.",
+          "createdAt": "2022-11-28T11:29:42Z",
+          "updatedAt": "2022-11-28T11:35:34Z"
+        },
+        {
+          "author": "jfinkhaeuser",
+          "authorAssociation": "NONE",
+          "body": "Having re-read, I very much think this change is good. I just added a few nitpicks to #90, which you may or may not agree with. Happy to discuss!",
+          "createdAt": "2022-11-28T12:49:18Z",
+          "updatedAt": "2022-11-28T12:49:18Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGCfj785HRBnF",
+          "commit": {
+            "abbreviatedOid": "bc115a6"
+          },
+          "author": "jfinkhaeuser",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-11-28T11:30:32Z",
+          "updatedAt": "2022-11-28T11:30:33Z",
+          "comments": [
+            {
+              "originalPosition": 64,
+              "body": "I very much like this line in response to my comment on the PR.",
+              "createdAt": "2022-11-28T11:30:33Z",
+              "updatedAt": "2022-11-28T11:30:33Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "id": "PR_kwDOGCfj785Dyv6M",
+      "title": "Add a decentralization technique, and use HTTP as an extensibility example.",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/pull/89",
+      "state": "OPEN",
+      "author": "jfinkhaeuser",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "- Provide a section on local decision making as a decentralization technique. This includes a delineation between decentralization and distribution (See #66).\r\n- Add HTTP as an example of extensibility that introduces a kind of centralization.",
+      "createdAt": "2022-11-28T11:15:04Z",
+      "updatedAt": "2022-12-01T07:17:30Z",
+      "baseRepository": "mnot/avoiding-internet-centralization",
+      "baseRefName": "main",
+      "baseRefOid": "1765538a7defa7747f58d9acd8a3dbf11a40c4bc",
+      "headRepository": "jfinkhaeuser/avoiding-internet-centralization",
+      "headRefName": "main",
+      "headRefOid": "14e4145c87125274a1de1b566e8e8a575f4363a8",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "jfinkhaeuser",
+          "authorAssociation": "NONE",
+          "body": "The doc changed since I suggested I can help out, and by now this seems like the best contribution I can make here. Let me know what you think!",
+          "createdAt": "2022-11-28T11:16:02Z",
+          "updatedAt": "2022-11-28T11:16:02Z"
+        },
+        {
+          "author": "jfinkhaeuser",
+          "authorAssociation": "NONE",
+          "body": "I merged changes from #88, so perhaps it's best to keep this as draft until those are finalized.",
+          "createdAt": "2022-11-28T12:53:08Z",
+          "updatedAt": "2022-11-28T12:53:08Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 90,
+      "id": "PR_kwDOGCfj785DzL0W",
+      "title": "Centralization vs. consolidation nitpicks",
+      "url": "https://github.com/mnot/avoiding-internet-centralization/pull/90",
+      "state": "OPEN",
+      "author": "jfinkhaeuser",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "A few comments/nitpicks, after I stormed into #88's comments a little unprepared:\r\n\r\n1. The abstract should include centralization *and* consolidation.\r\n1. RAND calls it distributed, others call it peer-to-peer. This goes back to #66 and you may not care (which is fine, I suppose).\r\n1. Citing a book is a bit weird, but it's interesting IMHO how Zittrain's description of \"generative systems\" fits this point.\r\n1. IMHO in the federation section, the first line better refers to centralization than consolidation, because \"in Internet protocols\" follows, and that suggests a more architectural concern here.",
+      "createdAt": "2022-11-28T12:47:12Z",
+      "updatedAt": "2022-12-01T07:16:32Z",
+      "baseRepository": "mnot/avoiding-internet-centralization",
+      "baseRefName": "main",
+      "baseRefOid": "1765538a7defa7747f58d9acd8a3dbf11a40c4bc",
+      "headRepository": "jfinkhaeuser/avoiding-internet-centralization",
+      "headRefName": "comments-on-pr-88",
+      "headRefOid": "c601488642657cb36a45ddedb2779699bd1a32ea",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
