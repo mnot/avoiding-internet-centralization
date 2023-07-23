@@ -303,7 +303,15 @@ perspective"
       name: Carl Shapiro
     target: http://dx.doi.org/10.2307/2555402
     refcontent: UC Berkeley Department of Economics Working Paper 8865
-
+  SCALE:
+    title: Industry Structure, Market Rivalry, and Public Policy
+    display: Demsetz
+    date: April 1973
+    author:
+     -
+      name: Harold Demsetz
+    target: https://www.jstor.org/stable/724822
+    refcontent: Journal of Law and Economics, Vol. 16, No. 1
 
 --- abstract
 
@@ -390,7 +398,9 @@ Protocols that need to solve the "rendezvous problem" to coordinate communicatio
 
 Even when not strictly necessary, centralization can create benefits for a function's users and for society.
 
-For example, centralized systems often have greater access to economies of scale and greater access to data and experience, leading to higher quality products and lower costs that can be passed on to the consumer. Complex and risky functions like financial services (e.g., credit card processing) are often centralized into relatively few, specialized organizations, where they can receive the focused attention and expertise that they require.
+For example, it has long been recognised that the efficiencies that come with economies of scale can lead to concentration (and thus centralization). {{SCALE}} These efficiences can be passed on to users as higher quality products and lower costs.
+
+Complex and risky functions like financial services (e.g., credit card processing) are often centralized into relatively few, specialized organizations, where they can receive the focused attention and expertise that they require.
 
 Centralization can also provide an opportunity for beneficial controls to be imposed. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."
 
