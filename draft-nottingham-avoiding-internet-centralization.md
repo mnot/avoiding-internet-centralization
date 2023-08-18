@@ -383,8 +383,7 @@ If there were only one provider for these services (like the telephone networks 
 
 These circumstances suggest one area of inquiry when considering the relationship between centralization and availability of a given function: what barriers are there to switching to other providers (thereby making any disruptions temporary and manageable) or to using multiple providers simultaneously (to mask the failure of a single operator)?
 
-Another example of the need for nuance can be seen when evaluating competitive constraints. While making the Internet more competitive may be a motivation for many engineers, only courts (and sometimes, regulators) have the authority to define a relevant market and determine that a behavior is anti-competitive. What might be considered undesirable centralization by the technical community might not attract competition regulation. Conversely, what might attract competition regulation might not be of great concern to the technical community if other mitigations are felt to be adequate.
-
+Another example of the need for nuance can be seen when evaluating competitive constraints. While making the Internet more competitive may be a motivation for many engineers, only courts (and sometimes, regulators) have the authority to define a relevant market and determine that a behavior is anti-competitive. In particular, market concentration does not always indicate competition issues, so what might be considered undesirable centralization by the technical community might not attract competition regulation.
 
 ## Centralization Can Be Helpful {#necessary}
 
