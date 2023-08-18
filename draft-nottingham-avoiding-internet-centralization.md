@@ -398,7 +398,7 @@ Protocols that need to solve the "rendezvous problem" to coordinate communicatio
 
 Even when not strictly necessary, centralization can create benefits for a function's users and for society.
 
-For example, it has long been recognised that the efficiencies that come with economies of scale can lead to concentration (and thus centralization). {{SCALE}} These efficiences can be passed on to users as higher quality products and lower costs.
+For example, it has long been recognised that the efficiencies that come with economies of scale can lead to concentration. {{SCALE}} These efficiences can be passed on to users as higher quality products and lower costs.
 
 Complex and risky functions like financial services (e.g., credit card processing) are often centralized into relatively few, specialized organizations, where they can receive the focused attention and expertise that they require.
 
