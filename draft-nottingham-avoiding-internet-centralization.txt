@@ -299,11 +299,10 @@ Table of Contents
    competitive constraints.  While making the Internet more competitive
    may be a motivation for many engineers, only courts (and sometimes,
    regulators) have the authority to define a relevant market and
-   determine that a behavior is anti-competitive.  What might be
-   considered undesirable centralization by the technical community
-   might not attract competition regulation.  Conversely, what might
-   attract competition regulation might not be of great concern to the
-   technical community if other mitigations are felt to be adequate.
+   determine that a behavior is anti-competitive.  In particular, market
+   concentration does not always indicate competition issues, so what
+   might be considered undesirable centralization by the technical
+   community might not attract competition regulation.
 
 2.2.  Centralization Can Be Helpful
 
