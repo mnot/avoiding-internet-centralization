@@ -9,18 +9,18 @@
 <meta content="
        This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, they can still make contributions that improve the Internet. 
     " name="description">
-<meta content="xml2rfc 3.17.4" name="generator">
+<meta content="xml2rfc 3.18.0" name="generator">
 <meta content="governance" name="keyword">
 <meta content="draft-nottingham-avoiding-internet-centralization-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.17.4
+  xml2rfc 3.18.0
     Python 3.11.4
     ConfigArgParse 1.5.3
     google-i18n-address 3.1.0
     intervaltree 3.1.0
     Jinja2 3.1.2
     lxml 4.9.3
-    platformdirs 3.9.1
+    platformdirs 3.10.0
     pycountry 22.3.5
     PyYAML 6.0
     requests 2.31.0
@@ -1047,11 +1047,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">Internet Centralization and Standards</td>
-<td class="right">July 2023</td>
+<td class="right">August 2023</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Nottingham</td>
-<td class="center">Expires 24 January 2024</td>
+<td class="center">Expires 19 February 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1064,12 +1064,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-nottingham-avoiding-internet-centralization-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2023-07-23" class="published">23 July 2023</time>
+<time datetime="2023-08-18" class="published">18 August 2023</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-01-24">24 January 2024</time></dd>
+<dd class="expires"><time datetime="2024-02-19">19 February 2024</time></dd>
 <dt class="label-authors">Author:</dt>
 <dd class="authors">
 <div class="author">
@@ -1112,7 +1112,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 24 January 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 19 February 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1262,7 +1262,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <em>Reduced Availability</em>: Availability of the Internet (and applications and services built upon it) improves when there are many ways to obtain access. While service availability can benefit from the focused attention of a large centralized provider, that provider's failure can have a disproportionate impact on availability.<a href="#section-2.1-3.4" class="pilcrow">¶</a>
 </li>
           <li class="normal" id="section-2.1-3.5">
-            <em>Monoculture</em>: The scale available to a centralized provider can magnify minor flaws in features to a degree that can have broad consequences. For example, a single codebase for routers elevates the impact of a bug or vulnerability; a single recommendation algorithm for content can have severe social impact. Diversity in functions' implementation leads to a more robust outcome when viewed systemically, because "progress is the outcome of a trial-and-error evolutionary process of many agents interacting freely." <span>[<a href="#POLYCENTRIC" class="cite xref">Aligia</a>]</span><a href="#section-2.1-3.5" class="pilcrow">¶</a>
+            <em>Monoculture</em>: The scale available to a centralized provider can magnify minor flaws in features to a degree that can have broad consequences. For example, a single codebase for routers elevates the impact of a bug or vulnerability; a single recommendation algorithm for content can have severe social impact. Diversity in functions’ implementation leads to a more robust outcome when viewed systemically, because "progress is the outcome of a trial-and-error evolutionary process of many agents interacting freely." <span>[<a href="#POLYCENTRIC" class="cite xref">Aligia</a>]</span><a href="#section-2.1-3.5" class="pilcrow">¶</a>
 </li>
           <li class="normal" id="section-2.1-3.6">
             <em>Self-Reinforcement</em>: As widely noted (see, e.g., <span>[<a href="#ACCESS" class="cite xref">Abrahamson</a>]</span>), a centralized provider's access to data allows it the opportunity to make improvements to its offerings, while denying such access to others.<a href="#section-2.1-3.6" class="pilcrow">¶</a>
@@ -1287,7 +1287,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <p id="section-2.2-3">Or, consider IP address allocation. Internet routing requires addresses to be allocated uniquely, but if a single government or company were to capture the addressing function, the entire Internet would be at risk of abuse by that entity. Similarly, the Web's trust model requires a Certificate Authority to serve as the root of trust for communication between browsers and servers, bringing centralization risk that needs to be considered in the design of that system.<a href="#section-2.2-3" class="pilcrow">¶</a></p>
 <p id="section-2.2-4">Protocols that need to solve the "rendezvous problem" to coordinate communication between two parties who are not in direct contact also require centralization. For example, chat protocols need to coordinate communication between two parties that wish to talk; while the actual communication can be direct between them (so long as the protocol facilitates that), the endpoints' mutual discovery typically requires a third party at some point. From the perspective of those two users, the rendezvous function is centralized.<a href="#section-2.2-4" class="pilcrow">¶</a></p>
 <p id="section-2.2-5">Even when not strictly necessary, centralization can create benefits for a function's users and for society.<a href="#section-2.2-5" class="pilcrow">¶</a></p>
-<p id="section-2.2-6">For example, it has long been recognised that the efficiencies that come with economies of scale can lead to concentration (and thus centralization). <span>[<a href="#SCALE" class="cite xref">Demsetz</a>]</span> These efficiences can be passed on to users as higher quality products and lower costs.<a href="#section-2.2-6" class="pilcrow">¶</a></p>
+<p id="section-2.2-6">For example, it has long been recognised that the efficiencies that come with economies of scale can lead to concentration. <span>[<a href="#SCALE" class="cite xref">Demsetz</a>]</span> These efficiences can be passed on to users as higher quality products and lower costs.<a href="#section-2.2-6" class="pilcrow">¶</a></p>
 <p id="section-2.2-7">Complex and risky functions like financial services (e.g., credit card processing) are often centralized into relatively few, specialized organizations, where they can receive the focused attention and expertise that they require.<a href="#section-2.2-7" class="pilcrow">¶</a></p>
 <p id="section-2.2-8">Centralization can also provide an opportunity for beneficial controls to be imposed. <span>[<a href="#AMBITION" class="cite xref">Schneider2</a>]</span> notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."<a href="#section-2.2-8" class="pilcrow">¶</a></p>
 <p id="section-2.2-9">This can be seen when a function requires governance to realize common goals and protect minority interests. For example, content moderation functions impose community values that many see as a benefit. Of course, they can also be viewed as a choke point where inappropriate controls are able to be imposed.<a href="#section-2.2-9" class="pilcrow">¶</a></p>
@@ -1404,9 +1404,9 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </li>
           <li id="section-4.2-7.4">What is left unproblematic in this problem representation? Where are the silences? Can the "problem" be conceptualized differently?<a href="#section-4.2-7.4" class="pilcrow">¶</a>
 </li>
-          <li id="section-4.2-7.5">What effects are produced by this representation of the "problem"?<a href="#section-4.2-7.5" class="pilcrow">¶</a>
+          <li id="section-4.2-7.5">What effects are produced by this representation of the “problem”?<a href="#section-4.2-7.5" class="pilcrow">¶</a>
 </li>
-          <li id="section-4.2-7.6">How and where has this representation of the "problem" been produced, disseminated, and defended? How has it been and/or how can it be disrupted and replaced?<a href="#section-4.2-7.6" class="pilcrow">¶</a>
+          <li id="section-4.2-7.6">How and where has this representation of the “problem” been produced, disseminated, and defended? How has it been and/or how can it be disrupted and replaced?<a href="#section-4.2-7.6" class="pilcrow">¶</a>
 </li>
         </ol>
 </section>
@@ -1452,7 +1452,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <em>Specialization</em>: Having a function consolidated into a few hands can improve outcomes because of the resulting specialization. For example, services overseen by professional administrators are often seen to have a better security posture and improved availability.<a href="#section-4.5-2.3" class="pilcrow">¶</a>
 </li>
           <li class="normal" id="section-4.5-2.4">
-            <em>Privacy</em>: For some functions, user privacy can be improved by consolidating their activity to prevent individual behaviors from being discriminated from each other.<span>[<a href="#MIX" class="cite xref">Chaum</a>]</span> Introduction of a third party can also enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called "oblivious" protocols (e.g., <span>[<a href="#RFC9230" class="cite xref">RFC9230</a>]</span>) that allow end users to hide their identity from services, while still accessing them.<a href="#section-4.5-2.4" class="pilcrow">¶</a>
+            <em>Privacy</em>: For some functions, user privacy can be improved by consolidating their activity to prevent individual behaviors from being discriminated from each other.<span>[<a href="#MIX" class="cite xref">Chaum</a>]</span> Introduction of a third party can also enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called “oblivious” protocols (e.g., <span>[<a href="#RFC9230" class="cite xref">RFC9230</a>]</span>) that allow end users to hide their identity from services, while still accessing them.<a href="#section-4.5-2.4" class="pilcrow">¶</a>
 </li>
         </ul>
 <p id="section-4.5-3">However, if that new party is able to make their participation "sticky" -- for example, by leveraging their position in the network to require use of an intermediary, by exploiting their access to data, or by making it difficult to switch to another provider of the function -- there is a risk of centralization.<a href="#section-4.5-3" class="pilcrow">¶</a></p>

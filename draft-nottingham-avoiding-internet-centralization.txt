@@ -3,9 +3,9 @@
 
 
 Network Working Group                                      M. Nottingham
-Internet-Draft                                              23 July 2023
+Internet-Draft                                            18 August 2023
 Intended status: Informational                                          
-Expires: 24 January 2024
+Expires: 19 February 2024
 
 
         Centralization, Decentralization, and Internet Standards
@@ -44,7 +44,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 January 2024.
+   This Internet-Draft will expire on 19 February 2024.
 
 Copyright Notice
 
@@ -237,7 +237,7 @@ Table of Contents
       consequences.  For example, a single codebase for routers elevates
       the impact of a bug or vulnerability; a single recommendation
       algorithm for content can have severe social impact.  Diversity in
-      functions' implementation leads to a more robust outcome when
+      functions’ implementation leads to a more robust outcome when
       viewed systemically, because "progress is the outcome of a trial-
       and-error evolutionary process of many agents interacting freely."
       [Aligia]
@@ -339,9 +339,9 @@ Table of Contents
    for a function's users and for society.
 
    For example, it has long been recognised that the efficiencies that
-   come with economies of scale can lead to concentration (and thus
-   centralization).  [Demsetz] These efficiences can be passed on to
-   users as higher quality products and lower costs.
+   come with economies of scale can lead to concentration.  [Demsetz]
+   These efficiences can be passed on to users as higher quality
+   products and lower costs.
 
    Complex and risky functions like financial services (e.g., credit
    card processing) are often centralized into relatively few,
@@ -741,9 +741,9 @@ Table of Contents
        differently?
 
    5.  What effects are produced by this representation of the
-       "problem"?
+       “problem”?
 
-   6.  How and where has this representation of the "problem" been
+   6.  How and where has this representation of the “problem” been
        produced, disseminated, and defended?  How has it been and/or how
        can it be disrupted and replaced?
 
@@ -858,7 +858,7 @@ Table of Contents
       being discriminated from each other.[Chaum] Introduction of a
       third party can also enforce functional boundaries -- for example,
       to reduce the need for users to trust potentially malicious
-      endpoints, as seen in the so-called "oblivious" protocols (e.g.,
+      endpoints, as seen in the so-called “oblivious” protocols (e.g.,
       [RFC9230]) that allow end users to hide their identity from
       services, while still accessing them.
 
