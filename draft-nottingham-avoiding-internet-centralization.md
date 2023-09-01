@@ -412,17 +412,15 @@ Ultimately, deciding when centralization is beneficial is a judgment call. Some 
 
 # Decentralization {#decentralization}
 
-While the term "decentralization" has a long history of use in economics, politics, religion, and international development, Baran gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required." {{RAND}}
+While the term "decentralization" has a long history of use in economics, politics, religion, and international development, {{RAND}} gave one of the first definitions relevant to computer networking, as a condition when "complete reliance upon a single point is not always required."
 
-Avoiding technical centralization -- while not a trivial topic -- is relatively well understood. Avoiding all forms of centralization using only technical tools (like protocol design) is considerably more difficult. Several issues are encountered.
+Such technical centralization (while not a trivial topic) is relatively well understood. Avoiding all forms of centralization -- including non-technical ones -- using only technical tools (like protocol design) is considerably more difficult. Several issues are encountered.
 
-First and most critically, technical decentralization measures have at best limited effects on non-technical forms of centralization. As explored below in {{techniques}}, technical measures are better characterised as necessary but insufficient to achieve full decentralization of a function.
+First and most critically, technical decentralization measures have at best limited effects on non-technical forms of centralization. Or, per {{SCHNEIDER}}, "decentralized technology alone does not guarantee decentralized outcomes." As explored below in {{techniques}}, technical measures are better characterised as necessary but insufficient to achieve full decentralization of a function.
 
 Second, decentralizing a function requires overcoming challenges that centralized ones do not face. A decentralized function can be more difficult to adapt to user needs (for example, introducing new features, or experimenting with user interface) because doing so often requires coordination between many different actors. {{MOXIE}} Economies of scale are more available to centralized functions, as is data that can be used to refine a function's design. All of these factors make centralized solutions more attractive to service providers, and in some cases can make a decentralized solution uneconomic.
 
-Third, identifying which aspects of a function to decentralize can be difficult, both because there are often many interactions between different types and sources of centralization, and because centralization sometimes only becomes clear after the function is deployed at scale.
-
-Indeed, efforts to decentralize often have the effect of merely shifting centralization to a different place -- for example, in its governance, implementation, deployment, or in ancillary functions. In other words, "decentralized technology alone does not guarantee decentralized outcomes." {{SCHNEIDER}}
+Third, identifying which aspects of a function to decentralize can be difficult, both because there are often many interactions between different types and sources of centralization, and because centralization sometimes only becomes clear after the function is deployed at scale. Efforts to decentralize often have the effect of merely shifting centralization to a different place -- for example, in its governance, implementation, deployment, or in ancillary functions.
 
 For example, the Web was envisioned and widely held to be a decentralizing force in its early life. Its potential as an enabler of centralization only became apparent when large sites successfully leveraged network effects for dominance of social networking, marketplaces, and similar functions.
 
