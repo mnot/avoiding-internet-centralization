@@ -338,7 +338,7 @@ Although this document has been discussed widely in the IETF community (see {{ac
 
 # Centralization {#centralization}
 
-For the purposes of this document, "centralization" is the state of affairs where a single entity or a small group of them can observe, capture, control, or extract rent from the operation or use of an Internet function exclusively.
+In this document, "centralization" is the state of affairs where a single entity or a small group of them can observe, capture, control, or extract rent from the operation or use of an Internet function exclusively.
 
 Here, "entity" could be a person, group, or corporation. An organization might be subject to governance that mitigates centralization risk (see {{multi}}), but that organisation is still a centralizing entity.
 
