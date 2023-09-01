@@ -3,9 +3,9 @@
 
 
 Network Working Group                                      M. Nottingham
-Internet-Draft                                            18 August 2023
+Internet-Draft                                          1 September 2023
 Intended status: Informational                                          
-Expires: 19 February 2024
+Expires: 4 March 2024
 
 
         Centralization, Decentralization, and Internet Standards
@@ -15,8 +15,8 @@ Abstract
 
    This document discusses aspects of centralization that relate to
    Internet standards efforts.  It argues that while standards bodies
-   have little ability to prevent many forms of centralization, they can
-   still make contributions that improve the Internet.
+   have limited ability to prevent many forms of centralization, they
+   can still make contributions that help to decentralize the Internet.
 
 About This Document
 
@@ -44,7 +44,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 February 2024.
+   This Internet-Draft will expire on 4 March 2024.
 
 Copyright Notice
 
@@ -95,11 +95,11 @@ Table of Contents
    goal, consistently preserving it across the range of services and
    applications that people see as "the Internet" has proven elusive.
    Whereas early services like NNTP and e-mail had multiple,
-   interoperable operators, many contemporary platforms for content and
+   interoperable providers, many contemporary platforms for content and
    services are operated by single, commercial entities without any
    interoperable alternative -- to the point where some have become so
    well-known and important to people's experiences that they are
-   commonly mistaken for the Internet itself.[Komaitis]
+   commonly mistaken for the Internet itself.  [Komaitis]
 
    These difficulties call into question what role architectural design
    -- in particular, that overseen by open standards bodies such as the
@@ -109,10 +109,9 @@ Table of Contents
    This document argues that while decentralized technical standards may
    be necessary to avoid centralization of Internet functions, they are
    not sufficient to achieve that goal because centralization is often
-   caused by non-technical factors outside their control.  That said,
-   there are still meaningful contributions that standards bodies can
-   make, such as assisting those who have similar goals and greater
-   ability to control those factors.
+   caused by non-technical factors outside the control of standards
+   bodies.  Nevertheless, there are meaningful contributions that these
+   bodies can make to Internet decentralization.
 
    Although this document has been discussed widely in the IETF
    community (see Appendix A), it represents the views of the author,
