@@ -315,7 +315,7 @@ perspective"
 
 --- abstract
 
-This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have little ability to prevent many forms of centralization, they can still make contributions that improve the Internet.
+This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have limited ability to prevent many forms of centralization, they can still make contributions that help to decentralize the Internet.
 
 
 --- middle
@@ -324,11 +324,11 @@ This document discusses aspects of centralization that relate to Internet standa
 
 One of the Internet's defining features is its lack of any single point of technical, political, or economic control. Arguably, that property assisted the Internet's early adoption and broad reach: because permission is not required to connect to, deploy an application on, or use the Internet for a particular purpose, it can meet diverse needs and be deployed in many different environments.
 
-Although maintaining that state of affairs remains a widely espoused goal, consistently preserving it across the range of services and applications that people see as "the Internet" has proven elusive. Whereas early services like NNTP and e-mail had multiple, interoperable operators, many contemporary platforms for content and services are operated by single, commercial entities without any interoperable alternative -- to the point where some have become so well-known and important to people's experiences that they are commonly mistaken for the Internet itself.{{FB-INTERNET}}
+Although maintaining that state of affairs remains a widely espoused goal, consistently preserving it across the range of services and applications that people see as "the Internet" has proven elusive. Whereas early services like NNTP and e-mail had multiple, interoperable providers, many contemporary platforms for content and services are operated by single, commercial entities without any interoperable alternative -- to the point where some have become so well-known and important to people's experiences that they are commonly mistaken for the Internet itself. {{FB-INTERNET}}
 
 These difficulties call into question what role architectural design -- in particular, that overseen by open standards bodies such as the IETF -- can and should play in controlling centralization on the Internet.
 
-This document argues that while decentralized technical standards may be necessary to avoid centralization of Internet functions, they are not sufficient to achieve that goal because centralization is often caused by non-technical factors outside their control. That said, there are still meaningful contributions that standards bodies can make, such as assisting those who have similar goals and greater ability to control those factors.
+This document argues that while decentralized technical standards may be necessary to avoid centralization of Internet functions, they are not sufficient to achieve that goal because centralization is often caused by non-technical factors outside the control of standards bodies. Nevertheless, there are meaningful contributions that these bodies can make to Internet decentralization.
 
 Although this document has been discussed widely in the IETF community (see {{acks}}), it represents the views of the author, not community consensus. Its primary audience is the engineers who design and standardize Internet protocols. Designers of proprietary protocols and applications can benefit from considering these issues, especially if they intend their work to be considered for eventual standardization. Policymakers can use this document to help characterise abuses that involve centralized protocols and applications and evaluate proposed remedies for them.
 
