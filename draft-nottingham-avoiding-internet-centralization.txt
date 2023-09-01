@@ -133,10 +133,10 @@ Table of Contents
 
 2.  Centralization
 
-   For the purposes of this document, "centralization" is the state of
-   affairs where a single entity or a small group of them can observe,
-   capture, control, or extract rent from the operation or use of an
-   Internet function exclusively.
+   In this document, "centralization" is the state of affairs where a
+   single entity or a small group of them can observe, capture, control,
+   or extract rent from the operation or use of an Internet function
+   exclusively.
 
    Here, "entity" could be a person, group, or corporation.  An
    organization might be subject to governance that mitigates
@@ -149,23 +149,23 @@ Table of Contents
    might also be a proposal for a new enabling protocol, or an extension
    to an existing one.
 
-   Because people's experiences are not limited to standards-defined
-   protocols and applications, this document also considers
-   centralization in functions built on top of standards -- for example,
-   social networking, file sharing, financial services, and news
-   dissemination.  Likewise, the networking equipment, hardware,
-   operating systems, and software that act as enabling technologies can
-   also impact centralization.  The supply of Internet connectivity to
-   end users in a particular area or situation can exhibit
-   centralization, as can the supply of transit between networks (so
-   called "Tier 1" networks).
+   Because people's experience of the Internet are not limited to
+   standards-defined protocols and applications, this document also
+   considers centralization in functions built on top of standards --
+   for example, social networking, file sharing, financial services, and
+   news dissemination.  Likewise, the networking equipment, hardware,
+   operating systems, and software that act as enabling technologies for
+   the Internet can also impact centralization.  The supply of Internet
+   connectivity to end users in a particular area or situation can
+   exhibit centralization, as can the supply of transit between networks
+   (so called "Tier 1" networks).
 
    This definition does not capture all types of centralization.
    Notably, technical centralization (where, for example, a machine or
    network link is a single point of failure) is relatively well-
    understood by engineers, and can be mitigated, typically by
    distributing a function across multiple components.  As we will see,
-   these techniques might address that type of centralization while
+   such techniques might address that type of centralization while
    failing to prevent control of the function falling into few hands.  A
    failure because of a cut cable, power outage, or failed server is
    well-understood by the technical community, but qualitatively
