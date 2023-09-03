@@ -3,9 +3,9 @@
 
 
 Network Working Group                                      M. Nottingham
-Internet-Draft                                          1 September 2023
+Internet-Draft                                          3 September 2023
 Intended status: Informational                                          
-Expires: 4 March 2024
+Expires: 6 March 2024
 
 
         Centralization, Decentralization, and Internet Standards
@@ -44,7 +44,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 March 2024.
+   This Internet-Draft will expire on 6 March 2024.
 
 Copyright Notice
 
@@ -531,15 +531,15 @@ Table of Contents
    recourse.
 
    XMPP [RFC6120] is a chat protocol that demonstrates another issue
-   with federation: the voluntary nature of technical standards.  Like
-   e-mail, XMPP is federated to facilitate rendezvous of users from
-   different systems - if they allow it.
+   with federation: the voluntary nature of technical standards.
 
-   While some XMPP deployments do support truly federated messaging
-   (i.e., a person using service A can interoperably chat with someone
-   using service B), many of the largest do not.  Because federation is
-   voluntary, some operators captured their users into a single service,
-   deliberately denying them the benefits of global interoperability.
+   Like e-mail, XMPP is federated to facilitate rendezvous of users from
+   different systems - if they allow it.  While some XMPP deployments do
+   support truly federated messaging (i.e., a person using service A can
+   interoperably chat with someone using service B), many of the largest
+   do not.  Because federation is voluntary, some operators captured
+   their users into a single service, deliberately denying them the
+   benefits of global interoperability.
 
    The examples above illustrate that, while federation can create the
    conditions necessary for a function to be decentralized, it does not
@@ -552,41 +552,47 @@ Table of Contents
    survey of this rapidly changing area is beyond the scope of this
    document, but we can generalize about its properties.
 
-   These techniques attempt to avoid centralization by distributing
-   functions to members of a sometimes large pool of protocol
-   participants.  They typically guarantee proper performance of a
-   function using cryptographic techniques (often, an append-only
-   transaction ledger).  A particular task's assignment to a node for
-   handling usually cannot be predicted or controlled.
+   These techniques attempt to avoid centralization by distributing the
+   operation of a function to members of a sometimes large pool of
+   protocol participants.  Usually, the participants are unknown and
+   untrusted, and a particular task's assignment to a node for handling
+   cannot be predicted or controlled.  They typically guarantee proper
+   performance of a function using cryptographic techniques (often, an
+   append-only transaction ledger).
 
    Sybil attacks (where a party or coordinated parties cheaply create
    enough protocol participants to affect how consensus is judged) are a
-   major concern for these protocols.  They encourage diversity in the
-   pool of participants using indirect techniques, such as proof-of-work
-   (where each participant has to show a significant consumption of
-   resources) or proof-of-stake (where each participant has some other
-   incentive to execute correctly).
+   major concern for these protocols, because it would have the effect
+   of concentrating power into the hands of the attacker.  Therefore,
+   they encourage diversity in the pool of participants using indirect
+   techniques, such as proof-of-work (where each participant has to show
+   a significant consumption of resources) or proof-of-stake (where each
+   participant has some other incentive to execute correctly).
 
-   Even when distributed consensus is used for all technical functions
-   of a service, some coordination is still necessary -- whether that is
-   through governance of the function itself, creation of shared
-   implementations, or documentation of shared wire protocols.  That
-   suggests a path for centralization, just of an indirect nature.  For
-   example, the Ethereum "merge" demonstrated that the blockchain could
-   address environmental concerns, but only through coordinated
-   community effort and governance.  [ETHEREUM]
+   While these measures can be effective in decentralizing a function's
+   operation, other aspects of its provision can still be centralized;
+   for example, governance of the function's design, creation of shared
+   implementations, and documentation of wire protocols.  That need for
+   coordination is an avenue for centralization even when the function's
+   operation remains decentralized.  For example, the Ethereum "merge"
+   demonstrated that the blockchain could address environmental
+   concerns, but only through coordinated community effort and
+   governance -- coordination that was benign in most eyes, but
+   nevertheless centralized.  [ETHEREUM]
 
-   Furthermore, a protocol or an application can use distributed
-   consensus for some functions, but still be centralized elsewhere --
-   either because those functions cannot be decentralized (most
-   commonly, rendezvous and global naming; see Section 2.2) or because
-   the designer has chosen not to because of the associated costs and
-   lost opportunities.
+   Furthermore, a protocol or an application composed of many functions
+   can use distributed consensus for some, but still be centralized
+   elsewhere -- either because those other functions cannot be
+   decentralized (most commonly, rendezvous and global naming; see
+   Section 2.2) or because the designer has chosen not to because of the
+   associated costs and lost opportunities.
 
    These potential shortcomings do not rule out the use of distributed
    consensus technologies in every instance, but they do merit caution
    against uncritically relying upon these technologies to avoid or
-   mitigate centralization.
+   mitigate centralization.  Too often, the use of distributed consensus
+   is perceived as imbuing all parts of a project with
+   "decentralization."
 
 3.1.3.  Operational Governance
 
