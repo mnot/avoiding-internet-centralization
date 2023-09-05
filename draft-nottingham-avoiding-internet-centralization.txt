@@ -3,9 +3,9 @@
 
 
 Network Working Group                                      M. Nottingham
-Internet-Draft                                          3 September 2023
+Internet-Draft                                          5 September 2023
 Intended status: Informational                                          
-Expires: 6 March 2024
+Expires: 8 March 2024
 
 
         Centralization, Decentralization, and Internet Standards
@@ -44,7 +44,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 March 2024.
+   This Internet-Draft will expire on 8 March 2024.
 
 Copyright Notice
 
@@ -571,7 +571,7 @@ Table of Contents
 
    While these measures can be effective in decentralizing a function's
    operation, other aspects of its provision can still be centralized;
-   for example, governance of the function's design, creation of shared
+   for example, governance of its design, creation of shared
    implementations, and documentation of wire protocols.  That need for
    coordination is an avenue for centralization even when the function's
    operation remains decentralized.  For example, the Ethereum "merge"
