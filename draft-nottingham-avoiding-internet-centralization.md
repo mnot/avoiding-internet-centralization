@@ -476,7 +476,9 @@ These potential shortcomings do not rule out the use of distributed consensus te
 
 ### Operational Governance {#multi}
 
-Sometimes technologists attempt to mitigate centralization by incorporating a governance mechanism into a protocol's operation. Often, this is through the establishment of a multi-stakeholder body: an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
+Federation and distributed consensus can both create the conditions for the provision of a function by multiple providers, but cannot guarantee it. However, when providers require access to a resource or cooperation of others to provide that service, that choke point can itself be used to influence provider behaviour -- including in ways that can counteract centralization.
+
+In these circumstances, some form of governance over that choke point is necessary to assure the desired outcome. Often, this is through the establishment of a multi-stakeholder body: an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
 
 The most widely studied example of this technique is the governance of the DNS name space, which as a “single source of truth” exhibits centralization. The associated risk is managed through administration by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
 
