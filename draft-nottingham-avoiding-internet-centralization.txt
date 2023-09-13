@@ -110,8 +110,10 @@ Table of Contents
    be necessary to avoid centralization of Internet functions, they are
    not sufficient to achieve that goal because centralization is often
    caused by non-technical factors outside the control of standards
-   bodies.  Nevertheless, there are meaningful contributions that these
-   bodies can make to Internet decentralization.
+   bodies.  As a result, standards bodies should not fixate on
+   preventing all forms of centralization; instead, they should take
+   steps to ensure that the specifications they produce enable
+   decentralized operation.
 
    Although this document has been discussed widely in the IETF
    community (see Appendix A), it represents the views of the author,
@@ -726,9 +728,9 @@ Table of Contents
    actively prevent all forms of centralization ignores the very limited
    power that standards efforts have to do so.  Almost all existing
    Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to
-   prevent all forms of centralization.  While the imprimatur of an
+   prevent centralization in their use.  While the imprimatur of an
    Internet Standard is not without value, merely withholding it cannot
-   prevent these sources of centralization.
+   prevent centralization.
 
    Discussions should thus be very focused and limited, and any
    proposals for decentralization should be detailed, so their full
@@ -765,13 +767,12 @@ Table of Contents
 
 4.3.  Target Proprietary Functions
 
-   Functions that are currently only available from proprietary
-   providers are ripe for standardisation efforts.  That might include
-   large-scale protocols for existing proprietary functions (e.g., chat)
-   as well as smaller efforts to improve interoperability and
-   portability of specific features that are often used to lock users
-   into a platform; for example, a format for lists of contacts in a
-   social network.
+   Functions that are widely used but lacking in interoperability are
+   ripe for standardisation efforts.  Targeting prominent and
+   proprietary functions (e.g., chat) is appropriate, but so are smaller
+   efforts to improve interoperability and portability of specific
+   features that are often used to lock users into a platform; for
+   example, a format for lists of contacts in a social network.
 
    A common objection to this approach is that adoption is voluntary;
    there are no "standards police" to mandate their use or enforce
@@ -799,11 +800,12 @@ Table of Contents
 4.4.  Enable Switching
 
    The ability to switch between different function providers is a core
-   mechanism to control centralization.  If users are unable to switch,
+   mechanism to control centralization.  If users are unable to switch
    they cannot exercise choice or fully realize the value of their
-   efforts; for example, "learning to use a vendor's product takes time,
-   and the skill may not be fully transferrable to a competitor's
-   product if there is inadequate standardization."[FarrellJ]
+   efforts, because, for example, "learning to use a vendor's product
+   takes time, and the skill may not be fully transferrable to a
+   competitor's product if there is inadequate standardization."
+   [FarrellJ]
 
    Therefore, standards should have an explicit goal of facilitating
    users' switching between implementations and deployments of the
@@ -846,9 +848,9 @@ Table of Contents
 
 4.5.  Control Delegation of Power
 
-   Some functions might see substantial benefits if they are provided by
-   a third party in communication.  Adding a new party to communication
-   can improve:
+   The users of some functions might realize substantial benefits if
+   they are provided by a third party in communication.  Adding a new
+   party to communication can improve:
 
    *  _Efficiency_: Many functions on the Internet are more efficient
       when performed at a higher scale.  For example, a content delivery
@@ -881,7 +883,7 @@ Table of Contents
    However, if that new party is able to make their participation
    "sticky" -- for example, by leveraging their position in the network
    to require use of an intermediary, by exploiting their access to
-   data, or by making it difficult to switch to another provider of the
+   data, or because it is difficult to switch to another provider of the
    function -- there is a risk of centralization.
 
    Most often, third parties are added to functions as "intermediaries"
@@ -889,12 +891,12 @@ Table of Contents
    thoughtful constraints on these roles can prevent at least the most
    egregious abuses of such power.
 
-   When adding new parties to communication into a protocol, two
-   guidelines have proven useful: first, third parties should only be
-   interposed into communication when at least one of the primary
-   parties takes a positive action to do so.  Second, these parties
-   should have their ability to observe or control communication limited
-   to what is necessary to perform their intended function.
+   When adding new parties to a function, two guidelines have proven
+   useful: first, third parties should only be interposed into
+   communication when at least one of the primary parties takes a
+   positive action to do so.  Second, third parties should have their
+   ability to observe or control communication limited to what is
+   necessary to perform their intended function.
 
    For example, early deployments of HTTP allowed intermediaries to be
    interposed by the network without knowledge of the endpoints, and
