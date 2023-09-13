@@ -728,9 +728,9 @@ Table of Contents
    actively prevent all forms of centralization ignores the very limited
    power that standards efforts have to do so.  Almost all existing
    Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to
-   prevent centralization in their use.  While the imprimatur of an
-   Internet Standard is not without value, merely withholding it cannot
-   prevent centralization.
+   prevent centralized applications from using them.  While the
+   imprimatur of an Internet Standard is not without value, merely
+   withholding it cannot prevent centralization.
 
    Discussions should thus be very focused and limited, and any
    proposals for decentralization should be detailed, so their full
