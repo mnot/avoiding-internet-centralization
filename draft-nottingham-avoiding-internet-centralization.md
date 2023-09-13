@@ -315,7 +315,7 @@ perspective"
 
 --- abstract
 
-This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have limited ability to prevent many forms of centralization, they can still make contributions that help to decentralize the Internet.
+This document discusses aspects of centralization that relate to Internet standards efforts. It argues that while standards bodies have limited ability to prevent many forms of centralization, they can still make contributions that assist decentralization the Internet.
 
 
 --- middle
