@@ -405,8 +405,6 @@ Centralization can also provide an opportunity for beneficial controls to be imp
 
 This can be seen when a function requires governance to realize common goals and protect minority interests. For example, content moderation functions impose community values that many see as a benefit. Of course, they can also be viewed as a choke point where inappropriate controls are able to be imposed, if that governance mechanism has inadequate oversight, transparency, or accountability.
 
-When centralization is purposefully allowed in an Internet function, protocol designers often attempt to mitigate the associated risks using technical measures such as federation (see {{federation}}) and operational governance structures (see {{multi}}). Protocols that successfully do so are often reused to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, incorporating the Domain Name System is usually preferable to establishing a new system.
-
 Ultimately, deciding when centralization is beneficial is a judgment call. Some protocols cannot function without a centralized function; others might be significantly enhanced for certain use cases if a function is centralized, or might merely be more efficient. In general, though, centralization is most concerning when it is not broadly held to be necessary or beneficial, when it has no checks, balances, or other mechanisms of accountability, when it selects "favorites" which are difficult (or impossible) to displace, and when it threatens the architectural features that make the Internet successful.
 
 
@@ -606,6 +604,13 @@ Therefore, standards efforts should focus on providing concrete utility to the m
 Beyond allowing evolution, well-considered interfaces can also aid decentralization efforts. The structural boundaries that emerge between the sub-modules of the function -- as well as those with adjacent functions -- provide touchpoints for interoperability and an opportunity for substitution of providers.
 
 In particular, if the interfaces of a function are well-defined and stable, there is an opportunity to use different providers for that function. When those interfaces are open standards, change control resides with the Internet community instead of remaining in proprietary hands, further enhancing stability and enabling (but not ensuring) decentralization.
+
+
+## Reuse What Works {#reuse}
+
+When centralization is purposefully allowed in an Internet function, protocol designers often attempt to mitigate the associated risks using technical measures such as federation (see {{federation}}) and operational governance structures (see {{multi}}).
+
+Protocols that successfully do so are often reused to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, incorporating the Domain Name System is usually preferable to establishing a new system.
 
 
 # Future Work {#conclude}
