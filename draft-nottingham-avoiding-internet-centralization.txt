@@ -3,9 +3,9 @@
 
 
 Network Working Group                                      M. Nottingham
-Internet-Draft                                         13 September 2023
+Internet-Draft                                         14 September 2023
 Intended status: Informational                                          
-Expires: 16 March 2024
+Expires: 17 March 2024
 
 
         Centralization, Decentralization, and Internet Standards
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 16 March 2024.
+   This Internet-Draft will expire on 17 March 2024.
 
 Copyright Notice
 
@@ -425,8 +425,10 @@ Table of Contents
 
    For example, the Web was envisioned and widely held to be a
    decentralizing force in its early life.  Its potential as an enabler
-   of centralization only became apparent when large sites successfully
-   leveraged network effects for dominance of social networking,
+   of centralization only became apparent when large Web sites
+   successfully leveraged network effects (and secured legal
+   prohibitions against interoperability, thus increasing switching
+   costs; see [Doctorow]) to achieve dominance of social networking,
    marketplaces, and similar functions.
 
    Fourth, different parties might have good-faith differences on what
@@ -1083,6 +1085,10 @@ Table of Contents
               2022, <https://eur-lex.europa.eu/legal-content/EN/
               TXT/?uri=CELEX%3A32022R1925>.
 
+   [Doctorow] Doctorow, C., "Adversarial Interoperability", October
+              2019, <https://www.eff.org/deeplinks/2019/10/adversarial-
+              interoperability>.
+
    [ETHEREUM] Ethereum, "The Merge", February 2023,
               <https://ethereum.org/en/upgrades/merge/>.
 
@@ -1238,14 +1244,14 @@ Appendix A.  Acknowledgements
    during our shared time on the Internet Architecture Board.
 
    Special thanks to Geoff Huston and Milton Mueller for their well-
-   considered, thoughtful, and helpful comments.
+   considered, thoughtful, and helpful reviews.
 
-   Thanks to Jari Arkko, Kristin Berdan, Richard Clayton, Christian
-   Huitema, Mallory Knodel, Eliot Lear, John Levine, Tommy Pauly, and
-   Martin Thomson for their comments and suggestions.  Likewise, the
-   arch-discuss@ietf.org mailing list and Decentralized Internet
-   Infrastructure Research Group provided valuable discussion and
-   feedback.
+   Thanks to Jari Arkko, Kristin Berdan, Richard Clayton, Cory Doctorow,
+   Christian Huitema, Mallory Knodel, Eliot Lear, John Levine, Tommy
+   Pauly, and Martin Thomson for their comments and suggestions.
+   Likewise, the arch-discuss@ietf.org mailing list and Decentralized
+   Internet Infrastructure Research Group provided valuable discussion
+   and feedback.
 
    No large language models were used in the production of this
    document.
