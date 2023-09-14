@@ -312,6 +312,15 @@ perspective"
       name: Harold Demsetz
     target: https://www.jstor.org/stable/724822
     refcontent: Journal of Law and Economics, Vol. 16, No. 1
+  ADVERSARIAL:
+    title: Adversarial Interoperability
+    display: Doctorow
+    date: 2 October 2019
+    author:
+     -
+      name: Cory Doctorow
+      organization: Electronic Frontier Foundation
+    target: https://www.eff.org/deeplinks/2019/10/adversarial-interoperability
 
 --- abstract
 
@@ -420,7 +429,7 @@ Second, decentralizing a function requires overcoming challenges that centralize
 
 Third, identifying which aspects of a function to decentralize can be difficult, both because there are often many interactions between different types and sources of centralization, and because centralization sometimes only becomes clear after the function is deployed at scale. Efforts to decentralize often have the effect of merely shifting centralization to a different place -- for example, in its governance, implementation, deployment, or in ancillary functions.
 
-For example, the Web was envisioned and widely held to be a decentralizing force in its early life. Its potential as an enabler of centralization only became apparent when large sites successfully leveraged network effects for dominance of social networking, marketplaces, and similar functions.
+For example, the Web was envisioned and widely held to be a decentralizing force in its early life. Its potential as an enabler of centralization only became apparent when large Web sites successfully leveraged network effects (and secured legal prohibitions against interoperability, thus increasing switching costs; see {{ADVERSARIAL}}) to achieve dominance of social networking, marketplaces, and similar functions.
 
 Fourth, different parties might have good-faith differences on what "sufficiently decentralized" means based upon their beliefs, perceptions and goals. Just as centralization is a continuum, so is decentralization, and not everyone agrees what the "right" level or type is, how to weigh different forms of centralization against each other, or how to weigh potential centralization against other architectural goals (such as security or privacy).
 
