@@ -644,8 +644,8 @@ This document does not have a direct security impact on Internet protocols. That
 
 This document was born out of early discussions with Brian Trammell during our shared time on the Internet Architecture Board.
 
-Special thanks to Geoff Huston and Milton Mueller for their well-considered, thoughtful, and helpful comments.
+Special thanks to Geoff Huston and Milton Mueller for their well-considered, thoughtful, and helpful reviews.
 
-Thanks to Jari Arkko, Kristin Berdan, Richard Clayton, Christian Huitema, Mallory Knodel, Eliot Lear, John Levine, Tommy Pauly, and Martin Thomson for their comments and suggestions. Likewise, the arch-discuss@ietf.org mailing list and Decentralized Internet Infrastructure Research Group provided valuable discussion and feedback.
+Thanks to Jari Arkko, Kristin Berdan, Richard Clayton, Cory Doctorow, Christian Huitema, Mallory Knodel, Eliot Lear, John Levine, Tommy Pauly, and Martin Thomson for their comments and suggestions. Likewise, the arch-discuss@ietf.org mailing list and Decentralized Internet Infrastructure Research Group provided valuable discussion and feedback.
 
 No large language models were used in the production of this document.
