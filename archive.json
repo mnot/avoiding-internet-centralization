@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-06-01T00:04:59.153771+00:00",
+  "timestamp": "2023-11-07T00:03:56.728735+00:00",
   "repo": "mnot/avoiding-internet-centralization",
   "labels": [
     {
@@ -3102,7 +3102,7 @@
       "baseRepository": "mnot/avoiding-internet-centralization",
       "baseRefName": "main",
       "baseRefOid": "ca3c0cd5e930fb62e7d040518868c7529fc1f121",
-      "headRepository": "annevk/avoiding-internet-centralization",
+      "headRepository": null,
       "headRefName": "patch-1",
       "headRefOid": "a8aaa6aed71526ffbfa18f5824f7b0adb2a8fce1",
       "closedAt": "2022-01-14T23:36:30Z",
@@ -3118,20 +3118,6 @@
           "body": "Thanks.",
           "createdAt": "2022-01-14T23:36:35Z",
           "updatedAt": "2022-01-14T23:36:35Z"
-        },
-        {
-          "author": "gimp87",
-          "authorAssociation": "NONE",
-          "body": "cd ./html && git fetch --unshallow",
-          "createdAt": "2022-01-25T11:28:04Z",
-          "updatedAt": "2022-01-25T20:34:25Z"
-        },
-        {
-          "author": "gimp87",
-          "authorAssociation": "NONE",
-          "body": "cd ./html && git fetch --unshallow",
-          "createdAt": "2022-01-25T11:28:14Z",
-          "updatedAt": "2022-01-25T20:34:15Z"
         }
       ],
       "reviews": []
